@@ -1,0 +1,6 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\retorna_caractere\retorna_caractere\bin\Debug\retorna_caractere.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\retorna_caractere\retorna_caractere\bin\Debug\retorna_caractere.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\retorna_caractere\retorna_caractere\bin\Debug\retorna_caractere.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\retorna_caractere\retorna_caractere\obj\Debug\retorna_caractere.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\retorna_caractere\retorna_caractere\obj\Debug\retorna_caractere.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\retorna_caractere\retorna_caractere\obj\Debug\retorna_caractere.pdb

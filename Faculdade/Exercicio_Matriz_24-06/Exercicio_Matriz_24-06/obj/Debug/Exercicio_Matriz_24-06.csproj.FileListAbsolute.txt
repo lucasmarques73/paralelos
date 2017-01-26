@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\Exercicio_Matriz_24-06\Exercicio_Matriz_24-06\bin\Debug\Exercicio_Matriz_24-06.exe.config
+C:\Users\Lucas Marques\documents\visual studio 2012\Projects\Exercicio_Matriz_24-06\Exercicio_Matriz_24-06\bin\Debug\Exercicio_Matriz_24-06.exe
+C:\Users\Lucas Marques\documents\visual studio 2012\Projects\Exercicio_Matriz_24-06\Exercicio_Matriz_24-06\bin\Debug\Exercicio_Matriz_24-06.pdb
+C:\Users\Lucas Marques\documents\visual studio 2012\Projects\Exercicio_Matriz_24-06\Exercicio_Matriz_24-06\obj\Debug\Exercicio_Matriz_24-06.csprojResolveAssemblyReference.cache
+C:\Users\Lucas Marques\documents\visual studio 2012\Projects\Exercicio_Matriz_24-06\Exercicio_Matriz_24-06\obj\Debug\Exercicio_Matriz_24-06.exe
+C:\Users\Lucas Marques\documents\visual studio 2012\Projects\Exercicio_Matriz_24-06\Exercicio_Matriz_24-06\obj\Debug\Exercicio_Matriz_24-06.pdb

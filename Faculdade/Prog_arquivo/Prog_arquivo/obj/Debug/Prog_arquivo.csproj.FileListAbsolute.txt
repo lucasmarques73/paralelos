@@ -1,0 +1,6 @@
+c:\users\lucas\documents\visual studio 2012\Projects\Prog_arquivo\Prog_arquivo\bin\Debug\Prog_arquivo.exe.config
+C:\Users\Lucas\documents\visual studio 2012\Projects\Prog_arquivo\Prog_arquivo\bin\Debug\Prog_arquivo.exe
+C:\Users\Lucas\documents\visual studio 2012\Projects\Prog_arquivo\Prog_arquivo\bin\Debug\Prog_arquivo.pdb
+C:\Users\Lucas\documents\visual studio 2012\Projects\Prog_arquivo\Prog_arquivo\obj\Debug\Prog_arquivo.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\documents\visual studio 2012\Projects\Prog_arquivo\Prog_arquivo\obj\Debug\Prog_arquivo.exe
+C:\Users\Lucas\documents\visual studio 2012\Projects\Prog_arquivo\Prog_arquivo\obj\Debug\Prog_arquivo.pdb

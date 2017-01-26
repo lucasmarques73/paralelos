@@ -1,0 +1,10 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\LoginAcesso\LoginAcesso\bin\Debug\LoginAcesso.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\LoginAcesso\LoginAcesso\bin\Debug\LoginAcesso.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\LoginAcesso\LoginAcesso\bin\Debug\LoginAcesso.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\LoginAcesso\LoginAcesso\obj\Debug\LoginAcesso.Properties.Resources.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\LoginAcesso\LoginAcesso\obj\Debug\LoginAcesso.csproj.GenerateResource.Cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\LoginAcesso\LoginAcesso\obj\Debug\LoginAcesso.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\LoginAcesso\LoginAcesso\obj\Debug\LoginAcesso.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\LoginAcesso\LoginAcesso\obj\Debug\LoginAcesso.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\LoginAcesso\LoginAcesso\obj\Debug\LoginAcesso.Form1.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\LoginAcesso\LoginAcesso\obj\Debug\LoginAcesso.Login.resources

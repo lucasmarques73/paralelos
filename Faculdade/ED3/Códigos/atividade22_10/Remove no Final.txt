@@ -1,0 +1,26 @@
+Remove no Final
+
+void removeFinal(TnoCabo * lista)
+{
+	struct Tno *p, *q;
+	
+	p = lista->prim;
+	
+	if(p->prox != NULL)
+	{
+		while(p->prox != NULL)
+		{
+			q = p;
+			p = p->prox;
+		}
+		
+		q->prox = NULL;
+	}
+	else
+	{
+		lista->prim = NULL;
+	}
+	
+	free(p);
+		
+}

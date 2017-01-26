@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\idadefor\idadefor\bin\Debug\idadefor.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\idadefor\idadefor\bin\Debug\idadefor.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\idadefor\idadefor\bin\Debug\idadefor.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\idadefor\idadefor\obj\Debug\idadefor.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\idadefor\idadefor\obj\Debug\idadefor.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\idadefor\idadefor\obj\Debug\idadefor.pdb

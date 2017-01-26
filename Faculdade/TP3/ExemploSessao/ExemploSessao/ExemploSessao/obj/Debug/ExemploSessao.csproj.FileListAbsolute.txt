@@ -1,0 +1,6 @@
+D:\Dropbox\Academico\UEMG\2015\2015_s2\6pTP3\Projetos\ExemploSessao\ExemploSessao\bin\ExemploSessao.dll.config
+D:\Dropbox\Academico\UEMG\2015\2015_s2\6pTP3\Projetos\ExemploSessao\ExemploSessao\bin\ExemploSessao.dll
+D:\Dropbox\Academico\UEMG\2015\2015_s2\6pTP3\Projetos\ExemploSessao\ExemploSessao\bin\ExemploSessao.pdb
+D:\Dropbox\Academico\UEMG\2015\2015_s2\6pTP3\Projetos\ExemploSessao\ExemploSessao\obj\Debug\ExemploSessao.csprojResolveAssemblyReference.cache
+D:\Dropbox\Academico\UEMG\2015\2015_s2\6pTP3\Projetos\ExemploSessao\ExemploSessao\obj\Debug\ExemploSessao.dll
+D:\Dropbox\Academico\UEMG\2015\2015_s2\6pTP3\Projetos\ExemploSessao\ExemploSessao\obj\Debug\ExemploSessao.pdb

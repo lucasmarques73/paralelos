@@ -1,0 +1,17 @@
+﻿body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#1694e8;
+}
+#corpo{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:auto;
+    position:relative;
+    width:1056px;
+    background-color:#e8e8e8;
+}
+#topo{
+    text-align:center;
+}
+#rodape{
+    text-align:center;
+}

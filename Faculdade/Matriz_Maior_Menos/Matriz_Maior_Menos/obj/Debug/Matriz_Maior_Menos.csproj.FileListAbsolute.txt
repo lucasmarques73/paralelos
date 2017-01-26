@@ -1,0 +1,2 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\Matriz_Maior_Menos\Matriz_Maior_Menos\bin\Debug\Matriz_Maior_Menos.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Matriz_Maior_Menos\Matriz_Maior_Menos\bin\Debug\Matriz_Maior_Menos.exe.config

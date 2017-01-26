@@ -1,0 +1,10 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\LoginVAnia\LoginVAnia\bin\Debug\LoginVAnia.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\LoginVAnia\LoginVAnia\obj\Debug\LoginVAnia.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\LoginVAnia\LoginVAnia\obj\Debug\LoginVAnia.Form1.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\LoginVAnia\LoginVAnia\obj\Debug\LoginVAnia.Properties.Resources.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\LoginVAnia\LoginVAnia\obj\Debug\LoginVAnia.csproj.GenerateResource.Cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\LoginVAnia\LoginVAnia\bin\Debug\LoginVAnia.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\LoginVAnia\LoginVAnia\bin\Debug\LoginVAnia.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\LoginVAnia\LoginVAnia\obj\Debug\LoginVAnia.CadastroUsuario.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\LoginVAnia\LoginVAnia\obj\Debug\LoginVAnia.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\LoginVAnia\LoginVAnia\obj\Debug\LoginVAnia.pdb

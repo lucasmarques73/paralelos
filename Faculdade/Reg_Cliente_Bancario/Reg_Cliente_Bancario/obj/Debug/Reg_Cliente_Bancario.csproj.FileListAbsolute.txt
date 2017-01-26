@@ -1,0 +1,6 @@
+c:\users\lucas\documents\visual studio 2012\Projects\Reg_Cliente_Bancario\Reg_Cliente_Bancario\bin\Debug\Reg_Cliente_Bancario.exe.config
+C:\Users\Lucas\documents\visual studio 2012\Projects\Reg_Cliente_Bancario\Reg_Cliente_Bancario\bin\Debug\Reg_Cliente_Bancario.exe
+C:\Users\Lucas\documents\visual studio 2012\Projects\Reg_Cliente_Bancario\Reg_Cliente_Bancario\bin\Debug\Reg_Cliente_Bancario.pdb
+C:\Users\Lucas\documents\visual studio 2012\Projects\Reg_Cliente_Bancario\Reg_Cliente_Bancario\obj\Debug\Reg_Cliente_Bancario.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\documents\visual studio 2012\Projects\Reg_Cliente_Bancario\Reg_Cliente_Bancario\obj\Debug\Reg_Cliente_Bancario.exe
+C:\Users\Lucas\documents\visual studio 2012\Projects\Reg_Cliente_Bancario\Reg_Cliente_Bancario\obj\Debug\Reg_Cliente_Bancario.pdb

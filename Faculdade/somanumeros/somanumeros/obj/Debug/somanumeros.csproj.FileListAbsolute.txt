@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\somanumeros\somanumeros\bin\Debug\somanumeros.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\somanumeros\somanumeros\obj\Debug\somanumeros.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\somanumeros\somanumeros\bin\Debug\somanumeros.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\somanumeros\somanumeros\bin\Debug\somanumeros.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\somanumeros\somanumeros\obj\Debug\somanumeros.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\somanumeros\somanumeros\obj\Debug\somanumeros.pdb

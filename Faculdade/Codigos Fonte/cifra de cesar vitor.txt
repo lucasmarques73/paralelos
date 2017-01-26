@@ -1,0 +1,77 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Roda_de_cezar
+{
+    class Program
+    {
+        public static string troca_todos_sinais(string frase_sai, string frase_ent)
+        {
+            frase_sai = troca_sinal("", frase_ent, ' ', "WBRW");
+            frase_ent = frase_sai;
+            frase_sai = troca_sinal("", frase_ent, ',', "WVRW");
+            frase_ent = frase_sai;
+            frase_sai = troca_sinal("", frase_ent, '.', "WPTW");
+            frase_ent = frase_sai;
+            frase_sai = troca_sinal("", frase_ent, ';', "WPVW");
+            frase_ent = frase_sai;
+            frase_sai = troca_sinal("", frase_ent, ':', "WDPW");
+            frase_ent = frase_sai;
+            frase_sai = troca_sinal("", frase_ent, '!', "WEXW");
+            frase_ent = frase_sai;
+            frase_sai = troca_sinal("", frase_ent, '?', "WINW");
+            frase_ent = frase_sai;
+            frase_sai = troca_sinal("", frase_ent, '-', "WHFW");
+            return (frase_sai);
+        }
+
+        public static string troca_sinal(string frase_sai, string frase_ent, char sinal, string pal)
+        {
+            for (int i = 0; i < frase_ent.Length; i++)
+            {
+                if (frase_ent[i] == sinal)
+                {
+                    frase_sai += pal;
+                }
+                else
+                {
+                    frase_sai += frase_ent[i];
+                }
+            }
+                return (frase_sai);
+        }
+        
+        static void Main(string[] args)
+        {
+            string s, frase;
+            int k, op;
+
+            Console.Write("Digite um texto: ");
+            s = Console.ReadLine().ToUpper();
+
+            Console.Write("Digite a chave de criptografia: ");
+            k = Convert.ToInt16(Console.ReadLine());
+
+            frase = troca_todos_sinais("",s);
+            Console.Write(frase);
+            Console.ReadKey();
+
+
+            Console.Write("Ecolha 1-Cifrar / 2-Decifrar: ");
+            op = Convert.ToInt16(Console.ReadLine());
+
+            switch (op)
+            {
+                case 1: Console.WriteLine("");
+                    break;
+                case 2: ;
+                    break;
+                default: Console.WriteLine("Opção invalida");
+                    break;
+            }
+            Console.ReadKey();            
+        }
+    }
+}

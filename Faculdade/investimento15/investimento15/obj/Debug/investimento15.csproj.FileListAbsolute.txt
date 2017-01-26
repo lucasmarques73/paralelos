@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\investimento15\investimento15\bin\Debug\investimento15.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\investimento15\investimento15\obj\Debug\investimento15.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\investimento15\investimento15\bin\Debug\investimento15.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\investimento15\investimento15\bin\Debug\investimento15.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\investimento15\investimento15\obj\Debug\investimento15.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\investimento15\investimento15\obj\Debug\investimento15.pdb

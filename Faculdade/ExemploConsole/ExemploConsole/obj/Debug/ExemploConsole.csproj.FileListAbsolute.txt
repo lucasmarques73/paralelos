@@ -1,0 +1,9 @@
+C:\Users\Wellington\Documents\Visual Studio 2008\Projects\Artigos\ExemploConsole\ExemploConsole\bin\Debug\ExemploConsole.exe
+C:\Users\Wellington\Documents\Visual Studio 2008\Projects\Artigos\ExemploConsole\ExemploConsole\bin\Debug\ExemploConsole.pdb
+C:\Users\Wellington\Documents\Visual Studio 2008\Projects\Artigos\ExemploConsole\ExemploConsole\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Wellington\Documents\Visual Studio 2008\Projects\Artigos\ExemploConsole\ExemploConsole\obj\Debug\ExemploConsole.exe
+C:\Users\Wellington\Documents\Visual Studio 2008\Projects\Artigos\ExemploConsole\ExemploConsole\obj\Debug\ExemploConsole.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\ExemploConsole\ExemploConsole\obj\Debug\ExemploConsole.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\ExemploConsole\ExemploConsole\obj\Debug\ExemploConsole.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\ExemploConsole\ExemploConsole\bin\Debug\ExemploConsole.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\ExemploConsole\ExemploConsole\bin\Debug\ExemploConsole.pdb

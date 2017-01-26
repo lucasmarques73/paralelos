@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF8"?>
+<rss version="2.0">
+	<channel>
+		<title>Sigsiu.NET - Download Directory for Sobi2 - Templates</title>
+		<description> Details View, V-Card and Add Entry form templates for Sobi2. 
+Make your individual design of your Sobi2 directory.</description>
+		<image>
+			<title>Sigsiu.NET - Download Directory for Sobi2 - Templates</title>
+			<url>http://www.sigsiu.net/images/stories/package.png</url>
+			<link>http://www.sigsiu.net/download/templates/</link>
+		</image>
+		<link>http://www.sigsiu.net/download/templates/</link>
+		<lastBuildDate>Thu, 31 Mar 2011 15:29:17 +0200</lastBuildDate>
+		<generator>Sigsiu Online Business Index 2 FeedCreator</generator>
+		<item>
+			<title>Real Estate Template</title>
+			<link>http://www.sigsiu.net/download/templates/real_estate_template.html</link>
+			<description> Real Estate Template 
+ 
+
+  
+Template Files: 
+ - sobi2.details.tmpl.php (Details View Template) 
+ - sobi2.vc.tmpl.php (V-Card Template) 
+ 
+Required SOBI2 Plugins: 
+ - Gallery Plugin 
+  
+Gallery Plugin Settings: 
+ * See forum post instructions (http://www.sigsiu.net/forum/index.php/topic,12740.0.html) 
+ - Max. Number of Images: 20 
+ - Number of Images per Row: 4 
+ - Adjust Table Sizes: No 
+ - Show Images: Vertically 
+ - Show Text if no Images: No 
+ - Thumbnail Size:  90 x 80 px (CSS file has to be changed also ???) 
+ - Count Number of Images in V-Card: No 
+ - Show first Thumbnail in V-Card: No 
+ 
+Configuration/Custom Fields Manager: 
+ * See forum post instructions (http://www.sigsiu.net/forum/index.php/topic,12740.0.html) 
+     
+V-Card Template: 
+  - Use the Template instead of the Standard Function: Yes
+</description>
+			<pubDate>Sun, 27 Feb 2011 10:27:54 +0100</pubDate>
+		</item>
+		<item>
+			<title>Advanced Standard Template</title>
+			<link>http://www.sigsiu.net/download/templates/gallery_template_1.html</link>
+			<description> Advanced version of the default template for Sobi2 to use with or without Gallery Plugin (gallery on right side). 
+The package is intended to be used with the Gallery Plugin, but can be used also without it. If the Gallery is installed the V-Card shows the first Gallery image. Otherwise the standard icon will be shown.
+ V-Card: 
+Example image of the V-Card defined by this template package. 
+
+ 
+The V-Card shows the first Gallery image instead of the standard icon. 
+
+ Details View: 
+Example image of the details view defined by this template package. 
+
+ </description>
+			<pubDate>Sun, 27 Feb 2011 10:28:18 +0100</pubDate>
+		</item>
+		<item>
+			<title>Second Advanced Standard Template</title>
+			<link>http://www.sigsiu.net/download/templates/gallery_template_2.html</link>
+			<description> Advanced version of the default template for Sobi2 to use with or without Gallery Plugin (Gallery on bottom). 
+The package is intended to be used with the Gallery Plugin, but can be used also without it. If the Gallery is installed the V-Card shows the first Gallery image. Otherwise the standard icon will be shown.
+ V-Card: 
+Example image of the V-Card defined by this template package. 
+
+ 
+The V-Card shows the first Gallery image instead of the standard icon. 
+
+ Details View: 
+Example image of the details view defined by this template package. 
+
+ </description>
+			<pubDate>Sun, 27 Feb 2011 10:28:35 +0100</pubDate>
+		</item>
+		<item>
+			<title>Ken's Entry Form Template</title>
+			<link>http://www.sigsiu.net/download/templates/kens_entry_form_template.html</link>
+			<description> The Entry Form Template uses 5 tabs for the usual Sobi2 entry form fields.</description>
+			<pubDate>Sun, 27 Feb 2011 10:27:39 +0100</pubDate>
+		</item>
+	</channel>
+</rss>

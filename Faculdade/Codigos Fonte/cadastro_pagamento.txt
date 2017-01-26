@@ -1,0 +1,139 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+
+namespace cadastro_pagamento
+{
+    class Program
+    {
+        public struct tipo_despesa
+        {
+            public int cod;
+            public string data_pagamento;
+            public string data_vencimento;
+            public string descricao;
+            public double valor;
+            public double valor_pago;
+            public bool pago;
+
+        }
+        static string localDados = @"C:/ProjetoIntegrador/Prog_Cond/";
+        static string arquivoDadosDespesas = @"Despesas.txt";
+        static void Main(string[] args)
+        {
+            DirectoryInfo dirInfo = new DirectoryInfo(localDados);
+            if (!dirInfo.Exists)
+            {
+                dirInfo.Create();
+            }
+            if (!File.Exists(localDados + arquivoDadosDespesas))
+            {
+                File.Create(localDados + arquivoDadosDespesas);
+            }
+
+         /*   Console.WriteLine("   DIGITE A DESCRIÇÃO DA DESPESA:");
+            string termoBusca = Console.ReadLine().Replace(';', ' ').ToUpper();
+
+
+            Console.WriteLine("RESULTADO");
+
+
+            StreamReader reader = new StreamReader(localDados + arquivoDadosDespesas);
+
+            string resultado;
+            while ((resultado = reader.ReadLine()) != null)
+            {
+
+                if (resultado.Contains(termoBusca))
+                {
+                    
+                    string[] despesa_resultado = resultado.Split(';');
+
+
+                    tipo_despesa despesa;
+                    despesa.cod = Convert.ToInt32(despesa_resultado[0]);
+                    despesa.data_vencimento = (despesa_resultado[1]);
+                    despesa.data_pagamento = (despesa_resultado[2]);
+                    despesa.descricao = despesa_resultado[3];
+                    despesa.valor = Convert.ToDouble(despesa_resultado[4]);
+                    despesa.valor_pago = Convert.ToDouble(despesa_resultado[5]);
+                    despesa.pago = bool.Parse(despesa_resultado[6]);
+
+                    if (despesa.pago == true)
+                    {
+                        Console.WriteLine("DESPESA JÁ ESTA PAGA!"); 
+                    }
+                    else
+                    {
+                        Console.WriteLine("CODIGO DA DESPESA:");
+                        Console.WriteLine(despesa.cod);
+                        Console.WriteLine("DATA DO VENCIMENTO:");
+                        Console.WriteLine(despesa.data_vencimento);
+                        Console.WriteLine("DESCRIÇÃO:");
+                        Console.WriteLine(despesa.descricao);
+                        Console.WriteLine("VALOR:");
+                        Console.WriteLine(despesa.valor);
+                        Console.WriteLine("DATA DO PAGAMENTO");
+                        despesa.data_pagamento = Console.ReadLine();
+                        Console.WriteLine("VALOR PAGO:");
+                        despesa.valor_pago = Convert.ToDouble(Console.ReadLine());
+                        despesa.pago = true;
+
+                       // linha();
+                        Console.WriteLine("");
+
+
+            */
+             StreamReader reader = new StreamReader(localDados + arquivoDadosDespesas);
+
+                        int contaRegistro = 0;
+
+                        while (reader.ReadLine() != null)
+                        {
+                            contaRegistro++;
+                        }
+                        
+                        string[] dados = new string[contaRegistro];
+                        for (int j = 0; j <= contaRegistro;j++)
+                        {
+
+                            dados[j] = reader.ReadLine();
+                            Console.WriteLine(dados[j]);
+                            
+                        }
+                        reader.Close();
+                        reader.Dispose();
+                        StreamWriter writer = new StreamWriter(localDados + arquivoDadosDespesas);
+
+                       // writer.WriteLine(despesa.cod + ";" + despesa.data_vencimento + ";" + despesa.data_pagamento + ";" + despesa.descricao + ";" + despesa.valor + ";" + despesa.valor_pago + ";" + despesa.pago);
+
+                        for (int i = 0; i <= contaRegistro; i++)
+                        {
+                            writer.WriteLine(dados[i]);
+
+                        }
+
+
+                        writer.Close();
+
+                        writer.Dispose();
+
+                       // Console.WriteLine("CODIGO DA DESPESA: " + despesa.cod + "");
+                        Console.WriteLine("SUCESSO");
+
+
+                    }
+                }
+            }
+
+
+           /*reader.Close();
+
+        reader.Dispose();
+        }
+    }
+}
+*/

@@ -1,0 +1,39 @@
+﻿#menu {
+    margin: auto;
+    position: relative;
+    width: 100%;
+}
+#Menu1 ul {
+    padding: 0px;
+    margin: 0px;
+    background-color: #EDEDED;
+    list-style: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#Menu1 ul li {
+	display: inline;
+	font-size: 20px;
+	text-align: center;
+}
+
+#Menu1 ul li a {
+	padding: 2px 26px;
+	display: inline-block;
+	background-color: #0f9ff3;
+	color: #333;
+	text-decoration: none;
+	border-bottom: 3px solid #EDEDED;
+	text-align: center;
+}
+
+#Menu1 ul li:last-child a {
+	padding: 2px 32.8px;
+}
+
+#Menu1 ul li a:hover {
+	background-color: #D6D6D6;
+	color: #6d6d6d;
+	border-bottom: 3px solid #0f9ff3;
+}

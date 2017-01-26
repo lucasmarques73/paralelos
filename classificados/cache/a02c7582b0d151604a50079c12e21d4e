@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF8"?>
+<rss version="2.0">
+	<channel>
+		<title>Sigsiu.NET - Download Directory for Sobi2 - Tools</title>
+		<description> Tools for Sobi2. 
+Use these tools to simplify your work with Sobi2.</description>
+		<image>
+			<title>Sigsiu.NET - Download Directory for Sobi2 - Tools</title>
+			<url>http://www.sigsiu.net/images/stories/package.png</url>
+			<link>http://www.sigsiu.net/download/tools/</link>
+		</image>
+		<link>http://www.sigsiu.net/download/tools/</link>
+		<lastBuildDate>Thu, 31 Mar 2011 15:29:28 +0200</lastBuildDate>
+		<generator>Sigsiu Online Business Index 2 FeedCreator</generator>
+		<item>
+			<title>Translation script for Youtube URL</title>
+			<link>http://www.sigsiu.net/download/tools/translation_script_for_youtube_url.html</link>
+			<description> Use this script to translate the Youtube URL to embed code needed to embed Youtube videos in your directory using a custom field of linked media file type.
+
+ Copy this file to the folder &quot;components/com_sobi2/includes&quot; of your site.</description>
+			<pubDate>Wed, 21 Jan 2009 19:02:19 +0100</pubDate>
+		</item>
+		<item>
+			<title>Cloning Tool</title>
+			<link>http://www.sigsiu.net/download/tools/cloning_tool.html</link>
+			<description> Bash script to clone Sobi2 and all possible add-ons.
+ 
+
+Usage instructions: 
+
+Extract SOBI2 (or plugin or module etc) into a temporary directory
+Copy the attached script (and unpack of course) also into this temporary directory
+From the console (terminal) execute sh clone_sobi.sh
+Follow the further instructions of the script
+
+
+
+
+Sigrids-Mac:clone trinity$ sh clone_sobi.sh 
+ 
+SOBI2 Cloning Tool 
+Copyright by Sigsiu.NET, 2009 
+----------------------------- 
+First enter the name of your SOBI2 clone. 
+Even if you clone a plugin or module, enter the name of the SOBI2 clone. 
+ 
+Enter now the name of your clone: 
+sigrid 
+Parsing ./admin.category.class.html.php 
+..... 
+Parsing ./toolbar.sobi2.php 
+Parsing ./uninstall.sobi2.php 
+ 
+Enter component menu description (as shown in your Joomla! admin menu): 
+Sigrid's Directory 
+Renaming ./admin.sobi2.cats.php to ./admin.sigrid.cats.php 
+Renaming ./admin.sobi2.class.html.php to ./admin.sigrid.class.html.php 
+..... 
+Renaming ./uninstall.sobi2.php to ./uninstall.sigrid.php 
+ 
+Done. 
+New clone installation for SOBI2 created. The name of the clone is sigrid. 
+Pack the content of the folder into a ZIP package. 
+Install the package in your Mambo/Joomla!/SOBI2 installation. 
+ </description>
+			<pubDate>Sun, 27 Feb 2011 10:26:38 +0100</pubDate>
+		</item>
+		<item>
+			<title>Dreamweaver Extension</title>
+			<link>http://www.sigsiu.net/download/tools/dreamweaver_extension.html</link>
+			<description> Dreamweaver Extension. 
+An extension for Macromedia Dreamweaver 8 to design a SOBI2 Details View Template.</description>
+			<pubDate>Sun, 05 Apr 2009 19:04:27 +0200</pubDate>
+		</item>
+	</channel>
+</rss>

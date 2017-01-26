@@ -1,0 +1,6 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\cadastro_pagamento\cadastro_pagamento\bin\Debug\cadastro_pagamento.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\cadastro_pagamento\cadastro_pagamento\bin\Debug\cadastro_pagamento.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\cadastro_pagamento\cadastro_pagamento\bin\Debug\cadastro_pagamento.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\cadastro_pagamento\cadastro_pagamento\obj\Debug\cadastro_pagamento.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\cadastro_pagamento\cadastro_pagamento\obj\Debug\cadastro_pagamento.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\cadastro_pagamento\cadastro_pagamento\obj\Debug\cadastro_pagamento.pdb

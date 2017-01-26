@@ -1,0 +1,86 @@
+ Atividade 11 - Resolução da Terceira Lista SQL
+(Atividade Individual)
+Início: 25/08/2014    Término: Indeterminado
+
+--1. selecione todos os cursos exibindo o nome do curso e o valor do mesmo, 
+--ordenado pela data da criação
+select curso, valor 
+from tblcursos 
+order by dtcriacao
+
+--2. selecione todos os alunos que moram em passos, 
+--exibindo o nome do aluno, o endereço e o telefone
+select a.nome, e.logradouro, '(' + t.ddd + ')' + SUBSTRING(t.fone,1,4) + '-' + SUBSTRING(t.fone,5,LEN(t.fone)),
+convert(int, SUBSTRING(t.fone,1,4)) 
+from tblalunos a inner join tblenderecos e on a.idaluno = e.idaluno
+inner join tbltelefones t on a.idaluno = t.idaluno
+where e.cidade like 'Passos'
+
+--3. selecione o nome dos alunos matriculados no curso 'SI'
+select a.nome
+from tblalunos a inner join tblmatriculas m on a.idaluno = m.idaluno
+inner join tblcursos c on m.idcurso = c.idcurso
+where c.curso like 'SI' 
+
+--4. selecione o nome dos livros emprestados para o aluno 'Marcos Faria' 
+--e que ainda não foram devolvidos
+select a.titulo
+from tblacervo a inner join tblunidadesacervo ua on a.idacervo = ua.idacervo
+inner join tblemprestimos e on ua.idunidadeacervo = e.idunidadeacervo
+inner join tblalunos alu on e.idaluno = alu.idaluno
+where alu.nome like 'Marcos Faria' and e.dtdevolucao is null
+
+--5. selecione todos os livros da editora Ática
+select e.editora from
+tblacervo a inner join tbleditoras e on a.editora = e.ideditora
+where e.editora like 'Ática'
+
+--6. selecione todos os livros do autor Monteiro Lobato exibindo o nome dos livros e a editora
+select a.titulo, e.editora 
+from tblacervo a 
+inner join tbllivroautor la on a.idacervo = la.idacervo 
+inner join tblautores aut on la.idautor = aut.idautor
+inner join tbleditoras e on a.editora = e.ideditora
+where aut.nomeautor like 'Monteiro Lobato' 
+
+--7. insira 1 novo curso na tabela de cursos
+select * from tblcursos 
+
+insert into tblcursos (curso, nivel, valor, dtcriacao)
+values ('Curso Teste', 2, 2.5, CONVERT(datetime, '20/02/2013 10:00:00'))
+
+--8. altere o ano de publicação do livro com título 'Delphi'
+select * from tblacervo
+
+update tblacervo set anopub = 2000 
+where titulo like 'delphi'
+
+--9. exclua o autor de código 5
+select * from tblautores
+
+delete tblautores 
+where idautor = 5
+
+--10. insira na tabela de autores todos os nomes que existem na tabela de alunos
+select * from tblautores
+select * from tblalunos
+
+insert into tblautores (nomeautor, nacionalidade)
+select nome, 'Nac: ' + nome from tblalunos order by nome
+
+--11. altere todos os livros da editora Atica, alterando o código da editora para 6
+select * from tblacervo
+
+update tblacervo set editora = 6 
+where editora in (select ideditora from tbleditoras where editora like 'Atica')
+
+--12. exclua todos os livros da tabela de acervo que nunca 
+--foram emprestados (não existem na tabela de empréstimos)
+select * from tblacervo
+
+delete tblacervo 
+where idacervo not in (
+select distinct a.idacervo 
+from tblunidadesacervo ua 
+inner join tblemprestimos e on ua.idunidadeacervo = e.idunidadeacervo
+inner join tblacervo a on a.idacervo = ua.idacervo)

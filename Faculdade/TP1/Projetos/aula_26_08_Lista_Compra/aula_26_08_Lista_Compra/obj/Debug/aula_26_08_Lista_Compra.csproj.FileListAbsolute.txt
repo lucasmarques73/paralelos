@@ -1,0 +1,9 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_26_08_Lista_Compra\aula_26_08_Lista_Compra\bin\Debug\aula_26_08_Lista_Compra.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_26_08_Lista_Compra\aula_26_08_Lista_Compra\bin\Debug\aula_26_08_Lista_Compra.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_26_08_Lista_Compra\aula_26_08_Lista_Compra\bin\Debug\aula_26_08_Lista_Compra.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_26_08_Lista_Compra\aula_26_08_Lista_Compra\obj\Debug\aula_26_08_Lista_Compra.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_26_08_Lista_Compra\aula_26_08_Lista_Compra\obj\Debug\aula_26_08_Lista_Compra.Form1.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_26_08_Lista_Compra\aula_26_08_Lista_Compra\obj\Debug\aula_26_08_Lista_Compra.Properties.Resources.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_26_08_Lista_Compra\aula_26_08_Lista_Compra\obj\Debug\aula_26_08_Lista_Compra.csproj.GenerateResource.Cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_26_08_Lista_Compra\aula_26_08_Lista_Compra\obj\Debug\aula_26_08_Lista_Compra.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_26_08_Lista_Compra\aula_26_08_Lista_Compra\obj\Debug\aula_26_08_Lista_Compra.pdb

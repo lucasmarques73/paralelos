@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\Exercicio1 22_04\Exercicio1 22_04\bin\Debug\Exercicio1 22_04.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\Exercicio1 22_04\Exercicio1 22_04\bin\Debug\Exercicio1 22_04.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\Exercicio1 22_04\Exercicio1 22_04\bin\Debug\Exercicio1 22_04.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\Exercicio1 22_04\Exercicio1 22_04\obj\Debug\Exercicio1 22_04.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\Exercicio1 22_04\Exercicio1 22_04\obj\Debug\Exercicio1 22_04.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\Exercicio1 22_04\Exercicio1 22_04\obj\Debug\Exercicio1 22_04.pdb

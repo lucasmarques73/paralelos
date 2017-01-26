@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\CalculaDivisao\CalculaDivisao\bin\Debug\CalculaDivisao.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\CalculaDivisao\CalculaDivisao\bin\Debug\CalculaDivisao.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\CalculaDivisao\CalculaDivisao\bin\Debug\CalculaDivisao.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\CalculaDivisao\CalculaDivisao\obj\Debug\CalculaDivisao.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\CalculaDivisao\CalculaDivisao\obj\Debug\CalculaDivisao.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\CalculaDivisao\CalculaDivisao\obj\Debug\CalculaDivisao.pdb

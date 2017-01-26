@@ -1,0 +1,6 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Exc_24-04\Exc_24-04\bin\Debug\Exc_24-04.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Exc_24-04\Exc_24-04\obj\Debug\Exc_24-04.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Exc_24-04\Exc_24-04\bin\Debug\Exc_24-04.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Exc_24-04\Exc_24-04\bin\Debug\Exc_24-04.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Exc_24-04\Exc_24-04\obj\Debug\Exc_24-04.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Exc_24-04\Exc_24-04\obj\Debug\Exc_24-04.pdb

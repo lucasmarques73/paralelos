@@ -1,0 +1,19 @@
+int tamanho (struct Tno *lista)
+{
+	int cont;
+	struct Tno *p;
+	
+	cont = 0;
+	p = lista;
+	
+	while(p != NULL)
+	{
+		cont ++;
+		p = p->prox;
+		
+	}
+	
+	return(cont);
+	
+	
+}

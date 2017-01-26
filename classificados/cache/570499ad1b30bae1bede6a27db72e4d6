@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF8"?>
+<rss version="2.0">
+	<channel>
+		<title>Sigsiu.NET - Download Directory for Sobi2 - Language Packages</title>
+		<description>Language Packages for Sobi2 
+Not all languages are fully translated. Missing texts are always in English. Some packages contain both files, the front-end and the back-end translation, some packages contain only the front-end translation.
+ Please check the compatibility of the Language Packages with Joomla! 1.5 native or legacy!</description>
+		<image>
+			<title>Sigsiu.NET - Download Directory for Sobi2 - Language Packages</title>
+			<url>http://www.sigsiu.net/images/stories/package.png</url>
+			<link>http://www.sigsiu.net/download/language_packages/</link>
+		</image>
+		<link>http://www.sigsiu.net/download/language_packages/</link>
+		<lastBuildDate>Thu, 31 Mar 2011 15:29:24 +0200</lastBuildDate>
+		<generator>Sigsiu Online Business Index 2 FeedCreator</generator>
+		<item>
+			<title>Vietnamese Language</title>
+			<link>http://www.sigsiu.net/download/language_packages/vietnamese_language.html</link>
+			<description> Vietnamese Language for SOBI2. </description>
+			<pubDate>Thu, 06 Jan 2011 17:18:51 +0100</pubDate>
+		</item>
+		<item>
+			<title>Turkish Language</title>
+			<link>http://www.sigsiu.net/download/language_packages/turkish_utf-8_language.html</link>
+			<description> Turkish Language for Sobi2. </description>
+			<pubDate>Thu, 06 Jan 2011 17:18:33 +0100</pubDate>
+		</item>
+		<item>
+			<title>Russian Language</title>
+			<link>http://www.sigsiu.net/download/language_packages/russian_language_i.html</link>
+			<description> Russian Language for SOBI 2. </description>
+			<pubDate>Thu, 06 Jan 2011 17:12:55 +0100</pubDate>
+		</item>
+		<item>
+			<title>Spanish Language</title>
+			<link>http://www.sigsiu.net/download/language_packages/spanish_language_utf-8.html</link>
+			<description> Spanish Language for SOBI2. </description>
+			<pubDate>Thu, 06 Jan 2011 17:55:03 +0100</pubDate>
+		</item>
+		<item>
+			<title>Brazilian Portuguese Language</title>
+			<link>http://www.sigsiu.net/download/language_packages/brazilian_portuguese_utf-8_language.html</link>
+			<description> Brazilian Portuguese Language for SOBI2. </description>
+			<pubDate>Thu, 06 Jan 2011 17:18:19 +0100</pubDate>
+		</item>
+		<item>
+			<title>French Language</title>
+			<link>http://www.sigsiu.net/download/language_packages/french_language_i.html</link>
+			<description> French Language for Sobi2. </description>
+			<pubDate>Thu, 06 Jan 2011 17:08:12 +0100</pubDate>
+		</item>
+		<item>
+			<title>Farsi (Persian) Language</title>
+			<link>http://www.sigsiu.net/download/language_packages/farsi_persian_utf-8_language.html</link>
+			<description> Farsi (Persian) Language for SOBI2. </description>
+			<pubDate>Thu, 06 Jan 2011 17:17:59 +0100</pubDate>
+		</item>
+		<item>
+			<title>Galician Language</title>
+			<link>http://www.sigsiu.net/download/language_packages/galician_language.html</link>
+			<description> Galician Language for SOBI2. </description>
+			<pubDate>Thu, 06 Jan 2011 17:17:41 +0100</pubDate>
+		</item>
+		<item>
+			<title>Japanese Language</title>
+			<link>http://www.sigsiu.net/download/language_packages/japanese_language.html</link>
+			<description> Japanese Language for SOBI2. </description>
+			<pubDate>Thu, 06 Jan 2011 17:17:16 +0100</pubDate>
+		</item>
+		<item>
+			<title>Swedish Language</title>
+			<link>http://www.sigsiu.net/download/language_packages/swedish_utf-8_language.html</link>
+			<description> Swedish Language for SOBI2. </description>
+			<pubDate>Thu, 06 Jan 2011 17:16:55 +0100</pubDate>
+		</item>
+	</channel>
+</rss>

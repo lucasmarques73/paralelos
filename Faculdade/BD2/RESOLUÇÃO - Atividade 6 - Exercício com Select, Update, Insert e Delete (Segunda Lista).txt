@@ -1,0 +1,99 @@
+Atividade 7 - Resolução segunda lista de exercícios select 
+(Atividade Individual)
+ Início: 25/08/2014      Término: Indeterminado
+--1. selecionar todos os filmes que possuem rating maior que 8, exibindo o nome do filme e o rating, ordenados por rating em ordem descendente
+select originaltitle, rating 
+from movies 
+where rating > 8 
+order by rating desc
+
+--utilizando o alias (um apelido para o nome da tabela), poderia ser também:
+select m.originaltitle, m.rating 
+from movies m
+where m.rating > 8 
+order by m.rating desc
+
+--2. selecionar todos os filmes da categoria comédia, com rating maior que 8 e que tenham como país EUA, exibindo o nome do filme sua categoria e ordenando pelo nome da categoria
+select m.originaltitle, c.categoria
+from movies m inner join categorias c on m.category = c.idcategoria inner join paises p on m.country = p.idpais
+where c.categoria like '%comédia%' and p.pais like '%eua%' and m.rating > 8
+order by c.categoria 
+
+--utilizei o coringa % nas duas comparações, poderia ser feito também sem o coringa
+--lembrem-se que o like é melhor que o = quando comparar string
+--utilizei > 8 (maior que 8), poderia ser também >= (maior igual), mas apenas se eu houvesse especificado isso na questão, no caso pedi maior que 8
+
+--3. selecionar os 10 filmes mais longos cadastrados (com o maior campo length), exibindo o nome do filme e a duração dele (convertendo o campo para horas e minutos), ordenando pelo filme mais longo
+select top 10 originaltitle, length
+from movies
+order by length desc
+
+--veja que pedi para convertar o length para horas e minutos, então, precisamos utilizar algumas funções para isso:
+select top 10 originaltitle, convert(varchar,length/60) + ':' + convert(varchar, length % 60) as duracao
+from movies
+order by length desc
+
+--percebam como tive que utilizar o convert para converter o resultado do cálculo (tempo/60) para string, isso foi necessário para poder concatenar os resultados com o ':'
+--lembrem-se que, como comentado, há várias formas de fazer essa conversão, algumas mais 'elegantes', mais eficientes etc, mas não é obrigatório que todos façam da mesma forma
+
+--4. selecionar todos os filmes do país Brasil, exibindo o nome do filme, o tamanho (length) e ano (year), ordenando pelo nome do filme
+select m.originaltitle, m.length, m.year
+from movies m inner join paises p on m.country = p.idpais
+where p.pais like '%brasil%' 
+order by m.originaltitle
+
+--5. inserir mais 10 registros na tabela de filmes preenchendo no minimo os campos nome do filme, data de inclusao, num, pais e categoria
+insert into movies (originaltitle, dateadd, num, country, category)
+values ('Teste 1', convert(datetime, '01/12/2010'), 900, 3, 9)
+
+--fiz apenas um insert, para inserir os 10 registros basta repetir o comando 10 vezes com valores diferentes
+--outra forma de fazer esta consulta é utilizar um select para inserir os valores
+--percebam que converti uma string data para o formato data exigido pela estrutura da tabela
+--para os campos country e category, escolhi dois valores das tabelas relacionadas, lembrem-se que os valores informados aqui devem, obrigatoriamente existir nas tabelas paises e categorias
+
+--6. montar uma consulta que insira na tabela de filmes a selecao de todos os filmes que foram cadastrados na categoria comédia
+insert into movies (originaltitle, dateadd, num, country, category)
+select originaltitle, dateadd, num+1000, country, category
+from movies m inner join categorias c on m.category = c.idcategoria 
+where c.categoria like '%comédia%' 
+
+--um detalhe muito importante nessa consulta, vejam que utilizem um select para obter os dados que seriam inseridos
+--mas percebam que o campo num não pode se repetir, por ser chave
+--assim, utilizei um cálculo para mudar o num para um novo valor, sendo num + 1000
+
+--7. altere o campo mediatype para "k7" de todos os filmes que possuem como país Brasil
+update movies set mediatype = 'k7'
+from movies m inner join paises p on m.country = p.idpais
+where p.pais like '%brasil%' 
+
+--outra forma de fazer a mesma coisa, utilizando subquery seria:
+update movies set mediatype = 'k7'
+where num in (select m.num from movies m inner join paises p on m.country = p.idpais where p.pais like '%brasil%')
+
+--8. altere o filme de código (num) igual a 100 para a categoria 10
+update movies set category = 10 where num = 100
+
+--9. exclua todos os filmes que possuem a categoria documentario
+delete movies 
+where num in (select num from movies m inner join categorias c on m.category = c.idcategoria where c.categoria like '%documentário%')
+
+--utilizei uma subquery para selecionar os filmes que quero excluir
+
+--outra forma de ser feita, sem a subquery:
+delete movies 
+from movies m inner join categorias c on m.category = c.idcategoria where c.categoria like '%documentário%'
+
+--outra forma
+delete movies 
+where CATEGORY in 
+(select idcategoria from categorias where categoria like '%comédia%')
+
+--10. exclua todos os filmes que foram cadastrados antes de 1/1/2007
+delete movies 
+where dateadd < convert(datetime, '01/01/2007')
+
+--precisei converter para data a string que for informada
+
+--11. exclua todos os filmes onde o campo país esteja em branco (seja null)
+delete movies
+where country is null

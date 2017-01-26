@@ -1,0 +1,36 @@
+ Atividade 8 - Exemplo Store Procedure
+(Atividade Individual)
+Início: 12/11/2014    Término: Indeterminado
+
+create PROCEDURE sploc02 
+	@categoria int, 
+	@valor varchar(100) output
+AS
+BEGIN
+
+	declare @quant as int
+	
+	select @quant = count(num) from movies where CATEGORY = @categoria
+
+	if @quant < 10 
+	begin 
+		select @valor = 'verdadeiro' 
+	end 
+	else 
+	begin 
+		select @valor = 'falso' 
+	end
+	
+END
+GO
+
+------------------------------------------------------
+
+declare @quantidade as varchar(100)
+declare @categ as integer
+
+select @categ = 13
+
+exec sploc02 @categ, @valor=@quantidade output
+
+print 'Condição: ' + @quantidade + ' nos filmes de categoria ' + convert(varchar, @categ)

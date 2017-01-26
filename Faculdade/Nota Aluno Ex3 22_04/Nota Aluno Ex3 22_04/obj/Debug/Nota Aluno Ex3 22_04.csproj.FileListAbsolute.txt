@@ -1,0 +1,9 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\Nota Aluno Ex3 22_04\Nota Aluno Ex3 22_04\bin\Debug\Nota Aluno Ex3 22_04.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\Nota Aluno Ex3 22_04\Nota Aluno Ex3 22_04\bin\Debug\Nota Aluno Ex3 22_04.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\Nota Aluno Ex3 22_04\Nota Aluno Ex3 22_04\bin\Debug\Nota Aluno Ex3 22_04.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\Nota Aluno Ex3 22_04\Nota Aluno Ex3 22_04\obj\Debug\Nota Aluno Ex3 22_04.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\Nota Aluno Ex3 22_04\Nota Aluno Ex3 22_04\obj\Debug\Nota Aluno Ex3 22_04.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\Nota Aluno Ex3 22_04\Nota Aluno Ex3 22_04\obj\Debug\Nota Aluno Ex3 22_04.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Nota Aluno Ex3 22_04\Nota Aluno Ex3 22_04\bin\Debug\Nota Aluno Ex3 22_04.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Nota Aluno Ex3 22_04\Nota Aluno Ex3 22_04\obj\Debug\Nota Aluno Ex3 22_04.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Nota Aluno Ex3 22_04\Nota Aluno Ex3 22_04\obj\Debug\Nota Aluno Ex3 22_04.pdb

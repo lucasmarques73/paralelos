@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\Par ou Impar\Par ou Impar\bin\Debug\Par ou Impar.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\Par ou Impar\Par ou Impar\bin\Debug\Par ou Impar.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\Par ou Impar\Par ou Impar\bin\Debug\Par ou Impar.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\Par ou Impar\Par ou Impar\obj\Debug\Par ou Impar.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\Par ou Impar\Par ou Impar\obj\Debug\Par ou Impar.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\Par ou Impar\Par ou Impar\obj\Debug\Par ou Impar.pdb

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "seg_lista_exc_num4", "seg_lista_exc_num4\seg_lista_exc_num4.csproj", "{F403E4BF-E32A-4AB9-AE52-F4CC4DED45C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F403E4BF-E32A-4AB9-AE52-F4CC4DED45C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F403E4BF-E32A-4AB9-AE52-F4CC4DED45C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F403E4BF-E32A-4AB9-AE52-F4CC4DED45C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F403E4BF-E32A-4AB9-AE52-F4CC4DED45C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

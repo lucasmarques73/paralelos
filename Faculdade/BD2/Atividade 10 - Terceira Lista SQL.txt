@@ -1,0 +1,27 @@
+ Atividade 10 - Terceira Lista SQL
+(Atividade Individual)
+Início: 25/08/2014    Término: Indeterminado
+
+1. selecione todos os cursos exibindo o nome do curso e o valor do mesmo, ordenado pela data da criação
+
+2. selecione todos os alunos que moram em passos, exibindo o nome do aluno, o endereço e o telefone
+
+3. selecione o nome dos alunos matriculados no curso 'SI'
+
+4. selecione o nome dos livros emprestados para o aluno 'Marcos Faria' e que ainda não foram devolvidos
+
+5. selecione todos os livros da editora Ática
+
+6. selecione todos os livros do autor Monteiro Lobato exibindo o nome dos livros e a editora
+
+7. insira 1 novo curso na tabela de cursos
+
+8. altere o ano de publicação do livro com título 'Delphi'
+
+9. exclua o autor de código 5
+
+10. insira na tabela de autores todos os nomes que existem na tabela de alunos
+
+11. altere todos os livros da editora Atica, alterando o código da editora para 6
+
+12. exclua todos os livros da tabela de acervo que nunca foram emprestados (não existem na tabela de empréstimos)

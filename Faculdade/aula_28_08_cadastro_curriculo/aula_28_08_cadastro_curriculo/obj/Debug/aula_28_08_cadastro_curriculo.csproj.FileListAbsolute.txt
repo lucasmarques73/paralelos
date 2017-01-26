@@ -1,0 +1,9 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_28_08_cadastro_curriculo\aula_28_08_cadastro_curriculo\bin\Debug\aula_28_08_cadastro_curriculo.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_28_08_cadastro_curriculo\aula_28_08_cadastro_curriculo\bin\Debug\aula_28_08_cadastro_curriculo.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_28_08_cadastro_curriculo\aula_28_08_cadastro_curriculo\bin\Debug\aula_28_08_cadastro_curriculo.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_28_08_cadastro_curriculo\aula_28_08_cadastro_curriculo\obj\Debug\aula_28_08_cadastro_curriculo.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_28_08_cadastro_curriculo\aula_28_08_cadastro_curriculo\obj\Debug\aula_28_08_cadastro_curriculo.Form1.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_28_08_cadastro_curriculo\aula_28_08_cadastro_curriculo\obj\Debug\aula_28_08_cadastro_curriculo.Properties.Resources.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_28_08_cadastro_curriculo\aula_28_08_cadastro_curriculo\obj\Debug\aula_28_08_cadastro_curriculo.csproj.GenerateResource.Cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_28_08_cadastro_curriculo\aula_28_08_cadastro_curriculo\obj\Debug\aula_28_08_cadastro_curriculo.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_28_08_cadastro_curriculo\aula_28_08_cadastro_curriculo\obj\Debug\aula_28_08_cadastro_curriculo.pdb

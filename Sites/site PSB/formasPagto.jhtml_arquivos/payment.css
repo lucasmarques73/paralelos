@@ -1,0 +1,188 @@
+h3{margin-bottom:10px}
+td a small strong{font:bold 1.05em verdana}
+.clrLeft{clear:left}
+.valgsub{vertical-align:sub}
+.titPay{background-color:#e8e8e8; height:55px; padding:0 10px}
+.titPay big{display:block; font-size:1.3em; font-weight:bold; position:relative; top:17px}
+.nomeCard, .nomeBanco, .boleto, .saldo, .oipaggo{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/title_cards.gif) no-repeat 0 -660px; float:right; height:55px; text-indent:-9999px; width:100px}
+.visaFlag{background-position:0 -55px}
+.mastercardFlag{background-position:0 -110px}
+.amexFlag{background-position:0 -220px}
+.hipercardFlag{background-position:0 -275px}
+.auraFlag{background-position:0 -330px}
+.dinersFlag{background-position:0 -165px}
+.oipaggo{background-position:0 -762px}
+.boxPay{border:10px solid #f2f2f2; margin-bottom:10px}
+.boxPay p{margin-bottom:10px; padding-top:8px}
+.contrat{clear:both; margin:30px 0 20px; padding:10px; text-align:center}
+.box-det{background-color:#ffffbf; border:1px solid #333; float:right; padding:10px; width:300px}
+.alertForm{font-size:.9em; margin:-6px 0 10px 125px}
+.erroForm{color:#f00; font-size:.9em; margin:-6px 0 10px 125px}
+#txtSaldo, #tefTotal, #box-boleto dl, #box-tef dl, #box-oipaggo dl{font-size:1.3em}
+#dlDateWallet{padding-top:5px}
+.confirm{clear:both; text-align:center}
+.confirmSaldo{margin-left:90px}
+.tip{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/bg_tips_top.gif) no-repeat left top; display:none; font-size:0.85em; height:40px; margin-left:320px; *margin-left:170px; margin-top:-10px; padding-top:6px; position:absolute; width:216px}
+.tip p{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/bg_tips_bottom.gif) no-repeat left bottom; padding:0 10px 15px 50px}
+.pagto{background-color:#eaeaea; text-align:center}
+.codVerifyDin{display:none}
+.boxPay .parcela, .boxPay .pad0{color:#666!important;padding:2px 0 2px 5px}
+#semAcrescimo .parcela{padding-left:0!important}
+.boxPay .pad0{padding-left:0!important}
+.usarSaldo{background-color:#ebf5ec; border:1px solid #c7e1c4; margin-top:15px;padding:15px 20px 15px 10px !important}
+.ico-pagseguro{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/ico-sprite.gif) no-repeat 0 -154px; float:right; height:25px; margin-top:-4px; width:30px}
+#nobd{background-color:#fff}
+#oqueeCod,#tbPersistCreditCard,#oqueeSecurityCod{display:none}
+#oqueeHead h3,#tbPersistCreditCardHead h3,#oqueeSecurityHead h3{border-bottom:2px solid; font-size:1.15em !important; margin-top:-20px !important}
+#oqueeHead,#tbPersistCreditCardHead,#oqueeSecurityHead{margin-top:-15px}
+#oqueeHead p,#tbPersistCreditCardHead p,#oqueeSecurityHead p{text-align:right}
+#oqueeHead .link,#tbPersistCreditCardHead .link,#oqueeSecurityHead .link{font-size:.8em}
+#tbPersistCreditCardDiv p{margin-left:0!important}
+.oqueeP{margin-left:0 !important}
+.oqueeP span{float:right; margin-top:20px}
+.mgt10{margin-top:10px}
+#codVerify,#codVerifyWallet,#securityCodeWallet{width:50px !important}
+#box-vista dt,#box-wallet dt{float:left; margin-right:10px; text-align:right; width:123px}
+#box-vista dt label,#box-wallet dt label{font-size:.95em; vertical-align:sub}
+#box-vista dd,#box-wallet dd{height:26px;margin-bottom:10px}
+#linkEdit{font-size:0.8em;left:15px;position:relative;top:22px;*top:21px}
+#box-vista dd strong{position:relative;top:3px;*top:7px}
+#cardCenter,#cardCenterWallet{margin:0 auto;padding:0 10px;max-width:750px}
+#content .mWidth{max-width:800px}
+* html #content .mWidth{width:800px}
+#card_data #messages,#card_dataWallet #messages{width:430px}
+* html #card_data #messages ul,* html #card_dataWallet #messages ul{margin-bottom:0; margin-top:10px}
+#card_data input,#card_dataWallet input{border:1px solid #999; font-weight:bold; padding:3px 2px; width:200px}
+#card_data select{border:1px solid #999; font-size:.9em; vertical-align:sub; width:55px}
+#card_data #dtNasc,#card_dataWallet #dtNascWallet{width:80px}
+#card_data #ddd1,#card_dataWallet #ddd1Wallet{width:50px}
+#card_data #fone1,#card_dataWallet #fone1Wallet{width:110px}
+#cardData,#cardDataWallet,#cardOwnerData,#cardOwnerDataWallet{width:342px}
+#content .cDLeft{float:left}
+#content #cardData.cDLeft{margin-right:100px}
+#content #cardDataWallet.cDLeft{margin-right:60px}
+#card_data h4,#card_dataWallet h4{color:#999;font-size:1.2em;margin:25px 0 10px}
+#card_data small,#card_dataWallet small{display:block;white-space:nowrap}
+#infocard{color:#666; font-size:0.8em; margin-top:20px; padding:10px; text-align:justify}
+#pagto,#pagtoWallet{float:right;width:235px;*margin-top:30px}
+#pagto strong,#pagtoWallet strong{font-size:1.1em}
+#pagto p,#pagtoWallet p{margin-bottom:7px; *margin-bottom:3px}
+#semAcrescimo,#semAcrescimoWallet{border-width:1px;border-style:solid;margin-bottom:10px; padding:0 0 2px 5px}
+.zebra{background-color:#f2f2f2}
+#confirm button{font-size:1em}
+#cartao{margin-bottom:40px}
+#abas span{border:1px solid #333; border-bottom:0; cursor:pointer; margin-left:10px; padding:0 10px}
+#saldo, #bradesco, #itau, #bb, #real, #banrisul, #boleto, .visa, .mastercard, .amex, .hipercard, .aura, .diners, #oipaggo{padding:5px; width:72px}
+#escolha{font-size:1.3em; margin-bottom:10px; margin-top:20px}
+#walletAbas{border-bottom-width:10px;border-bottom-style:solid;margin-top:20px}
+#walletAbas div{width:560px}
+#showOneWallet,#showWallets{width:200px}
+#otherPay{float:right;position:relative;top:12px;width:270px}
+#showOneWallet,#showWallets,#otherPay{color:#666;cursor:pointer;padding:10px 20px}
+#showOneWallet strong.cor1,#showWallets strong.cor1,#otherPay strong.cor1{font-size:1.4em}
+#otherPay small,#showOneWallet small{font-size:.85em!important}
+#otherPay strong,#showOneWallet strong{font-size:1.1em}
+#otherPay span{color:#035ec7}
+#wallet .boxPay{border-top:0;padding:0!important}
+#walletBorder{background-color:#fff;border:1px solid #c1c1c1;margin-left:100px}
+#walletCodTemplates{padding-bottom:1px;float:left;width:100px}
+#walletCard{background:url("https://p.simg.uol.com.br/pagseguro/i/ico-sprite.gif") no-repeat 91px -358px #fff;border:1px solid #c1c1c1!important;border-right-color:#fff!important;margin-left:0!important;margin-right:0!important;position:relative;left:1px}
+#walletCodTemplates li{border-bottom:1px dotted #c1c1c1;border-top:1px dotted #c1c1c1;list-style:none;margin:0 10px -1px 1px;padding:15px 0 15px 10px}
+* html #walletCodTemplates li{border:0}
+#walletCard a{background-color:transparent!important}
+#walletCodTemplates li a{padding:0!important}
+#walletCodTemplates li a:hover{background-color:transparent;text-decoration:none}
+small.finalFlag,#miolo small.finalFlag{background-color:transparent;color:#000 !important;cursor:pointer;display:block;font-size:0.9em!important;font-weight:normal;margin-left:8px}
+#walletCards{border-bottom:1px dotted #ccc;margin-bottom:20px}
+#formasPagto{border-style:none;border-collapse:collapse;margin:20px 0}
+#walletCards table{border-style:none;border-collapse:collapse;width:auto !important}
+#formasPagto td{border-bottom:1px dotted #ccc;width:150px;white-space:nowrap}
+#walletCards table td{width:150px;white-space:nowrap}
+#formasPagto td, #walletCards table td{padding:5px 10px}
+#formasPagto a, #walletCards table a{display:block; text-align:center; outline:none}
+#walletCards table a{width:112px}
+#formasPagto td a:hover, #walletCards table td a:hover{text-decoration:none}
+#saldo span, .visa span, .mastercard span, .diners span, .amex span, .hipercard span, .aura span, #bradesco span, #itau span, #bb span, #real span, #banrisul span, #boleto span, #oipaggo span{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/cartao/cards-sprite.gif) no-repeat 0 0; cursor:pointer; display:block; height:29px; text-indent:-9999px;width:71px}
+.mastercard span{background-position:0 -28px}
+.diners span{background-position:0 -58px}
+.amex span{background-position:0 -86px}
+.hipercard span{background-position:0 -116px}
+.aura span{background-position:0 -145px}
+#bradesco span{background-position:0 -174px}
+#itau span{background-position:0 -203px}
+#bb span{background-position:0 -260px}
+#real span{background-position:0 -289px}
+#banrisul span{background-position:0 -376px}
+#boleto span{background-position:0 -318px}
+#saldo span{background-position:0 -348px}
+#oipaggo span{background-position:0 -406px}
+#vista{float:left; margin-right:10px; width:400px}
+#tef{border-right:1px dashed #333; float:left; padding-right:10px}
+.algnright{text-align:right}
+#box-saldo, #box-boleto, #box-vista, #box-tef, #box-oipaggo{overflow:hidden; clear:left; display:none}
+#inftef, #infboleto, #infoipaggo{overflow:hidden; padding:15px 10px; border-right:1px dotted #999; float:left}
+.total{overflow:hidden; padding:19px 0 15px 10px}
+#miolo #inftef, #miolo #infboleto, #miolo #infoipaggo{width:425px}
+.total dt{float:left; padding-right:5px; text-align:right}
+.total dd{font-weight:bold; margin:0 0 10px 0; clear:right}
+#box-tef #formTEF,#box-oipaggo #formOiPaggo{clear:both; display:block; text-align:center}
+#gerarboleto{clear:both}
+#endEntrega{border:1px solid #333; display:none; padding:20px}
+#TB_ajaxContent ul li big{font-size:1.6em}
+#TB_ajaxContent p{margin-left:60px}
+#bolloading, #loading, #ddinc,#ddincWallet, #unautop, #unautps{display:none}
+#miolo .msg{font-size:.95em; width:465px}
+#recusar button{font-size:.8em !important}
+#recusar li{padding:10px 0 !important}
+#txtvista{margin-left:145px}
+#txtSaldo{border-right:1px dotted #999; float:left; margin-right:15px; padding:17px 30px 6px 0}
+span.small{font-size:0.8em !important}
+/* ibanking */
+#return{border-bottom:3px solid #B9DC9A; padding:20px 40px 10px}
+#return p{float:right; margin-top:-15px}
+#return p a{font-size:1.3em}
+#return p .renew{margin-right:2px; margin-top:0}
+#endereco, #recorrencia, #forma{border-top:1px dotted #ccc; margin-bottom:15px; padding-top:15px}
+#recorrencia p, #forma p{margin-left:15px}
+#carrinho table .bordtop{padding-top:15px}
+#fretebox{background:#fff; border-style:solid; border-width:5px; margin:15px 0; padding:15px}
+#fretebox h3{font-size:1.1em; margin-bottom:10px}
+#fretebox fieldset{border:0px; margin:0px; padding:0px 0px 15px 0px}
+#fretebox fieldset#frete{padding-bottom:0px}
+#fretebox #frete{border-bottom:1px dotted #ccc; margin-bottom:15px; padding-bottom:20px !important}
+#right{float:left; margin-top:15px}
+#fretebox #left{float:left; margin-top:15px}
+#fretebox #left input.textbox{margin:0px 5px; width:60px}
+#fretebox #left input#address, #fretebox #left input#addressDistrict{width:228px}
+#fretebox #left span{color:#7f7f7f; font-size:0.8em}
+#totalbox{font-size:1.4em; padding:10px; margin:20px 0 30px; text-align:right}
+#valFrete{display:none; float:right}
+#headerErr{background-color:#fff; border-bottom:3px solid #b8da99; height:86px; margin-bottom:25px; padding-top:25px; min-width:985px}
+.widthErr{margin:0 auto; max-width:112em; min-width:76em}
+.widthErr h1{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/pagseguro_uol.gif) no-repeat 0 0; margin-left:25px; text-indent:-9999px; height:66px; width:266px}
+#messagesLimit{display:none}
+.msg ul li.infosmall{color:#333; font-size:.8em !important}
+#taxaBoleto{position:relative;top:-10px}
+#saldoInsuficiente{background-color:#f1f5f8;height:60px;width:575px}
+#saldoInsuficiente img{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/messages-sprite.gif) no-repeat -168px 0;float:left; height:60px; margin:0 15px;width:42px}
+#saldoInsuficiente p{padding-top:10px}
+#saldoInsuficiente a{color:#000;display:inline!important;font-weight:normal;text-decoration:underline}
+#saldoInsuficiente a:hover{text-decoration:underline!important}
+#pPersistCreditCard{margin-left:55px;width:300px}
+#persistCreditCard{border:0!important;width:14px!important}
+#pPersistCreditCard span{font-size:.85em;font-weight:normal}
+#card_dataWallet .msg{width:340px!important}
+#card_data .msg{width:434px!important}
+#urlAbandon{margin-left:10px;font-size:1.2em;font-weight:normal!important}
+#SecurityCode{margin-bottom:0!important;padding:5px 0 0 10px;width:290px}
+#ddSecurityCodeWallet{padding:0 0 5px 10px;width:290px}
+#firstNumbers,#lastNumbers{font-size:2em;vertical-align:top;*vertical-align:middle}
+#finalNumbers,.oqueeSecurity{*position:relative;*top:-4px}
+#reativacao{background-color:#f3fbee;border:1px solid #c4eac3;margin-bottom:30px;margin-top:20px;padding:10px 20px}
+.reative{color:#20510f;font-size:1.3em;font-weight:bold;margin-bottom:2px}
+#fecharReativacao{float:right;font-size:.8em}
+#butReativar{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/bt_reativar.gif) no-repeat left top;display:block;float:left;height:50px;margin-right:20px;margin-top:3px;text-indent:-9999px;width:100px}
+#butReativar:hover{background-position:left bottom}
+#tbReativacao{display:none}
+#formReativar p{margin-left:0!important}
+#formReativar .txtalgncent{margin-top:10px}

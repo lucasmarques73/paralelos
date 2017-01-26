@@ -1,0 +1,59 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Salario_aula_06_11
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double salar, emp;
+            char op;
+
+            Console.WriteLine("Digite o seu salario:");
+            salar = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o emprestimo que deseja:");
+            emp = double.Parse(Console.ReadLine());
+            Console.WriteLine("Você quer simular ou efetivar o emprestimo?(S/E");
+            op = char.Parse(Console.ReadLine().ToUpper());
+            if (op == 'S')
+            {
+                simula_emprestimo(salar, emp);
+            }
+            else 
+            {
+                efetiva_emprestimo(ref salar, emp);   
+            }
+            Console.WriteLine("Salario atual: "+salar);
+            Console.ReadLine();
+        }
+
+        static void simula_emprestimo(double salario, double emprestimo)
+        {
+            int numero_parcelas;
+            double parcela;
+
+            Console.WriteLine("Digite o numero de parcelas:");
+            numero_parcelas = int.Parse(Console.ReadLine());
+
+            parcela = emprestimo / numero_parcelas;
+            salario = salario - parcela;
+            Console.WriteLine("Salario após emprestimo: "+salario);
+        }
+        static void efetiva_emprestimo(ref double salario, double emprestimo)
+        {
+            int numero_parcelas;
+            double parcela;
+
+            Console.WriteLine("Digite o numero de parcelas:");
+            numero_parcelas = int.Parse(Console.ReadLine());
+
+            parcela = emprestimo / numero_parcelas;
+            salario = salario - parcela;
+            Console.WriteLine("Salario após emprestimo: " + salario);
+        }
+    }
+}

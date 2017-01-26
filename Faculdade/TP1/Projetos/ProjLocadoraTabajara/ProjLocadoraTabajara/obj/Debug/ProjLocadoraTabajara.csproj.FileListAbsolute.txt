@@ -1,0 +1,12 @@
+C:\Users\Public\Professor\vania\ProjLocadoraTabajara\ProjLocadoraTabajara\bin\Debug\ProjLocadoraTabajara.exe.config
+C:\Users\Public\Professor\vania\ProjLocadoraTabajara\ProjLocadoraTabajara\bin\Debug\ProjLocadoraTabajara.exe
+C:\Users\Public\Professor\vania\ProjLocadoraTabajara\ProjLocadoraTabajara\bin\Debug\ProjLocadoraTabajara.pdb
+C:\Users\Public\Professor\vania\ProjLocadoraTabajara\ProjLocadoraTabajara\obj\Debug\ProjLocadoraTabajara.csprojResolveAssemblyReference.cache
+C:\Users\Public\Professor\vania\ProjLocadoraTabajara\ProjLocadoraTabajara\obj\Debug\ProjLocadoraTabajara.Form1.resources
+C:\Users\Public\Professor\vania\ProjLocadoraTabajara\ProjLocadoraTabajara\obj\Debug\ProjLocadoraTabajara.Properties.Resources.resources
+C:\Users\Public\Professor\vania\ProjLocadoraTabajara\ProjLocadoraTabajara\obj\Debug\ProjLocadoraTabajara.csproj.GenerateResource.Cache
+C:\Users\Public\Professor\vania\ProjLocadoraTabajara\ProjLocadoraTabajara\obj\Debug\ProjLocadoraTabajara.exe
+C:\Users\Public\Professor\vania\ProjLocadoraTabajara\ProjLocadoraTabajara\obj\Debug\ProjLocadoraTabajara.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\ProjLocadoraTabajara\ProjLocadoraTabajara\bin\Debug\ProjLocadoraTabajara.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\ProjLocadoraTabajara\ProjLocadoraTabajara\obj\Debug\ProjLocadoraTabajara.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\ProjLocadoraTabajara\ProjLocadoraTabajara\obj\Debug\ProjLocadoraTabajara.pdb

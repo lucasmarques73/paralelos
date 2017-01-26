@@ -1,0 +1,6 @@
+c:\users\lucas\documents\visual studio 2012\Projects\arq_exerc_1\arq_exerc_1\bin\Debug\arq_exerc_1.exe.config
+C:\Users\Lucas\documents\visual studio 2012\Projects\arq_exerc_1\arq_exerc_1\bin\Debug\arq_exerc_1.exe
+C:\Users\Lucas\documents\visual studio 2012\Projects\arq_exerc_1\arq_exerc_1\bin\Debug\arq_exerc_1.pdb
+C:\Users\Lucas\documents\visual studio 2012\Projects\arq_exerc_1\arq_exerc_1\obj\Debug\arq_exerc_1.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\documents\visual studio 2012\Projects\arq_exerc_1\arq_exerc_1\obj\Debug\arq_exerc_1.exe
+C:\Users\Lucas\documents\visual studio 2012\Projects\arq_exerc_1\arq_exerc_1\obj\Debug\arq_exerc_1.pdb

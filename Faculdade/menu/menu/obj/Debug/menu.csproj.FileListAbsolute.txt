@@ -1,0 +1,6 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\menu\menu\bin\Debug\menu.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\menu\menu\obj\Debug\menu.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\menu\menu\bin\Debug\menu.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\menu\menu\bin\Debug\menu.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\menu\menu\obj\Debug\menu.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\menu\menu\obj\Debug\menu.pdb

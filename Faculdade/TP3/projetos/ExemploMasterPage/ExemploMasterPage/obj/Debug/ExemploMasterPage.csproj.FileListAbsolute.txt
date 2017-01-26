@@ -1,0 +1,12 @@
+D:\Dropbox\Academico\UEMG\2015\2015_s2\6pTP3\Projetos\ExemploMasterPage\ExemploMasterPage\bin\ExemploMasterPage.dll.config
+D:\Dropbox\Academico\UEMG\2015\2015_s2\6pTP3\Projetos\ExemploMasterPage\ExemploMasterPage\bin\ExemploMasterPage.dll
+D:\Dropbox\Academico\UEMG\2015\2015_s2\6pTP3\Projetos\ExemploMasterPage\ExemploMasterPage\bin\ExemploMasterPage.pdb
+D:\Dropbox\Academico\UEMG\2015\2015_s2\6pTP3\Projetos\ExemploMasterPage\ExemploMasterPage\obj\Debug\ExemploMasterPage.csprojResolveAssemblyReference.cache
+D:\Dropbox\Academico\UEMG\2015\2015_s2\6pTP3\Projetos\ExemploMasterPage\ExemploMasterPage\obj\Debug\ExemploMasterPage.dll
+D:\Dropbox\Academico\UEMG\2015\2015_s2\6pTP3\Projetos\ExemploMasterPage\ExemploMasterPage\obj\Debug\ExemploMasterPage.pdb
+C:\Users\Lucas\Dropbox\Facul\6º Periodo\TP 3\projetos\ExemploMasterPage\ExemploMasterPage\bin\ExemploMasterPage.dll.config
+C:\Users\Lucas\Dropbox\Facul\6º Periodo\TP 3\projetos\ExemploMasterPage\ExemploMasterPage\bin\ExemploMasterPage.dll
+C:\Users\Lucas\Dropbox\Facul\6º Periodo\TP 3\projetos\ExemploMasterPage\ExemploMasterPage\bin\ExemploMasterPage.pdb
+C:\Users\Lucas\Dropbox\Facul\6º Periodo\TP 3\projetos\ExemploMasterPage\ExemploMasterPage\obj\Debug\ExemploMasterPage.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Dropbox\Facul\6º Periodo\TP 3\projetos\ExemploMasterPage\ExemploMasterPage\obj\Debug\ExemploMasterPage.dll
+C:\Users\Lucas\Dropbox\Facul\6º Periodo\TP 3\projetos\ExemploMasterPage\ExemploMasterPage\obj\Debug\ExemploMasterPage.pdb

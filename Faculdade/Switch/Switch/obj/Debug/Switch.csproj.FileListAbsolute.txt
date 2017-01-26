@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\Switch\Switch\bin\Debug\Switch.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\Switch\Switch\bin\Debug\Switch.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\Switch\Switch\bin\Debug\Switch.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\Switch\Switch\obj\Debug\Switch.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\Switch\Switch\obj\Debug\Switch.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\Switch\Switch\obj\Debug\Switch.pdb

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF8"?>
+<rss version="2.0">
+	<channel>
+		<title>Sigsiu.NET - Download Directory for Sobi2 - Sobi2 Plugins</title>
+		<description> Plugins for Sobi2. 
+Install these Sobi2 plugins (Sobi2 extensions) in the plugin manager of Sobi2.</description>
+		<image>
+			<title>Sigsiu.NET - Download Directory for Sobi2 - Sobi2 Plugins</title>
+			<url>http://www.sigsiu.net/images/stories/package.png</url>
+			<link>http://www.sigsiu.net/download/plugins/</link>
+		</image>
+		<link>http://www.sigsiu.net/download/plugins/</link>
+		<lastBuildDate>Thu, 31 Mar 2011 15:28:34 +0200</lastBuildDate>
+		<generator>Sigsiu Online Business Index 2 FeedCreator</generator>
+		<item>
+			<title>Gallery Plugin</title>
+			<link>http://www.sigsiu.net/download/sobi2_plugins/gallery_plugin.html</link>
+			<description> Gallery Plugin. 
+It allows adding an unlimited number of images to an entry.
+ Thumbnails will be shown in the Details View vertically or horizontally. On clicking on a thumbnail the big image will be shown in the Lightbox by Lokesh Dhakar or alternatively in Slimbox by Christophe Beyls if MooTols are already installed. 
+In Category View (on each V-Card) the number of images of an entry and/or the first thumbnail can be shown.</description>
+			<pubDate>Sun, 30 Jan 2011 17:47:51 +0100</pubDate>
+		</item>
+		<item>
+			<title>Easy Spam Killer Plugin</title>
+			<link>http://www.sigsiu.net/download/sobi2_plugins/easy_spam_killer_plugin.html</link>
+			<description> EasySpamKiller Plugin - to protect your SOBI2 directory against spam using the Easy Spam Killer (/download/mambots/easy_spam_killer.html) plugins of Easy Joomla. </description>
+			<pubDate>Wed, 18 Nov 2009 15:02:29 +0100</pubDate>
+		</item>
+		<item>
+			<title>Payments Plugin</title>
+			<link>http://www.sigsiu.net/download/sobi2_plugins/payments_plugin.html</link>
+			<description> This backend plugin is made to use within the component SOBI2 (Sigsiu Online Business Index 2). 
+ 
+It allows administrators to view payments that have been done by users on their website. When a user add an entry in the SOBI2 directory and pays for a payable field (ie &quot;description&quot;), it generates a new payment. 
+ 
+It is based upon the sobi2 table &quot;__sobi2_payments&quot; and on the field &quot;payed_date&quot;.
+This field is filled when the user goes to pay on paypal. But as there's no feedback payment from paypal, it's not sure that the user really payed. 
+ 
+Therefore, the plugin allows to compare the payments declared on the website by SOBI2 and those received in the Paypal account. 
+ 
+Plugin Features 
+ 
+    * This is a backend plugin 
+    * Comes with english and french languages 
+    * Displays payments of the day 
+    * Displays payments of the current month 
+    * Displays payments of the current month per day 
+    * Displays payments of the last month 
+    * Displays payments of the last month per day 
+    * For month reportings, there's also a graphic that shows the evolution of payments per day 
+    * It doesn't modify/alter tables or datas 
+    * Displays plugin loading time in the bottom of the plugin. 
+</description>
+			<pubDate>Sat, 14 Mar 2009 12:10:18 +0100</pubDate>
+		</item>
+		<item>
+			<title>SobiSEF Plugin</title>
+			<link>http://www.sigsiu.net/download/plugins/sobisef_plugin.html</link>
+			<description> With this plugin it is possible to create SEF URLs for Sobi2 without the need of any third party SEF component. Joomla! 1.5 has already the capability included to create search engine friendly URLs. SobiSEF plugin extends this for Sobi2.   
+The SobiSEF plugin has a wide range of settings to configure the creation of the URLs like a complete SEF component. That includes the same settings as of the OpenSEF plugin, extended by a lot of replacements and suffix settings. 
+ 
+The Sobi2 Configuration menu will be extended by a new menu item &quot;Manage SEF URLs&quot;. The generated URLs can be edited, deleted and locked. A locked URL cannot be deleted.</description>
+			<pubDate>Fri, 16 Apr 2010 15:29:07 +0200</pubDate>
+		</item>
+		<item>
+			<title>Report Listing Plugin</title>
+			<link>http://www.sigsiu.net/download/plugins/report_listing_plugin.html</link>
+			<description> The Report Listing Plugin allows visitors or registered users only (adjustable) to send a report to the site administrators about an entry in the SOBI2 directory. This report can be send also to the owner of the entry.
+Features:
+
+Integrated intuitive CAPTCHA code to prevent sending emails by bots
+Customizable predefined list of possible report reasons. For example: Broken Links, Missing Images, SPAM, etc.
+Possibility to send the report email to custom email addresses (custom distribution list) or to administrators (as adjusted in SOBI2 configuration)
+Send copy of report also to the owner of the listing (adjustable)
+Send report function allowed only for registered users or for every site visitor
+</description>
+			<pubDate>Fri, 06 Feb 2009 11:00:03 +0100</pubDate>
+		</item>
+		<item>
+			<title>Import and Backup Plugin</title>
+			<link>http://www.sigsiu.net/download/plugins/import_and_backup.html</link>
+			<description> Import   Backup Plugin for Sobi2 to import data, backup your directory, save your configuration or migrate to Sobi2.
+
+ The Import and Backup Plugin for Sobi2 is basically a tool which allows to export and import Sobi2 entries, categories and fields into a CSV file, the most common  export/import file format. This kind of file can easily be edited in spreadsheet programs like OpenOffice or Excel or any other program which is able to read CSV files. 
+
+CSV import allows easy data transfer from another data source in your directory. It is a very time saving tool for each Joomla!/Mambo site using the Sobi2 component the first time.
+
+But this plugin isn't only a simple Import/Export script. The Import and Backup plugin for Sobi2 allows you also to create an internal Sobi2 database backup. This backup can be restored every time with one click. Use this function before you start an import to return easily to the start point, or make a backup before you change Sobi2 settings.
+
+Import and export of Sobi2 categories, including all category images, icons and the category relations.
+  
+Import and export of Sobi2 entries, including all basic data, custom defined fields content, category relations and logos and icons.
+  
+Import and export of the Sobi2 fields defined in the Fields Manager, including the basic field definitions and important data.
+  
+Import and export of the Sobi2 configuration settings. This includes all important Sobi2 settings, the Sobi2 CSS file, the Registry Editor settings (config.ini file) and your customized template files. 
+This function is very useful if you upgrade Sobi2. Save and restore these files with one click.
+
+No fixed structure must be observed. Select which information of an entry, category or field you want to import or export. Also the ordering of the fields (spreadsheet columns) can be defined freely. Also basic export information like the CSV value separator and multi-value separator can be adjusted individually.  
+The exported data can be cleaned of HTML tags.
+
+You want to import the same data you have exported? Use the copy settings function to copy export settings to import settings, or vice versa.
+
+Because of implementation of a special algorithm it is no problem to import or export data on servers with low memory limit, limited script execution or limited access to MySQL server. No problems like &quot;allowed memory size exhausted&quot;, &quot;MySQL server has gone away&quot; or &quot;maximum execution time of xx seconds exceeded&quot;.
+
+Integrated reporting function. Each import or export operation is logged in a separate logfile where you can investigate if there were some problems during the operation.</description>
+			<pubDate>Thu, 28 Oct 2010 19:06:36 +0200</pubDate>
+		</item>
+		<item>
+			<title>Featured Listings Plugin</title>
+			<link>http://www.sigsiu.net/download/plugins/featured_listings.html</link>
+			<description> The Featured Listings Plugin shows entries of your Sobi2 directory on a featured position in category view and/or on frontpage of the directory, using a self-definable 'featured' layout.
+
+ Offer your customers the possibility to show their entries on a featured position above the standard listings. For that, choose other colors or a different presentation to be in contrast to the normal listings.
+
+
+Show the featured entries for a certain time period. At the end of this time period the entry will be removed from featured position automatically.
+
+Choose a number of impressions for the featured entries. If the entries are shown appropriate often they will be removed from featured position automatically.
+
+Offer your customers the possibility to show their entries on a featured position as long as a certain number of Clicks (Hits) through the details view of the entry isn't reached. After that the entry will be removed from featured position automatically.
+
+Of course an entry can be shown at featured position permanently without expiration.
+
+Distinguish between the presentation at featured position within the category view of your directory or the presentation on the frontpage of your directory. 
+The number of featured listings on frontpage can be limited and shown randomly.
+
+Because of the unlimited number of scenarios of supply you can offer your customers different proposals. Thus for example, your product line can contain an inexpensive offer with a display time of 10 days and a premium offer with a display time of a year.
+
+Using the additional module the featured listings can be shown again elsewhere on your site.
+
+You will get free updates of the product, access to the documentation and web-based support in our Support Center within your support and documentation subscription period of 12 months after purchase date.</description>
+			<pubDate>Thu, 28 Oct 2010 19:04:30 +0200</pubDate>
+		</item>
+		<item>
+			<title>Flash MP3 Player</title>
+			<link>http://www.sigsiu.net/download/plugins/flash_mp3_player.html</link>
+			<description> FFlash MP3 Player Plugin. 
+This plugin extends the standard SOBI2 media field.
+ Instead of the standard MP3 player of the operating system/browser the Flash MP3 player from Jeroen Wijering will be used. 
+This plugin is released under GNU/GPL license but the Flash MP3 Player (http://www.jeroenwijering.com/?item=Flash_MP3_Player) from Jeroen Wijering (http://www.jeroenwijering.com/) is released under Creative Commons License (http://creativecommons.org/licenses/by-nc-sa/2.0/). 
+That means that you may not use this player for commercial purposes. 
+For commercial use, Jeroen Wijering distributes licenses of the script. For more information and instant ordering, please advance to his online order page (https://www.longtailvideo.com/players/order2)! </description>
+			<pubDate>Sun, 07 Jun 2009 13:34:22 +0200</pubDate>
+		</item>
+		<item>
+			<title>Media Plugin</title>
+			<link>http://www.sigsiu.net/download/plugins/media.html</link>
+			<description> Media Plugin. 
+The Media Plugin is a plugin for Sobi2, which allows adding an unlimited number of audio or video files to each Sobi2 entry.</description>
+			<pubDate>Sun, 27 Feb 2011 10:30:46 +0100</pubDate>
+		</item>
+		<item>
+			<title>Download Plugin</title>
+			<link>http://www.sigsiu.net/download/plugins/download.html</link>
+			<description> Download Plugin. 
+The Sobi2 Download Plugin extends Sobi2 to a document management and download system.
+ It allows adding an unlimited number of files to every entry.  
+The number of allowed files for an entry, the maximum file size and the allowed extensions are adjustable in the back-end.    
+For every uploaded file a license can be assigned which has to be confirmed if the user wants to download this file.  
+The list of files for an entry can be displayed in the details view and/or in the category view.</description>
+			<pubDate>Sun, 27 Feb 2011 10:31:19 +0100</pubDate>
+		</item>
+	</channel>
+</rss>

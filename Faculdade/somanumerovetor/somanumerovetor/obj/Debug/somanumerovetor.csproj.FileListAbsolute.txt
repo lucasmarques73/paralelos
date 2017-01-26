@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\somanumerovetor\somanumerovetor\bin\Debug\somanumerovetor.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\somanumerovetor\somanumerovetor\bin\Debug\somanumerovetor.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\somanumerovetor\somanumerovetor\bin\Debug\somanumerovetor.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\somanumerovetor\somanumerovetor\obj\Debug\somanumerovetor.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\somanumerovetor\somanumerovetor\obj\Debug\somanumerovetor.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\somanumerovetor\somanumerovetor\obj\Debug\somanumerovetor.pdb

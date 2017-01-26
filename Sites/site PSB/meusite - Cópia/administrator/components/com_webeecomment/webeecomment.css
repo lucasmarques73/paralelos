@@ -1,0 +1,150 @@
+.commentsButton {
+	background: #999;
+	padding: 3px 5px;
+	display: inline;
+	font-size: 9px;
+	font-weight: bold;
+	color: #fff;
+    float: left;
+    line-height: 10px;
+}
+
+.addComment {
+	background: #fff;
+	padding: 3px 5px;
+	display: inline;
+	border-top: #ccc solid 1px;
+	border-right: #afafaf solid 1px;
+	border-bottom: #afafaf solid 1px;
+	border-left: #ccc solid 1px;
+	font-size: 9px;
+	font-weight: bold;
+	color: #999;
+	margin: 10px 0px 0px 0px;
+    float: left;
+    line-height: 10px;
+}
+
+
+.hideComment {
+	background: #fff;
+	padding: 3px 5px;
+	display: inline;
+	border-top: #ccc solid 1px;
+	border-right: #afafaf solid 1px;
+	border-bottom: #afafaf solid 1px;
+	border-left: #ccc solid 1px;
+	font-size: 9px;
+	font-weight: bold;
+	color: #999;
+	margin: 10px 10px 0px 0px;
+    float: left;
+    clear: both;
+    line-height: 10px;
+}
+
+.addCommentForm {
+	float: left;
+	background: #fff;
+	clear: both;
+	width: 90%;
+	margin: 15px 0px 0px 0px;
+	border-top: #ccc solid 1px;
+	border-right: #afafaf solid 1px;
+	border-bottom: #afafaf solid 1px;
+	border-left: #ccc solid 1px;
+	padding: 10px;
+}
+.addCommentForm h4 {
+	font-size: 14px;
+	color: #666;
+	margin: 0px 0px 15px 0px;
+	padding: 0px;
+}
+.addCommentForm label {
+	float: left;
+	width: 80px;
+	margin: 0px 10px 0px 0px;
+	clear: both;
+	font-size: 11px;
+	color: #666;
+	font-weight: bold;
+}
+.addCommentForm input,  .addCommentForm textarea {
+	float: left;
+	margin: 0px 0px 5px 0px;
+	width: 70%;
+	border: 1px solid #999;
+	font-size: 11px;
+	color: #666;
+}
+.addCommentForm span  {
+	float: left;
+	margin: 0px 0px 0px 5px;
+}
+.addCommentForm span#bbcode {
+	margin: 0px 0px 5px 0px;
+}
+.addCommentForm span.note  {
+	margin: 10px 0px 0px 5px;
+}
+.addCommentForm img#captcha, .addCommentForm a.reload_captcha {
+	float: left;
+	margin: 0px 0px 5px 90px;
+	clear: both;
+}
+.saveCommentButton {
+	background: #fff;
+	padding: 3px 5px;
+	display: inline;
+	border-top: #ccc solid 1px;
+	border-right: #afafaf solid 1px;
+	border-bottom: #afafaf solid 1px;
+	border-left: #ccc solid 1px;
+	font-size: 9px;
+	font-weight: bold;
+	color: #999;
+	margin: 10px 0px 0px 90px;
+    float: left;
+    clear: both;
+    line-height: 10px;
+}
+.comment {
+	float: left;
+	background: #fff;
+	clear: both;
+	width: 90%;
+	margin: 10px 0px 0px 0px;
+	border-top: #ccc solid 1px;
+	border-right: #afafaf solid 1px;
+	border-bottom: #afafaf solid 1px;
+	border-left: #ccc solid 1px;
+	padding: 10px;
+}
+.commentAuthorDate {
+	float: left;
+	clear: both;
+	margin: 0px 0px 10px 0px;
+	font-size: 10px;
+	color: #999;
+}
+.commentBody {
+	float: left;
+	clear: both;
+	margin: 0px 0px 10px 0px;
+	font-size: 11px;
+	color: #666;
+}
+.errorMsg {
+	float: left;
+	background: #fff;
+	clear: both;
+	width: 90%;
+	margin: 5px 0px 0px 0px;
+	border-top: #ff9fa2 solid 1px;
+	border-right: #ff575c solid 1px;
+	border-bottom: #ff575c solid 1px;
+	border-left: #ff9fa2 solid 1px;
+	padding: 10px;
+	color: #ff575b;
+}

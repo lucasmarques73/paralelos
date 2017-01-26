@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\aumento salario2\aumento salario2\bin\Debug\aumento salario2.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\aumento salario2\aumento salario2\bin\Debug\aumento salario2.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\aumento salario2\aumento salario2\bin\Debug\aumento salario2.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\aumento salario2\aumento salario2\obj\Debug\aumento salario2.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\aumento salario2\aumento salario2\obj\Debug\aumento salario2.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\aumento salario2\aumento salario2\obj\Debug\aumento salario2.pdb

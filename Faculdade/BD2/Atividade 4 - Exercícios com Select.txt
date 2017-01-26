@@ -1,0 +1,13 @@
+Atividade 4 - Exercícios com Select 
+(Atividade Individual)
+ Início: 25/08/2014      Término: Indeterminado
+criar as seguintes consultas:
+
+1. selecionar todos os paises da tabela de pais, ordenando pelo nome do pais
+2. selecionar todos os filmes da tabela de filmes que possuem como ator alguem que possua nicolas no nome, ordenando pelo nome do filme
+3. selecionar todos os filmes da categoria terror, ordenados pela categoria
+4. selecionar todos os filmes onde o campo pais é igual a brasil
+5. contar quantos filmes existem por país, ordenando por pais
+6. contar quantos filmes existem por categoria, ordenando a lista pela quantidade de filmes de forma descendente
+7. montar uma consulta que retorne na primeira coluna o ano da data de inclusao do filme (campo dateadd), na segunda a quantidade de filmes incluidos neste ano
+8. montar uma consulta que exiba na primeira coluna a categoria dos filmes, na segunda a quantidade de filmes por categoria e na terceira o nome do filme mais novo incluido nessa categoria

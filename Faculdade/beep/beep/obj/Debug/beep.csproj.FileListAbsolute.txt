@@ -1,0 +1,6 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\beep\beep\bin\Debug\beep.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\beep\beep\obj\Debug\beep.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\beep\beep\bin\Debug\beep.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\beep\beep\bin\Debug\beep.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\beep\beep\obj\Debug\beep.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\beep\beep\obj\Debug\beep.pdb

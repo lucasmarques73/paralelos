@@ -1,0 +1,7 @@
+D:\30 exercicios\Exercicio 7\Exercicio 7\bin\Debug\Exercicio 7.exe
+D:\30 exercicios\Exercicio 7\Exercicio 7\bin\Debug\Exercicio 7.pdb
+D:\30 exercicios\Exercicio 7\Exercicio 7\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\30 exercicios\Exercicio 7\Exercicio 7\obj\x86\Debug\Exercicio 7.exe
+D:\30 exercicios\Exercicio 7\Exercicio 7\obj\x86\Debug\Exercicio 7.pdb
+C:\Users\Lucas Marques\Documents\Visual Studio 2012\Projects\Exercicio 7\Exercicio 7\obj\x86\Debug\Exercicio 7.exe
+C:\Users\Lucas Marques\Documents\Visual Studio 2012\Projects\Exercicio 7\Exercicio 7\obj\x86\Debug\Exercicio 7.pdb

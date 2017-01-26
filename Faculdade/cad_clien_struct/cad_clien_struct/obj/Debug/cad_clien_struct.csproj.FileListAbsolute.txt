@@ -1,0 +1,6 @@
+c:\users\lucas\documents\visual studio 2012\Projects\cad_clien_struct\cad_clien_struct\bin\Debug\cad_clien_struct.exe.config
+c:\users\lucas\documents\visual studio 2012\Projects\cad_clien_struct\cad_clien_struct\obj\Debug\cad_clien_struct.csprojResolveAssemblyReference.cache
+c:\users\lucas\documents\visual studio 2012\Projects\cad_clien_struct\cad_clien_struct\bin\Debug\cad_clien_struct.exe
+c:\users\lucas\documents\visual studio 2012\Projects\cad_clien_struct\cad_clien_struct\bin\Debug\cad_clien_struct.pdb
+c:\users\lucas\documents\visual studio 2012\Projects\cad_clien_struct\cad_clien_struct\obj\Debug\cad_clien_struct.exe
+c:\users\lucas\documents\visual studio 2012\Projects\cad_clien_struct\cad_clien_struct\obj\Debug\cad_clien_struct.pdb

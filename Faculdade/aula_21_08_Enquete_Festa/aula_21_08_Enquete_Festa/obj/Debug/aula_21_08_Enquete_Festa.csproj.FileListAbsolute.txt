@@ -1,0 +1,9 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_21_08_Enquete_Festa\aula_21_08_Enquete_Festa\bin\Debug\aula_21_08_Enquete_Festa.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_21_08_Enquete_Festa\aula_21_08_Enquete_Festa\bin\Debug\aula_21_08_Enquete_Festa.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_21_08_Enquete_Festa\aula_21_08_Enquete_Festa\bin\Debug\aula_21_08_Enquete_Festa.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_21_08_Enquete_Festa\aula_21_08_Enquete_Festa\obj\Debug\aula_21_08_Enquete_Festa.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_21_08_Enquete_Festa\aula_21_08_Enquete_Festa\obj\Debug\aula_21_08_Enquete_Festa.Form1.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_21_08_Enquete_Festa\aula_21_08_Enquete_Festa\obj\Debug\aula_21_08_Enquete_Festa.Properties.Resources.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_21_08_Enquete_Festa\aula_21_08_Enquete_Festa\obj\Debug\aula_21_08_Enquete_Festa.csproj.GenerateResource.Cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_21_08_Enquete_Festa\aula_21_08_Enquete_Festa\obj\Debug\aula_21_08_Enquete_Festa.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_21_08_Enquete_Festa\aula_21_08_Enquete_Festa\obj\Debug\aula_21_08_Enquete_Festa.pdb

@@ -1,0 +1,10 @@
+Inscreve Time
+
+void removeFinal(TnoCabo * lista, char time[20], char tecnico[20], int pts)
+{
+	
+		lista->nomeTime = time;
+		lista->tecnico = tecnico;
+		lista->pontos = pts;
+		lista->prim = NULL;
+}

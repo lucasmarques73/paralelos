@@ -1,0 +1,6 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\torre_hanoi\torre_hanoi\bin\Debug\torre_hanoi.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\torre_hanoi\torre_hanoi\bin\Debug\torre_hanoi.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\torre_hanoi\torre_hanoi\bin\Debug\torre_hanoi.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\torre_hanoi\torre_hanoi\obj\Debug\torre_hanoi.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\torre_hanoi\torre_hanoi\obj\Debug\torre_hanoi.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\torre_hanoi\torre_hanoi\obj\Debug\torre_hanoi.pdb

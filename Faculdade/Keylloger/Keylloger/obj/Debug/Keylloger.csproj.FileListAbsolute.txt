@@ -1,0 +1,9 @@
+c:\users\lucas\documents\visual studio 2012\Projects\Keylloger\Keylloger\bin\Debug\Keylloger.exe.config
+c:\users\lucas\documents\visual studio 2012\Projects\Keylloger\Keylloger\bin\Debug\Keylloger.exe
+c:\users\lucas\documents\visual studio 2012\Projects\Keylloger\Keylloger\bin\Debug\Keylloger.pdb
+c:\users\lucas\documents\visual studio 2012\Projects\Keylloger\Keylloger\obj\Debug\Keylloger.csprojResolveAssemblyReference.cache
+c:\users\lucas\documents\visual studio 2012\Projects\Keylloger\Keylloger\obj\Debug\Keylloger.Form1.resources
+c:\users\lucas\documents\visual studio 2012\Projects\Keylloger\Keylloger\obj\Debug\Keylloger.Properties.Resources.resources
+c:\users\lucas\documents\visual studio 2012\Projects\Keylloger\Keylloger\obj\Debug\Keylloger.csproj.GenerateResource.Cache
+c:\users\lucas\documents\visual studio 2012\Projects\Keylloger\Keylloger\obj\Debug\Keylloger.exe
+c:\users\lucas\documents\visual studio 2012\Projects\Keylloger\Keylloger\obj\Debug\Keylloger.pdb

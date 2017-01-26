@@ -1,0 +1,6 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\cria_admin\cria_admin\bin\Debug\cria_admin.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\cria_admin\cria_admin\bin\Debug\cria_admin.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\cria_admin\cria_admin\bin\Debug\cria_admin.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\cria_admin\cria_admin\obj\Debug\cria_admin.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\cria_admin\cria_admin\obj\Debug\cria_admin.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\cria_admin\cria_admin\obj\Debug\cria_admin.pdb

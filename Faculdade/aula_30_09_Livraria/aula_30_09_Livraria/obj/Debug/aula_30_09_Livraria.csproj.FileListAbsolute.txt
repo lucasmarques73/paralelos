@@ -1,0 +1,12 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_30_09_Livraria\aula_30_09_Livraria\bin\Debug\aula_30_09_Livraria.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_30_09_Livraria\aula_30_09_Livraria\bin\Debug\aula_30_09_Livraria.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_30_09_Livraria\aula_30_09_Livraria\bin\Debug\aula_30_09_Livraria.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_30_09_Livraria\aula_30_09_Livraria\obj\Debug\aula_30_09_Livraria.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_30_09_Livraria\aula_30_09_Livraria\obj\Debug\aula_30_09_Livraria.Editora.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_30_09_Livraria\aula_30_09_Livraria\obj\Debug\aula_30_09_Livraria.Livraria.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_30_09_Livraria\aula_30_09_Livraria\obj\Debug\aula_30_09_Livraria.Genero.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_30_09_Livraria\aula_30_09_Livraria\obj\Debug\aula_30_09_Livraria.Livro.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_30_09_Livraria\aula_30_09_Livraria\obj\Debug\aula_30_09_Livraria.Properties.Resources.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_30_09_Livraria\aula_30_09_Livraria\obj\Debug\aula_30_09_Livraria.csproj.GenerateResource.Cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_30_09_Livraria\aula_30_09_Livraria\obj\Debug\aula_30_09_Livraria.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_30_09_Livraria\aula_30_09_Livraria\obj\Debug\aula_30_09_Livraria.pdb

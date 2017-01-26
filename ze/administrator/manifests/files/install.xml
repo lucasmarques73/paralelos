@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $HeadURL: https://joomgallery.org/svn/joomgallery/JG-2.0/LF/trunk/pt-br.com_joomgallery/install.xml $  -->
+<!-- $Id: install.xml 3674 2012-03-04 13:34:00Z mab $  -->
+<extension version="1.7" type="file" client="both" method="upgrade">
+    <tag>pt-BR</tag>
+    <name>JoomGallery pt-BR</name>
+    <version>2.0</version>
+    <creationDate>2012-03-04</creationDate>
+    <author>JoomGallery::ProjectTeam</author>
+    <authorEmail>team@joomgallery.net</authorEmail>
+    <authorUrl>http://www.joomgallery.net/</authorUrl>
+    <copyright>Copyright (C) 2008 - 2012 JoomGallery::ProjectTeam. All rights reserved.</copyright>
+    <license>GNU General Public License</license>
+    <description><![CDATA[
+    <div align="center">
+      <table border="0" width="90%">
+        <tr>
+          <td width="100%" colspan="2">
+            <div align="center">
+              <h3>Brazilian Portuguese Translation for JoomGallery 2.0</h3>
+              <br /><strong>by: <a href="https://www.transifex.net/projects/p/joomgallery/language/pt_BR/" target="_blank">JoomGallery::TranslationTeam::Portuguese(Brazil)</a></strong>
+              <br />(based on a translation by: Joomla Brasil)
+            </div>
+            <hr />
+          </td>
+        </tr>
+        <tr>
+          <td width="22%"><u><strong>Translated areas:</strong></u></td>
+          <td width="80%">Administrator (Backend) and Website (Frontend) excl. EXIF- and IPTC-Tags</td>
+        </tr>
+        <tr>
+          <td width="22%"><u><strong>Translation version:</strong></u></td>
+          <td width="80%">2.0</td>
+        </tr>
+        <td width="100%" colspan="2"><hr /></td>
+        <tr>
+          <td width="22%"><u><strong>JoomGallery-Website:</strong></u></td>
+          <td width="80%"><a href="http://www.en.joomgallery.net" target="_blank">http://www.en.joomgallery.net</a></td>
+        </tr>
+        </tr>
+        <td width="100%" colspan="2"><hr /></td>
+        <tr>
+      </table>
+    </div>]]></description>
+    <fileset>
+      <files folder="site" target="language/pt-BR">
+        <filename>pt-BR.com_joomgallery.exif.ini</filename>
+        <filename>pt-BR.com_joomgallery.ini</filename>
+        <filename>pt-BR.com_joomgallery.iptc.ini</filename>
+      </files>
+      <files folder="admin" target="administrator/language/pt-BR">
+        <filename>pt-BR.com_joomgallery.ini</filename>
+        <filename>pt-BR.com_joomgallery.sys.ini</filename>
+      </files>
+    </fileset>
+</extension>

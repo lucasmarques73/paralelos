@@ -1,0 +1,10 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\AvalViagem\AvalViagem\bin\Debug\AvalViagem.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\AvalViagem\AvalViagem\obj\Debug\AvalViagem.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\AvalViagem\AvalViagem\obj\Debug\AvalViagem.Form1.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\AvalViagem\AvalViagem\obj\Debug\AvalViagem.Form2.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\AvalViagem\AvalViagem\obj\Debug\AvalViagem.Properties.Resources.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\AvalViagem\AvalViagem\obj\Debug\AvalViagem.csproj.GenerateResource.Cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\AvalViagem\AvalViagem\bin\Debug\AvalViagem.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\AvalViagem\AvalViagem\bin\Debug\AvalViagem.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\AvalViagem\AvalViagem\obj\Debug\AvalViagem.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\AvalViagem\AvalViagem\obj\Debug\AvalViagem.pdb

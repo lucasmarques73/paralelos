@@ -1,0 +1,16 @@
+Atividade 6 - Exercício com Select, Update, Insert e Delete (Segunda Lista)
+(Atividade Individual)
+ Início: 25/08/2014      Término: 31/10/2014
+Criar as seguintes consultas:
+
+1. selecionar todos os filmes que possuem rating maior que 8, exibindo o nome do filme e o rating, ordenados por rating em ordem descendente
+2. selecionar todos os filmes da categoria comédia, com rating maior que 8 e que tenham como país EUA, exibindo o nome do filme sua categoria e ordenando pelo nome da categoria
+3. selecionar os 10 filmes mais longos cadastrados (com o maior campo length), exibindo o nome do filme e a duração dele (convertendo o campo para horas e minutos), ordenando pelo filme mais longo
+4. selecionar todos os filmes do país Brasil, exibindo o nome do filme, o tamanho (length) e ano (year), ordenando pelo nome do filme
+5. inserir mais 10 registros na tabela de filmes preenchendo no minimo os campos nome do filme, data de inclusao, num, pais e categoria
+6. montar uma consulta que insira na tabela de filmes a selecao de todos os filmes que foram cadastrados na categoria comédia
+7. altere o campo mediatype para "k7" de todos os filmes que possuem como país Brasil
+8. altere o filme de código (num) igual a 100 para a categoria 10
+9. exclua todos os filmes que possuem a categoria documentario
+10. exclua todos os filmes que foram cadastrados antes de 1/1/2007
+11. exclua todos os filmes onde o campo país esteja em branco (seja null)

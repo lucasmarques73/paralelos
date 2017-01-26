@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PaginaMestre.master.cs" Inherits="ExemploMasterPage.PaginaMestre" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="topo">
+            <img src="imagens/topo_home.jpg" style="height: 87px; width: 913px" />
+        </div>
+        <div id="menu">
+            <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+                <Items>
+                    <asp:MenuItem NavigateUrl="~/inicio.aspx" Text="Início" Value="Início"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/cadastro.aspx" Text="Cadastro" Value="Cadastro"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/sobre.aspx" Text="Sobre" Value="Sobre"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="http://www.uemg.br" Target="_blank" Text="UEMG" Value="UEMG"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="http://www.google.com.br" Target="_blank" Text="Google" Value="Google"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="http://www.uol.com.br" Text="UOL" ToolTip="Ir para o site da UOL" Value="UOL"></asp:MenuItem>
+                </Items>
+            </asp:Menu>
+        </div>
+        <div id="conteudo">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="rodape">
+            <center>
+                Desenvolvido por: FRP Soluções
+            </center>
+
+        </div>
+    </form>
+</body>
+</html>

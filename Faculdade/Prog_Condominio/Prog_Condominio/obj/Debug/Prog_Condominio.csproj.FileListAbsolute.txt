@@ -1,0 +1,6 @@
+c:\users\lucas\documents\visual studio 2012\Projects\Prog_Condominio\Prog_Condominio\bin\Debug\Prog_Condominio.exe.config
+c:\users\lucas\documents\visual studio 2012\Projects\Prog_Condominio\Prog_Condominio\bin\Debug\Prog_Condominio.exe
+c:\users\lucas\documents\visual studio 2012\Projects\Prog_Condominio\Prog_Condominio\bin\Debug\Prog_Condominio.pdb
+c:\users\lucas\documents\visual studio 2012\Projects\Prog_Condominio\Prog_Condominio\obj\Debug\Prog_Condominio.csprojResolveAssemblyReference.cache
+c:\users\lucas\documents\visual studio 2012\Projects\Prog_Condominio\Prog_Condominio\obj\Debug\Prog_Condominio.exe
+c:\users\lucas\documents\visual studio 2012\Projects\Prog_Condominio\Prog_Condominio\obj\Debug\Prog_Condominio.pdb

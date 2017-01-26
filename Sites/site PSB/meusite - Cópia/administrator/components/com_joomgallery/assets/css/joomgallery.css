@@ -1,0 +1,184 @@
+/* $HeadURL: https://joomgallery.org/svn/joomgallery/JG-1.5/JG/trunk/administrator/components/com_joomgallery/assets/css/joomgallery.css $*/
+/* $Id: joomgallery.css 2566 2010-11-03 21:10:42Z mab $*/
+/****************************************************************************************\
+**   JoomGallery  1.5.6                                                                 **
+**   By: JoomGallery::ProjectTeam                                                       **
+**   Copyright (C) 2008 - 2010  JoomGallery::ProjectTeam                                **
+**   Based on: JoomGallery 1.0.0 by JoomGallery::ProjectTeam                            **
+**   Released under GNU GPL Public License                                              **
+**   License: http://www.gnu.org/copyleft/gpl.html or have a look                       **
+**   at administrator/components/com_joomgallery/LICENSE.TXT                            **
+\****************************************************************************************/
+
+/**
+ * Joomgallery Admin CSS styles
+ **/
+
+.icon-48-joom{
+  background:transparent url(../images/joom_logo.png) no-repeat scroll left center;
+}
+
+.joom_cpanel img {
+  padding:21px 0px !important;
+}
+
+.jg-system-uptodate{
+  text-align:center;
+  color:#008000;
+  font-weight:bold;
+}
+
+.jg-floatleft {
+  float:left;
+}
+.jg-floatright{
+  float:right;
+}
+.jg-floatnone{
+  float:none;
+}
+.jg_clearboth{
+  clear: both;
+}
+.jg_displaynone{
+  display:none;
+}
+
+.jg-poweredby {
+  border:#666 solid 1px;
+  padding:0.2em;
+}
+
+#joomgallery-pane  .panel {
+  margin: 0px auto 3px auto;
+  width: 500px;
+}
+
+#joomgallery-pane .pagination div.limit{
+  float:none;
+  margin: 5px 10px 10px 10px;
+}
+#joomgallery-pane .pagination div.pageslinks{
+  text-align:center;
+}
+
+/* minis */
+.jg_header{
+  text-align:center;
+  font-weight:bold;
+  /*margin:10px 0px;*/
+}
+.minigallery .sectiontableheader{
+  margin-bottom:5px;
+  width:502px;
+  margin-left:auto;
+  margin-right:auto;
+}
+/* Joom Plugin */
+.jg_bu_extended_options{
+  text-align:center;
+  padding:10px;
+  margin-right:auto;
+  margin-left:auto;
+  width:500px;
+}
+.jg_bu_extended_option_left{
+  margin-right:20px;
+}
+.jg_bu_extended_option_middle{
+  margin:0px 20px;
+}
+.jg_bu_extended_option_right{
+  margin-left:20px;
+}
+.jg_bu_search{
+  padding:0px;
+  text-align:center;
+}
+.jg_bu_filter{
+  margin:12px 0px;
+}
+.jg_bu_minis{
+  margin:3px auto 0px;
+  border:solid 1px black;
+  width:500px;
+  overflow:hidden;
+}
+.jg_bu_mini{
+  float:left;
+  padding:5px;
+}
+.jg_bu_no_mini{
+  width:40px;
+  text-align:center;
+  font-size:90%;
+  line-height:13px;
+}
+.jg_bu_no_images{
+  text-align:center;
+  padding:10px;
+}
+.jg_bu_option_key{
+  float:left;
+  width:33%;
+  margin: 5px 0px;
+  text-align:right;
+  padding-right:10px;
+}
+.jg_bu_option_value{
+  margin: 5px 0px;
+  text-align:left;
+}
+.jg_overlib .jg_title{
+  font-weight:bold;
+}
+.jg_overlib .jg_catname{
+  margin-left:5px;
+}
+#system-message dd ul{
+  padding:10px;
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+}
+#system-message dt.notice{
+  display:none;
+}
+#system-message dd{
+  margin:0px;
+  font-weight:bold;
+  text-indent:30px;
+}
+
+ul.jg-message{
+  border-bottom:3px solid #84A7DB;
+  border-top:3px solid #84A7DB;
+  color:#0055BB;
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+  margin-bottom:10px;
+  padding:10px;
+  background:#C3D2E5;
+  font-weight:bold;
+}
+
+.jg_uprow {
+  overflow:hidden;
+  padding-top:0.7em;
+}
+.jg_uptext {
+  float:left;
+  text-align:right;
+  padding-right:0.9em;
+  width:25%;
+}
+
+.jg-slider {
+  border:1px solid #CCCCCC;
+  background-color:#F6F6F6;
+}
+
+.jg_uploadform {
+  padding:10px;
+}

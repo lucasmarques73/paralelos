@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/module-install.dtd">
+<install type="module" version="1.5.0">
+	<name>J!Fácil INDIQUE</name>
+	<author>JOOMLAFACIL</author>
+	<creationDate>22 DE AGOSTO 2009</creationDate>
+    <copyright>
+		JOOMLAFACIL
+	</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>marcio@joomlafacil.com.br</authorEmail>
+	<authorUrl>www.joomlafacil.com.br</authorUrl>
+	<version>1.0</version>
+	<description>JF_INDIQUE foi traduzido e adaptado por JoomlaFacil http://www.joomlafacil.com.br.
+	
+    </description>
+	<files>
+		<filename module="mod_JF_INDIQUE">mod_JF_INDIQUE.php</filename>
+                <filename>JF_INDIQUE.htm</filename>
+                <filename>JF_INDIQUE.php</filename>
+                <filename>JF_OBRIGADO.htm</filename>
+   	</files>
+	
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+		<param name="text" type="textarea" cols="40" rows="5" default="" label="Introduction text" description="Enter some instructions here."></param>
+
+	</params>
+</install>

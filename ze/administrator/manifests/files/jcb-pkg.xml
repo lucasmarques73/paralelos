@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="file" version="2.5" method="upgrade">
+   <name>Pacote de Alterações JoomlaClube</name>
+   <version>2.5.6.3</version>
+   <creationDate>2012-09-07</creationDate>
+   <author>JoomlaClube do Brasil</author>
+   <authorEmail>site@joomlaclube.com.br</authorEmail>
+   <authorUrl>www.joomlaclube.com.br</authorUrl>
+   <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+   <copyright>(C) 2006 - 2012 Comunidade JoomlaClube do Brasil</copyright>
+   <description><![CDATA[
+			<center>
+				<a href="http://www.joomlaclube.com.br" target="_blank">
+				<img src="../administrator/templates/bluestork/jcb_logo1.png"  alt="JoomlaClube do Brasil" />
+				</a>
+				<br>
+				<br>
+				Pacote de Alterações/Otimizações da JoomlaClube
+				<br/>
+				Desde 2006 - 2012 JoomlaClube do Brasil.
+				<br/>
+				<br/>				
+				Obrigado por escolher a JoomlaClube     
+			</center>
+        ]]>
+   </description>
+   <!-- Fileset definition -->
+   <fileset>
+      <files target="administrator/templates">
+         <filename>bluestork/index.php</filename>
+		 <filename>bluestork/cpanel.php</filename>
+		 <filename>bluestork/login.php</filename>
+		 <filename>bluestork/jcb_logo1.png</filename>
+		 <filename>bluestork/images/logo.png</filename>
+		 <filename>bluestork/images/j_login_lock.png</filename>
+      </files>
+   </fileset>
+   <updateservers>
+        <server type="collection" priority="1" name="pt-BR Language Updates">http://joomlaclube.com.br/update/jcball.xml</server>
+    </updateservers>
+</extension>

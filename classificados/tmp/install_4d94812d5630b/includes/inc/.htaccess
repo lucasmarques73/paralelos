@@ -1,0 +1,19 @@
+# @version $Id: .htaccess 4363 2008-08-29 10:52:23Z Radek Suski $
+# @package: Sigsiu Online Business Index 2
+# ===================================================
+# @author
+# Name: Sigrid & Radek Suski, Sigsiu.NET
+# Email: sobi@sigsiu.net
+# Url: http://www.sigsiu.net
+# ===================================================
+# @copyright Copyright (C) 2007 Sigsiu.NET (http://www.sigsiu.net). All rights reserved.
+# @license see http://www.gnu.org/licenses/lgpl.html GNU/LGPL.
+# You can use, redistribute this file and/or modify
+# it under the terms of the GNU Lesser General Public License as published by
+# the Free Software Foundation.
+
+<Files *>
+		 Order Deny,Allow
+		 Deny from all
+		 Allow from localhost
+</Files>

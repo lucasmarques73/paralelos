@@ -1,0 +1,18 @@
+C:\Users\Public\Professor\vania\ProjLocadoraTabajara\ProjLocadoraTabajara\bin\Debug\ProjLocadoraTabajara.exe.config
+C:\Users\Public\Professor\vania\ProjLocadoraTabajara\ProjLocadoraTabajara\bin\Debug\ProjLocadoraTabajara.exe
+C:\Users\Public\Professor\vania\ProjLocadoraTabajara\ProjLocadoraTabajara\bin\Debug\ProjLocadoraTabajara.pdb
+C:\Users\Public\Professor\vania\ProjLocadoraTabajara\ProjLocadoraTabajara\obj\Debug\ProjLocadoraTabajara.csprojResolveAssemblyReference.cache
+C:\Users\Public\Professor\vania\ProjLocadoraTabajara\ProjLocadoraTabajara\obj\Debug\ProjLocadoraTabajara.Form1.resources
+C:\Users\Public\Professor\vania\ProjLocadoraTabajara\ProjLocadoraTabajara\obj\Debug\ProjLocadoraTabajara.Properties.Resources.resources
+C:\Users\Public\Professor\vania\ProjLocadoraTabajara\ProjLocadoraTabajara\obj\Debug\ProjLocadoraTabajara.csproj.GenerateResource.Cache
+C:\Users\Public\Professor\vania\ProjLocadoraTabajara\ProjLocadoraTabajara\obj\Debug\ProjLocadoraTabajara.exe
+C:\Users\Public\Professor\vania\ProjLocadoraTabajara\ProjLocadoraTabajara\obj\Debug\ProjLocadoraTabajara.pdb
+E:\Lucas_Marques16\Técnicas de Programação I\ProjLocadoraTabajara\ProjLocadoraTabajara\bin\Debug\ProjLocadoraTabajara.exe.config
+E:\Lucas_Marques16\Técnicas de Programação I\ProjLocadoraTabajara\ProjLocadoraTabajara\obj\Debug\ProjLocadoraTabajara.exe
+E:\Lucas_Marques16\Técnicas de Programação I\ProjLocadoraTabajara\ProjLocadoraTabajara\obj\Debug\ProjLocadoraTabajara.pdb
+E:\Lucas_Marques16\Técnicas de Programação I\ProjLocadoraTabajara\ProjLocadoraTabajara\bin\Debug\ProjLocadoraTabajara.exe
+E:\Lucas_Marques16\Técnicas de Programação I\ProjLocadoraTabajara\ProjLocadoraTabajara\bin\Debug\ProjLocadoraTabajara.pdb
+E:\Lucas_Marques16\Técnicas de Programação I\ProjLocadoraTabajara\ProjLocadoraTabajara\obj\Debug\ProjLocadoraTabajara.csprojResolveAssemblyReference.cache
+E:\Lucas_Marques16\Técnicas de Programação I\ProjLocadoraTabajara\ProjLocadoraTabajara\obj\Debug\ProjLocadoraTabajara.Form1.resources
+E:\Lucas_Marques16\Técnicas de Programação I\ProjLocadoraTabajara\ProjLocadoraTabajara\obj\Debug\ProjLocadoraTabajara.Properties.Resources.resources
+E:\Lucas_Marques16\Técnicas de Programação I\ProjLocadoraTabajara\ProjLocadoraTabajara\obj\Debug\ProjLocadoraTabajara.csproj.GenerateResource.Cache

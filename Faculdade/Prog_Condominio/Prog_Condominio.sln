@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prog_Condominio", "Prog_Condominio\Prog_Condominio.csproj", "{AFF3FECD-ED59-4314-9A13-9BAADC2071CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFF3FECD-ED59-4314-9A13-9BAADC2071CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFF3FECD-ED59-4314-9A13-9BAADC2071CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFF3FECD-ED59-4314-9A13-9BAADC2071CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFF3FECD-ED59-4314-9A13-9BAADC2071CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

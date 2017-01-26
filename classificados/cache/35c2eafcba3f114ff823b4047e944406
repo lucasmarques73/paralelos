@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF8"?>
+<rss version="2.0">
+	<channel>
+		<title>Sigsiu.NET - Download Directory for Sobi2 - Modules</title>
+		<description> Modules for Sobi2. 
+Standard Joomla! modules to enhance the possibilities of Sobi2.</description>
+		<image>
+			<title>Sigsiu.NET - Download Directory for Sobi2 - Modules</title>
+			<url>http://www.sigsiu.net/images/stories/package.png</url>
+			<link>http://www.sigsiu.net/download/modules/</link>
+		</image>
+		<link>http://www.sigsiu.net/download/modules/</link>
+		<lastBuildDate>Thu, 31 Mar 2011 15:28:42 +0200</lastBuildDate>
+		<generator>Sigsiu Online Business Index 2 FeedCreator</generator>
+		<item>
+			<title>User List Module</title>
+			<link>http://www.sigsiu.net/download/modules/user_list_module.html</link>
+			<description>This module provides the logged in Sobi2 user with a list of his/her
+entry details. 
+ 
+Description of module 
+The module displays user specific entry informations, like entry ID,
+entry title (with link to details view), entry status (published,
+expired or unpublished/unapproved), number of hits, date of creation,
+number of days until expiration and the amount of payment associated
+with each entry (except expired entries). The module can be configured
+also to display &quot;Delete&quot; and &quot;Edit&quot; buttons, as well as a &quot;Renew&quot; link
+(visible when the entry is about to expire, or has expired). The module
+also has a pagination option (jQuery). 
+ 
+Installation 
+A detailed installation procedure is provided in the module back end.</description>
+			<pubDate>Wed, 09 Feb 2011 09:26:50 +0100</pubDate>
+		</item>
+		<item>
+			<title>Simple Featured Entries Module (Joomla 1.5.x)</title>
+			<link>http://www.sigsiu.net/download/modules/simple_featured_entries_module_joomla_1.5.x.html</link>
+			<description> SOBI2 Entries are selected by specifying SOBI2 Entry Selection criteria in the Module Parameters. The SOBI2 Entry Selection criteria is used to select those SOBI2 Entries where a user-specified SOBI2 Custom Field content match a user-specified Value.
+
+ If no matching Entries are found, no module content is displayed. 
+For each Entry selected, the SOBI2 standard fields 'Title', 'Icon', 'Image', 'Hits' can optionally be displayed together with an unlimited number of user-specified Custom Field data values, and an optional link to each Entry 'Details' View.
+
+ This Module is highly flexible. For basic operation only 2 Parameters need to be specified in the Module configuration, but over 50 other Parameters are available to further customize SOBI2 Entry selection and Module display.</description>
+			<pubDate>Fri, 04 Sep 2009 09:39:12 +0200</pubDate>
+		</item>
+		<item>
+			<title>Ads Scroller Module</title>
+			<link>http://www.sigsiu.net/download/modules/ads_scroller_module.html</link>
+			<description> This Ads Scroller displays the ads from SOBI2 database in user defined way. 
+So user can select the behavior (scroll, slide, alternate), Ads displaying order (newest, oldest, random). 
+Module CSS can be overwritten also. 
+It is based on VirtueMart product scroller module.</description>
+			<pubDate>Sat, 14 Mar 2009 11:43:27 +0100</pubDate>
+		</item>
+		<item>
+			<title>Alpha Index Module</title>
+			<link>http://www.sigsiu.net/download/modules/alpha_index_module.html</link>
+			<description> A module to show an alpha index for SOBI2 in a module position.</description>
+			<pubDate>Sat, 14 Mar 2009 11:23:29 +0100</pubDate>
+		</item>
+		<item>
+			<title>Latest Reviews Module</title>
+			<link>http://www.sigsiu.net/download/modules/latest_reviews_module.html</link>
+			<description> Latest reviews module.
+ A module to show the latest reviewed entries in the SOBI2 directory
+
+ The module has various settings to change the appearance and behavior of the module. Use CSS definitions to add further styling.</description>
+			<pubDate>Thu, 10 Sep 2009 10:12:54 +0200</pubDate>
+		</item>
+		<item>
+			<title>Search Module</title>
+			<link>http://www.sigsiu.net/download/modules/search_module.html</link>
+			<description> The search form of the Sobi2 search function will be shown in a module position. The base search settings of the Sobi2 fields as set up in the Fields Manager are considered. Additional module settings are available in the module settings area.   
+The module can be shown in vertical or horizontal orientation. The visibility of the module within Sobi2 can be controlled also as the shown fields for the search. 
+ 
+The search input box and the search phrase options can also be switched off, to change the module to a category chooser or field chooser module. 
+The category selection can be turned off. The category selection can be automatically preselected with the actual browsing category.  
+If the Radius Distance Search (RDS) Plugin is installed, the search parameters of the plugin are also shown in the module.</description>
+			<pubDate>Mon, 13 Dec 2010 18:18:01 +0100</pubDate>
+		</item>
+		<item>
+			<title>Simple Featured Entries Module (Joomla 1.0.x)</title>
+			<link>http://www.sigsiu.net/download/modules/simple_featured_entries%10listings_module.html</link>
+			<description> A simple Featured Entries Module to display SOBI2 Entries in a Module if a user-specified SOBI2 Custom Field for the Entry matches the 'Featured Entry Key' value specifed in the Module settings. If no matching Entries are found, no module content is displayed. The standard SOBI2 fields 'Title', 'Icon' and 'Image' can be displayed together with an unlimited number of user-specified Custom Field data values and an optional link to the Entry 'Detailed' View.
+
+ Module Features
+ * This Module does not create   or modify any SOBI2 or Joomla Database tables.
+ * This Module makes a minimum   of 2, maximum of 5, database queries every time the module is   output.
+   * The value of a   user-specified SOBI2 Custom Field is used to select which SOBI2 entries are   eligible for display by this Module.
+   * The maximum number of   'Featured' entries to be displayed is specified in the Module   configuration.
+   * User-specified Sort Order   of' Featured Entries' display - Random, Date Created, Title or User-specified   Custom Field.
+   * Optional display of the   standard SOBI2 fields 'Title', 'Icon' and 'Image'.
+   * Optional display of an   unlimited number of user-specified SOBI2 Custom Data fields. The order in which   the Custom Data fields are output is specified in the Module   configuration.
+   * Optional display of Custom   Data Field Labels.
+   * Optional linking of Title,   and/or Icon, and/or Image to the detailed view of each SOBI2 'featured'   entry.
+   * Optional display of a link,   with user-specified 'link text', to the detailed view of each SOBI2 'featured'   entry.
+   * Optional 'Category Filter'   - 'Featured Entries' displayed can be restricted to those 'Featured Entries'   that 'belong' to the category being displayed in the current SOBI2 'Category   View'.
+   * Module output is   'tableless', (data to be displayed is output in   's).
+   * Use user-specified styling   in site Template(s) to style module output.
+   * The Module can be copied to   enable SOBI2 entries with different user-specified SOBI2 entry selection   criteria to be displayed in different Module   positions.
+   * A user-specified Module   Class suffix allows user-specified CSS styling in the Site Template(s) for each   instance of the Module.
+   * The Module can be 'cloned'   to work with SOBI2 clones.</description>
+			<pubDate>Fri, 04 Sep 2009 09:18:33 +0200</pubDate>
+		</item>
+		<item>
+			<title>Top Rated Module</title>
+			<link>http://www.sigsiu.net/download/modules/top_rated_module.html</link>
+			<description> Top Rated Module for Reviews   Ratings Plugin
+ The module has various settings to change the appearance and behavior of the module. Use CSS definitions to add further styling.</description>
+			<pubDate>Wed, 18 Nov 2009 15:04:26 +0100</pubDate>
+		</item>
+		<item>
+			<title>Most Reviews Module</title>
+			<link>http://www.sigsiu.net/download/modules/most_reviewed_module.html</link>
+			<description> Most Reviews module for Reviews   Ratings Plugin.
+ The module has various settings to change the appearance and behavior of the module. Use CSS definitions to add further styling.</description>
+			<pubDate>Thu, 10 Sep 2009 10:13:24 +0200</pubDate>
+		</item>
+		<item>
+			<title>Geo Category Overview Module</title>
+			<link>http://www.sigsiu.net/download/modules/geo_category_overview.html</link>
+			<description> The Sobi2 Geo Category Overview Module shows a Google Map with markers of the Sobi2 entries. 
+
+
+ Use this Joomla! module to show a Google map with markers of the Sobi2 entries on your site. In the category views only the markers of the entries in the corresponding category are shown - on all other Sobi2 pages all entries are shown.In empty categories or in categories with entries without geographical coordinates an empty map is shown (adjustable).
+
+Show the Google Map also on non Sobi2 pages. It is individually adaptable through various settings in the module administration.
+
+Create your own template for the bubble shown on the map. Show additional information like the address or an image of your entry in the bubble.
+
+Bored by the standard marker? Use an individual marker image for the whole map or even different individual marker images for each category.
+
+Various additional settings are available in the module administration to change the size of the map and to adapt the map control buttons, the zoom level and the map type to your Internet site. For each category, different zoom and center point coordinates can be entered. Also the zoom level and center points can be determined automatically depending on the shown entries.
+
+If you have a lot of entries in a category, the server and browser load increases. Therefore the module has the possibility to limit the number of shown markers. The shown markers are chosen randomly.</description>
+			<pubDate>Thu, 28 Oct 2010 19:07:43 +0200</pubDate>
+		</item>
+	</channel>
+</rss>

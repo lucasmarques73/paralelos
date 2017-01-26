@@ -1,0 +1,16 @@
+PROCEDURES DO BANCO DE TESTE "LOCALSTORAGE"
+
+
+BEGIN
+   UPDATE usuarios SET nome = name, login = user, senha = pass WHERE id = idUser;
+       
+       SELECT * FROM usuarios WHERE id = idUser;
+       
+END
+BEGIN 
+
+INSERT INTO usuarios (id, nome, login, senha) VALUES (NULL,name , user , pass);
+
+SELECT * FROM usuarios ORDER BY id DESC LIMIT 1;
+
+END

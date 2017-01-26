@@ -1,0 +1,14 @@
+Atividade 1 - Banco de Dados Maratona 
+(Atividade em grupo de 2 alunos)
+ Início: 25/08/2014      Término: 27/08/2014
+criar um banco de dados para controlar uma maratona de bicicletas que será promovido por uma empresa seguindo as questões:
+
+1. preciso de uma tabela para armazenar os nomes dos participantes, número de documento, com a idade, a categoria e o número que o atleta irá utilizar no dia da corrida
+
+2. cada participante será classificado em uma categoria, gostaria de ter uma tabela para armazenar as categorias possíveis junto com a idade inicial e final que cada categoria aceita
+
+3. preciso de uma tabela para armazenar a data e hora de chegada de cada participante no dia da corrida
+
+4. preciso de uma consulta que, no final, me mostre por categoria o nome do atleta vencedor com o seu tempo (registrado na tabela de chegadas)
+
+trabalho pode ser realizado em dupla

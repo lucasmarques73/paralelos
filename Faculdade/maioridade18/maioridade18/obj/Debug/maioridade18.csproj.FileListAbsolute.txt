@@ -1,0 +1,5 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\maioridade18\maioridade18\bin\Debug\maioridade18.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\maioridade18\maioridade18\bin\Debug\maioridade18.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\maioridade18\maioridade18\bin\Debug\maioridade18.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\maioridade18\maioridade18\obj\Debug\maioridade18.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\maioridade18\maioridade18\obj\Debug\maioridade18.pdb

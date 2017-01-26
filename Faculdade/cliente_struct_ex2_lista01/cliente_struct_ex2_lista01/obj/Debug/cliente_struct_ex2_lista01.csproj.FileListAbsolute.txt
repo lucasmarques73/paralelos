@@ -1,0 +1,6 @@
+c:\users\lucas\documents\visual studio 2012\Projects\cliente_struct_ex2_lista01\cliente_struct_ex2_lista01\bin\Debug\cliente_struct_ex2_lista01.exe.config
+C:\Users\Lucas\documents\visual studio 2012\Projects\cliente_struct_ex2_lista01\cliente_struct_ex2_lista01\obj\Debug\cliente_struct_ex2_lista01.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\documents\visual studio 2012\Projects\cliente_struct_ex2_lista01\cliente_struct_ex2_lista01\bin\Debug\cliente_struct_ex2_lista01.exe
+C:\Users\Lucas\documents\visual studio 2012\Projects\cliente_struct_ex2_lista01\cliente_struct_ex2_lista01\bin\Debug\cliente_struct_ex2_lista01.pdb
+C:\Users\Lucas\documents\visual studio 2012\Projects\cliente_struct_ex2_lista01\cliente_struct_ex2_lista01\obj\Debug\cliente_struct_ex2_lista01.exe
+C:\Users\Lucas\documents\visual studio 2012\Projects\cliente_struct_ex2_lista01\cliente_struct_ex2_lista01\obj\Debug\cliente_struct_ex2_lista01.pdb

@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\credito banco exercicio 9\credito banco exercicio 9\bin\Debug\credito banco exercicio 9.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\credito banco exercicio 9\credito banco exercicio 9\bin\Debug\credito banco exercicio 9.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\credito banco exercicio 9\credito banco exercicio 9\bin\Debug\credito banco exercicio 9.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\credito banco exercicio 9\credito banco exercicio 9\obj\Debug\credito banco exercicio 9.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\credito banco exercicio 9\credito banco exercicio 9\obj\Debug\credito banco exercicio 9.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\credito banco exercicio 9\credito banco exercicio 9\obj\Debug\credito banco exercicio 9.pdb

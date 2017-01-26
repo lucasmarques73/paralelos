@@ -1,0 +1,11 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\tbMensagem\tbMensagem\bin\Debug\tbMensagem.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\tbMensagem\tbMensagem\bin\Debug\tbMensagem.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\tbMensagem\tbMensagem\bin\Debug\tbMensagem.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\tbMensagem\tbMensagem\obj\Debug\tbMensagem.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\tbMensagem\tbMensagem\obj\Debug\tbMensagem.cadPessoa.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\tbMensagem\tbMensagem\obj\Debug\tbMensagem.Form1.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\tbMensagem\tbMensagem\obj\Debug\tbMensagem.Mensagem.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\tbMensagem\tbMensagem\obj\Debug\tbMensagem.Properties.Resources.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\tbMensagem\tbMensagem\obj\Debug\tbMensagem.csproj.GenerateResource.Cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\tbMensagem\tbMensagem\obj\Debug\tbMensagem.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\tbMensagem\tbMensagem\obj\Debug\tbMensagem.pdb

@@ -1,0 +1,6 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\valida_data\valida_data\bin\Debug\valida_data.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\valida_data\valida_data\bin\Debug\valida_data.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\valida_data\valida_data\bin\Debug\valida_data.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\valida_data\valida_data\obj\Debug\valida_data.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\valida_data\valida_data\obj\Debug\valida_data.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\valida_data\valida_data\obj\Debug\valida_data.pdb

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0" method="upgrade">
+	<name>ccNewsletter</name>
+	<license>GNU General Public License v2, see LICENSE.php</license>
+	<author>Chill Creations</author>
+	<copyright>2008-2010 Chill Creations</copyright>
+	<creationDate>December 2010</creationDate>
+	<authorEmail>info@chillcreations.com</authorEmail>
+	<authorUrl>http://www.chillcreations.com</authorUrl>
+	<version>1.0.9</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>ccNewsletter is a free Joomla! 1.5 Native Open Source newsletter component. It is the easiest way to send newsletters to your users, fans or clients in Joomla! 1.5. You can be sending newsletters in just under 10 minutes from now!</description>
+
+	<!-- Site Main File Copy Section -->
+	<files>
+		<filename>index.html</filename>
+		<filename>ccnewsletter.php</filename>
+		<filename>controller.php</filename>
+		<folder>models</folder>
+		<folder>views</folder>
+		<folder>mod_ccnewsletter</folder>
+	</files>
+
+	<languages>
+		<language tag="en-GB">languages/english/site/en-GB.com_ccnewsletter.ini</language>
+		<language tag="ar-SY">languages/arabic/site/ar-SY.com_ccnewsletter.ini</language>
+		<language tag="zh-TW">languages/chinese/site/zh-TW.com_ccnewsletter.ini</language>
+		<language tag="da-DK">languages/danish/site/da-DK.com_ccnewsletter.ini</language>
+		<language tag="nl-NL">languages/dutch/site/nl-NL.com_ccnewsletter.ini</language>
+		<language tag="nl-NL">languages/dutch/site/nl-NL.mod_ccnewsletter.ini</language>
+		<language tag="fr-FR">languages/french/site/fr-FR.com_ccnewsletter.ini</language>
+		<language tag="de-DE">languages/german/site/de-DE.com_ccnewsletter.ini</language>
+		<language tag="hu-HU">languages/hungarian/site/hu-HU.com_ccnewsletter.ini</language>
+		<language tag="it-IT">languages/italian/site/it-IT.com_ccnewsletter.ini</language>
+		<language tag="nb-NO">languages/norwegian/site/nb-NO.com_ccnewsletter.ini</language>
+		<language tag="pl-PL">languages/polish/site/pl-PL.com_ccnewsletter.ini</language>
+		<language tag="ro-RO">languages/pomanian/site/ro-RO.com_ccnewsletter.ini</language>
+		<language tag="pt-BR">languages/portuguese/site/pt-BR.com_ccnewsletter.ini</language>
+		<language tag="ru-RU">languages/russian/site/ru-RU.com_ccnewsletter.ini</language>
+		<language tag="es-ES">languages/spanish/site/es-ES.com_ccnewsletter.ini</language>
+		<language tag="tr-TR">languages/turkish/site/tr-TR.com_ccnewsletter.ini</language>
+		<language tag="el-GR">languages/greek/site/el-GR.com_ccnewsletter.ini</language>
+		<language tag="sr-YU">languages/serbian/site/sr-YU.com_ccnewsletter.ini</language>
+	</languages>
+
+<install>
+	<sql>
+		<file driver="mysql" charset="utf8">install.sql</file>
+	</sql>
+</install>
+<uninstall>
+	<sql>
+		<file driver="mysql" charset="utf8">uninstall.sql</file>
+	</sql>
+</uninstall>
+
+<installfile>install.ccnewsletter.php</installfile>
+<uninstallfile>uninstall.ccnewsletter.php</uninstallfile>
+
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu img="components/com_ccnewsletter/assets/cc_icon_small.png" link="option=com_ccnewsletter">ccNewsletter</menu>
+		<submenu>
+         <menu  controller="sendNewsletter">Send Newsletter</menu>
+         <menu  controller="subscriber">Subscribers</menu>
+         <menu  controller="newsletter">Newsletters</menu>
+         <menu  controller="acknowledgement">Acknowledgement e-mail</menu>
+         <menu  controller="import">Import/Export</menu>
+      </submenu>
+
+		<!-- Administration Main File Copy Section -->
+		<files folder="admin">
+			<filename>index.html</filename>
+			<filename>admin.ccnewsletter.php</filename>
+			<filename>install.sql</filename>
+			<filename>uninstall.sql</filename>
+			<filename>config.xml</filename>
+
+			<folder>assets</folder>
+			<folder>controllers</folder>
+			<folder>models</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+			<folder>helper</folder>			
+			<folder>ccnewsletter</folder>
+		</files>
+		<languages>
+			<language tag="en-GB">languages/english/admin/en-GB.com_ccnewsletter.ini</language>
+			<language tag="ar-SY">languages/arabic/admin/ar-SY.com_ccnewsletter.ini</language>
+			<language tag="zh-TW">languages/chinese/admin/zh-TW.com_ccnewsletter.ini</language>
+			<language tag="zh-TW">languages/chinese/admin/zh-TW.com_ccnewsletter.menu.ini</language>
+			<language tag="da-DK">languages/danish/admin/da-DK.com_ccnewsletter.ini</language>
+			<language tag="nl-NL">languages/dutch/admin/nl-NL.com_ccnewsletter.ini</language>
+			<language tag="nl-NL">languages/dutch/admin/nl-NL.com_ccnewsletter.menu.ini</language>
+			<language tag="fr-FR">languages/french/admin/fr-FR.com_ccnewsletter.ini</language>
+			<language tag="de-DE">languages/german/admin/de-DE.com_ccnewsletter.ini</language>
+			<language tag="hu-HU">languages/hungarian/admin/hu-HU.com_ccnewsletter.ini</language>
+			<language tag="it-IT">languages/italian/admin/it-IT.com_ccnewsletter.ini</language>
+			<language tag="nb-NO">languages/norwegian/admin/nb-NO.com_ccnewsletter.ini</language>
+			<language tag="pl-PL">languages/polish/admin/pl-PL.com_ccnewsletter.ini</language>
+			<language tag="ro-RO">languages/pomanian/admin/ro-RO.com_ccnewsletter.ini</language>
+			<language tag="pt-BR">languages/portuguese/admin/pt-BR.com_ccnewsletter.ini</language>
+			<language tag="ru-RU">languages/russian/admin/ru-RU.com_ccnewsletter.ini</language>
+			<language tag="es-ES">languages/spanish/admin/es-ES.com_ccnewsletter.ini</language>
+			<language tag="tr-TR">languages/turkish/admin/tr-TR.com_ccnewsletter.ini</language>	
+			<language tag="el-GR">languages/greek/admin/el-GR.com_ccnewsletter.ini</language>
+			<language tag="sr-YU">languages/serbian/admin/sr-YU.com_ccnewsletter.ini</language>				
+		</languages>
+	</administration>
+</install>
+

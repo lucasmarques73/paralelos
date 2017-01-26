@@ -1,0 +1,26 @@
+C:\Documents and Settings\Wellington Balbo\Meus documentos\Visual Studio 2008\Projects\CadastrodeClientes\CadastrodeClientes\bin\Debug\CadastrodeClientes.exe
+C:\Documents and Settings\Wellington Balbo\Meus documentos\Visual Studio 2008\Projects\CadastrodeClientes\CadastrodeClientes\bin\Debug\CadastrodeClientes.pdb
+C:\Documents and Settings\Wellington Balbo\Meus documentos\Visual Studio 2008\Projects\CadastrodeClientes\CadastrodeClientes\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Wellington Balbo\Meus documentos\Visual Studio 2008\Projects\CadastrodeClientes\CadastrodeClientes\obj\Debug\CadastrodeClientes.Properties.Resources.resources
+C:\Documents and Settings\Wellington Balbo\Meus documentos\Visual Studio 2008\Projects\CadastrodeClientes\CadastrodeClientes\obj\Debug\CadastrodeClientes.csproj.GenerateResource.Cache
+C:\Documents and Settings\Wellington Balbo\Meus documentos\Visual Studio 2008\Projects\CadastrodeClientes\CadastrodeClientes\obj\Debug\CadastrodeClientes.exe
+C:\Documents and Settings\Wellington Balbo\Meus documentos\Visual Studio 2008\Projects\CadastrodeClientes\CadastrodeClientes\obj\Debug\CadastrodeClientes.pdb
+C:\Documents and Settings\Wellington Balbo\Meus documentos\Visual Studio 2008\Projects\CadastrodeClientes\CadastrodeClientes\obj\Debug\CadastrodeClientes.CadastrodeClientes.resources
+C:\Documents and Settings\Wellington Balbo\Meus documentos\Visual Studio 2008\Projects\CadastrodeClientes\CadastrodeClientes\obj\Debug\CadastrodeClientes.VerCadastros.resources
+C:\Documents and Settings\Wellington Balbo\Meus documentos\Visual Studio 2008\Projects\CadastrodeClientes\CadastrodeClientes\bin\Debug\CadastrodeClientes.exe.config
+C:\Users\Wellington\Documents\Visual Studio 2008\Projects\CadastrodeClientes\CadastrodeClientes\bin\Debug\CadastrodeClientes.exe.config
+C:\Users\Wellington\Documents\Visual Studio 2008\Projects\CadastrodeClientes\CadastrodeClientes\obj\Debug\CadastrodeClientes.exe
+C:\Users\Wellington\Documents\Visual Studio 2008\Projects\CadastrodeClientes\CadastrodeClientes\obj\Debug\CadastrodeClientes.pdb
+C:\Users\Wellington\Documents\Visual Studio 2008\Projects\Artigos\CadastrodeClientes\CadastrodeClientes\bin\Debug\CadastrodeClientes.exe.config
+C:\Users\Wellington\Documents\Visual Studio 2008\Projects\Artigos\CadastrodeClientes\CadastrodeClientes\obj\Debug\CadastrodeClientes.exe
+C:\Users\Wellington\Documents\Visual Studio 2008\Projects\Artigos\CadastrodeClientes\CadastrodeClientes\obj\Debug\CadastrodeClientes.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\CadastrodeClientes\CadastrodeClientes\bin\Debug\CadastrodeClientes.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\CadastrodeClientes\CadastrodeClientes\obj\Debug\CadastrodeClientes.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\CadastrodeClientes\CadastrodeClientes\obj\Debug\CadastrodeClientes.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\CadastrodeClientes\CadastrodeClientes\bin\Debug\CadastrodeClientes.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\CadastrodeClientes\CadastrodeClientes\bin\Debug\CadastrodeClientes.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\CadastrodeClientes\CadastrodeClientes\obj\Debug\CadastrodeClientes.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\CadastrodeClientes\CadastrodeClientes\obj\Debug\CadastrodeClientes.CadastrodeClientes.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\CadastrodeClientes\CadastrodeClientes\obj\Debug\CadastrodeClientes.Properties.Resources.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\CadastrodeClientes\CadastrodeClientes\obj\Debug\CadastrodeClientes.VerCadastros.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\CadastrodeClientes\CadastrodeClientes\obj\Debug\CadastrodeClientes.csproj.GenerateResource.Cache

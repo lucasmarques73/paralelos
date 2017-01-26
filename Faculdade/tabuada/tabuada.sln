@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tabuada", "tabuada\tabuada.csproj", "{CBD7CDDB-70EB-455E-B551-020E2F4B355E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBD7CDDB-70EB-455E-B551-020E2F4B355E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBD7CDDB-70EB-455E-B551-020E2F4B355E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBD7CDDB-70EB-455E-B551-020E2F4B355E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBD7CDDB-70EB-455E-B551-020E2F4B355E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

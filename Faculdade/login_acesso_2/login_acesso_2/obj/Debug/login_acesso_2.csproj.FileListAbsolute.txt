@@ -1,0 +1,13 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\login_acesso_2\login_acesso_2\bin\Debug\login_acesso_2.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\login_acesso_2\login_acesso_2\bin\Debug\login_acesso_2.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\login_acesso_2\login_acesso_2\bin\Debug\login_acesso_2.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\login_acesso_2\login_acesso_2\obj\Debug\login_acesso_2.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\login_acesso_2\login_acesso_2\obj\Debug\login_acesso_2.admin.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\login_acesso_2\login_acesso_2\obj\Debug\login_acesso_2.cadLogin.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\login_acesso_2\login_acesso_2\obj\Debug\login_acesso_2.Form1.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\login_acesso_2\login_acesso_2\obj\Debug\login_acesso_2.func.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\login_acesso_2\login_acesso_2\obj\Debug\login_acesso_2.guest.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\login_acesso_2\login_acesso_2\obj\Debug\login_acesso_2.Properties.Resources.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\login_acesso_2\login_acesso_2\obj\Debug\login_acesso_2.csproj.GenerateResource.Cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\login_acesso_2\login_acesso_2\obj\Debug\login_acesso_2.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\login_acesso_2\login_acesso_2\obj\Debug\login_acesso_2.pdb

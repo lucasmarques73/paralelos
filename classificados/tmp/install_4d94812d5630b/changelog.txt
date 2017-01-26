@@ -1,0 +1,1001 @@
+===================================================
+= Changelog for Sigsiu Online Business Index 2 Component SOBI2
+===================================================
+= @version $Id: changelog.txt 4827M 2009-01-05 11:44:55Z (local) $
+= @package: Sigsiu Online Business Index 2
+===================================================
+= @author
+= Name: Sigrid & Radek Suski, Sigsiu.NET
+= Email: sobi@sigsiu.net
+= Url: http://www.sigsiu.net
+===================================================
+= @copyright Copyright (C) 2007 Sigsiu.NET (http://www.sigsiu.net). All rights reserved.
+= @license see http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU/GPL version 2. You can use, redistribute this file and/or modify it under the terms of the  GNU General Public License as published by the Free Software Foundation.
+===================================================
+
+RC 2.9.1.0 (Revision: 4827) Date: 2009-01-05 13:26:47 +0100 (Mon, 05 Jan 2009)
+-------------------
++ Add: separator for alphaindex in config.ini
++ Add: Joomla! 1.5 native installer
+
+! Change: License changed to GPL v2
+! Change: Package archive type changed to tar.gz
+! Change: Different packages for Joomla! 1.5 and Joomla! 1.0/Mambo/Mia
+
+# Bugfix: Bug in upload.class.php - cannot recognize filetype
+# Bugfix: All fields are displayed in V-Card template
+# Bugfix: All non-free checkboxes are added to fees in renew function
+# Bugfix: Change Default Template Button does not work in Joomla! 1.0.15
+# Bugfix: Error if V-Card template is missing from a template package
+
+
+RC 2.9.0.2 (Revision: 4716) Date: 2008-11-16 14:35:48 +0100 (Sun, 16 Nov 2008)
+-------------------
++ Add: Possibility to change default template in admin panel - general config and template installer
++ Add: Support for add entry form template in template installer
++ Add: Added SOBI2 version and revision to system check
++ Add: Possibility to define custom tasks and their functions
++ Add: Entry sort order by expiration date
++ Add: CSS IDs for category chooser in Add Entry form
+
+! Change: Colon in V-Card now with CSS style of the label
+! Change: Number of SQL queries reduced (cache improvement)
+
+# Bugfix: Array in site title if no category-id
+# Bugfix: Rows and cols in text area in front-end if CMS editor is used
+# Bugfix: Double escape function in category class. PHP 5.2.x + new lines
+# Bugfix: Uninstalling language package in Joomla! 1.0
+# Bugfix: Removing template in template manager deletes whole templates directory if no template was selected
+# Bugfix: Form template edit function crashed if default template was changed and does not contain form template file
+# Bugfix: Reset category template settings back to default
+# Bugfix: Fatal error: Class 'sobiField' not found in sobi2.entry.php on line 273
+# Bugfix: System check - handling for non-existent files/directories
+# Bugfix: Not all tables were removed on removing SOBI2 tables
+# Bugfix: Escape slashes in Joomla! 1.0 removed
+# Bugfix: Special characters in XML file were destroyed while installing new language
+# Bugfix: Not free check-boxes were reset to free while editing an entry
+# Bugfix: Undefined variable: cat, if defined custom template for category and template does not exist
+# Bugfix: function getPlugins() generates non-compliant XHTML code
+
+
+RC 2.9.0.1 (Revision: 4600) - Date: 2008-10-11 15:09:26 +0200 (Sat, 11 Oct 2008)
+-------------------
++ Add: Site title in search function
++ Add: Function name to pathway in search function
++ Add: Meta description and keys for search function
++ Add: Configuration key in registry editor for additional meta keys and description for search function
++ Add: Function name to pathway in add entry function
++ Add: Meta description and keys for add entry function
++ Add: Configuration key in registry editor for additional meta keys and description for add entry function
++ Add: Meta description and keys for frontpage
++ Add: Configuration key in registry editor for additional meta keys and description for the frontpage
+
+# Bugfix: Payment page does not show up after submitting paid entry
+# Bugfix: Missing escape function in admin category class
+# Bugfix: Incompatibility of "check out" handling with Joomla! 1.5 "check out" handling
+# Bugfix: Wrong encoding in Joomla! 1.5 for special (e.g. Polish) characters
+# Bugfix: Ampersand in entry title
+# Bugfix: Ampersand in entry and category title while editing entry in backend
+# Bugfix: Embedded media link show html output in add entry form if object cache enabled
+
+
+RC 2.9.0 (Revision: 4500) - Date: 2008-10-05 11:34:50 +0200 (Sun, 05 Oct 2008)
+-------------------
++ Add: Joomla! 1.5 semi-native mode
++ Add: Possibility to select individual templates for categories
++ Add: Possibility to set several individual settings for categories
++ Add: Template Installer
++ Add: Possiblility to show whole path in getMyCategories
++ Add: HTML_SOBI::countClick method to count clicks
++ Add: Support for "all" listings in Joomla! 1.5
++ Add: Google API version adjustable via config.ini
++ Add: CSS Styles for Search Form added
++ Add: Itemid to RSS link
++ Add: Folder attribute in XML definition file of a plugin
+
+! Change: Extended mail class (HTML mail for plugins)
+! Change: Custom text code field can be administrative now
+! Change: Component installation divided in 2 steps
+! Change: Added "Back" text which is not longer defined in Joomla! 1.5
+
+# Bugfix: Wrong metadescription type in frontend.class.php
+# Bugfix: Several small changes in showThumbshotsOrg function (special characters)
+# Bugfix: Wrong date in RSS feeds
+# Bugfix: Undefined variable: j15 in sobi2.entry.php on line 606
+# Bugfix: entry_browser_title_add_component_name does not work in details view
+# Bugfix: Admin panel: filtering for 'published' entries does not works
+# Bugfix: Deleting default image while deleting SOBI2 entry
+# Bugfix: Email templates - missing escape function
+# Bugfix: Save Custom Fields - missing escape function
+# Bugfix: Undefined index 'listValueOptionValue' while saving field
+# Bugfix: Cookie in subdirectories does not work (search)
+# Bugfix: No calendar fields data in V-Card
+# Bugfix: Category dependend search fields function rewritten and fixed to work with IE also
+# Bugfix: Removed top border from the currently selected tab in admin
+
+
+RC 2.8.7.2 (2008-08-01 12:02:02 Rev:4300)
+-------------------
++ Add: Support for thumbshots.org
++ Add: Config key to add Google Maps URL
++ Add: Function execJPlugins similar to execMambots for Joomla! 1.5
++ Add: Native handling for meta description and meta generator tag in Joomla! 1.5
++ Add: Native handling for mosmsg in Joomla! 1.5
++ Add: Template function userCBHref - link to Community Builder profile of the entry author
+
+! Change: If no itemid/menu link is specified, a itemid of 0 is used instead 9999 to work with Joomla! 1.5
+! Change: Google Map Type Control to add Terrain View
+
+# Bugfix: Problem with page navigation for own user listings ehen showing unpublished entries is on
+
+
+RC 2.8.7.1 (2008-07-16 11:30:12 Rev:4209)
+-------------------
++ Add: Text defines for page navigation because not longer defined in Joomla! 1.5
+
+# Bugfix: Missing selected options in checkbox group field
+# Bugfix: Missing installed languages in language manager
+# Bugfix: Changed datatype of position column in #__sobi2_cat_items_relations table
+# Bugfix: Missing default mootools method (search problem)
+
+
+RC 2.8.7 (2008-07-15 11:56:55 Rev:4200)
+-------------------
++ Add: New config keys - redirects for unpublished entries after add/edit
++ Add: ID's for links in the SOBI2 top menu
++ Add: Span with class for the checkbox group in add entry form
++ Add: Possibility to switch the search form off
++ Add: Renewal message in Details View for already expired entries
++ Add: New config key - Possibility to define the search parameters cookie lifetime
++ Add: Possibility to force a permission change of resized icon/logo (default for CGI interface; GD-Library problems with CGI)
++ Add: String replace function for Details View/V-Card to replace specific field content
++ Add: Support for resizing of transparent images (by Claudio F.)
++ Add: Apply button in field, category and entry edit functions in admin panel
++ Add: Possibility to define number of entries in RSS feeds (config.ini)
+
+! Change: Striping tags in textarea in add entry form if not using WYSIWYG editor in frontend
+! Change: If an entry is already expired, it will be renewed from the actual day for number of days
+! Change: German language packages not longer included
+! Change: New method for clean buffer in SigsiuTree
+! Change: Automatical recount of categories after an entry has been added/edited
+! Change: MooTools method for addEvent changed from domready to load. Can also be adjusted in config.ini (mootools_event_method) due to problems with Joomla! 1.5 and IE
+! Change: Adding new entry embedded within MySQL transaction
+! Change: Old search function removed completely
+! Change: New method to investigate the live site address to prevent problems w/o www prefix
+! Change: Work around for bugs in 3rd party extensions for Joomla 1.0 defining _JEXEC constant
+! Change: Several changes for MiaCMS
+! Change: Some CSS styles for the search function
+! Change: More informations in system check file
+
+# Bugfix: Custom published field (config.ini -> published_field) works now
+# Bugfix: Caching of output in custom listing function, even if it is not forced
+# Bugfix: SigsiuTree: config live site in category address removed because Joomla! 1.5 adds also config live site to all URL's passing sefreltoabs
+# Bugfix: Ajax search: skipping plugin call if there were no previous results
+# Bugfix: mosCommonHTML::loadOverlib() removed from admin files - caused problems with SigsiuTree
+# Bugfix: Missing category fees in renew function
+# Bugfix: Issue with cache and Internet Explorer 6
+# Bugfix: New lines are not replaced to <br /> if not using WYSIWYG editor in frontend
+# Bugfix: Language switch does not work for options in the checkbox group/select list
+# Bugfix: Cache will be cleared after renew entry
+# Bugfix: Renew function does not clear the reminder emails flag
+# Bugfix: No search results if there are no fields for the search function (only title). Error: array_merge() Argument #1 is not an array in file: axsearch.class.php
+# Bugfix: Added Itemid to the userHref function
+# Bugfix: Wrong mode while creating new path (directories with chmod 0) fixed
+# Bugfix: Handling for https url links added
+# Bugfix: Searching for words (search field) which are also labels of checkbox groups works now
+# Bugfix: Removing HTML code from input text data
+# Bugfix: Wrong ordering of options of checkbox group in details and category view
+# Bugfix: Added Itemid to search function
+# Bugfix: State filter in admin panel showed entries with no expiration date if looking for expired entries
+# Bugfix: End tag for "img" in SigsiuTree
+# Bugfix: Several HTML errors in the admin panel fixed
+# Bugfix: Default language was shown twice in general configuration
+# Bugfix: Used category objects as entries in custom listings
+# Bugfix: Old custom fields data in emails
+
+
+RC 2.8.6 (2008-03-23 17:17:00 Rev:3902)
+-------------------
+! Change: Recount category message will be shown only if category/entry has been changed/added
+! Change: Html tags from textares aren't filtered in the admin panel
+
+# Bugfix: Quick Edit function (calendar field)- Call to a member function on a non-object in field.class.php
+# Bugfix: All fields, even if not set for details view, are displayed
+# Bugfix: Special characters in alpha listing
+# Bugfix: Issues with calendar and Joomla! 1.5
+# Bugfix: Currency code for total is missing in bank account information
+# Bugfix: Custom listing function - output of empty table if no results
+
+
+RC 2.8.5 (2008-03-19 09:34:36 Rev:3825)
+-------------------
++ Add: New entry owner handling. In case that the user lost his session
++ Add: New config key - textarea with no WYSIWYG editor may contain html-tags
++ Add: New config key - list of fields to ignore for the Quick Edit function
++ Add: L2 Cache implemented (HTML cache)
++ Add: L3 Cache implemented (object cache)
++ Add: New config key - execute mambots in category description
++ Add: New config keys - JPG and PNG image quality (PHP5 only)
++ Add: System check function with report creation (for support)
++ Add: Email and email template for the renew entry function
++ Add: New config key - empty cell callback function
++ Add: Handling for pathway for Joomla! 1.5
++ Add: Handling for HTML tags in descriptions for Joomla! 1.5
++ Add: Handling for tooltips for Joomla! 1.5
++ Add: Handling for text code field for Joomla! 1.5
++ Add: Handling for calendar for Joomla! 1.5
++ Add: New config key - possibility to use integrated WYSIWYG editor for free fields
++ Add: New config key - possibility to choose CSS style for calendar in front-end
++ Add: New config key - possibility to define calendar button label and date format
++ Add: New config key - possibility to limit the number of allowed entries per user
+
+! Change: Old cache removed
+! Change: SigsiuTree switch moved to registry editor/config file
+! Change: File/directory permission switch moved to registry editor/config file
+! Change: Extended search function switch moved to registry editor/config file
+! Change: Numbers of sub categories and entries are counted/recounted manually only
+! Change: Own calendar script included
+! Change: Getting right Itemid in Joomla! 1.5 (components/component)
+
+# Bugfix: No removing of default image/icon while removing an entry
+# Bugfix: No logging of empty coordinates as error in Google maps function
+# Bugfix: Undefined variable imagesFolder in file: components/com_sobi2/sobi2.class.php at the line: 1267
+# Bugfix: Renew function checks now if there are non-free option and only than shows the payment screen
+# Bugfix: Missing query in unpublish function
+# Bugfix: Default logo/image not shown in Entry Manager in back-end (possibility to remove)
+# Bugfix: customFieldsData: error "Invalid argument supplied for foreach()" if no custom fields data available in V-Card
+# Bugfix: No counting of fees for image/logo if upload failed
+# Bugfix: GetInstance() error fixed
+# Bugfix: If entry has no owner the selected owner in back-end was the actual user (admin), now guest
+# Bugfix: Handling for ampersand in Quick Edit function
+# Bugfix: Trailing slashes in data of Quick Edit function removed
+# Bugfix: Move and copy buttons removed from "All Entries" in admin panel
+# Bugfix: White screen with "false" text fixed in admin panel while editing an entry and one of a checkbox group fields is required and not filled in
+# Bugfix: Several warnings and notices removed if no custom fields are displayed in V-Card
+# Bugfix: Missing entries on frontpage if "Show Entries of Subcategories" is set to "no"
+# Bugfix: Missing component name in RSS alternative link
+# Bugfix: Category Images/Icon registry editor settings had no effect on add category form
+# Bugfix: SobiTabs - not possible to set "use cookies" option to false
+# Bugfix: Alternative option for stream_get_contents in template parser
+# Bugfix: Default phrase for search function added
+# Bugfix: Nofollow attribute for category view missing
+# Bugfix: Bug with saving email template for not existing language (description/langKey)
+# Bugfix: Bug in search function with special characters on non UTF-8 sites
+# Bugfix: yes/no string from checkbox field raw data removed
+
+
+RC 2.8.4 (2008-01-19 16:47:45 Rev:3400)
+-------------------
++ Add: Basic template for the add/edit entry form
++ Add: Possibility to edit the add/edit entry form template within back-end
++ Add: Template parser with syntax error check
++ Add: Status filter for entries in Entry Manager
++ Add: Possibility to renew expired entries
++ Add: Possibility to edit config.ini in back-end (registry editor)
++ Add: "Quick edit/edit in place" function (experimental)
++ Add: Search: Fields data dependent on selected category (by Richard Jones)
++ Add: Possibility to add a default icon/image
++ Add: Possibility to change the tooltip image in add/edit entry form
++ Add: Possibility to change the currency value format
++ Add: Possibility to change the date format for calendar fields
++ Add: Possibility to remove category names and/or component name from browser title also in category view
++ Add: CSS class info for field labels in V-card template
++ Add: Possibility to set off base64 encoding for emails
++ Add: Possibility to change component link title in SOBI2 menu
++ Add: Possibility to show unpublished entries of an user (only if logged-in)
++ Add: Possibility to revert the date format of custom expiration field
++ Add: Handling for special characters (Cyrillic) in alpha index
++ Add: Title for Basic Entry translatable now
+
+! Change: Several changes to reduce the memory consumption
+! Change: Config.ini: "entry_browser_title_add_cats" and "entry_browser_title_add_component_name" moved to the "details_view" section
+! Change: Powered by link opens new window
+! Change: New lines and tabs will be removed from tooltip texts
+! Change: Itemid added to ajax search URL
+
+# Bugfix: Span removed for lists (XHTML invalid)
+# Bugfix: Removing fields data also while removing an entry
+# Bugfix: Missing user id in field check out function
+# Bugfix: Deleting entry from frontend - sql query removing category instead of item from relation table
+# Bugfix: Checking for "http://" in author url in plugin manager
+# Bugfix: Save entries order in back-end. Problem with sorting entries on the n-page
+# Bugfix: Cache consuming whole memory (neverending loop) if trying to disable cache
+# Bugfix: "Make unwriteable after saving" for templates and css file works now
+# Bugfix: Deleting previous introtext and icon in add multiple categories
+# Bugfix: Label text for basic entry will be saved in database
+# Bugfix: Missing field label in field objects if field contains no data
+# Bugfix: Missing array in raw data (2.). Issue with foreach and references in PHP4
+# Bugfix: Search in select lists or checkbox groups via inputbox: values weren't translated to options
+# Bugfix: Search in select lists or checkbox groups: if search parameter gives no results it will be ignored
+# Bugfix: Add/Edit entry form: possibility to add same category twice
+# Bugfix: Category Id for the search function was ignored if getting it from url-request
+# Bugfix: SECURITY FIX - Filtering integer only from Itemid
+# Bugfix: Unpublished sub categories were counted in category view
+# Bugfix: error in redirect on entry form - missing ampersand
+# Bugfix: Cache: bad result if cache directory exists but cache file not (should return false). Missing entry list on the frontpage.
+# Bugfix: Missing category if the description should not be shown
+
+
+RC 2.8.3 (2007-12-03 19:26 Rev:2930)
+-------------------
++ Add: Alpha index: possibility to add letters in a range (adjustable in config file) i.e. A-D, D-G ..
++ Add: Possibility to add "rel='nofollow'" to url fields by config file
++ Add: Possibility to customize redirect addresses by config file
++ Add: Possibility to use MooTools library of CMS template by config file
++ Add: A minimum of two fields for waysearch url has to be filled in (extendable by config file)
++ Add: Subcategory list in Category View (Yahoo style)
++ Add: Possibility to remove plugin tables in admin panel
++ Add: Special characters encoding in email subjects
++ Add: Highlighting of not selected required fields
++ Add: Format of Date added in details view adjustable by config file
+
+! Change: Chmod after installation removed
+! Change: Same "select" label for all select lists and checkbox groups in search function
+! Change: Increasing PHP script execution time for installation process
+! Change: Entries in categories are counted only once. Old behaviour can be set in config file
+! Change: Page navigation in admin panel will be shown even if there are no entries
+! Change: If a WYSIWYG field is set as required, required attribute will be removed in add entry form
+! Change: Note in Fields Manager, that a WYSIWYG field may not be set as required
+! Change: Added several default values and check them for null value to prevent division by zero
+! Change: Templates are now in a templates directory
+! Change: Admin menu (by Ken)
+! Change: Title field resized to 255
+
+# Bugfix: Call to undefined function: $mainframe->set() (Mambo only)
+# Bugfix: Linked media file field works again
+# Bugfix: Cats selection and adm cats selection in config file
+# Bugfix: Double tab ids removed in entry in back-end
+# Bugfix: Missing query in unpublish function
+# Bugfix: Admin panel - duplicate entry titles possible although set to no
+# Bugfix: Calendar field in add entry form if user is not logged in
+# Bugfix: Missing calendar field data in formatted fields
+# Bugfix: Waysearch link problems if one of the defined fields is not an inputbox
+# Bugfix: Missing field explanation for textarea in admin panel
+# Bugfix: Missing "I will pay with paypal" text in payment screen
+# Bugfix: Only variable references should be returned by reference in config.class.php on line 1062
+# Bugfix: Missing raw data. Issue with foreach and references in PHP4
+# Bugfix: buildCustomListing shows unpublished entries if the expiration date is null
+# Bugfix: Itemid for actions called through index2.php
+# Bugfix: Background chooser in add entry form if CMS is installed in subdirectory
+# Bugfix: Special characters encoding in way search link
+# Bugfix: Tags with spaces in keywords in tagged listings (ISO)
+# Bugfix: Removing empty option (selected cats) in add entry form for IE7
+
+
+RC 2.8.2 (2619)
+-------------------
++ Add: Alpha index: letters adjustable in configuration file
++ Add: Additional security check for removing cache files
++ Add: Extended search function: searching in title, metakeys and meta description adjustable in configuration file
++ Add: Settings for "powered by" - link, RSS feeds for SOBI2 news and products
++ Add: Value of checkbox in check box group can be an image
+
+! Change: Extended search function: searching for "exact phrase" improved
+! Change: Adding all categories in the browser's title bar in details view
+
+# Bugfix: disallowedtags image tag removed
+# Bugfix: extended search - drop'n'down selection does not work
+# Bugfix: Invalid argument supplied for foreach() in frontend.class.php at the line: 970
+# Bugfix: Message your entry could not be deleted for some reasons. But entry deleted
+# Bugfix: Files inclusion/permissions fixed
+# Bugfix: Cache removal bug fixed
+# Bugfix: Fields option ordering for select list and checkbox group
+# Bugfix: Missing total amount in Paypal link
+# Bugfix: SigsiuTree in add entry form in back-end override with dTree
+# Bugfix: WYSIWYG behaviour in back-end - return to the default CMS settings
+# Bugfix: Special charachters in way search url
+# Bugfix: Special charachters in category name in extended search function
+# Bugfix: Special charachters in extended search function
+# Bugfix: Special charachters in Alpha listings and Tagged listings
+# Bugfix: Empty image in component description in search if no image is selected
+# Bugfix: Way Search Link - field assigment
+# Bugfix: Missing pathway, browser's title bar and meta keys/description in PHP 4.x
+# Bugfix: Missing Save and Cancel button in Joomla! 1.5
+# Bugfix: Manager getting no system emails
+
+
+RC 2.8.1 (2489)
+-------------------
++ Add: Several additional settings in a configuration file
++ Add: Possibility to suppress changing file and directory permissions
+
+! Change: Alpha index, not showing on all pages
+! Change: CSS file corrected, about pages updated
+
+# Bugfix: Bug while editing checkbox group field (sort options => wysiwyg)
+# Bugfix: forceMenuId - shows wrong values if set to off
+# Bugfix: Checkbox fields data back to the boolean value 0/1
+# Bugfix: Cache works again
+# Bugfix: Change permission problems
+# Bugfix: Missing select/list if using standard fields output function
+# Bugfix: Missing file name in background chooser
+# Bugfix: Counting unpublished entries
+
+
+RC 2.8.0 (2245)
+-------------------
++ Add: Select list / select box field type
++ Add: Check box group field type
++ Add: Calendar field type
++ Add: Field attribute "administrative" - field editable only for administrator
++ Add: Handling to show alphabetical listings
++ Add: Handling to show listings by selected tags (metakeys)
++ Add: Method to display the tags of the entry in the templates
++ Add: Handling to show new listings
++ Add: Handling to show recently updated listings
++ Add: Handling to show most popular listings and categories
++ Add: Handling to show most popular listings only
++ Add: Handling to show user listings
++ Add: Autosearch with given URL parameters (for extended search function)
++ Add: Saving selected search parameters in cookie (for extended search function)
++ Add: Entries filter in back-end extended by search for entries starting with given chars
++ Add: New class sobiTabs (to use also in templates)
++ Add: Configurable fade in/out behaviour of the extended search function container
++ Add: Total amount of non free options in all items and awaiting approval list
++ Add: Client email address can be set to CMS registration email
++ Add: System email recipient group can be set in back-end
++ Add: Email address field can be selected now
++ Add: Used fields for WaySearch function are definable now
++ Add: Transparent PNG icons for category view in IE <= 6.0
++ Add: Autocomplete for security code input box set to off
++ Add: Additional currency code for PayPal
++ Add: Return address for PayPal
++ Add: Possibility to display component description on search page
++ Add: Language packages can be removed from back-end
++ Add: Possibility to add multiple subcategories to a specific category at once
++ Add: New plugin methods and functions
++ Add: Preventing adding of entries in front-end at all
++ Add: Updating all SOBI2 menu entries (if available) after component installation
+
+! Change: Extended search function - ajax request method changed to GET
+! Change: Starting to unify templates
+! Change: Using sobiTabs instead of mosTabs
+! Change: Removed not-deletable fields
+! Change: Removing fields data if field has been removed
+! Change: Removing Rico accordion (Rico caused several problems and conflicts)
+! Change: Back-end layout
+! Change: Performance optimization
+! Change: Removed $mosConfig_absolute_path from file inclusions and other pathes (security reason)
+! Change: Several changes to work with Mambo 4.6.2+, Joomla! 1.0.12+, Joomla! 1.5 RC1+
+! Change: Charset for PayPal defined by site coding
+! Change: PayPal payment method: link changed to form
+! Change: Removed almost all global declarations
+! Change: Replaced "/" with DIRECTORY_SEPARATOR in files system operations (for Windows compatibility)
+! Change: Plugins or language packages can be renamed now
+! Change: Same methods for plugin output in both templates
+! Change: Adding adjusted new lines to formatted fields even if using v-card template
+! Change: Plugins method save and update have to get a reference of the $input array now
+! Change: If all categories are for free pricelist for categories isn't shown
+
+# Bugfix: Bug in extended search for categories
+# Bugfix: Execute mambots function (Mambo only)
+# Bugfix: Bug in extended search if search string doesn't match
+# Bugfix: Bug in xml output from SigsiuTree (Header already sent)
+# Bugfix: Template codepress editor does not work (Mambo only)
+# Bugfix: Missing directory title in browser's title bar
+# Bugfix: Problems with string_ireplace and old Apache version in extended search function (internal server error)
+# Bugfix: Problem with category selection in search function - last combo box does not disappear
+# Bugfix: Missing _SOBI2_FORM_JS_CAT_NO_PARENT_CAT constant in back-end
+# Bugfix: Warning: "failed to delete buffer" in admin.sobi2.php
+# Bugfix: Adding HTML output to error logfile if downloading
+# Bugfix: Missing end of img tag in SigsiuTree
+# Bugfix: Removed label for text code field in add entry form
+# Bugfix: Several changes in HTML output to make SOBI2 XHTML 1.0 Transitional valid
+# Bugfix: Adding entry to a sixth category while editing
+# Bugfix: Removing directories on Windows systems
+# Bugfix: Switching to site language if selected language is default
+# Bugfix: Validation for numerical input of Google Maps coordinates
+# Bugfix: Adding new entry with same name in back-end even if it's not allowed to have duplicate entry names
+# Bugfix: Counting of unpublished categories and its entries in category list
+# Bugfix: Showing unpublished categories in the getMyCategories function
+# Bugfix: Not longer possible to select the root category
+# Bugfix: Publish/Unpublish of a text code field now possible
+# Bugfix: Way search link problem with apostrophes in link
+# Bugfix: Not correct link to entry in several emails
+# Bugfix: Missing several placeholders in email templates
+# Bugfix: Sigsiu Tree problems with Joomla! 1.0.13 and Joomla! 1.5
+# Bugfix: Not correct directories and files permissions in Joomla! 1.5
+# Bugfix: Missing several constants in back-end
+
+
+
+RC 2.7.4  (2007-07-27 12:10 Rev:1020)
+-------------------
+# Bugfix: Missing "Your entry was added and awaiting approval" text
+# Bugfix: Items counter in categories using cache (-100 result)
+# Bugfix: Trailing slashes in search function removed
+# Bugfix: Expired entries in RSS
+
++ Add: Codepress editor for templates and css file edit function
++ Add: Additional clean buffer in SigsiuTree xml output
++ Add: Mambots for selected fields can be executed through a special call in the templates
++ Add: Mambots for category descripton
++ Add: New search function (Configuration->Use Extended Search Function)
++ Add: Hint that Google Maps needs geographical coordinates
++ Add: New plugin method "replaceData"
+
+! Change: Several changes made for the Joomla! 1.5 functionality
+! Change: Renamed 'custom code' field to 'text code' field, description improved
+
+RC 2.7.3  (2007-06-24 08:19 Rev:907)
+-------------------
+# Bugfix: Alt tag in pathway removed
+# Bugfix: Missing payment if there is no plugin which have onSave method
+# Bugfix: OneditStart in backend fixed
+# Bugfix: Missing texts _SOBI2_FORM_ADD_CAT_BT and _SOBI2_FORM_REMOVE_CAT_BT in default language file
+# Bugfix: Wrong SQL-Query for fields which are not defined in the SOBI language (Not Free fields which are free)
+# Bugfix: Undefined variable: cats (Error number:8) in file: frontend.class.php at the line: 526.
+# Bugfix: Sigsiu Tree - adding entry to cats having subats was not possible
+
+! Change: Ajax Tree to Sigsiu Tree pane label
+! Change: Several changes to make SOBI2 compatible with Mambo
+
+RC 2.7.2  (2007-06-16 10:34 Rev:859)
+-------------------
+# Bugfix: No additional <br/> in search results if using VC-Template
+# Bugfix: Cache not empty after several changes in BE
+# Bugfix: Missing end of div container in payment class
+# Bugfix: Setting a non free checkbox from backend possible now
+# Bugfix: Permission problems with image upload
+# Bugfix: Double <br/> in bank account info removed (front-end and email)
+
+! Change: Some CSS styles
+! Change: Pathway - last part is no link anymore
+
++ Add: Backend handling for custom code field type
++ Add: Sigsiu Tree as replacement for dTree selectable (experimental)
++ Add: Upload class implemented
++ Add: New plugin method "editFormStart"
+
+
+RC 2.7.1 (18.5.2007)
+-------------------
+# Bugfix: Missing php tag in cache class added (RC2.7.0a)
+# Bugfix: Cache error (max of var size) if cannot get the mem_limit
+# Bugfix: PayPal URL not saved in database
+# Bugfix: New fee calculation on update entry more than once
+# Bugfix: Adding entry to categories w/subcategories and cache on
+# Bugfix: Cache path for windows server
+# Bugfix: Notices in V-Card template
+
+! Change: Changing mode of uploaded images to 775
+
++ Add: custom code field type for edit/add entry form
+
+RC 2.7.0 (5.5.2007)
+-------------------
+# Bugfix: Labels for Security Code Background Color and Frame Color are interchanged
+# Bugfix: dTree query in Menu Module fixed
+# Bugfix: Bug with Email Template "OnApprove" fixed
+# Bugfix: Added blank in pathway
+# Bugfix: Empty lines in RSS Feeds removed
+# Bugfix: Bug on removing categories
+# Bugfix: Removing script and other tags from title
+# Bugfix: Bug in removing directories (recursive)
+# Bugfix: Bug in counting entries in a category (counted expired entries too)
+# Bugfix: Search count error (thanks to camtt)
+# Bugfix: Bug in Google Maps when title contains "'"
+# Bugfix: RSS setting off on frontpage
+# Bugfix: Img/Ico dimensions and labels are no longer set to 0 if not used
+
+! Change: SQL query to work with JoomFish (translation of pathway and title)
+! Change: Reducing SQL-Queries (step1 - config class)
+! Change: Better "clean tag from input" function
+! Change: Switching from InnoDB to MyISAM for new installations
+! Change: SOBI_ADMIN is a constant now
+! Change: Default string in inputbox of the search function is now defined in language file
+! Change: Table widths in CSS reduced from 100% to 98% for IE6
+! Change: Added bottom padding to sobi2outer container in CSS for IE6
+! Change: SQL Query in search function
+! Change: overideErrorHandling function defined only once (for clones)
+! Change: RSS Feeds can be switched off in Backend
+! Change: OpenSEF file sef_ext.php not longer included in the package
+
++ Add: Random selection in RSS feeds (5)
++ Add: Cache acceleration
++ Add: New Plugin methods for search function (onSearchResult, onSearchStart)
++ Add: New Plugin methods for payment class (onPaymentScreen, onPaymentMailUser, onPaymentMailAdmin)
++ Add: New plugin method onSobiStart
++ Add: Possibility to change the PayPal target address. For example for sandbox mode.
++ Add: Easier method for calling custom plugin actions (customTask() - Main() is deprecated).
++ Add: Template for V-Card view
+
+
+RC 2.6.2 (25.03.2007)
+-------------------
+Fixed:
+Link in notification emails fixed
+Redirects revised
+Message on delete entry by user now with redirect
+Newlines in bank account info of payment email removed
+Bug with Email Template "OnApprove" fixed
+DB query to work with Joomfish for category translations in new entry form
+Error deleting images files
+Bug in search function. If looking for value in last field (general search), no results.
+Page navigation in search results with SEO (Joomla! 1.0.12 only)
+Values of not checked checkboxes are saved correctly
+Placeholders of custom fields in payment email
+Preventing calls of not existent plugin methods
+Image not schowing in search results
+
+Changed:
+Field length for basic fee changed to 50 characters
+
+
+RC 2.6.1 (19.02.2007)
+-------------------
+Fixed:
+Search function does not effect on fields where the search method is set to "no"
+Fatal error: Only variables can be passed by reference in frontend.class.php and sobi2.html.php (PHP 5.0.5)
+Use of undefined constants in file sef_ext.php
+Removed double slashes in removeDirRecursive() function
+Undefined variable msg in admin.sobi2.php
+Undefined variable catImg in file sobi2.class.php (RSS Feeds creator)
+Duplicate text define in admin.germani.php
+Several errors in sef file
+Bug in search function and on fronpage if listing ordering is set to "ordering"
+Position reordering after edit entry from backend
+Menu Itemid overriding
+RSS feeds URLs with SEF now
+Undefined property: stdClass::$name in frontend.class.php
+Missing catid in sef_ext.php
+Switching Email notifications automatically off
+
+Changed:
+PHP logging setting will be reset to default after SOBI2 logs (RC2.6a)
+Star in search box disappears automatically if user clicks into
+Relocation to index.php (no SEF) if adding entry with existing title
+DB query to work with Joomfish for category translations
+
+Added:
+Security filter to prevent adding java script and iframes
+Removing uploaded image files without image information (security issue)
+Backend administration panel for error logfile
+Error logging level adjustable in backend administration panel
+Default language files for non translated labels
+
+
+RC 2.6 (21.01.2007)
+-------------------
+Fixed:
+Possibility to leave Background image and border fields free
+Fixed width of empty cells in category view
+Undefined variable in search results fixed
+Entities for Google Maps fixed
+Path to overlib_mini.js fixed
+Removed the video.field.php file
+Warning messages "open_basedir restriction in effect" during installation process
+Entries sort order "by ordering" fixed
+Removing directories/files when uninstalling a plugin
+Removing all installation files after new plugin installation
+Unpublished entries not longer counted in search function
+Showing category names in pathway even in details view
+Decimal places in "Fee for Basic Entry" fixed
+Special characters encoding in OpenSEF extension
+Tooltip in Add/Edit Entry form now without hyperlink
+Path for category view edit and delete buttons in IE6/7 fixed
+Empty meta keys and description bug if using apache < 2 fixed
+
+Add:
+div container for payment info
+admpermission key in config table
+Error codes in plugin installer if error message is used more than once
+All SOBI2 PHP notices, warnings and errors are logged in a file
+Possibility to display all selected categories in details view template
+Support for youtube.com and myvideo.de movies in linked media field.
+
+Change:
+Menu Module: No newline in case of dtree only (no add/search links)
+
+
+RC 2.5.9 (01.01.2007)
+-------------------
+Fixed:
+Missing end tag in RSS link fixed, codings fixed
+Media field fixed
+
+Added/Changed:
+Possibility to leave Background image and border fields free
+Version checker: getting actual version from XML file
+
+
+RC 2.5.8 (10.12.2006)
+-------------------
+Fixed:
+Error (notice) if media data field is empty fixed
+Errors in error logging function fixed
+Size of category tree in edit entry in backend adjusted in CSS
+Missing email footer in payment email
+String coding errors for special charachters (search function and inputboxes).
+No SEF translation if wrong security code
+Fix for PHP < 5.0 (payment.class.php)
+Cleaning strings for meta keywords and description
+
+Added/Changed:
+RSS Feeds for each category (latest 10 entries)
+CSS class/id for labels in category view, details view and search results
+Adding component name to meta keys and description
+
+
+RC 2.5.7 (25.11.2006)
+-------------------
+Fixed:
+Error in JSValidator fixed. If a required text area is not filled in, empty error msgbox pops up
+Encoding detection fixed (lower case problem)
+Background image can be selected by admin even if the function is set off
+Error fixed in add/edit entry form, if user tries to add an empty category
+Error fixed in backend/edit entry form (plugin function)
+Error fixed in dTree menu if using OpenSEF
+SOBI footer CSS class moved to <td>
+Scrollbar for categories tree in backend/edit entry
+Missing table tags in category view if no entries are in directory added
+Edit link in email placeholder fixed
+Special characters in placeholders fixed
+<br/> in email bank data fixed
+Checkbox error if field is not free fixed
+
+Added:
+Base fee for whole entry
+New URL type media for video/audio player for linked media files
+
+
+RC 2.5.6 (12.11.2006)
+-------------------
+Fixed:
+ISO encoding
+
+
+RC 2.5.5 (12.11.2006)
+-------------------
+Fixed:
+Deleting Entry from Frontend using OpenSEF fixed
+UTF-8 encoding fixed (in the hope it was the last time)
+Standard language for Email template fixed
+Links in User Emails are correct now
+
+
+RC 2.5.4 (11.11.2006)
+-------------------
+Fixed:
+Output of custom fields data in details template fixed
+URL fields in search results no more labeled via constants
+Plugin Interface for on update method fixed
+String filter fixed (trouble with null strings)
+UTF-8 encoding fixed
+Saving entry owner via backend fixed
+Advajax error in frontend fixed
+
+Added/Changed:
+CSS class for count separator in category view
+New CSS classes for new/edit entry form (among others ids for labels)
+New Template function "addedDateOnly($config,$mySobi)" to show only the added date without time
+Email cloaking
+
+
+RC 2.5.3 (2.11.2006)
+-------------------
+Fixed:
+Email templates special characters encoding fixed (not fully tested)
+Creating images directories should work again
+Images directory under components/com_sobi2 are be not longer created
+Adding meta data in details view only if adjusted
+Fixed wrong pathway if using sef
+
+
+RC 2.5.2 (31.10.2006)
+-------------------
+Fixed:
+Problem inserting new version number while installing fixed
+Fixed problem with relocating payment page after choosing not free options
+
+
+RC 2.5.1 (30.10.2006)
+-------------------
+Fixed:
+Payments are calculated correctly again
+
+Added/Changed:
+Possibillity to choose own background for every entry in backend
+
+
+RC 2.5 (29.10.2006)
+-------------------
+Fixed:
+Fixed problem with third party SEF extensions
+Reference field in Payment options not longer too big
+Table width of Details View can be changed now
+Image uploading problems with upper case extensions fixed
+Email on payment (Currency twice)
+On installation: creating path for images via mosMakePath() to get right permissions
+Fixed bug in search, if looking for a string in title or meta but not in drop'n'down list
+Fixed problem with quotes in frontend edit form
+Images in cards view are shown now if adjusted
+Fixing problem that email texts is other languages than German and English coud not be saved
+Corrections made in German language files (Umlauts and Java Script)
+Edit and Delete Buttons for registered users are shown now even in search results
+Editing field in Fields Manager using toolbar menu button now works
+SOBI2 entries in Pathway work now even if SOBI2 menu module is shown
+
+Added/Changed:
+Plugin Manager and Plugin Interface for 3th party plugins
+Possibillity for user to choose own background for every entry
+User type Manager can administrate SOBI2 in backend (needs Quick Icons or according component)
+Details View can be configured to be shown only to registered users
+Entries in backend can be filtered now
+Back button and componentheading suffix adjustable via menu
+Extension for openSEF (sef_ext.php)
+New URL field type - linked image
+New field type - boolean checkbox
+Adoptions of CSS and language files
+If a paid field is set empty it will be charged again if it is used again
+
+
+RC 2.02 (16.10.2006)
+-------------------
+Fixed:
+Error with acces rights in payment class fixed
+Error with email "on approve" if sent via entry form in backend fixed
+Adding new line to beginning of mail signature
+Call to a member function on a non-object in form.class.php on line 868 fixed
+
+
+RC 2.01
+-------------------
+Fixed:
+Fatal error: Call to a member function on a non-object in sobi2.html.php on line 66 fixed
+
+RC 2
+-------------------
+Fixed:
+Missing end tag in menu module fixed
+UTF-8 error in SQL injection filter fixed
+Error message if CSS file is not writable
+Missing end tags in new/edit entry form fixed
+Changing CSS to fix border problem with IE
+HTTP filtering (link fields) works again :-)
+Getting Itemid only from published menu entries
+Max. length of Entry Title changed to 100 chars
+No registered user in author list in edit entry in BE fixed
+Inserting every new field also in english
+Getting right position when adding new field or new entry
+
+Added/Changed:
+New Email processing: all texts for emails are now definable within backend, place holders to insert custom data
+Details View can be designed easy by a template
+Template for Details View editable within backend (possible to relocate custom fileds also)
+Different languages of Custom Fields editable without changing SOBI2 language
+SOBI2 Version checker implemented
+Number of entries and subcategories will be shown behind category name if adjusted
+No entries allowed in categories having subcategories if adjusted
+DTree Style now in SOBI2 CSS file
+Payment Reference field length is now 500 chars
+
+
+RC 1.0.3
+-------------------
+Fixed:
+Icon and Image will be shown now in search results too
+Changing chmod for images folder after install
+Fixed using multiple Wysiwyg editors in Add/Edit entry form
+Missing tabs in view configuration fixed
+Searching for more than one word (multipage results) fixed
+Length of currency field in payment configuration enlarged to show VAT hint
+No results message will be shown if looking for something only using select boxes and there are no results
+
+
+RC 1.0.2
+-------------------
+Fixed:
+Position/Ordering in PHP < 5 (array_combine)
+
+Added/Changed:
+Using field label as linktext for emails and url links
+
+
+RC 1.0.1
+-------------------
+Fixed:
+Fixed DB query in function getExistingFieldsList() for MySQL < 5
+
+
+RC 1
+-------------------
+Added:
+Google Maps in details view
+Message when admin is trying to change some options in Fields Manager listing
+Menu Module can be configured to show categories as a simple list (only main level categories)
+Changes made to CSS file (new container to move text up)
+
+Fixed:
+Initial Search searches not longer for *
+Position/Ordering (+/- one position) fixed
+Image will only be resized if it is bigger than adjusted
+
+
+Beta 2.2.1
+-------------------
+Added:
+Edit entry: Uploaded images will be deleted from webspace if user removes the image
+
+Fixed:
+Edit entry: Accepting empty strings to delete previous entered data
+Security image is now created virtually to avoid file permission problems
+Uploading JPG files fixed
+
+
+Beta 2.2.0
+-------------------
+Added:
+Searchbot for standard Joomla!/Mambo search function
+Security image and image resampling handling (checking for existing functions)
+Cancel button with checkin function for frontend
+
+Fixed:
+Some German frontend and backend texts corrected
+Searching for "all words" fixed
+Error with calculating image size fixed
+Category description now accepts HTML code
+
+
+Beta 2.1.0
+-------------------
+Fixed:
+Categories sort order in edit form and menu module
+
+Added:
+Max. file size for uploaded files is configurable
+Searching, using a "*" lists all entries which are selected over select boxes
+Uploaded images are deleted if entry was deleted
+
+Beta 2.02
+-------------------
+Fixed:
+Sort by order Asc and desc fixed
+
+
+Beta 2.01
+-------------------
+Fixed:
+Special Character & is now shown correctly
+Possibility to switch Rico (Ajax Script menu of SOBI2) off
+
+
+Beta 2
+-------------------
+Fixed:
+Reordering in Backend->Entries&Categories by pressing the reorder button works now
+"Error in sobi2.php about line 255 - 264 => missing custom fields data" fixed
+The maximum length of the left sided menu in the backend is limited to 500px now
+missing tabs in backend are shown now
+Backend->New Entry Configuration->Safety Configuration "Label for Terms of Use Part 2" is now changeable
+Error shown if an unpublished field is set as "Required" fixed
+Redirecting after wrong security code was entered fixed
+Backend sorting order of the category trees fixed
+Backend->About: changes made to work with IIS (untested)
+If a field is set to unpublish, even in "old" entries this field isn't shown not longer
+Alt-Tag shown in details view if no image was given fixed
+Frontend alerts "duplicate entry" and "wrong security code" now as messages instead of popup
+If no InnoDB engine support is available, the MyISAM engine will be used
+Backend texts are not longer centered if using Opera
+The "Switching Language" feature now works
+Java Script error messages in IE and FF 2.0 Beta fixed
+Missing Publishing tag content for Edit Entry in IE and Opera fixed
+Special Characters are now shown correctly
+No expiration date (0 or none) works now
+Error uploading images in frontend fixed, file permissions are set correctly now
+Error with security image fixed
+Conflict with JosComment (class form) fixed
+Wrong display of last subcategories in backend tree fixed
+Works now with Mambo
+Missing Save and Cancel Button while editing fields fixed
+Error with Searching fixed
+
+Added/Changed:
+New Submenu "All Entries" in Entries&Categories Section of Backend
+Email Processing - on add new entry, on update, on approved. For author and/or admin (adjustable)
+Changes made in CSS file
+Changes made in languages files (english.php and admin.english.php)
+Language Manager to install a new language
+Adding German language support
+Expired Entries are marked as expired
+SQL injection filter

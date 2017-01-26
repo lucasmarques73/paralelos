@@ -1,0 +1,13 @@
+Remove no Inicio
+
+void removeFinal(TnoCabo * lista)
+{
+	struct Tno *p;
+	
+	p = lista->prim;
+	
+	lista->prim = p->prox;
+	
+	free(p);
+		
+}

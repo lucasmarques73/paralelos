@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\descontoproduto16\descontoproduto16\bin\Debug\descontoproduto16.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\descontoproduto16\descontoproduto16\obj\Debug\descontoproduto16.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\descontoproduto16\descontoproduto16\bin\Debug\descontoproduto16.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\descontoproduto16\descontoproduto16\bin\Debug\descontoproduto16.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\descontoproduto16\descontoproduto16\obj\Debug\descontoproduto16.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\descontoproduto16\descontoproduto16\obj\Debug\descontoproduto16.pdb

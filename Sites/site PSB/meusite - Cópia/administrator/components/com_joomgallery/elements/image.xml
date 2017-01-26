@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<name>Image Edit Form</name>
+	<params addpath="/administrator/components/com_joomgallery/elements">
+		<param name="owner" type="owner" default="" label="JGA_COMMON_OWNER" description="JGA_COMMON_OWNER_DESC" />
+		<param name="imgauthor" type="text" size="20" default="" label="JGA_COMMON_AUTHOR" description="JGA_IMGMAN_AUTHOR_TIP" />
+		<!--<param name="access" type="list" size="20" default="0" label="JGA_COMMON_ACCESS" description="JGA_HIT_DESC">
+			<option value="0">Public</option>
+			<option value="1">Registered</option>
+			<option value="2">Special</option>
+		</param>-->
+	</params>
+	<!--<params group="advanced">
+		<param name="show_title" type="list" default="" label="Show Title" description="Show/Hide the items title">
+			<option value="">Use Global</option>
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="link_titles" type="list" default="" label="Linked Titles" description="Make your Item titles linkable">
+			<option value="">Use Global</option>
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_intro" type="list" default="" label="Intro Text" description="Show/Hide the intro text">
+			<option value="">Use Global</option>
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="show_section" type="list" default="" label="Section Name" description="PARAMSECTION">
+			<option value="">Use Global</option>
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="link_section" type="list" default="" label="Section Name Linkable" description="PARAMSECTIONLINK">
+			<option value="">Use Global</option>
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_category" type="list" default="" label="Category Name" description="PARAMCATEG">
+			<option value="">Use Global</option>
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="link_category" type="list" default="" label="Category Name Linkable" description="PARAMCATEGLINK">
+			<option value="">Use Global</option>
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_vote" type="list" default="" label="Item Rating" description="PARAMRATING">
+			<option value="">Use Global</option>
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="show_author" type="list" default="" label="Author Names" description="PARAMAUTHOR">
+			<option value="">Use Global</option>
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="show_create_date" type="list" default="" label="Created Date and Time" description="PARAMCREATEDATE">
+			<option value="">Use Global</option>
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="show_modify_date" type="list" default="" label="Modified Date and Time" description="PARAMMODIFYDATE">
+			<option value="">Use Global</option>
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="show_pdf_icon" type="list" default="" label="PDF Icon" description="PARAMPDF">
+			<option value="">Use Global</option>
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="show_print_icon" type="list" default="" label="Print Icon" description="PARAMPRINT">
+			<option value="">Use Global</option>
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="show_email_icon" type="list" default="" label="Email Icon" description="PARAMEMAIL">
+			<option value="">Use Global</option>
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="language" type="languages" client="site" label="Content language" description="PARAMCONTENTLANGUAGE" />
+		<param name="keyref" type="text" size="25" default="" label="Key Reference" description="PARAMKEYREF" />
+		<param name="readmore" type="text" size="25" default="" label="Alternative Read more text" description="PARAMALTREADMORE" />
+	</params>-->
+  <params group="files">
+    <param name="spacer" type="spacer" default="JGA_IMGMAN_REPLACE_FILES_DESCRIPTION" />
+		<param name="thumb" type="file" size="20" default="" label="JGA_IMGMAN_REPLACE_THUMB" description="JGA_IMGMAN_REPLACE_THUMB_TIP" />
+		<param name="img" type="file" size="20" default="" label="JGA_IMGMAN_REPLACE_IMG" description="JGA_IMGMAN_REPLACE_IMG_TIP" />
+		<param name="orig" type="file" size="20" default="" label="JGA_IMGMAN_REPLACE_ORIG" description="JGA_IMGMAN_REPLACE_ORIG_TIP" />
+  </params>
+	<params group="metadata">
+		<param name="metadesc" type="textarea" rows="5" cols="30" default="" label="JGA_COMMON_METADESC" description="JGA_COMMON_METADESC_TIP" />
+		<param name="metakey" type="textarea" rows="5" cols="30" default="" label="JGA_COMMON_METAKEYS" description="JGA_COMMON_METAKEYS_TIP" />
+		<!--<param name="robots" type="text" size="20" default="" label="Robots" description="METAROBOTS" />
+		<param name="author" type="text" size="20" default="" label="Author" description="METAAUTHOR" />-->
+	</params>
+</form>

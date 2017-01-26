@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="prova01LucasYaçanan.master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="topo">
+            <img src="imagens/topo_home.jpg" style="height: 87px; width: 913px" />
+        </div>
+        <div id="menu">
+            <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+                <Items>
+                    <asp:MenuItem NavigateUrl="~/inicio.aspx" Text="Início" Value="Início"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/aluno.aspx" Text="Aluno" Value="Aluno"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/professor.aspx" Text="Professor" Value="Professor"></asp:MenuItem>
+                   
+                     
+                </Items>
+               
+            </asp:Menu>
+             <asp:LinkButton ID="btnSair" runat="server" OnClick="btnSair_Click">Sair</asp:LinkButton>  
+        </div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+         <div id="rodape">
+            <center>
+                Desenvolvido por: Nois mesmos!
+            </center>
+
+        </div>
+    </form>
+</body>
+</html>

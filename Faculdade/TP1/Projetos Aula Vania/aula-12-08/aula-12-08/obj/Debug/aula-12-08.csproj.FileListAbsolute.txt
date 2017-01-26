@@ -1,0 +1,9 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula-12-08\aula-12-08\bin\Debug\aula-12-08.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula-12-08\aula-12-08\bin\Debug\aula-12-08.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula-12-08\aula-12-08\bin\Debug\aula-12-08.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula-12-08\aula-12-08\obj\Debug\aula-12-08.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula-12-08\aula-12-08\obj\Debug\aula_12_08.Form1.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula-12-08\aula-12-08\obj\Debug\aula_12_08.Properties.Resources.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula-12-08\aula-12-08\obj\Debug\aula-12-08.csproj.GenerateResource.Cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula-12-08\aula-12-08\obj\Debug\aula-12-08.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula-12-08\aula-12-08\obj\Debug\aula-12-08.pdb

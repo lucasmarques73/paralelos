@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="4.5.2">
+  <name>Html Module</name>
+  <author>Gabiriele Lalasava</author>
+  <creationDate>June 02 2005</creationDate>
+  <copyright>(C) 2004 Fiji Web Design</copyright>
+  <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+  <authorEmail>fijiwebdesign@gmail.com</authorEmail>
+  <authorUrl>www.fijiwebdesign.com</authorUrl>
+  <version>1.0</version>
+  <description>This module allows you to add any html/javascript (within the document's body tag) to a module. It can be used to add affiliate code, copy and paste codes, google adsense etc. You can copy the module using mambo's module copy feature, and create many differnt html content. </description>
+  <files>
+    <filename module="mod_html">mod_html.php</filename>
+  </files>
+    <params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="Suffix to append to the CSS class attribute of this module." />
+		<param name="cache" type="radio" default="0" label="Enable Cache" description="Select whether to cache the content of this module">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="fwd_html" type="textarea" default="" label="HTML" description="Add any Html or Javascript Here. Eg: Google Adsense Code, Copy and Paste Scripts" cols="70" rows="30" />
+  		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="clean_js" type="list" default="1" label="Clean JS" description="Clean all JavaScript of HTML Line Breaks">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="clean_css" type="list" default="1" label="Clean CSS" description="Clean all Inlined CSS of HTML Line Breaks">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="clean_all" type="list" default="1" label="Clean HTML" description="Clean all HTML of Line Breaks. This may help if you are getting odd empty verticle space in your HTML output.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+  </params>
+</mosinstall>

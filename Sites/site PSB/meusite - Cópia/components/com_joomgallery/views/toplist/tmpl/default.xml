@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="JGA_LAYOUT_TOPLIST_DEFAULT">
+		<message>
+			<![CDATA[JGA_LAYOUT_TOPLIST_DEFAULT_DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>JGA_LAYOUT_TOPLIST_DEFAULT_STATE</name>
+		<description>JGA_LAYOUT_TOPLIST_DEFAULT_DESC_STATE</description>
+    <url>
+			<param name="type" type="list" default="" label="JGA_LAYOUT_TOPLIST_TYPE" description="JGA_LAYOUT_TOPLIST_TYPE_DESC">
+        <option value="">JGA_LAYOUT_TOPLIST_MOST_VIEWED</option>
+        <option value="toprated">JGA_LAYOUT_TOPLIST_TOP_RATED</option>
+        <option value="lastadded">JGA_LAYOUT_TOPLIST_LAST_ADDED</option>
+        <option value="lastcommented">JGA_LAYOUT_TOPLIST_LAST_COMMENTED</option>
+      </param>
+		</url>
+	</state>
+</metadata>

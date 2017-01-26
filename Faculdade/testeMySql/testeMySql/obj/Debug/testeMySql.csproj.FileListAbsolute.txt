@@ -1,0 +1,9 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\testeMySql\testeMySql\bin\Debug\testeMySql.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\testeMySql\testeMySql\bin\Debug\testeMySql.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\testeMySql\testeMySql\bin\Debug\testeMySql.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\testeMySql\testeMySql\obj\Debug\testeMySql.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\testeMySql\testeMySql\obj\Debug\testeMySql.Form1.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\testeMySql\testeMySql\obj\Debug\testeMySql.Properties.Resources.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\testeMySql\testeMySql\obj\Debug\testeMySql.csproj.GenerateResource.Cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\testeMySql\testeMySql\obj\Debug\testeMySql.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\testeMySql\testeMySql\obj\Debug\testeMySql.pdb

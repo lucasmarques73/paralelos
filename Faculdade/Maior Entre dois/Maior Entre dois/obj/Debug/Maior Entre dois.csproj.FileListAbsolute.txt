@@ -1,0 +1,5 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\Maior Entre dois\Maior Entre dois\bin\Debug\Maior Entre dois.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\Maior Entre dois\Maior Entre dois\bin\Debug\Maior Entre dois.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\Maior Entre dois\Maior Entre dois\bin\Debug\Maior Entre dois.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\Maior Entre dois\Maior Entre dois\obj\Debug\Maior Entre dois.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\Maior Entre dois\Maior Entre dois\obj\Debug\Maior Entre dois.pdb

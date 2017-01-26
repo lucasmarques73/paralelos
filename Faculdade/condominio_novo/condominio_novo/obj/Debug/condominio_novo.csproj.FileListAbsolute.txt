@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\condominio_novo\condominio_novo\bin\Debug\condominio_novo.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\condominio_novo\condominio_novo\bin\Debug\condominio_novo.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\condominio_novo\condominio_novo\bin\Debug\condominio_novo.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\condominio_novo\condominio_novo\obj\Debug\condominio_novo.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\condominio_novo\condominio_novo\obj\Debug\condominio_novo.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\condominio_novo\condominio_novo\obj\Debug\condominio_novo.pdb

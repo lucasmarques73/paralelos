@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\Menu_medias\Menu_medias\bin\Debug\Menu_medias.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\Menu_medias\Menu_medias\bin\Debug\Menu_medias.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\Menu_medias\Menu_medias\bin\Debug\Menu_medias.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\Menu_medias\Menu_medias\obj\Debug\Menu_medias.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\Menu_medias\Menu_medias\obj\Debug\Menu_medias.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\Menu_medias\Menu_medias\obj\Debug\Menu_medias.pdb

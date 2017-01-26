@@ -1,0 +1,6 @@
+C:\Users\Lucas Marques\Documents\Visual Studio 2012\Projects\ExercicioMatriz\ExercicioMatriz\bin\Debug\ExercicioMatriz.exe.config
+C:\Users\Lucas Marques\Documents\Visual Studio 2012\Projects\ExercicioMatriz\ExercicioMatriz\bin\Debug\ExercicioMatriz.exe
+C:\Users\Lucas Marques\Documents\Visual Studio 2012\Projects\ExercicioMatriz\ExercicioMatriz\bin\Debug\ExercicioMatriz.pdb
+C:\Users\Lucas Marques\Documents\Visual Studio 2012\Projects\ExercicioMatriz\ExercicioMatriz\obj\Debug\ExercicioMatriz.csprojResolveAssemblyReference.cache
+C:\Users\Lucas Marques\Documents\Visual Studio 2012\Projects\ExercicioMatriz\ExercicioMatriz\obj\Debug\ExercicioMatriz.exe
+C:\Users\Lucas Marques\Documents\Visual Studio 2012\Projects\ExercicioMatriz\ExercicioMatriz\obj\Debug\ExercicioMatriz.pdb

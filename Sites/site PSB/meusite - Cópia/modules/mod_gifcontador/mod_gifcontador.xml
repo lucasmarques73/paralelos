@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<mosinstall type="module">
+    <name>Gif Contador</name>
+    <creationDate>2007.02.27</creationDate>
+    <author>Paco Cuadra</author>
+    <copyright>This component  is released under the GNU/GPL License</copyright>
+    <authorEmail>webmaster@rcalmariya.com</authorEmail>
+    <authorUrl>www.rcalmariya.com</authorUrl>
+    <version>1.0.0</version>
+    <description>Contador de vistas con imagenes gif</description>
+    <files>
+			  <filename module="mod_gifcontador">mod_gifcontador.php</filename>    
+    </files>
+    <images>
+	<filename>numeros/n1.gif</filename>
+	<filename>numeros/n2.gif</filename>
+	<filename>numeros/n3.gif</filename>
+	<filename>numeros/n4.gif</filename>
+	<filename>numeros/n5.gif</filename>
+	<filename>numeros/n6.gif</filename>
+	<filename>numeros/n7.gif</filename>
+	<filename>numeros/n8.gif</filename>
+	<filename>numeros/n9.gif</filename>
+	<filename>numeros/n0.gif</filename>						
+    </images>
+    <params>
+        <param name="contador_ini" type="text" default="0" label="Valor inicial del contador, este valor se incrementara al numero de visitas registradas en las estadisticas." />
+    </params>    
+</mosinstall>

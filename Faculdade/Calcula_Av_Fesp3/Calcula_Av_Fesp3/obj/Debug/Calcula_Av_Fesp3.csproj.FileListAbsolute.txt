@@ -1,0 +1,5 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Calcula_Av_Fesp3\Calcula_Av_Fesp3\bin\Debug\Calcula_Av_Fesp3.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Calcula_Av_Fesp3\Calcula_Av_Fesp3\bin\Debug\Calcula_Av_Fesp3.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Calcula_Av_Fesp3\Calcula_Av_Fesp3\bin\Debug\Calcula_Av_Fesp3.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Calcula_Av_Fesp3\Calcula_Av_Fesp3\obj\Debug\Calcula_Av_Fesp3.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Calcula_Av_Fesp3\Calcula_Av_Fesp3\obj\Debug\Calcula_Av_Fesp3.pdb

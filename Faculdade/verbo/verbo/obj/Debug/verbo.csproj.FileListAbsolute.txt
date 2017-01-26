@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\verbo\verbo\bin\Debug\verbo.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\verbo\verbo\bin\Debug\verbo.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\verbo\verbo\bin\Debug\verbo.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\verbo\verbo\obj\Debug\verbo.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\verbo\verbo\obj\Debug\verbo.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\verbo\verbo\obj\Debug\verbo.pdb

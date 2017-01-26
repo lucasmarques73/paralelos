@@ -1,0 +1,6 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\login\login\bin\Debug\login.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\login\login\bin\Debug\login.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\login\login\bin\Debug\login.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\login\login\obj\Debug\login.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\login\login\obj\Debug\login.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\login\login\obj\Debug\login.pdb

@@ -1,0 +1,6 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Console.KeyAvailable\Console.KeyAvailable\bin\Debug\Console.KeyAvailable.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Console.KeyAvailable\Console.KeyAvailable\bin\Debug\Console.KeyAvailable.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Console.KeyAvailable\Console.KeyAvailable\bin\Debug\Console.KeyAvailable.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Console.KeyAvailable\Console.KeyAvailable\obj\Debug\Console.KeyAvailable.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Console.KeyAvailable\Console.KeyAvailable\obj\Debug\Console.KeyAvailable.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Console.KeyAvailable\Console.KeyAvailable\obj\Debug\Console.KeyAvailable.pdb

@@ -1,0 +1,5 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\login_funcao\login_funcao\bin\Debug\login_funcao.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\login_funcao\login_funcao\bin\Debug\login_funcao.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\login_funcao\login_funcao\bin\Debug\login_funcao.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\login_funcao\login_funcao\obj\Debug\login_funcao.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\login_funcao\login_funcao\obj\Debug\login_funcao.pdb

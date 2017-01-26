@@ -1,0 +1,6 @@
+C:\_shpd_c#\bin\Debug\MySqlSample.exe
+C:\_shpd_c#\bin\Debug\MySqlSample.pdb
+C:\_shpd_c#\MySQL\obj\Debug\ResolveAssemblyReference.cache
+C:\_shpd_c#\MySQL\obj\Debug\MySqlSample.MainForm.resources
+C:\_shpd_c#\MySQL\obj\Debug\MySqlSample.exe
+C:\_shpd_c#\MySQL\obj\Debug\MySqlSample.pdb

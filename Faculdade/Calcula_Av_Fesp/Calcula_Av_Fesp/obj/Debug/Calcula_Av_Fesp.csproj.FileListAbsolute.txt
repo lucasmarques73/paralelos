@@ -1,0 +1,6 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Calcula_Av_Fesp\Calcula_Av_Fesp\bin\Debug\Calcula_Av_Fesp.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Calcula_Av_Fesp\Calcula_Av_Fesp\bin\Debug\Calcula_Av_Fesp.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Calcula_Av_Fesp\Calcula_Av_Fesp\bin\Debug\Calcula_Av_Fesp.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Calcula_Av_Fesp\Calcula_Av_Fesp\obj\Debug\Calcula_Av_Fesp.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Calcula_Av_Fesp\Calcula_Av_Fesp\obj\Debug\Calcula_Av_Fesp.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Calcula_Av_Fesp\Calcula_Av_Fesp\obj\Debug\Calcula_Av_Fesp.pdb

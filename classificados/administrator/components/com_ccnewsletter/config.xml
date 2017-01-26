@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params>
+		<param name="fromName" type="text" default="" size="50" label="CC_FROM_NAME_EMAIL" description="CC_FROM_NAME_EMAIL_DESC" />
+		<param name="fromEmail" type="text" default="" size="50" label="CC_FROM_EMAIL_ADDRESS" description="CC_FROM_EMAIL_ADDRESS_DESC" />
+		<param name="testEmailAddress" type="text" default="" size="50" label="CC_TEST_EMAIL_ADDRESS" description="CC_TEST_EMAIL_ADDRESS_DESC" />
+
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="emailperbatch" type="text" default="50" size="20" label="CC_EMAIL_PER_BATCH" description="CC_EMAIL_PER_BATCH_DESC" />
+		<param name="batchinterval" type="text" default="60" size="20" label="CC_BATCH_INTERVAL" description="CC_BATCH_INTERVAL_DESC" />
+		<param name="scripttimeout" type="text" default="120" size="20" label="CC_SCRIPT_TIMEOUT" description="CC_SCRIPT_TIMEOUT_DESC" />
+
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="emailvalidation" type="radio" default="0" label="CC_EXTENDED_EMAIL_VALIDATION" description="CC_EXTENDED_EMAIL_VALIDATION_DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="vmintegration" type="radio" default="0" label="CC_VM_INTEGRATION" description="CC_VM_INTEGRATION_DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+
+		<param name="cbintegration" type="radio" default="0" label="CC_CB_INTEGRATION" description="CC_CB_INTEGRATION_DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+
+		<param name="status" type="radio" default="0" label="CC_ACKNOWLEDGEMENT_OFF" description="CC_ACKNOWLEDGEMENT_OFF">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+
+		<param name="synstatus" type="radio" default="0" label="CC_SYN_ACKNOWLEDGEMENT_ON" description="CC_SYN_ACKNOWLEDGEMENT_ON">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+
+		<param name="activation" type="radio" default="0" label="CC_EMAIL_ACTIVATION" description="CC_EMAIL_ACTIVATION">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+
+
+		<param name="Syncallusers" type="radio" default="0" label="CC_SYN_ALL_USER" description="CC_SYN_ALL_USER_DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+	</params>
+</config>

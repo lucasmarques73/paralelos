@@ -1,0 +1,7 @@
+C:\Users\Aluno\Desktop\aula_22_05\aula_22_05\bin\Debug\aula_22_05.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_22_05\aula_22_05\bin\Debug\aula_22_05.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_22_05\aula_22_05\bin\Debug\aula_22_05.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_22_05\aula_22_05\bin\Debug\aula_22_05.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_22_05\aula_22_05\obj\Debug\aula_22_05.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_22_05\aula_22_05\obj\Debug\aula_22_05.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_22_05\aula_22_05\obj\Debug\aula_22_05.pdb

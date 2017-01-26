@@ -1,0 +1,96 @@
+  cabecalho("MENU PRINCIPAL - ESCOLHA UMA OPÇÃO");
+                    Console.WriteLine("   1 - CADASTRAR CONDOMÍNIO");
+                    Console.WriteLine("   2 - CONSULTAR CONDOMÍNIO");
+                    Console.WriteLine("   3 - CADASTRAR MORADOR");
+                    Console.WriteLine("   4 - CONSULTAR MORADOR");
+                    Console.WriteLine("   5 - CADASTRAR DESPESAS");
+                    Console.WriteLine("   6 - CONSULTAR DESPESAS");
+                    Console.WriteLine("   7 - CADASTRAR PAGAMENTOS");
+                    Console.WriteLine("   8 - CONSULTAR PAGAMENTOS");
+                    Console.WriteLine("   9 - RELATÓRIO DOS PAGAMENTOS");
+                    Console.WriteLine("  10 - RELATÓRIO DAS DESPESAS");
+                    Console.WriteLine("  11 - CALCULAR CONDOMÍNIO");
+                    Console.WriteLine("  99 - SAIR");
+                   
+                    cabecalho("");
+                    Console.Write("OPÇÃO:");
+                    int op = int.Parse(Console.ReadLine());
+
+                    if (op == 1)
+                    {
+                        Console.Clear();
+                        cabecalho("CADASTRO DE CONDOMÍNIO");
+                        cadastro_condominio();                        
+                    }
+                    else if (op == 2)
+                    {
+                        Console.Clear();
+                       cabecalho("CONSULTA DE CONDOMÍNIO");
+                        consulta_condominio();
+                    }
+                    else if (op == 3)
+                    {
+                        Console.Clear();
+                        cabecalho("CADASTRO DE MORADOR");
+                        cadastro_morador();
+                    }
+                   else if (op == 4)
+                    {
+                        Console.Clear();
+                        cabecalho("CONSULTA DE MORADOR");
+                        consulta_morador();
+                    }
+                    else if (op == 5)
+                    {
+                        Console.Clear();
+                        cabecalho("CADASTRO DE DESPESA");
+                        cadastro_despesa();
+                    }
+                    else if (op == 6)
+                    {
+                        Console.Clear();
+                        cabecalho("CONSULTA DE DESPESA");
+                        consulta_despesa();
+                    }
+                    else if (op == 7)
+                    {
+                        Console.Clear();
+                        cabecalho("CADASTRO DE PAGAMENTO");
+                        cadastro_pagamento();
+                    }
+                    else if (op == 8)
+                    {
+                        Console.Clear();
+                        cabecalho("CONSULTA DE PAGAMENTO");
+                        consulta_pagamento();
+                    }
+                    else if (op == 9)
+                    {
+                        Console.Clear();
+                        cabecalho("RELATORIO DESPESAS PAGAS");
+                        relatorio_pagamentos();
+                    }
+                    else if (op == 10)
+                    {
+                        Console.Clear();
+                        cabecalho("RELATORIO DAS DESPESAS À PAGAR");
+                        relatorio_despesas();
+                    }
+                    else if (op == 11)
+                    {
+                        Console.Clear();
+                        cabecalho("CALCULO DE CONDOMÍNIO");
+                        calcular_condominio();
+                    }
+                    else if (op == 99)                   
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("OPÇÃO INVÁLIDA!");
+                        Console.Beep();
+                    }
+                    cabecalho("PRECIONE ALGUMA TELCA PARA VOLTAR AO MENU");
+                 
+                    Console.ReadLine();

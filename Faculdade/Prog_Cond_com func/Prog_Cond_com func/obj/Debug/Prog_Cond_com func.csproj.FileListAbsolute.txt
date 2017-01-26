@@ -1,0 +1,9 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Prog_Cond_com func\Prog_Cond_com func\bin\Debug\Prog_Cond_com func.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Prog_Cond_com func\Prog_Cond_com func\obj\Debug\Prog_Cond_com func.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Prog_Cond_com func\Prog_Cond_com func\bin\Debug\Prog_Cond_com func.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Prog_Cond_com func\Prog_Cond_com func\bin\Debug\Prog_Cond_com func.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Prog_Cond_com func\Prog_Cond_com func\obj\Debug\Prog_Cond_com func.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Prog_Cond_com func\Prog_Cond_com func\obj\Debug\Prog_Cond_com func.pdb
+C:\Users\CSPINELI\Dropbox\Facul\Prog_Cond_com func\Prog_Cond_com func\bin\Debug\Prog_Cond_com func.exe.config
+C:\Users\CSPINELI\Dropbox\Facul\Prog_Cond_com func\Prog_Cond_com func\obj\Debug\Prog_Cond_com func.exe
+C:\Users\CSPINELI\Dropbox\Facul\Prog_Cond_com func\Prog_Cond_com func\obj\Debug\Prog_Cond_com func.pdb

@@ -1,0 +1,5 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\tabuada2\tabuada2\bin\Debug\tabuada2.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\tabuada2\tabuada2\bin\Debug\tabuada2.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\tabuada2\tabuada2\bin\Debug\tabuada2.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\tabuada2\tabuada2\obj\Debug\tabuada2.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\tabuada2\tabuada2\obj\Debug\tabuada2.pdb

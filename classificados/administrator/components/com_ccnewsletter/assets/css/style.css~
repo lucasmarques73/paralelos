@@ -1,0 +1,19 @@
+/*
+*	cciDEAL - a component by Chill Creations
+*	@version 2.x Stable
+*	@package cciDEAL
+*	@@Chill Creations - extensions@chillcreations.com
+*/
+
+
+
+
+@CHARSET "UTF-8";
+
+.icon-16-generic {
+	background: url(../cc_icon_small.png) no-repeat left top;
+}
+
+.icon-48-ccnewsletter {
+	background: url(../cc_icon_large.png) no-repeat left top;
+}

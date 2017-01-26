@@ -1,0 +1,1 @@
+c:\users\lucas\documents\visual studio 2012\Projects\cliente\cliente\bin\Debug\cliente.exe.config

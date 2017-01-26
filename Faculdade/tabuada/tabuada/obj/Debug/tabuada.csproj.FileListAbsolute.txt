@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\tabuada\tabuada\bin\Debug\tabuada.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\tabuada\tabuada\bin\Debug\tabuada.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\tabuada\tabuada\bin\Debug\tabuada.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\tabuada\tabuada\obj\Debug\tabuada.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\tabuada\tabuada\obj\Debug\tabuada.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\tabuada\tabuada\obj\Debug\tabuada.pdb

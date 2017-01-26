@@ -1,0 +1,13 @@
+C:\Users\Public\Professor\vania\Prl\Prl\bin\Debug\Prl.exe.config
+C:\Users\Public\Professor\vania\Prl\Prl\bin\Debug\Prl.exe
+C:\Users\Public\Professor\vania\Prl\Prl\bin\Debug\Prl.pdb
+C:\Users\Public\Professor\vania\Prl\Prl\obj\Debug\Prl.csprojResolveAssemblyReference.cache
+C:\Users\Public\Professor\vania\Prl\Prl\obj\Debug\Prl.Form1.resources
+C:\Users\Public\Professor\vania\Prl\Prl\obj\Debug\Prl.Properties.Resources.resources
+C:\Users\Public\Professor\vania\Prl\Prl\obj\Debug\Prl.csproj.GenerateResource.Cache
+C:\Users\Public\Professor\vania\Prl\Prl\obj\Debug\Prl.exe
+C:\Users\Public\Professor\vania\Prl\Prl\obj\Debug\Prl.pdb
+C:\Users\Public\Professor\vania\Prl\Prl\obj\Debug\Prl.FormACG.resources
+E:\Lucas_Marques16\Técnicas de Programação I\Prl\Prl\bin\Debug\Prl.exe.config
+E:\Lucas_Marques16\Técnicas de Programação I\Prl\Prl\obj\Debug\Prl.exe
+E:\Lucas_Marques16\Técnicas de Programação I\Prl\Prl\obj\Debug\Prl.pdb

@@ -1,0 +1,6 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\cabecalhos\cabecalhos\bin\Debug\cabecalhos.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\cabecalhos\cabecalhos\bin\Debug\cabecalhos.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\cabecalhos\cabecalhos\bin\Debug\cabecalhos.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\cabecalhos\cabecalhos\obj\Debug\cabecalhos.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\cabecalhos\cabecalhos\obj\Debug\cabecalhos.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\cabecalhos\cabecalhos\obj\Debug\cabecalhos.pdb

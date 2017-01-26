@@ -1,0 +1,15 @@
+C:\Users\Aluno\AppData\Local\Temporary Projects\provaVania20_11\bin\Debug\provaVania20_11.exe.config
+D:\Lucas_Marques16\Projetos\provaVania20_11\provaVania20_11\bin\Debug\provaVania20_11.exe.config
+D:\Lucas_Marques16\Projetos\provaVania20_11\provaVania20_11\obj\Debug\provaVania20_11.csprojResolveAssemblyReference.cache
+D:\Lucas_Marques16\Projetos\provaVania20_11\provaVania20_11\obj\Debug\provaVania20_11.buscaOcorrencia.resources
+D:\Lucas_Marques16\Projetos\provaVania20_11\provaVania20_11\obj\Debug\provaVania20_11.cadCarro.resources
+D:\Lucas_Marques16\Projetos\provaVania20_11\provaVania20_11\obj\Debug\provaVania20_11.cadOcorrencia.resources
+D:\Lucas_Marques16\Projetos\provaVania20_11\provaVania20_11\obj\Debug\provaVania20_11.cadPessoa.resources
+D:\Lucas_Marques16\Projetos\provaVania20_11\provaVania20_11\obj\Debug\provaVania20_11.Main.resources
+D:\Lucas_Marques16\Projetos\provaVania20_11\provaVania20_11\obj\Debug\provaVania20_11.Properties.Resources.resources
+D:\Lucas_Marques16\Projetos\provaVania20_11\provaVania20_11\obj\Debug\provaVania20_11.csproj.GenerateResource.Cache
+D:\Lucas_Marques16\Projetos\provaVania20_11\provaVania20_11\bin\Debug\provaVania20_11.exe
+D:\Lucas_Marques16\Projetos\provaVania20_11\provaVania20_11\bin\Debug\provaVania20_11.pdb
+D:\Lucas_Marques16\Projetos\provaVania20_11\provaVania20_11\obj\Debug\provaVania20_11.exe
+D:\Lucas_Marques16\Projetos\provaVania20_11\provaVania20_11\obj\Debug\provaVania20_11.pdb
+D:\Lucas_Marques16\Projetos\provaVania20_11\provaVania20_11\obj\Debug\provaVania20_11.anoMaior2009.resources

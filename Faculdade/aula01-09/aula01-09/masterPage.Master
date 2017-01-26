@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterPage.master.cs" Inherits="aula01_09.masterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="css/menu.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="corpo">
+        <div id="topo">
+            <asp:HyperLink ID="HyperLink1" runat="server" ImageUrl="~/img/logo.png" Target="_self">HyperLink</asp:HyperLink>
+            <img src="img/pracaMatriz.png" />
+        </div>
+        <div id="menu">
+            <asp:Menu ID="Menu1" runat="server">
+                <Items>
+                    <asp:MenuItem Text="Inicio" Value="Inicio"></asp:MenuItem>
+                    <asp:MenuItem Text="A Cidade" Value="A Cidade"></asp:MenuItem>
+                    <asp:MenuItem Text="Prefeitura" Value="Prefeitura"></asp:MenuItem>
+                    <asp:MenuItem Text="Notícias" Value="Notícias"></asp:MenuItem>
+                    <asp:MenuItem Text="Saúde" Value="Saúde"></asp:MenuItem>
+                    <asp:MenuItem Text="Educação" Value="Educação"></asp:MenuItem>
+                    <asp:MenuItem Text="Serviços" Value="Serviços"></asp:MenuItem>
+                    <asp:MenuItem Text="Contato" Value="Contato"></asp:MenuItem>
+                </Items>
+            </asp:Menu>
+        </div>
+        <div id="conteudo">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+            <div id="rodape">
+                <p>è tóòis</p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

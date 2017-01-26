@@ -1,0 +1,6 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Func\Func\bin\Debug\Func.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Func\Func\bin\Debug\Func.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Func\Func\bin\Debug\Func.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Func\Func\obj\Debug\Func.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Func\Func\obj\Debug\Func.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Func\Func\obj\Debug\Func.pdb

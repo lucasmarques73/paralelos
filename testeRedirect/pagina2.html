@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Teste LocalStorage</title>
+  <!-- Se estiver usando bootstrap, coloque o CSS do Locastyle logo após a sua chamada -->
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+
+</head>
+<body>
+  <div class="box-parent-login">
+  	<div class="well bg-white box-login">
+  		<h1 class="ls-login-logo">Pagina 2</h1>
+      <input type="button" value="Sair" class="btn btn-danger btn-lg btn-block" id="btnSair">
+      <a href="perfil.html"><input type="button" value="Perfil" class="btn btn-info btn-lg btn-block" id="btnPgPerfil"></a>
+      <a href="pagina1.html"><input type="button" value="Pagina 1" class="btn btn-primary btn-lg btn-block" id="btnPg1"></a>
+  	</div>
+  </div>
+
+
+</body>
+<!-- Atente-se para a ordem: primeiro jquery, depois locastyle, depois o JS do Bootstrap. -->
+<script type="text/javascript" src="javascripts/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="javascripts/api.js"></script>/
+
+<script>
+    $(document).ready(function() {
+
+            var obj = localStorage.getItem('usuario');
+            var usu = jQuery.parseJSON(obj);
+
+            if (obj != null) {
+                  alert("Bem Vindo: " + usu.nome );
+            }
+            else{
+              alert("Logar primeiro");
+              localStorage.clear();
+              window.location = 'index.html';
+            }
+      });
+</script>
+</html>

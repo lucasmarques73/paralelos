@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\novosalario14\novosalario14\bin\Debug\novosalario14.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\novosalario14\novosalario14\bin\Debug\novosalario14.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\novosalario14\novosalario14\bin\Debug\novosalario14.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\novosalario14\novosalario14\obj\Debug\novosalario14.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\novosalario14\novosalario14\obj\Debug\novosalario14.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\novosalario14\novosalario14\obj\Debug\novosalario14.pdb

@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\pesoideal19\pesoideal19\bin\Debug\pesoideal19.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\pesoideal19\pesoideal19\bin\Debug\pesoideal19.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\pesoideal19\pesoideal19\bin\Debug\pesoideal19.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\pesoideal19\pesoideal19\obj\Debug\pesoideal19.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\pesoideal19\pesoideal19\obj\Debug\pesoideal19.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\pesoideal19\pesoideal19\obj\Debug\pesoideal19.pdb

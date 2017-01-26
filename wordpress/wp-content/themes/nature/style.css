@@ -1,0 +1,243 @@
+/*  
+Theme Name: Nature
+Theme URI: http://www.mobtemplate.com
+Version: 1.0
+Description: Nature 1.0 Wordpress Theme by <a href="http://www.mobtemplate.com">Robert</a>
+Author: Robert
+Author URI: http://www.mobtemplate.com
+*/
+
+
+/*-------------------- General --------------------*/
+
+
+body { margin: 0; padding: 0; background :#c1e19e url("images/bg.jpg") repeat-x;background-attachment:fixed;  font: 10px "Comic Sans MS", Tahoma, Trebuchet MS,Arial, Sans-Serif; color: #000; text-align: left; }
+
+p, ol, ul { line-height: 150%; }
+
+h1, h2, h3, h4, h5, h6 { margin: 0; font-style: normal; font-weight: normal; background: transparent; }
+
+h1 { font-size: 2.2em;  }
+h2 { font-size: 1.6em;  }
+h3, h4, h5, h6 { font-size: 1em;}
+
+a, a:link { color: #0099CC text-decoration: none; }
+a:hover, a:active { text-decoration:none;color:#000;}
+
+blockquote { margin: 10px; padding: 10px 0px 10px 30px; color:#000; background-color:#a9d186; border : 1px solid #577241;}
+code{ display:block; overflow:auto; text-align:left; margin: 10px 0 10px 0; padding: 5px 10px 5px 10px; }
+
+small { font-size: 0.8em; }
+
+img { padding:5px; border:0; }
+img.right { float: right; margin:5px 0 5px 5px; }
+img.left { float: left; margin:5px 5px 5px 0px; }
+a img         {border:none;}
+
+.left         { float: left; }
+.right        { float: right; }
+.center { text-align: center; }
+.alignleft { float: left; margin-right: 10px; }
+.alignright { float: right; margin-left: 10px; }
+
+.navigation { display:block; padding: 20px; }
+
+
+/*-------------------- Layout --------------------*/
+
+
+#outline { width: 955px; margin: 0 auto; padding: 0; background: #fbe7ce;  font-size: 1.3em;}
+
+#wrapper { float: left; width: 957px; margin: 0 !important; margin: -15px 0 0 0; /* IE hack */ padding: 0; background: #fff;}
+
+
+/*-------------------- Header --------------------*/
+
+
+#header { width: 957px; height: 216px; background: url(images/header.jpg) no-repeat left top; }
+#header .blogtitle { width: auto; height: 118px; }
+#header h1 { padding: 8px 0 0 30px; }
+#header h1 a { color: #a4da77; text-decoration: none; }
+#header h1 a:hover{Color:#fff;}
+.description { color: #a4da77; padding-left: 30px; }
+
+#navbar { clear: both; float: left; width: 957px; height: 30px; height: 30px; background: url(images/menu.jpg) no-repeat; }
+
+ul.menu { float: left; margin: 0; padding: 0 15px; list-style-type: none; font-weight: bold;}
+ul.menu li { float: left; font-weight: bold;}
+ul.menu li a { float: left; display: block; height: 28px; padding: 3px 15px 0 25px; line-height: 24px; color: #006699;text-transform:uppercase; font-weight: bold;}
+ul.menu li a:link, ul.menu li a:visited { color: #06699; background: none; text-decoration: none; v}
+ul.menu li a:hover, ul.menu li a:active { color: #000000; background: transparent url(images/menu.jpg) repeat-x 0 0; text-decoration: none;font-weight: bold; }
+
+ul.menu li.current_page_item a:link,
+ul.menu li.current_page_item a:visited,
+ul.menu li.current_page_item a:hover,
+ul.menu li.current_page_item a:active { color: #fff; font-weight: bold;  text-decoration: none; }
+
+
+/*-------------------- Search --------------------*/
+
+
+.searchbar { float: right; width: 290px; height: 30px; margin: 0; }
+.searchform { width: 290px; height: 20px; text-align: left; }
+.Search input.keyword { border: none; background: #fff url(/images/search.jpg) no-repeat; border: none; padding: 12px 12px 14px 12px; width: 240px; } 
+
+
+
+/*-------------------- Pages --------------------*/
+
+
+#content { float: left; width: 660px; height: 100%; }
+
+.pages { float: left; width: 630px; }
+.pages-border { clear: both; width: 100%; height: 6px; }
+
+.page-previous { float: left; padding: 10px 0 16px 30px !important; padding: 0 0 15px 30px; /* IE Hack */ }
+.page-next { float: right; padding: 10px 30px 16px 0 !important; padding: 0 30px 15px 0; /* IE Hack */ }
+
+.page-title { width: 630px; margin: 20px 0 0 0; }
+.page-title h2.page-title-border { padding: 0 0 0 30px; line-height: 48px; color: #666;}
+
+
+/*-------------------- Post --------------------*/
+
+
+.post { padding: 20px 30px; background: transparent;  }
+.postentry { }
+
+.posthead { position: relative; clear: left; margin-left: 45px; }
+
+.posttitle a:link, .posttitle a:visited { color: #006699; text-transform: uppercase;}
+.posttitle a:hover {color:#000;}
+.font-family a:hover, .posttitle a:active { }
+
+.postmeta, .postmeta a { margin: 4px 0 ; font-size: 11px; color: #006699; }
+.post-comment { padding: 0 0 0 20px; background: url(images/dot.jpg) no-repeat 1px; }
+.post-filed { padding: 0 0 0 20px; background: url(images/dot.jpg) no-repeat 1px; }
+
+.postdate { position: absolute; top: 0px; left: -45px; text-align: center; margin: 0; padding: 2px 8px 2px 0px; list-style: none; border-right: solid 1px #006699;}
+.postdate .year { display: block; font-size: 11px; font-weight: normal; text-transform: lowercase; line-height: 11px; color: #006699; }
+.postdate .month { display: block; font-size: 11px; font-weight: normal; text-transform: uppercase; line-height: 11px; color: #006699; }
+.postdate .day { display: block; font-size: 22px; font-weight: normal; line-height: 22px; color: #006699; letter-spacing: -1px;}
+
+
+/*-------------------- Sidebar --------------------*/
+
+
+#sidebar { float: right; width: 290px; margin: 0; padding: 0; }
+
+#sidebar h2 { display: block; margin: 16px 0 6px 0; padding: 0 0 10px 3px; font-size: 1.4em; list-style-type: none; color: #006699;text-transform:uppercase; }
+
+#sidebar ul { clear: both; margin: 0; padding: 0 0 20px 0; list-style-type: none; }
+#sidebar ul li { clear: both; }
+
+#sidebar ul.no-splitted li { background: transparent url(images/dot.jpg) no-repeat 5px 4px; padding: 0 0 0 23px; }
+
+#sidebar ul.no-splitted ul li { margin: 0 -5px; }
+#sidebar p, #sidebar form { margin: 0 5px; padding: 0 0 20px 0; }
+#sidebar ul.blc { padding: 0 5px; }
+
+#sidebar li#sidebar-splitted { float: left; width: 100%; margin: 0 0 15px 0; }
+#sidebar-splitted .splitted-left { float: left; width: 140px; }
+#sidebar-splitted .splitted-right { float: right; width: 145px; }
+
+ul.splittedlists li { background: transparent url(images/dot.jpg) no-repeat 5px 4px; padding: 0 0 0 23px; }
+
+ul.splittedlists ul li { margin: 0 0 0 -23px; }
+
+
+/*-------------------- Bottom --------------------*/
+
+
+#bottom { clear: both; float: left; width: 957px; height: 100%; margin: 0 0 0 0; padding-top: 0; text-align: left; font-size: 15px;background:#fff; }
+#bottom-divs { float: left; clear: both; margin: 0; padding: 0px; }
+
+#bottom-left, #bottom-mid, #bottom-right { width: 30%; padding: 20px 0 40px 20px; float: left; }
+
+#bottom h2 { margin: 0 0 10px 0; padding: 0 8px; font-size: 1.6em; color: #006699; text-transform:uppercase;}
+
+#bottom ul { margin: 0; padding: 0; list-style-type: none; border-top: 1px solid #006699; }
+#bottom ul li { line-height: 25px; border-bottom: 1px dashed #006699; }
+#bottom ul li a { display: block; padding:0 10px; }
+#bottom ul li a:hover { background:  5px 5px; padding: 0 0 0 10px; }
+#bottom-sep { clear: both; }
+
+
+/*-------------------- Footer --------------------*/
+
+#footer { clear: both; height: 60px; background: url(images/footer.jpg); width:957px; text-align:center;color:#214502; }
+
+#footer p { margin: 0; padding: 13px 25px; font-size: 0.7em; line-height: 200%; }
+#footer p a:link, #footer p a:visited { color: #006699; }
+#footer p a:hover { color: #fff; }
+
+
+/*-------------------- Calendar --------------------*/
+
+
+#wp-calendar { margin: 0pt; text-align: center; }
+#wp-calendar caption { color: #82d33c;text-transform:uppercase;}
+
+#wp-calendar th {color :#fff; background:#497028;}
+#wp-calendar td { height: 24px; width: 34px; line-height: 20px; color: #82d33c;  }
+#wp-calendar .pad { }
+#wp-calendar td a { display: block; width: 24px; height: 24px; text-decoration: none; line-height: 24px; }
+
+#wp-calendar #prev, #wp-calendar #next { }
+#wp-calendar #prev a { width: 49px; }
+#wp-calendar #next a { margin: 0pt 0pt 0pt 30px; width: 49px; }
+#wp-calendar #today { color: #111; font-weight: bold; }
+#wp-calendar #today a { font-weight: bold; }
+
+
+/*-------------------- Comment --------------------*/
+
+
+.comments { padding: 0px; margin: 20px 0px 20px 0px ; }
+
+.posttrackback { margin: 0px; padding: 0 0 50px 0; font-size: 10px; }
+.posttrackback p { margin: 2px 0px; padding: 2px 0px 2px 23px; list-style-type: none; }
+.posttrackback a:link, .posttrackback a:visited { color: #006699; text-decoration: none; }
+.posttrackback a:hover, .font-family a:active { color: #006699; text-decoration: underline; }
+
+.commentlist h3 {font-size: 15px; font-weight: bold; letter-spacing: 0px; padding: 0px 0px 5px 0px; margin: 0px 0px 20px 0px; }
+.commentlist ol { padding: 0px; margin: 0px;}
+.commentlist li { position: relative; padding: 0px; margin: 0px 0px 20px 0px; list-style-type: none; }
+
+.commentlist .listuser { margin: 0px; padding: 0px 0px 0px 40px; font-size: 14px; line-height: 14px; font-weight: bold;}
+.commentlist .listuser a { text-decoration: none;}
+.commentlist .font-family a:visited { text-decoration: none;}
+.commentlist .listuser a:hover { text-decoration: none;}
+
+.commentlist .listnr { font-size: 26px; position: absolute; line-height: 26px; color: #ccc; top: 0px; left: 0px; text-align: center; padding: 2px 10px 2px 0px; margin: 0; }
+
+.commentlist .listdate { padding-left: 40px; font-size: 11px; line-height: 11px; }
+.commentlist .listdate a { text-decoration: none; color: #666;}
+.commentlist .listdate a:visited { text-decoration: none; color: #666;}
+.commentlist .listdate a:hover { text-decoration: none; color: #666; }
+
+.commentlist .listcontent { line-height: 14px; margin: 0px 0px 10px 0px;}
+.commentlist .listcontent p { padding: 3px 0 15px 0; margin: 3px 0px; line-height: 150%; }
+
+.form input.submitcomment { width: auto; height: 25px; padding: 2px 10px 3px 10px; background: #e5edff url(images/submit.gif) repeat 0 0; }
+.form input.submitcomment:hover { background: #f3f3f3 url(images/submit_hover.gif) repeat 0 0; }
+
+
+.form { width: 580px; }
+.form h3 {font-size: 15px; font-weight: bold; padding: 0px 0px 5px 0px; margin: 0px 0px 15px 0px; }
+.form p { padding: 0px; margin: 0px; }
+.form p label { padding-bottom: 11px; display: block; }
+.form p label small { font-size: 10px; }
+
+.form .textfield { background: #fff; border: solid 1px #ccc; padding: 4px; margin-right: 15px;}
+.font-family .textarea { background: #fff; border: solid 1px #ccc; padding: 4px; margin-bottom: 10px;}
+
+
+
+#options { padding: 5px 20px 0 0; text-align: right; float: right; }
+#options ul { float: left; display: inline; margin-left: 10px; }
+#options li { float: left; list-style: none; padding: 5px; }
+#options li a { display: block; width: 5px; margin: 1px; padding: 5px; height: 5px; }
+#options li a span { display: none; }
+
+body.red #options li.font-family, body.blue #options li.blue, body.white #options li.white, #options li:hover { padding: 5px; }

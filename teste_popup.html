@@ -70,6 +70,22 @@
 <div class="popup" id="texto" onclick="myFunction()">Click me to toggle the popup!
   <span class="popuptext" id="myPopup">A Simple Popup!</span>
 </div>
+
+              <div>
+                    <label class="label1 input lb-100pc">
+                        <i class="fa fa-user"></i>
+                            <select name="inst_natop" id="inst_natop">
+                                <optgroup label="Equipamentos" class="lst-cost-center-group">
+                                    <option value=''>[ Natureza da Operação ]</option>
+                                    <option value='C'>Comodato</option>
+                                    <option value='V'>Venda</option>
+                                </optgroup>
+                            </select>
+                    </label>
+                </div>
+                <button type="button" id="btnLimpar">Click Me!</button>
+
+
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <script>
 // When the user clicks on div, open the popup
@@ -82,6 +98,18 @@ $( "#texto" ).mouseover(function() {
     popup.classList.toggle('show');
   }).mouseout(function() {
     popup.classList.toggle('hidden');
+  });
+
+  $("#btnLimpar").click(function(e){
+    // seleciona a primeira opcao de todos os selects
+    var selects = form.querySelectAll('select');
+    for (i = 0; i < selects.length; i++) {
+        var options = selects[i].querySelectorAll('option');
+        if (options.length > 0) {
+            selects[i].value = options[0].value;
+        }
+    }
+
   });
 </script>
 

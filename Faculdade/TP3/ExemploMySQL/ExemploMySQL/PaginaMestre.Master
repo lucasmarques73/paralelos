@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PaginaMestre.master.cs" Inherits="ExemploMySQL.PaginaMestre" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="topo">
+            <h1>Sistema de Controle de Funcionários</h1>
+        </div>
+        <div id="menu"></div>
+        <div id="conteudo">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="rodape">
+            <p>@UEMG - Passos - 2015</p>
+        </div>
+    </form>
+</body>
+</html>

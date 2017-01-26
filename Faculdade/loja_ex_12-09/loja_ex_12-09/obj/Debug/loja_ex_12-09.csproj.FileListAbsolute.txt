@@ -1,0 +1,6 @@
+c:\users\lucas\documents\visual studio 2012\Projects\loja_ex_12-09\loja_ex_12-09\bin\Debug\loja_ex_12-09.exe.config
+c:\users\lucas\documents\visual studio 2012\Projects\loja_ex_12-09\loja_ex_12-09\bin\Debug\loja_ex_12-09.exe
+c:\users\lucas\documents\visual studio 2012\Projects\loja_ex_12-09\loja_ex_12-09\bin\Debug\loja_ex_12-09.pdb
+c:\users\lucas\documents\visual studio 2012\Projects\loja_ex_12-09\loja_ex_12-09\obj\Debug\loja_ex_12-09.csprojResolveAssemblyReference.cache
+c:\users\lucas\documents\visual studio 2012\Projects\loja_ex_12-09\loja_ex_12-09\obj\Debug\loja_ex_12-09.exe
+c:\users\lucas\documents\visual studio 2012\Projects\loja_ex_12-09\loja_ex_12-09\obj\Debug\loja_ex_12-09.pdb

@@ -1,0 +1,6 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\teste_cond\teste_cond\bin\Debug\teste_cond.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\teste_cond\teste_cond\bin\Debug\teste_cond.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\teste_cond\teste_cond\bin\Debug\teste_cond.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\teste_cond\teste_cond\obj\Debug\teste_cond.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\teste_cond\teste_cond\obj\Debug\teste_cond.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\teste_cond\teste_cond\obj\Debug\teste_cond.pdb

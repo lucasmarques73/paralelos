@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system">
+    <name>SEOGenerator</name>
+    <author>Andre MaNcHa</author>
+    <creationDate>Dezembro de 2009</creationDate>
+    <license>GNU/GPL</license>
+    <authorEmail>andrehmancha@gmail.com</authorEmail>
+    <authorUrl>http://www.suchmaschinen-optimierung-seo.org</authorUrl>
+    <version>3.1</version>
+    <description>Este plugin Joomla 1.5 gera automaticamente as palavras-chave e meta tags da descrição puxando o texto do conteúdo e no título para ajudar com SEO. Ela também lhe dá a capacidade de definir configurações de título diferente. Vá para o Gerenciador de plugins e ative o plugin!</description>
+    <files>
+        <filename plugin="SEOGenerator">SEOGenerator.php</filename>
+    </files>
+	<params>
+        <param name="length" type="text" size="5" default="200" label="Comprimento da Descrição Meta" description="O comprimento do conteúdo da descrição da meta(em caracteres). Este será arredondado para a palavra mais próxima."/> 
+		<param name="titorder" type="list" default="0" label="Título do Layout" description="Selecione como você gostaria que seus títulos das páginas fossem exibidos. O padrão é [Título da Página] | [Título do Site].">
+ 			<option value="0">[Título da Página] | [Título do Site]</option>
+ 			<option value="1">[Título do Site] | [Título da Página]</option>
+			<option value="2">[Título da Página]</option>
+		</param>		
+		<param name="separator" type="text" size="1" default="\|" label="Separador" description="Este é o caractere que separa os títulos das páginas do nome do site. Por padrão, ele é um cachimbo - mas você pode alterá-lo para o que quiser. Ao salvar alguns personagens Joomla adiciona barras invertidas para 'fugir' - eles não devem aparecer no título real." />
+
+		<param name="@spacer" type="spacer" default="" label="Front Page Stuff" description="" />
+
+		<param name="fptitle" type="text" size="40" default="Home" label="Opção do Título da Página Principal" description="Digite um título personalizado para página inicial do seu site. Se deixado em branco, 'Home' será utilizado." />
+		<param name="fptitorder" type="list" default="0" label="Título da Página Principal" description="Selecione como você gostaria que o título da página principal será exibido. O padrão é [Título Opcional Home] | [Título do Site].">
+ 			<option value="0">[Título Opcional Home] | [Título do Site]</option>
+ 			<option value="1">[Título do Site] | [Título Opcional Home]</option>
+			<option value="2">[Título Opcional Home]</option>
+			<option value="3">[Título do Site]</option>
+		</param>		
+
+		<param name="@spacer" type="spacer" default="" label="Front Page Stuff" description="" />
+
+		<param name="fpdesc" type="radio" default="1" label="Use a descrição meta global de primeira página" description="Se 'Sim', a descrição meta definida na configuração global/Metadados configurações serão usadas. Se 'Não', a descrição meta será gerado pelo plugin, usando o conteúdo da página.">
+ 			<option value="0">Sim</option>
+ 			<option value="1">Não, Gerar base no conteúdo da página.</option>
+		</param>		
+
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="credittag" type="radio" default="0" label="Crédito da Tag SEOGenerator" description="Esta opção não afeta a meta tag e dá a este plugin um pouco de crédito. Adoraríamos se mantivesse, mas você pode removê-lo.">
+ 			<option value="0">Deixar</option>
+ 			<option value="1">Retirar</option>
+		</param>		
+	  <param name="@spacer" type="spacer" default="" label="Front Page Stuff" description="" /> 
+   	<param name="lengthofword" type="text" width="4" default="3" label="Comprimento mínimo das palavras" description="Prazo mínimo uma palavra deve ter para ser incluída como uma palavra-chave." />
+   	<param name="count" type="text" width="4" default="20" label="Número de Palavras-Chaves" description="O número de palavras-chaves para criar a partir do texto do artigo." />
+    <param name="statickeywords" type="textarea" cols="30" rows="2" default="" label="Palavras-Chaves Estáticas" description="Lista de palavras que serão listadas como palavras-chaves adicionais em cada local. Separe as palavras com vírgula e espaço, como: palavra1, palavra2. Funciona apenas para 'na mosca' quando nada é salvo no banco de dados!!!" />
+    <param name="blacklist" type="textarea" cols="30" rows="10" default="um, capaz de, sobretudo, no estrangeiro, de acordo, transversalmente, na verdade, adj, depois, mais tarde, novamente, contra, atrás, à frente, não é, de tudo, permitir, permite que, praticamente, sozinho, junto, ao lado, já, também, sempre, estou, no meio, entre, um, e, outro, qualquer, qualquer um, de qualquer modo, ninguém, nada, enfim, de qualquer maneira, em qualquer lugar, distante, aparecem, apreciar o caso, são, não são, ao redor, como, uma, de lado, pedir, associados, na, disponível, embora, terrivelmente, b, para trás, se, tornou-se, tornar-se, tornando-se, antes, antemão, começar, por trás, sendo, acredito, abaixo, além do mais, melhor, entre eles, além de, ambos, breve, mas, por, c, veio, pode, não pode, não posso, da causa, causas, certas, certamente, mudanças, claramente, vem, no que diz respeito, por conseguinte, considerar, considerando-se, conter, contendo, contenha, correspondendo, poderia, não poderia, claro, atualmente, D, ousar, não ouso, definitivamente, descritas, apesar de, diferente, diretamente, para baixo, durante, e , cada um, Edu, por exemplo, oito, oitenta, ou, senão, em outra, final, terminando, o suficiente, inteiramente, especialmente, etc, até mesmo, todos, tudo, em todos os lugares, ex, exatamente , exceto, f, razoavelmente, longe, poucos, quinta, em primeiro lugar, cinco, seguido, segue para, o antigo, anteriormente, para frente, encontrados, quatro, de, por outro lado , g, começa, começando, tendo em conta, dá, vai,foi, começou, conseguido, saudações, h, tinha, não tinha, meia, acontece, dificilmente, tem, não tem, paraíso t, com ele, Olá, ajuda, ela, aqui, a seguir, declara, dela, ela mesma, ele é, oi, ele próprio, o seu, espero, Porém, sem, eu, ou seja, se, ignorou, eu vou, eu sou, imediata, na, indicar, indicou, indica , interior, dentro, na medida em que, ao invés, para, dentro, é, ela, eu, ele vai, o seu, em si, j, apenas, k, sustento, guarda, mantidos , sabe, l, por último, recentemente, este último, pelo menos, menos, para que não, vamos, gostou, provavelmente, pouco, olhar, baixo, baixo, LTD , m, feita, principalmente, fazer, faz com que, muitos, talvez, eu, quer dizer, entretanto, apenas, talvez, talvez não, a minha, menos, miss, mais, além disso, a maioria, principalmente , muito deve, não deve, no meu, n, nome, nd, perto de, aproximadamente, necessário, necessidade, não precisa, nunca, no entanto, novos , próximos nove, noventa, não, nenhum, nem, normalmente, não, não obstante, a novela, agora, em nenhum lugar, o, obviamente, de, fora, muitas vezes, ok, velho, de uma vez, um, uns, uma, apenas, para, no lado oposto, os outros, caso contrário, devia, não devia, nossa, de nós mesmos, fora, sobre, em geral, própria, p, nomeadamente, em particular, do passado, por, talvez, colocado, por favor, mais, possível, possivelmente, provavelmente, desde que, prevê, q, que, completamente, r, realmente, razoavelmente , recente, recentemente, a respeito, não obstante, considera que, relativamente, respectivamente, à direita, redondo, s, disse, mesmo, viu, dizendo que, diz, segundo, por outro lado, ver, parece, aparentemente, visita, auto, autos, sensível, enviou, sério, a sério, sete, diversos, deve, não deve, ela, vai, ela é, pois, seis, assim, alguns, alguém, algum dia, de alguma forma, alguma coisa, algum dia, às vezes, um pouco, em algum lugar, em breve, desculpe, especificado, especificar, indicando, ainda, sub, sup, com certeza, t, tomada, tomada, tendo, diga, tende, º, que, obrigado, obrigado, thanx, que, que vai, isso é, isso é, that've, a, sua, deles, eles mesmos, então, depois disso, desse modo, haveria, portanto, aí, lá vai, lá está, Há, há, então, não tenho, esses, elas, eles, coisa, coisas, pensar, terceira, trinta, este, completa, completamente, desses, porém, três, através, por toda parte, através de, assim, até, para, juntos, teve, em direção, rumo, tentou, tenta, tentando, T, duas vezes, duas, u, da ONU, sob, debaixo, desfazendo, infelizmente, a menos que, ao contrário, pouco provável, até, até, para cima, em cima, para cima, nós, uso, usado, útil, usos, utilizando, geralmente, v, valor diversos, versus, muito, via, w, quer, foi, não foi, assim, bem-vindos, bem, vamos, foi, foram, nós estamos, se não, vamos ve, o que, seja qual for, o que vai, o que é, quando, onde, depois do que, ao passo que, segundo o qual, onde está, ficando assim, sempre que, se, que, consoante, enquanto, simultaneamente, para onde, inteiro, quem vai, quem, cujo, por que razão, vontade, querer, desejar, com, no prazo, sem saber, não, seria, se não, x, y, sim, você, o seu, você é, o seu, você mesmo, vós, z, zero." />
+	  <param name="savedbywriting" type="radio" default="0" label="Salvar palavras-chaves, descrição por escrito e salvar o artigo" description="Se definido como sim, o plugin irá poupar palavras-chaves e descrição por escrito e guardar um artigo se não houver entradas do usuário. Depois disso, você pode alterar as palavras-chaves e descritpion se precisar.">
+		   <option value="0">Sim</option>
+		   <option value="1">Não</option>
+	  </param>
+	  <param name="usetitleorcontent" type="list" default="0" label="Use título, conteúdo ou ambos para gerar palavras-chave" description="Se definido para o título, o plugin irá gerar palavras-chave do título e assim por diante...">
+		   <option value="0">Título</option>
+		   <option value="1">Conteúdo</option>
+		   <option value="2">Ambos</option>
+	  </param>
+	  <param name="regenerateall" type="radio" default="1" label="Generar novamente todas as Palavras-Chavese do site e salvar." description="Se definido como sim, o plugin vai gerar palavras-chave em todos os artigos e salvar no banco de dados depois de um reload do site. Este se destina a um uso do tempo. É altamente recomendável que você deixe esta fora do resto do tempo, pois irá desacelerar significativamente mostrando artigos.">
+		   <option value="0">Sim</option>
+		   <option value="1">Não</option>
+	  </param>
+	  <param name="@spacer" type="spacer" default="" label="Front Page Stuff" description="" />
+    <param name="robots" type="textarea" cols="30" rows="1" default="index, follow, noarchive, noimageindex" label="Robots meta tags" description="Estas meta tags podem controlar o comportamento do motor de busca de rastreamento e indexação. A meta tag robots aplica a todos os motores de busca. Se você deixar este campo em branco, em seguida, os valores padrão são joomla 'index, follow' ou você também pode definir esses valores para cada artigo na Articlemanager. Robôs compreender os seguintes valores (quando especificar valores, separe-os com uma vírgula):
+     * noindex: impede que a página seja indexada
+     * nofollow: impede que o bot de links possa seguir esta página
+     * nosnippet: evita que um fragmento seja exibido nos resultados da pesquisa
+     * noodp: impede a descrição alternativa do DMOZ/ODP de ser usado
+     * noarchive: impede motor de busca de mostrar o link para uma página em cache
+     * unavailable_after:[date]: permite que você especifique a hora exata e data que você deseja parar o rastreamento e a indexação desta página
+     * noimageindex: permite que você especifique que você não deseja que sua página apareça como página de referência para uma imagem que aparece nos resultados da pesquisa.
+    "/>
+    <param name="verificationkey" type="textarea" cols="30" rows="1" default="" label="Verificação da Chave do Google para webmasters" description="
+     A Verificação Meta tag é a melhor opção para verificar a sua conta do Google para webmasters se você estiver usando um sistema de conteúdo. Webmaster Tools oferece a meta tag aqui:
+     1. Na página inicial das Ferramentas para Webmaster, clique em Verificar este site ao lado do site desejado.
+     2. Na lista Método de Verificação, selecione Meta tag, e inserir somente a chave mostrada aqui: conteúdo='chave' para este campo.
+     Uma vez que você salvou no Joomla e recarregado a sua página inicial, clique em Verificar na conta do Google para webmasters. "/>
+    </params>
+</install>

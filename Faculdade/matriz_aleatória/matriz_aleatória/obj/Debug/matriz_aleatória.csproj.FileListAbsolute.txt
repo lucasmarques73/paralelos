@@ -1,0 +1,6 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\matriz_aleatória\matriz_aleatória\bin\Debug\matriz_aleatória.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\matriz_aleatória\matriz_aleatória\obj\Debug\matriz_aleatória.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\matriz_aleatória\matriz_aleatória\bin\Debug\matriz_aleatória.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\matriz_aleatória\matriz_aleatória\bin\Debug\matriz_aleatória.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\matriz_aleatória\matriz_aleatória\obj\Debug\matriz_aleatória.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\matriz_aleatória\matriz_aleatória\obj\Debug\matriz_aleatória.pdb

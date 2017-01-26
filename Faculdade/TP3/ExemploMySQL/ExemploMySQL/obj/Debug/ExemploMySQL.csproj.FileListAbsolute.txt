@@ -1,0 +1,7 @@
+C:\Users\Lucas\Dropbox\Facul\6º Periodo\TP 3\ExemploMySQL\ExemploMySQL\bin\ExemploMySQL.dll.config
+C:\Users\Lucas\Dropbox\Facul\6º Periodo\TP 3\ExemploMySQL\ExemploMySQL\bin\ExemploMySQL.dll
+C:\Users\Lucas\Dropbox\Facul\6º Periodo\TP 3\ExemploMySQL\ExemploMySQL\bin\ExemploMySQL.pdb
+C:\Users\Lucas\Dropbox\Facul\6º Periodo\TP 3\ExemploMySQL\ExemploMySQL\bin\MySql.Data.dll
+C:\Users\Lucas\Dropbox\Facul\6º Periodo\TP 3\ExemploMySQL\ExemploMySQL\obj\Debug\ExemploMySQL.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Dropbox\Facul\6º Periodo\TP 3\ExemploMySQL\ExemploMySQL\obj\Debug\ExemploMySQL.dll
+C:\Users\Lucas\Dropbox\Facul\6º Periodo\TP 3\ExemploMySQL\ExemploMySQL\obj\Debug\ExemploMySQL.pdb

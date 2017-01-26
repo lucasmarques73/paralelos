@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\campominado\campominado\bin\Debug\campominado.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\campominado\campominado\bin\Debug\campominado.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\campominado\campominado\bin\Debug\campominado.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\campominado\campominado\obj\Debug\campominado.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\campominado\campominado\obj\Debug\campominado.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\campominado\campominado\obj\Debug\campominado.pdb

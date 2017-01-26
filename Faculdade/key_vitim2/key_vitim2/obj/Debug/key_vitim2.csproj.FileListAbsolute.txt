@@ -1,0 +1,4 @@
+c:\users\lucas\documents\visual studio 2012\Projects\key_vitim2\key_vitim2\bin\Debug\key_vitim2.exe.config
+c:\users\lucas\documents\visual studio 2012\Projects\key_vitim2\key_vitim2\bin\Debug\key_vitim2.exe
+c:\users\lucas\documents\visual studio 2012\Projects\key_vitim2\key_vitim2\obj\Debug\key_vitim2.csprojResolveAssemblyReference.cache
+c:\users\lucas\documents\visual studio 2012\Projects\key_vitim2\key_vitim2\obj\Debug\key_vitim2.pdb

@@ -1,0 +1,220 @@
+*{margin:0; outline:none; padding:0}
+body{background-color:#fff; font:x-small arial,georgia,sans-serif; color:#000; margin-bottom:20px}
+h1{font-size:3.5em; margin-left:10px}
+h1 img{margin-top:-7px}
+#content h1, h2{border-bottom-style:solid; border-bottom-width:2px; font-size:1.5em; font-weight:bold; margin:30px 0 10px}
+a{color:#035ec7; font-weight:bold; text-decoration:none}
+.link{color:#035ec7 !important; cursor:pointer; font-weight:bold; text-decoration:none}
+a:hover, .link:hover{text-decoration:underline}
+small{color:#666; font-size:.8em}
+fieldset{border:0}
+input[type=text]{background-color:#fff; padding:2px 0}
+input[type=text]:focus{background-color:#f2f4f8}
+button{font-weight:bold; text-align:center; padding:0 15px; *padding:2px 0 0}
+.width{margin:0 auto; max-width:112em; min-width:76em}
+.clear{clear:both}
+.fltleft{float:left}
+.butrght{margin-left:560px; margin-top:20px}
+.pointer{cursor:pointer}
+.txtalgncent{text-align:center}
+.txtalgnrght{text-align:right !important}
+.margv10{margin:10px 0}
+.marg10{margin:10px}
+.marg20{margin:20px}
+.fltrght{float:right}
+.bggray{background-color:#f2f2f2}
+.minmenos{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/ico-sprite.gif) no-repeat 0 -39px; border:0 none; font-size:0; float:left; height:11px; margin-left:65px; margin-right:5px; text-decoration:none; width:10px}
+.voltar{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/ico-sprite.gif) no-repeat -16px -62px; float:left; font-size:0; height:12px; margin-top:3px; text-decoration:none; width:18px}
+.bgalert{background-color:#fffded; border:1px solid #fff17b}
+.bggrn{background-color:#f4f9f3}
+.clrgrn{color:#558c26}
+.mgt40{margin-top:40px}
+.show{display:block !important}
+.hide{display:none !important}
+.seta_escura{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/ico-sprite.gif) no-repeat -24px -82px; height:10px; width:11px}
+.renew{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/ico-sprite.gif) no-repeat -15px -60px; border:0 none; height:14px; margin-top:5px; width:16px}
+.update{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/ico-sprite.gif) no-repeat 0 -76px; border:0 none; height:14px; width:23px}
+.buttOK{font-size:.8em; padding:0 !important; width:40px}
+.vlrTotal{font-size:1.2em}
+.textbox{border:1px solid #999}
+* html .textbox{padding:2px}
+.ui-datepicker-trigger{margin-left:2px; vertical-align:top}
+.moeda{text-align:right}
+.fieldError{background-color:#FFEFEF!important;border:solid 1px #C80000!important;}
+.databox{background:#fff; border-style:solid; border-width:5px; padding:15px 15px 0}
+.databox h3{font-size:1.1em; margin-bottom:10px}
+.databox p strong{font-size:1.1em; font-weight:normal}
+
+.databox #frete{border-bottom:1px dotted #ccc; margin-bottom:15px; padding-bottom:20px}
+.databox #frete p{margin:0px}
+.databox #frete p strong{margin-right:30px}
+#valFrete{float:right}
+
+#right{float:left; margin-top:15px}
+#left{float:left; margin-top:15px}
+#left dl{width:460px}
+#right dl{width:315px}
+#left dl dt, #right dl dt{float:left; font-size:.9em; margin-right:5px; text-align:right; width:85px}
+#left dl dd, #right dl dd{font-size:1.1em; margin-bottom:10px; margin-left:90px}
+
+#content{font-size:1.3em; margin:0 10px}
+#header{overflow:hidden; padding:10px; border-bottom-style:solid; border-bottom-width:3px;}
+#lojista{font:normal 1.4em verdana; float:right; margin-right:10px; text-align:right; vertical-align:middle}
+#header h1{font-size:2.8em; padding:20px 0}
+#lojista p{margin:7px 0}
+#top{margin-top:2px; padding-top:10px; position:relative}
+#ola{color:#666; font-size:.95em; margin-top:15px}
+#saiba{background:#fff url(https://p.simg.uol.com.br/pagseguro/i/cadeado.gif) no-repeat right top; border:1px solid #c3e7c1; float:right; padding:10px; position:absolute; right:0}
+* html #saiba{margin-right:10px}
+#saiba p{font-size:.8em; margin-right:150px; text-align:right}
+#infsaiba{background:#fff url(https://p.simg.uol.com.br/pagseguro/i/cadeado.gif) no-repeat right -45px; border:1px solid #c3e7c1; display:none; height:80px; margin-top:16px; *margin-top:15px; padding:10px}
+@media screen and (-webkit-min-device-pixel-ratio:0){ /* chrome hack */
+#infsaiba{margin-top:16px}
+}
+#infsaiba p{color:#42a03f; font-size:1.3em; font-weight:bold; margin-bottom:15px}
+#infsaiba ul li{font-size:1.1em; list-style:none; margin-bottom:10px}
+#infsaiba ul li span{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/ico-sprite.gif) no-repeat -24px -74px; font-size:0; float:left; height:10px; margin-top:3px; width:10px}
+#detalhes{padding:10px; position:relative}
+#detalhes a{font-size:.9em; font-weight:bold}
+#totgrl{text-align:right; font-size:1.4em; margin-top:-2px}
+#mostrardet{overflow:hidden; position:relative; background-image:url(https://p.simg.uol.com.br/pagseguro/i/details.gif); background-position:0 0; background-repeat:no-repeat; font-size:.9em; height:12px; margin:0 auto; padding:2px 0; width:235px}
+#mostrardet span{position:relative; top:-1px;}
+#aba_text{overflow:hidden; position:relative;}
+#carrinho table{border:0; border-collapse:collapse; width:100%}
+#carrinho table th{border-left:1px dotted #fff; font-size:.9em; font-weight:normal}
+#carrinho table tbody td{border-left:1px dotted #dedede}
+#carrinho table th{padding:10px}
+#carrinho table tfoot td{padding:2px 10px}
+#carrinho table tbody td{padding:5px 10px}
+#carrinho table .bordtop{border-top-style:solid !important; border-top-width:5px !important}
+#carrinho table tfoot td.tdwdth{width:140px}
+#carrinho table .bl0{border-left:0}
+.left{margin-top:-10px; text-align:left !important}
+.infcar{font-size:1.15em}
+/* Sessão de login */
+#divCarrinhoLogin{display:none}
+#carrinhoLogin{margin-top:-10px !important}
+#carrinhoLogin h3{border-bottom:2px solid; font-size:1.15em !important; margin-top:-20px !important; padding-bottom:2px}
+#carrinhoLogin .fechar{font-size:.8em !important}
+#carrinhoLogin p{margin-left:0 !important}
+#carrinhoLogin label{font-size:1.35em !important}
+#carrinhoLogin dl{margin:10px 0 !important}
+#carrinhoLogin dl dt{float:none !important; width:70px !important}
+#carrinhoLogin dl dd{margin-bottom:10px !important}
+#carrinhoLogin dl dd input{border:1px solid #999 !important; font-size:1.2em !important; padding:2px !important; width:385px !important}
+#carrinhoLogin dl dd #pass{width:140px !important}
+#carrinhoLogin dl dd img{border:0 none !important; margin-left:20px !important; vertical-align:top !important}
+#carrinhoLogin button{font-size:1.2em !important; padding:2px 0 0 !important; width:80px !important}
+/*
+***************************Messages.css******************************************
+*/
+.msg{font:bold 16px arial,georgia,sans-serif; overflow:hidden; margin:15px 0 25px}
+.msg span{display:block; float:left; height:60px; margin:15px 0 0 15px; text-indent:-9999px; width:42px}
+.msg ul{margin-left:70px; margin-top:20px; *margin-top:10px; padding:0; font-weight:bold; min-height:52px}
+* html .msg ul{margin-top:35px; overflow:none; height:75px}
+.msg ul li{padding:0; margin:10px 10px; list-style:none}
+.msg.error{background-color:#ffefef}
+.msg.error span{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/messages-sprite.gif) no-repeat -84px 0}
+.msg.alert{background-color:#fdf9ec}
+.msg.alert span{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/messages-sprite.gif) no-repeat -42px 0}
+.msg.ok{background-color:#f3f9f1}
+.msg.ok span{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/messages-sprite.gif) no-repeat 0 0}
+.msg.hint{background-color:#ffffe6}
+.msg.hint span{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/messages-sprite.gif) no-repeat -210px 0}
+.msg.wait{background-color:#f7f7f7}
+.msg.wait span{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/messages-sprite.gif) no-repeat -126px 0}
+.msg.info{background-color:#f1f5f8}
+.msg.info span{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/messages-sprite.gif) no-repeat -168px 0}
+.p-hint{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/messages-sprite.gif) no-repeat -236px -86px; border 0 none; height:16px; width:16px; vertical-align:bottom}
+.m-alert{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/messages-sprite.gif) no-repeat -42px -58px; height:26px; vertical-align:bottom; width:26px}
+.p-alert, .alertForm img{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/messages-sprite.gif) no-repeat -68px -86px; border 0 none; height:16px; vertical-align:bottom; width:16px}
+.p-error, .erroForm img{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/messages-sprite.gif) no-repeat -110px -86px; border 0 none; height:16px; vertical-align:bottom; width:16px}
+.p-loading{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/messages-sprite.gif) no-repeat -152px -86px; border 0 none; height:16px; width:16px}
+.m-loading{background:transparent url(https://p.simg.uol.com.br/pagseguro/i/messages-sprite.gif) no-repeat -126px -86px; border 0 none; height:26px; width:26px}
+/*
+***************************Messages.css******************************************
+*/
+/****** temas.css ********/
+/* default == tema11 */
+.default .cor1, .tema11 .cor1{border-color:#61ad45; color:#61ad45}
+.default .cor2, .tema11 .cor2{background-color:#e8f4de}
+.default .cor3, .tema11 .cor3{background-color:#f9f9f9}
+.default .titPay.cor2, .tema11 .titPay.cor2{background-color:#f2f2f2}
+.default .bordercolor, .tema11 .bordercolor, .default #TB_window, .tema11 #TB_window{border-color:#f9f9f9}
+.default a.hcor2:hover, .tema11 a.hcor2:hover{background-color:#e8f4de}
+/* default == tema11 */
+.tema0 .cor1{border-color:#ff8400; color:#ff8400!important}
+.tema0 .cor2{background-color:#ffedd9}
+.tema0 .cor3{background-color:#fff6ed}
+.tema0 .bordercolor, .tema0 #TB_window{border-color:#fff6ed}
+.tema0 a.hcor2:hover{background-color:#ffedd9}
+.tema1 .cor1{border-color:#d20000; color:#d20000!important}
+.tema1 .cor2{background-color:#ffebdb}
+.tema1 .cor3{background-color:#fff4eb}
+.tema1 .bordercolor, .tema1 #TB_window{border-color:#fff4eb}
+.tema1 a.hcor2:hover{background-color:#ffebdb}
+.tema2 .cor1{border-color:#980000; color:#980000!important}
+.tema2 .cor2{background-color:#ecd1d1}
+.tema2 .cor3{background-color:#f6e8e8}
+.tema2 .bordercolor, .tema2 #TB_window{border-color:#f6e8e8}
+.tema2 a.hcor2:hover{background-color:#ecd1d1}
+.tema3 .cor1{border-color:#d20001; color:#d20001!important}
+.tema3 .cor2{background-color:#f2f2f2}
+.tema3 .cor3{background-color:#f8f8f8}
+.tema3 .bordercolor, .tema3 #TB_window{border-color:#f8f8f8}
+.tema3 a.hcor2:hover{background-color:#f2f2f2}
+.tema4 .cor1{border-color:#e211e0; color:#e211e0!important}
+.tema4 .cor2{background-color:#fbdcfa}
+.tema4 .cor3{background-color:#fbecfa}
+.tema4 .bordercolor, .tema4 #TB_window{border-color:#fbecfa}
+.tema4 a.hcor2:hover{background-color:#fbdcfa}
+.tema5 .cor1{border-color:#6d00b2; color:#6d00b2!important}
+.tema5 .cor2{background-color:#e5d1f1}
+.tema5 .cor3{background-color:#f2e7fa}
+.tema5 .bordercolor, .tema5 #TB_window{border-color:#f2e7fa}
+.tema5 a.hcor2:hover{background-color:#e5d1f1}
+.tema6 .cor1{border-color:#2191c6; color:#2191c6!important}
+.tema6 .cor2{background-color:#e3f6ff}
+.tema6 .cor3{background-color:#f1fbfe}
+.tema6 .bordercolor, .tema6 #TB_window{border-color:#f1fbfe}
+.tema6 a.hcor2:hover{background-color:#e3f6ff}
+.tema7 .cor1{border-color:#2191c6; color:#2191c6!important}
+.tema7 .cor2{background-color:#f2f2f2}
+.tema7 .cor3{background-color:#f8f8f8}
+.tema7 .bordercolor, .tema7 #TB_window{border-color:#f8f8f8}
+.tema7 a.hcor2:hover{background-color:#f2f2f2}
+.tema8 .cor1{border-color:#9b6f06; color:#9b6f06!important}
+.tema8 .cor2{background-color:#f2eed1}
+.tema8 .cor3{background-color:#f8f6e8}
+.tema8 .bordercolor, .tema8 #TB_window{border-color:#f8f6e8}
+.tema8 a.hcor2:hover{background-color:#f2eed1}
+.tema9 .cor1{border-color:#61ad45; color:#61ad45!important}
+.tema9 .cor2{background-color:#eff9eb}
+.tema9 .cor3{background-color:#f7fcf4}
+.tema9 .bordercolor, .tema9 #TB_window{border-color:#f7fcf4}
+.tema9 a.hcor2:hover{background-color:#eff9eb}
+.tema10 .cor1{border-color:#709e00; color:#709e00!important}
+.tema10 .cor2{background-color:#e5eed1}
+.tema10 .cor3{background-color:#f3f7eb}
+.tema10 .bordercolor, .tema10 #TB_window{border-color:#f3f7eb}
+.tema10 a.hcor2:hover{background-color:#e5eed1}
+.tema12 .cor1{border-color:#008e89; color:#008e89!important}
+.tema12 .cor2{background-color:#d1ebea}
+.tema12 .cor3{background-color:#eaf4f7}
+.tema12 .bordercolor, .tema12 #TB_window{border-color:#eaf4f7}
+.tema12 a.hcor2:hover{background-color:#d1ebea}
+.tema13 .cor1{border-color:#008e89; color:#008e89!important}
+.tema13 .cor2{background-color:#e5d1f1}
+.tema13 .cor3{background-color:#f2e8f6}
+.tema13 .bordercolor, .tema13 #TB_window{border-color:#f2e8f6}
+.tema13 a.hcor2:hover{background-color:#e5d1f1}
+.tema14 .cor1{border-color:#000; color:#000!important}
+.tema14 .cor2{background-color:#ecd1d1}
+.tema14 .cor3{background-color:#f8e5e7}
+.tema14 .bordercolor, .tema14 #TB_window{border-color:#f8e5e7}
+.tema14 a.hcor2:hover{background-color:#ecd1d1}
+.tema15 .cor1{border-color:#000; color:#000!important}
+.tema15 .cor2{background-color:#d9d9d9}
+.tema15 .cor3{background-color:#ebebeb}
+.tema15 .bordercolor, .tema15 #TB_window{border-color:#ebebeb}
+.tema15 a.hcor2:hover{background-color:#d9d9d9}

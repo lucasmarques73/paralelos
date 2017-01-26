@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params>
+		<param name="allowGuests" type="list" default="0" label="Guest Commenting" description="Enables or disables guest commenting.">
+			<option value="0">Disabled</option>
+			<option value="1">Enabled</option>
+		</param>
+		<param name="guestStatus" type="list" default="0" label="Default Guest Comment Status" description="Determines default publication status of comments by unregistered users.">
+			<option value="0">Unpublished</option>
+			<option value="1">Published</option>
+		</param>
+		<param name="userStatus" type="list" default="1" label="Default User Comment Status" description="Determines default publication status for comments by registered users.">
+			<option value="0">Unpublished</option>
+			<option value="1">Published</option>
+		</param>
+		<param type="spacer"></param>
+		<param name="emailRequired" type="list" default="1" label="Email required" description = "Selection controls if e-mail is required field for unregistered users.  This will be ignored with registered users.">
+			<option value="0">Not Required</option>
+			<option value="1">Required</option>
+		</param>
+		<param name="showWebsite" type="list" default="1" label="Show Website Field" description = "Show the Website field.">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="authorLink" type="list" default="1" label="Author Link based on" description = "The Author Link is based on which field.">
+			<option value="0">Email Field</option>
+			<option value="1">Website Field if available</option>
+			<option value="2">Disable Author Link</option>
+		</param>
+		<param name="useCaptcha" type="list" default="1" label="Require CAPTCHA" description = "Determines if unregistered users are required to use CAPTCHA (provided by SecurImage).">
+			<option value="0">Disabled</option>
+			<option value="1">Enabled</option>
+		</param>
+		<param name="bbCode" type="list" default="1" label="Allow BBCode" description ="Enables/Disables Supported BBCode.">
+			<option value="0">Disabled</option>
+			<option value="1">Enabled</option>
+		</param>
+		<param type="spacer"></param>
+		<param name="onFrontpage" type="list" default="1" label="Show on frontpage" description ="Enable/Disable plugin on frontpage.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="openComments" type="list" default="1" label="Default show comments" description ="Always open the comments on page load.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="orderBy" type="list" default="ASC" label="Order Comments" description ="Choose ascending or descending.">
+			<option value="ASC">Ascending</option>
+			<option value="DESC">Descending</option>
+		</param>
+		<param name="dateFormat" type="text" default="%A, %B %e, %Y at %I:%M %p" label="Date Format" description ="Change the date format using the PHP date format.">
+			<option value="%A, %B %e, %Y om %I:%M %p"></option>
+		</param>
+	</params>
+</config>

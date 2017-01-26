@@ -1,0 +1,144 @@
+﻿<html>
+<head>
+<title>JF_INDIQUE</title>
+
+<style type="text/css">
+.font {
+font-size: 10pt;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.font2 {
+font-size: 10pt;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+
+<script language="javascript">
+
+var click;
+
+function message() {
+
+if (click >= 1) {
+
+}
+
+else {
+click = 1;
+document.tellafriend.ymessage.value='';
+}
+
+}
+
+</script>
+
+<script language="javascript">
+<!--
+
+function reset() {
+document.tellafriend.name.value="";
+document.tellafriend.email.value="";
+document.tellafriend.fmail1.value="";
+document.tellafriend.fmail2.value="";
+document.tellafriend.fmail3.value="";
+}
+
+function validate() {
+
+if (document.tellafriend.detect.value.length!=0) {
+alert("Oops! Preencha os campos necessários!");
+return false;
+}
+
+else if (document.tellafriend.fmail1_holder.value.length==0) {
+alert("Oops! E o email de seu amigo?");
+return false;
+}
+
+else if (document.tellafriend.email.value.length==0) {
+alert("Oops! Esqueceu seu email!");
+return false;
+}
+
+else if (document.tellafriend.name.value.length==0) {
+alert("Oops! Por favor, entre com seu nome!");
+return false;
+}
+
+else {
+document.tellafriend.fmail1.value = document.tellafriend.fmail1_holder.value;
+document.tellafriend.fmail2.value = document.tellafriend.fmail2_holder.value;
+document.tellafriend.fmail3.value = document.tellafriend.fmail3_holder.value;
+document.tellafriend.fmail1_holder.value="";
+document.tellafriend.fmail2_holder.value="";
+document.tellafriend.fmail3_holder.value="";
+document.tellafriend.submit() 
+return true;
+}
+
+}
+
+//-->
+
+</script>
+
+</head>
+
+<body onLoad="reset()" topmargin="0" leftmargin="0"> 
+<br />
+<div align="center">
+ <div style="width:400px;text-align:left;">
+ <div class="font2">Indique este site preenchendo os dados abaixo:</div>
+ <form name="tellafriend" action="JF_INDIQUE.php" method="post" onSubmit="return checkfields()">&nbsp;
+   <br />
+    <input type="hidden" size="30" name="detect" maxlength="50">
+   <div class="font">*Seu nome: &nbsp;
+     <input size="30" name="name" maxlength="45">
+   </div>
+   <br />
+   <div class="font">*Seu email: &nbsp;
+     <input size="30" name="email" maxlength="45">
+   </div>
+   <br />  
+   <div class="font2">Sua mensagem:</div>
+   <br />    
+   <div class="font">
+     <textarea onFocus="message();" name="ymessage" cols="33" rows="4">Achei esse site interessante...</textarea>
+   </div>
+   <br />
+   <div class="font2"> 
+        Emails de seus amigos:
+   </div>
+   <br />
+   <div class="font">*Email 1: &nbsp;
+     <input size="30" name="fmail1_holder" maxlength="80">
+   </div>
+   <br />
+   <div class="font">Email 2: &nbsp;&nbsp;
+     <input size="30" name="fmail2_holder" maxlength="80">
+   </div>
+   <br />
+   <div class="font">Email 3: &nbsp;&nbsp;
+     <input size="30" name="fmail3_holder" maxlength="80">
+   </div>
+   <br />
+   <div class="font2">
+    Esta indicação será enviada com seu nome e email.</div> 
+   <br />
+	<input type="hidden" name="fmail1" size="30" maxlength="80">
+	<input type="hidden" name="fmail2" size="30" maxlength="80">
+	<input type="hidden" name="fmail3" size="30" maxlength="80">
+
+   <input onClick="validate();" type="button" style="button" value="Enviar">
+   <script language = "javascript">document.write("<input type=hidden name=refurl value=" + window.opener.s5_taf_parent + ">")</script>
+ </form>
+
+ </div>
+
+</div>
+
+
+</body>
+</html>

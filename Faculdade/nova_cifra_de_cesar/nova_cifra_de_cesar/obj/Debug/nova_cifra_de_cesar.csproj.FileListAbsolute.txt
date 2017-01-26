@@ -1,0 +1,6 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\nova_cifra_de_cesar\nova_cifra_de_cesar\bin\Debug\nova_cifra_de_cesar.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\nova_cifra_de_cesar\nova_cifra_de_cesar\bin\Debug\nova_cifra_de_cesar.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\nova_cifra_de_cesar\nova_cifra_de_cesar\bin\Debug\nova_cifra_de_cesar.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\nova_cifra_de_cesar\nova_cifra_de_cesar\obj\Debug\nova_cifra_de_cesar.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\nova_cifra_de_cesar\nova_cifra_de_cesar\obj\Debug\nova_cifra_de_cesar.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\nova_cifra_de_cesar\nova_cifra_de_cesar\obj\Debug\nova_cifra_de_cesar.pdb

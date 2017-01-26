@@ -1,0 +1,693 @@
+PROCURA PALAVRA
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Procura_Palavra
+{
+    class Program
+    {
+        public static int procura(string frase, int i, string pal)
+
+        {
+            int Contfrase = i;
+            
+            while (Contfrase <= frase.Length - pal.Length) 
+            {
+                if (frase.Substring(Contfrase, pal.Length) == pal)
+                {
+                    return Contfrase;                    
+                }
+                Contfrase++;
+            }
+            return -1;
+        }
+
+
+        static void Main(string[] args)
+        {
+            string Texto, Palavra;
+            int K;
+
+
+            Console.Write("Digite um texto qualquer.....: ");
+            Texto = Console.ReadLine();            
+            Console.Write("Digite uma posição (inteiro)....: ");
+            K = Convert.ToInt16(Console.ReadLine());
+            Console.Write("Informe uma sequência que deseja procurar no texto...: ");
+            Palavra = Console.ReadLine();
+
+            Console.WriteLine(procura(Texto, K, Palavra)); // Chamando rotina 
+
+            Console.ReadKey();
+
+           
+        }
+    }
+}
+
+
+_________________________________________________________________________________________________________________________________________________
+
+SISTEMA_ACADEMICO
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.IO;
+
+namespace SCA_Sist.Contr.Academico
+{
+    class Program
+    {
+        // Criei uma estrutura para receber os dados dos alunos (REGISTRO)
+        public struct Registro
+        {
+            // Criando as variáveis que serão solicitadas ao usuário
+            public int Matricula;
+            public string Nome_Aluno;
+            public string Data_Nasc;
+            public string UF;
+            public string Nome_Pai;
+            public double Nota1, Nota2;
+        }
+
+        // Criando uma função para validar matrícula (Conforme exercício dado em aula) MOD. de Centena + Dezena por 10 deve ser igual a 0 (zero).
+        public static Boolean MatriculaInvalida(int nrMatricula)
+        {
+            int c, u, d;
+            c = nrMatricula / 100;                                    // Separando a centena Ex: 325 div por 100 = 3 (inteiro)
+            u = nrMatricula % 10;                                     // Separando a unidade Ex: 325 div por 10 = 32 (Resto da divisão = 5)
+            d = ((nrMatricula % 100) - u) / 10;                       // Separando a dezena Ex: 325 div por 100 = 3 (Resto = 25 div por 10 = 2)
+            return (nrMatricula < 100 && nrMatricula > 999 || u != (c + d) % 10); // Expressão para finalizar o loop
+        }
+
+        // Criando uma função para validar nome (Deve ter no mínimo duas partes e as iniciais devem ser sempre maíusculas
+        public static Boolean NomeInvalido(string Nome)
+        {
+            Boolean duasOuMaisPartes = false; // Variável para testar se o nome tem duas partes ou mais
+            Boolean inicialmaiuscula = true; // Variável para testar se as iniciais são maiúsculas
+            // Criando um estrutura que visitará todas as posiçoes da string nome
+            for (int posicao = 0; posicao < Nome.Length; posicao++)
+            {
+                // Verificando a existência de um string vazio no nome digitado
+                if (Nome[posicao] == ' ' && posicao < Nome.Length && Nome[posicao + 1] != ' ')
+                {
+                    duasOuMaisPartes = true; // Caso verdadeiro, significa que o nome tem duas partes
+                    // Verificando se as iniciais são maiúsculas
+                    if (!(Nome[posicao + 1] >= 'A' && Nome[posicao + 1] <= 'Z'))
+                    {
+                        inicialmaiuscula = false;
+                    }
+                }
+            }
+            return !((Nome.Length > 0 && Nome[0] >= 'A' && Nome[0] <= 'Z') && inicialmaiuscula && duasOuMaisPartes);
+            // A expressão acima negada é verdadeira para NOME INVÁLIDO
+        }
+
+        // Criando uma função para validar as notas (P1 e P2), que devem ser maior ou igual a zero e menor ou igual a dez.
+        public static Boolean Nota_Invalida(double nota)
+        {
+            return !(nota >= 0 && nota <= 10);
+        }
+
+        // Criando uma função para validar estado (UF)
+        public static Boolean Estado_Invalido(string Estado)
+        {
+            //Vou criar um array (vetor) e já atribuir os valores em cada posição do array.
+            string[] siglaUF = {"AC","AL","AM","AP","BA","CE","DF","ES","GO","MA","MG","MS","MT","PA",
+                                "PB","PE","PI","PR","RJ","RO","RN","RR","RS","SC","SE", "SP","TO"};
+            /*for (int i = 0; i <= 26; i++)
+            {
+                if (siglaUF[i] == Estado)
+                    return false;
+            }
+            */
+            // Testando um novo código pesquisado na internet 'FOREACH' 
+            foreach (string UF in siglaUF) // Substitui o "for" comentado acima de maneira mais simples e eficiente.
+            {
+                if (UF == Estado)
+                    return false;
+            }
+            return true;
+        }
+
+        // Criando uma função para validar data de nascimento
+        public static Boolean Data_Invalida(string Data)
+        {
+            // Restringindo caracter e posição onde o usuário deverá digitar as barras de separação de data
+            if (Data.Substring(2, 1) == "/" && Data.Substring(5, 1) == "/")
+            {
+                // Restrigindo caracteres que poderão ser digitados em data (somente números)
+                char[] NumerosValidos = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
+
+                for (int Cont = 0; Cont < Data.Length; Cont++)
+                {
+                    Boolean numeroValido = false;
+                    for (int ContNumValidos = 0; ContNumValidos < 10; ContNumValidos++)
+                    {
+                        if (Data[Cont] == NumerosValidos[ContNumValidos])
+                            numeroValido = true;
+                    }
+                    if (numeroValido == false && Cont != 2 && Cont != 5)
+                    {
+                        return true;
+                    }
+                }
+            }
+            else
+            {
+                return true;
+            }
+
+            Int16 dia = Convert.ToInt16(Data.Substring(0, 2));
+            Int16 mes = Convert.ToInt16(Data.Substring(3, 2));
+            Int16 ano = Convert.ToInt16(Data.Substring(6, 4));
+
+            int[] Tabela_Mes = { 29, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 }; // Array com 13 posições (Jan a Dez), sendo a posiçao 0 (bi sexto)
+            int posicaoMes = mes;
+
+
+            if ((mes == 2) && (ano % 4 == 0))
+            {
+                posicaoMes = 0;
+            }
+            return !(mes >= 1 && mes <= 12 && dia >= 1 && dia <= Tabela_Mes[posicaoMes] && Data.Length <= 10);
+        }
+
+        // Criando uma função para validaar sim ou não
+        public static Boolean Sim_Nao(string xTexto)
+        {
+            xTexto.ToUpper();
+            if (xTexto == "S" || xTexto == "N")
+            { return true; }
+            else
+            { return false; }
+        }
+
+        // Criando uma função para buscar nomes
+        public static Boolean Pega_Parte(string xNome, string xParte)
+        {
+            int i = 0;
+            bool Achou_Parte = false;
+
+            while (i <= xNome.Length - xParte.Length)
+            {
+                if (xNome.Substring(i, xParte.Length) == xParte)
+                { Achou_Parte = true;
+                  return  Achou_Parte;
+                }
+                i++;
+            }
+
+            return Achou_Parte;
+        }
+
+
+        static void Main(string[] args)
+        {
+            #region "Variaveis"
+            // Declarando as Variáveis            
+            Registro Aluno;// Array Registrar as Informações de 20 Alunos
+            int Opcao = 0, Cont_Cadastro = 0; // Variável Opção do Menu, Variável Contador de Cadastros
+            char Cad_Mais = ' '; // Variável que dá opção de continuar ou não inserindo novos registros (Cadastros)
+            #endregion
+
+            do
+            {
+                #region "TÍTULO e MENU"
+
+                // Imprimindo Interface Titulo            
+                Console.Clear();
+                Console.WriteLine("--------------------------------"); // Interface
+                Console.WriteLine("SISTEMA DE CONTROLE ACADÊMICO");     // Escrevendo o Titulo da Janela
+                Console.WriteLine("\nMenu Principal");                  // \n antes da frase para saltar uma linha
+                Console.WriteLine("--------------------------------"); // Interface
+
+                // Apresentando Menu ao Usuário
+                Console.WriteLine("1. Cadastra Alunos");
+                Console.WriteLine("2. Lista Completa");
+                Console.WriteLine("3. Consulta Por Nome");
+                Console.WriteLine("4. Relação de Alunos Aprovados");
+                Console.WriteLine("5. Ralação de Alunos Reprovados");
+                Console.WriteLine("6. Relação de Alunos em PS");
+                Console.WriteLine("7. Sair");
+
+                Console.WriteLine("--------------------------------");
+
+                // Solicitando ao usuário a opção desejada
+                Console.Write("\nDigite uma opção => ");
+                Opcao = Convert.ToInt16(Console.ReadLine());
+                #endregion
+
+                #region "Opção 1. - CADASTRA ALUNOS"
+
+                // Iniciando instruções caso o usuário escolha Opção 1. - Cadastrar Aluno (Se Opcao for igual a 1)
+                if (Opcao == 1)
+                {
+                    BinaryWriter Sistema_Academico = new BinaryWriter(File.Open(@"c:\ControleAcademico1.data", FileMode.Append));
+                    do
+                    {
+                        // Limpando a tela e Apresentando o título do software
+                        Console.Clear();
+                        Console.WriteLine("----------------------------------------------------");
+                        Console.WriteLine("SCA - SISTEMA DE CONTROLE ACADÊMICO");
+                        Console.WriteLine("MODULO 01 - Cadastramento de Alunos");
+                        Console.WriteLine("Atualmente esta turma tem " + Cont_Cadastro + " alunos.  ");
+                        Console.WriteLine("----------------------------------------------------");
+
+                        // Apresentando o Menu ao usuário
+                        Console.WriteLine("01. Matricula................: ");
+                        Console.WriteLine("02. Nome do Aluno............: ");
+                        Console.WriteLine("03. Data de Nascimento.......: ");
+                        Console.WriteLine("04. Estado Onde Nasceu.......: ");
+                        Console.WriteLine("05. Nome do Pai..............: ");
+                        Console.WriteLine("06. Nota da P1...............: ");
+                        Console.WriteLine("07. Nota da P2...............: ");
+
+                        // LENDO MATRÍCULA
+                        #region "01.Matricula"
+                        do
+                        {
+                            Console.SetCursorPosition(32, 5); // Posicionando o cursor em Matrícula
+                            Console.Write("               "); // Limpando matrícula (Caso Inválida)
+                            Console.SetCursorPosition(32, 5); // Reposicionando o cursor em Matrícula
+                            Aluno.Matricula = Convert.ToInt16(Console.ReadLine()); // Lendo Matrícula
+
+                        } while (MatriculaInvalida(Aluno.Matricula)); // Chamada de Função para validar matrícula
+
+                        #endregion
+
+                        // LENDO NOME DO ALUNO
+                        #region "02.Nome_Aluno"
+                        do
+                        {
+                            Console.SetCursorPosition(32, 6); // Posicionando o cursor em Nome do Aluno
+                            Console.Write("                                      "); // Limpando nome do aluno (Caso Inválido)
+                            Console.SetCursorPosition(32, 6); // Reposicionando o cursor em Nome do Aluno
+                            Aluno.Nome_Aluno = Console.ReadLine(); // Lendo Nome do Aluno
+                        } while (NomeInvalido(Aluno.Nome_Aluno.Trim())); // Utilizando Função para validar Nome do Aluno
+                        #endregion
+
+                        // LENDO DATA DE NASCIMENTO
+                        #region "Data_Nasc"
+                        do
+                        {
+                            Console.SetCursorPosition(32, 7); // Posicionando o cursor em Data de Nascimento
+                            Console.Write("               "); // Limpando data de nascimento (Caso Inválida)
+                            Console.SetCursorPosition(32, 7); // Reposicionando o cursor em Data de Nascimento
+                            Aluno.Data_Nasc = Console.ReadLine(); // Lendo Data de Nascimento
+                        } while (Data_Invalida(Aluno.Data_Nasc)); // Utilizando Função para validar Data de Nascimento
+                        #endregion
+
+                        // LENDO ESTADO [UF]
+                        #region "Estado Válido"
+                        do
+                        {
+                            Console.SetCursorPosition(32, 8); // Posicionando o cursor em Estado onde nasceu
+                            Console.Write("               "); // Limpando Estado Onde Nasceu (Caso inválido) 
+                            Console.SetCursorPosition(32, 8); // Reposicionando o cursor em Estado onde nasceu
+                            Aluno.UF = Console.ReadLine(); // Lendo Estado Onde Nasceu
+                        } while (Estado_Invalido(Aluno.UF.ToUpper())); // Utilizando Função para validar Estado Onde Nasceu
+                        // ToUpper: Para evitar comparação entre maiúsculas e minúsculas. (ToUpper: Transforma em maiúscula e ToLower faz o contrário)
+                        #endregion
+
+                        // LENDO NOME DO PAI
+                        #region "Nome_Pai"
+                        do
+                        {
+                            Console.SetCursorPosition(32, 9); // Posicionando o cursor em Nome do Pai
+                            Console.Write("                                       "); // Limpando Nome do Pai (Caso Inválido)
+                            Console.SetCursorPosition(32, 9); // Reposicionando o cursor em Nome do Pai
+                            Aluno.Nome_Pai = Console.ReadLine(); // Lendo Nome do Pai
+                        } while (NomeInvalido(Aluno.Nome_Pai.Trim())); // Utilizando Função para validar Nome do Pai
+                        // .Trim - Elimina (desconsidera) string vazio (espaço) digitado no início do nome
+                        #endregion
+
+                        // LENDO NOTA DA P1
+                        #region "Nota 1"
+                        do
+                        {
+                            Console.SetCursorPosition(32, 10); // Posicionando o cursor em Nota da P1
+                            Console.Write("                "); // Limpando Nota da P1 (Caso Inválido)
+                            Console.SetCursorPosition(32, 10); // Reposicionando o cursor em Nota da P2
+                            Aluno.Nota1 = Convert.ToDouble(Console.ReadLine()); // Lendo Nota da P1
+                        } while (Nota_Invalida(Aluno.Nota1)); // Utilizando Função para validar Nota da P1
+                        #endregion
+
+                        // LENDO NOTA DA P2
+                        #region "Nota 2"
+                        do
+                        {
+                            Console.SetCursorPosition(32, 11); // Posicionando o cursor em Nota da P2
+                            Console.Write("                "); // Limpando Nota da P2 (Caso Inválido)
+                            Console.SetCursorPosition(32, 11); // Reposicionando o cursor em Nota da P2
+                            Aluno.Nota2 = Convert.ToDouble(Console.ReadLine()); // Lendo Nota da P2
+                        } while (Nota_Invalida(Aluno.Nota2)); // Utilizando Função para validar Nota da P2
+                        #endregion
+
+                        // Vou incrementar 1 (um) à variável "Cont_Cadastro", informando que mais um aluno foi cadastrado
+                        Cont_Cadastro += 1;
+
+                        // Vou gravar as 7 variáveis no arquivo 
+                        Sistema_Academico.Write(Aluno.Matricula);
+                        Sistema_Academico.Write(Aluno.Nome_Aluno);
+                        Sistema_Academico.Write(Aluno.Data_Nasc);
+                        Sistema_Academico.Write(Aluno.UF);
+                        Sistema_Academico.Write(Aluno.Nome_Pai);
+                        Sistema_Academico.Write(Aluno.Nota1);
+                        Sistema_Academico.Write(Aluno.Nota2);
+
+                        // Interação Usuário - Vou perguntar se deseja cadastrar um novo aluno
+                        do
+                        {
+                            // Vou limitar o que usuário pode digitar: [somente S ou N ]
+                            Console.Write("\nDeseja Cadastrar Mais? s/n....: "); // Interação com o usuário
+                            Cad_Mais = Convert.ToChar(Console.ReadLine()); // Lendo Cad_Mais (Sim ou Não)
+
+                        } while (Sim_Nao(Convert.ToString(Cad_Mais)) == false); // Conferir se esta função ficou certa (08.11.13 - 23:54)
+                        //while (Cad_Mais != 's' && Cad_Mais != 'n' && Cad_Mais != 'S' && Cad_Mais != 'N'); // Condição de saída do Loop
+
+
+                    } while (Cad_Mais.ToString().ToUpper().Equals("S")); // Impondo uma condição para iniciar novo cadastro.
+                    // ToUpper: Para evitar comparação entre maiúsculas e minúsculas. (ToUpper: Transforma em maiúscula e ToLower faz o contrário)
+
+                    // Vou fechar o arquivo
+                    Sistema_Academico.Close();
+
+                } // Finalizando instruções para Opcao igual a 1.
+
+
+                #endregion
+
+                // Senão, Se Opcao for igual a 2
+                else
+
+                    #region "Opção 2. - LISTA COMPLETA"
+
+                    // Iniciando instruções caso o usuário escolha Opção 2. - Lista Completa (Se Opcao for igual a 2)
+                    if (Opcao == 2)
+                    {
+                        // Vou abrir o arquivo em modo leitura
+                        BinaryReader Sistema_Academico = new BinaryReader(File.OpenRead(@"c:\ControleAcademico1.data"));
+                        // Limpando a tela e apresentando título e rótulos da opção escolhida - LISTA COMPLETA
+                        Console.Clear();
+                        Console.WriteLine("-------------------------------------------------------------------------------");
+                        Console.WriteLine("                   LISTA COMPLETA - [OPÇÃO 2.]");
+                        Console.WriteLine("-------------------------------------------------------------------------------");
+                        Console.WriteLine("------------------------------------------------------------------------------ ");
+                        Console.WriteLine("MATRÍCULA | NOME DO ALUNO       |   DATA_NASC   | ESTADO | NOTA P1 | NOTA P2 ");
+                        Console.WriteLine("------------------------------------------------------------------------------ ");
+
+                        // Criando uma estrutura de repetição para que todas as posições onde tenha cadastro sejam visitadas e impressas
+                        int i = 1;
+                        while (Sistema_Academico.BaseStream.Position < Sistema_Academico.BaseStream.Length)
+                        {
+                            
+                            Console.SetCursorPosition(2, 5 + i);
+                            Console.Write(Aluno.Matricula = Sistema_Academico.ReadInt32());
+                            Console.SetCursorPosition(12, 5 + i);
+                            Console.Write(Aluno.Nome_Aluno = Sistema_Academico.ReadString());
+                            Console.SetCursorPosition(35, 5 + i);
+                            Console.Write(Aluno.Data_Nasc = Sistema_Academico.ReadString());
+                            Console.SetCursorPosition(52, 5 + i);
+                            Console.Write(Aluno.UF = Sistema_Academico.ReadString());
+                            //Console.SetCursorPosition(60, 8 + i);
+                            /*Console.Write*/Aluno.Nome_Pai = Sistema_Academico.ReadString();
+                            Console.SetCursorPosition(61, 5 + i);
+                            Console.Write(Aluno.Nota1 = Sistema_Academico.ReadDouble());
+                            Console.SetCursorPosition(71, 5 + i);
+                            Console.Write(Aluno.Nota2 = Sistema_Academico.ReadDouble());
+                            i++;
+                        } Console.ReadKey();
+                        // Vou fechar o arquivo
+                        Sistema_Academico.Close();
+                    }// Finalizando instruções para Opcao igual a 2.
+
+                    #endregion
+
+                    // Senão, Se Opcao for igual a 3
+                    else
+
+                        #region "Opção 3. - CONSULTA POR NOME"
+
+                        // Iniciando instruções caso o usuário escolha Opção 3. - Consulta Por Nome (Se Opcao for igual a 3)
+                        if (Opcao == 3)
+                        {
+                            // Vou abrir o arquivo em modo leitura
+                            BinaryReader Sistema_Academico = new BinaryReader(File.OpenRead(@"c:\ControleAcademico1.data"));
+                            // Limpando a tela e apresentando título e rótulos da opção escolhida - CONSULTA DE ALUNO POR NOME
+                            Console.Clear();
+                            Console.WriteLine("-------------------------------------------------------------------------------");
+                            Console.WriteLine("                           CONSULTA DE ALUNO POR NOME - [OPÇÃO 3.]");
+                            Console.WriteLine("-------------------------------------------------------------------------------");
+                            Console.WriteLine();
+                            // Solicitando instruções ao usuário. (Qual nome deseja consultar)
+                            Console.Write("Digite o nome ou parte do nome procurado: ");
+                            // Criei uma variável para receber o nome a ser consultado (nomeDigitado)
+                            String Nome_Digitado = Console.ReadLine().ToUpper(); // Lendo o nome digitado (transformo para minusculo para comparar com tudo minusculo depois)
+                            Console.WriteLine("------------------------------------------------------------------------------ ");
+                            Console.WriteLine("MATRÍCULA | NOME DO ALUNO       |   DATA_NASC  |  ESTADO | NOTA P1 | NOTA P2 ");
+                            Console.WriteLine("------------------------------------------------------------------------------ ");
+
+                            // Criando uma estrutura de repetição para que todas as posições onde tenha cadastro sejam visitadas e impressas
+                            int i = 0;
+                            while (Sistema_Academico.BaseStream.Position < Sistema_Academico.BaseStream.Length)
+                            {
+                                Aluno.Matricula = Sistema_Academico.ReadInt32();
+                                Aluno.Nome_Aluno = Sistema_Academico.ReadString();
+                                Aluno.Data_Nasc = Sistema_Academico.ReadString();
+                                Aluno.UF = Sistema_Academico.ReadString();
+                                Aluno.Nome_Pai = Sistema_Academico.ReadString();
+                                Aluno.Nota1 = Sistema_Academico.ReadDouble();
+                                Aluno.Nota2 = Sistema_Academico.ReadDouble();
+
+                                if (Pega_Parte(Aluno.Nome_Aluno, Nome_Digitado))
+                                {                                    
+                                    Console.SetCursorPosition(2, 8 + i);
+                                    Console.Write (Aluno.Matricula);
+                                    Console.SetCursorPosition(12, 8 + i);
+                                    Console.Write(Aluno.Nome_Aluno);
+                                    Console.SetCursorPosition(35, 8 + i);
+                                    Console.Write(Aluno.Data_Nasc);
+                                    Console.SetCursorPosition(52, 8 + i);
+                                    Console.Write(Aluno.UF);
+                                    Console.SetCursorPosition(61, 8 + i);                                                                        
+                                    Console.Write(Aluno.Nota1);
+                                    Console.SetCursorPosition(71, 8 + i);
+                                    Console.Write(Aluno.Nota2);
+                                    i++;
+                                } 
+                            } Console.ReadKey();
+                            // Vou fechar o arquivo
+                            Sistema_Academico.Close();
+
+
+                        }// Finalizando instruções para Opcao igual a 3.
+                        #endregion
+
+                        // Senão, Se Opcao for igual a 4
+                        else
+
+                            #region "Opção 4. - APROVADOS"
+
+                            // Iniciando instruções caso o usuário escolha Opção 4. - Relação dos Alunos Aprovados (Se Opcao for igual a 4)
+                            if (Opcao == 4)
+                            {
+                                // Vou abrir o arquivo em modo leitura
+                                BinaryReader Sistema_Academico = new BinaryReader(File.OpenRead(@"c:\ControleAcademico1.data"));
+                                // Limpando a tela e apresentando título e rótulos da opção escolhida - RELAÇÃO DOS ALUNOS APROVADOS
+                                Console.Clear();
+                                Console.WriteLine("-------------------------------------------------------------------------------");
+                                Console.WriteLine("                           RELAÇÃO DE ALUNOS APROVADOS");
+                                Console.WriteLine("-------------------------------------------------------------------------------");
+                                Console.WriteLine();
+                                Console.WriteLine("\n------------------------------------------------------------------------------ ");
+                                Console.WriteLine("MATRÍCULA | NOME DO ALUNO       |     DATA_NASC | ESTADO | NOTA P1 | NOTA P2 ");
+                                Console.WriteLine("------------------------------------------------------------------------------ ");
+
+                                int i = 0;
+                                while (Sistema_Academico.BaseStream.Position < Sistema_Academico.BaseStream.Length)
+                                {
+                                    Aluno.Matricula = Sistema_Academico.ReadInt32();
+                                    Aluno.Nome_Aluno = Sistema_Academico.ReadString();
+                                    Aluno.Data_Nasc = Sistema_Academico.ReadString();
+                                    Aluno.UF = Sistema_Academico.ReadString();
+                                    Aluno.Nome_Pai = Sistema_Academico.ReadString();
+                                    Aluno.Nota1 = Sistema_Academico.ReadDouble();
+                                    Aluno.Nota2 = Sistema_Academico.ReadDouble();
+
+
+                                    if (((Aluno.Nota1 + Aluno.Nota2) / 2) > 6)
+                                    {
+                                        Console.SetCursorPosition(2, 8 + i);
+                                        Console.Write(Aluno.Matricula);
+                                        Console.SetCursorPosition(12, 8 + i);
+                                        Console.Write(Aluno.Nome_Aluno);
+                                        Console.SetCursorPosition(35, 8 + i);
+                                        Console.Write(Aluno.Data_Nasc);
+                                        Console.SetCursorPosition(52, 8 + i);
+                                        Console.Write(Aluno.UF);
+                                        Console.SetCursorPosition(61, 8 + i);
+                                        Console.Write(Aluno.Nota1);
+                                        Console.SetCursorPosition(71, 8 + i);
+                                        Console.Write(Aluno.Nota2);
+                                        i++;
+                                    }
+                                        
+                                }// Finalizando instruções para Opcao igual a 4.
+                                Console.ReadKey();
+                                Sistema_Academico.Close();
+                            #endregion
+
+                            }// Senão, Se Opcao for igual a 5.
+                            else
+
+                                #region "Opção 5. - REPROVADOS"
+
+                                // Iniciando instruções caso o usuário escolha Opção 5. - Relação dos Alunos Reprovados (Se Opcao for igual a 5)
+                                if (Opcao == 5)
+                                {
+                                    // Vou abrir o arquivo em modo leitura
+                                    BinaryReader Sistema_Academico = new BinaryReader(File.OpenRead(@"c:\ControleAcademico1.data"));
+                                    // Limpando a tela e apresentando título e rótulos da opção escolhida - RELAÇÃO DOS ALUNOS APROVADOS
+                                    Console.Clear();
+                                    Console.WriteLine("-------------------------------------------------------------------------------");
+                                    Console.WriteLine("                           RELAÇÃO DE ALUNOS REPROVADOS");
+                                    Console.WriteLine("-------------------------------------------------------------------------------");
+                                    Console.WriteLine();
+                                    Console.WriteLine("\n------------------------------------------------------------------------------ ");
+                                    Console.WriteLine("MATRÍCULA | NOME DO ALUNO       |     DATA_NASC | ESTADO | NOTA P1 | NOTA P2 ");
+                                    Console.WriteLine("------------------------------------------------------------------------------ ");
+
+                                    int i = 0;
+                                    while (Sistema_Academico.BaseStream.Position < Sistema_Academico.BaseStream.Length)
+                                    {
+                                        Aluno.Matricula = Sistema_Academico.ReadInt32();
+                                        Aluno.Nome_Aluno = Sistema_Academico.ReadString();
+                                        Aluno.Data_Nasc = Sistema_Academico.ReadString();
+                                        Aluno.UF = Sistema_Academico.ReadString();
+                                        Aluno.Nome_Pai = Sistema_Academico.ReadString();
+                                        Aluno.Nota1 = Sistema_Academico.ReadDouble();
+                                        Aluno.Nota2 = Sistema_Academico.ReadDouble();
+
+
+                                        if (((Aluno.Nota1 + Aluno.Nota2) / 2) < 4)
+                                        {
+                                            Console.SetCursorPosition(2, 8 + i);
+                                            Console.Write(Aluno.Matricula);
+                                            Console.SetCursorPosition(12, 8 + i);
+                                            Console.Write(Aluno.Nome_Aluno);
+                                            Console.SetCursorPosition(35, 8 + i);
+                                            Console.Write(Aluno.Data_Nasc);
+                                            Console.SetCursorPosition(52, 8 + i);
+                                            Console.Write(Aluno.UF);
+                                            Console.SetCursorPosition(61, 8 + i);
+                                            Console.Write(Aluno.Nota1);
+                                            Console.SetCursorPosition(71, 8 + i);
+                                            Console.Write(Aluno.Nota2);
+                                            i++;
+                                        }
+
+                                    }// Finalizando instruções para Opcao igual a 5.
+
+                                    Console.ReadKey();
+                                    Sistema_Academico.Close();
+                                }
+                                #endregion
+
+                                // Senão, Se Opcao for igual a 6.
+                                else
+
+                                    #region "Opção 6. - ALUNOS EM P.S."
+
+                                    // Iniciando instruções caso o usuário escolha Opção 6. - Relação dos Alunos Reprovados (Se Opcao for igual a 6)
+                                    if (Opcao == 6)
+                                    {
+                                        // Vou abrir o arquivo em modo leitura
+                                        BinaryReader Sistema_Academico = new BinaryReader(File.OpenRead(@"c:\ControleAcademico1.data"));
+                                        // Limpando a tela e apresentando título e rótulos da opção escolhida - RELAÇÃO DOS ALUNOS APROVADOS
+                                        Console.Clear();
+                                        Console.WriteLine("-------------------------------------------------------------------------------");
+                                        Console.WriteLine("                           RELAÇÃO DE ALUNOS EM P.S.");
+                                        Console.WriteLine("-------------------------------------------------------------------------------");
+                                        Console.WriteLine();
+                                        Console.WriteLine("\n------------------------------------------------------------------------------ ");
+                                        Console.WriteLine("MATRÍCULA | NOME DO ALUNO       |     DATA_NASC | ESTADO | NOTA P1 | NOTA P2 ");
+                                        Console.WriteLine("------------------------------------------------------------------------------ ");
+
+                                    int i = 0;
+                                    while (Sistema_Academico.BaseStream.Position < Sistema_Academico.BaseStream.Length)
+                                    {
+                                        Aluno.Matricula = Sistema_Academico.ReadInt32();
+                                        Aluno.Nome_Aluno = Sistema_Academico.ReadString();
+                                        Aluno.Data_Nasc = Sistema_Academico.ReadString();
+                                        Aluno.UF = Sistema_Academico.ReadString();
+                                        Aluno.Nome_Pai = Sistema_Academico.ReadString();
+                                        Aluno.Nota1 = Sistema_Academico.ReadDouble();
+                                        Aluno.Nota2 = Sistema_Academico.ReadDouble();
+
+
+                                        if ((((Aluno.Nota1 + Aluno.Nota2) / 2) >= 4) && (((Aluno.Nota1 + Aluno.Nota2) / 2) < 6))
+                                        {
+                                            Console.SetCursorPosition(2, 8 + i);
+                                            Console.Write(Aluno.Matricula);
+                                            Console.SetCursorPosition(12, 8 + i);
+                                            Console.Write(Aluno.Nome_Aluno);
+                                            Console.SetCursorPosition(35, 8 + i);
+                                            Console.Write(Aluno.Data_Nasc);
+                                            Console.SetCursorPosition(52, 8 + i);
+                                            Console.Write(Aluno.UF);
+                                            Console.SetCursorPosition(61, 8 + i);
+                                            Console.Write(Aluno.Nota1);
+                                            Console.SetCursorPosition(71, 8 + i);
+                                            Console.Write(Aluno.Nota2);
+                                            i++;
+                                        }
+
+                                    }// Finalizando instruções para Opcao igual a 6.
+                                   
+                                    Console.ReadKey();
+                                    Sistema_Academico.Close();
+                                } 
+                                                    
+                                    #endregion
+
+                                    // Senão, Se Opcao for igual a 7.
+                                    else
+
+                                        #region "Opção 7. - SAIR"
+
+                                        if (Opcao == 7)
+                                        {
+                                            Console.Clear();
+                                            Console.SetCursorPosition(5, 10);
+                                            Console.WriteLine("O B R I G A D O   P O R   U T I L I Z A R   N O S S O   S I S T E M A !");
+                                            Console.SetCursorPosition(15, 20);
+                                            Console.Write("O SISTEMA SERÁ FECHADO EM...: ");
+
+                                            for (int Segundos = 4; Segundos > 0; Segundos--)
+                                            {
+                                                Console.Write(Segundos);
+                                                Thread.Sleep(333);
+                                                Console.Write(".");
+                                                Thread.Sleep(333);
+                                                Console.Write(".");
+                                                Thread.Sleep(333);
+                                                Console.Write(".");
+                                            }
+                                        }
+                                        #endregion
+
+            } while (Opcao != 7);
+
+
+        }
+    }
+}

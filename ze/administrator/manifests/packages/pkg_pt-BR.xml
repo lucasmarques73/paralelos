@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="package" version="2.5">
+	<name>Pacote Idiomas JoomlaClube</name>
+	<packagename>pt-BR</packagename>
+	<version>2.5.6.3</version>
+	<creationDate>2012-09-07</creationDate>
+	<url>http://www.joomlaclube.com.br</url>
+	<author>JoomlaClube do Brasil</author>
+	<authorEmail>site@joomlaclube.com.br</authorEmail>
+	<authorUrl>http://www.joomlaclube.com.br</authorUrl>
+	<packager>JoomlaClube</packager>
+	<packagerUrl>http://www.joomlaclube.com.br</packagerUrl>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<copyright>Copyright (C) 2005 - 2012 Open Source Matters. Todos os direitos reservados.</copyright>
+    <description><![CDATA[ 
+				<center>
+				<a href="http://www.joomlaclube.com.br" target="_blank">
+				<img src="../administrator/templates/bluestork/jcb_logo1.png"  alt="JoomlaClube do Brasil" />
+				</a>
+				<br>
+				Pacote de Idioma em Português Brasileiro para Joomla! 2.5.x da JoomlaClube
+				<br/>
+				Desde 2006 - 2012 JoomlaClube do Brasil.
+				<br/>
+				<br/>
+				Traduzido oficialmente pelos <a href="http://joomlacode.org/gf/project/portuguesebr/" target="_blank">Joomleiros</a>, qualquer duvida ou sugestão entrar em contato com o <a href="mailto:traducao@joomleiros.com">coordenador</a> da tradução.
+				<br/>
+				<br/>
+				</center>]]>
+	</description>
+
+	<files>
+		<file type="language" client="site" id="pt-BR">site_pt-BR.zip</file>
+		<file type="language" client="admin" id="pt-BR">admin_pt-BR.zip</file>
+		<file type="files" client="administrator" id="bluestork">jcb-pkg.zip</file>		
+	</files>
+	
+	<updateservers>
+        <server type="collection" priority="1" name="pt-BR Language Updates">http://joomlaclube.com.br/update/jcball.xml</server>
+    </updateservers>
+	
+</extension> 

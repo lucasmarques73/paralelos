@@ -1,0 +1,11 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\Calcula_Salario\Calcula_Salario\bin\Debug\Calcula_Salario.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\Calcula_Salario\Calcula_Salario\bin\Debug\Calcula_Salario.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\Calcula_Salario\Calcula_Salario\bin\Debug\Calcula_Salario.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\Calcula_Salario\Calcula_Salario\obj\Debug\Calcula_Salario.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\Calcula_Salario\Calcula_Salario\obj\Debug\Calcula_Salario.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Calcula_Salario\Calcula_Salario\bin\Debug\Calcula_Salario.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Calcula_Salario\Calcula_Salario\obj\Debug\Calcula_Salario.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Calcula_Salario\Calcula_Salario\obj\Debug\Calcula_Salario.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Calcula_Salario\Calcula_Salario\bin\Debug\Calcula_Salario.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Calcula_Salario\Calcula_Salario\bin\Debug\Calcula_Salario.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Calcula_Salario\Calcula_Salario\obj\Debug\Calcula_Salario.csprojResolveAssemblyReference.cache

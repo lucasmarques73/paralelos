@@ -1,0 +1,91 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+
+namespace login
+{
+    class Program
+    {
+        public struct tipo_usuario
+        {
+            public string usuario;
+            public string senha;
+        }
+
+        static string localDados = @"C:/ProjetoIntegrador/Prog_Cond/";
+
+        static string arquivoDadosUsuarios = @"Usuario.txt";
+
+        static void Main(string[] args)
+        {
+
+            string pass = "", user = "";
+            tipo_usuario usuario;
+            usuario.usuario = "admin";
+            usuario.senha = "123";
+           
+            do
+            {
+                pass = "";
+                user = "";        
+
+                Console.Write("Enter your username: ");
+                user = Console.ReadLine();
+                Console.Write("Enter your password: ");
+                ConsoleKeyInfo key;
+
+                do
+                {
+                    key = Console.ReadKey(true);
+
+                    // Backspace Should Not Work
+                    if (key.Key != ConsoleKey.Backspace && key.Key != ConsoleKey.Enter)
+                    {
+                        pass += key.KeyChar;
+                        Console.Write("*");
+                    }
+                    else
+                    {
+                        if (key.Key == ConsoleKey.Backspace && pass.Length > 0)
+                        {
+                            pass = pass.Substring(0, (pass.Length - 1));
+                            Console.Write("\b \b");
+                        }
+
+                    }
+                }
+                // Stops Receving Keys Once Enter is Pressed
+                while (key.Key != ConsoleKey.Enter);
+
+
+
+                if ((user == usuario.usuario) && (pass == usuario.senha))
+                {
+                    Console.WriteLine("\nLogin Correct!");
+                }
+                else
+                {
+                    Console.WriteLine("\nLogin Incorrect");
+                    Console.WriteLine("ACCESS DENIED");
+                }
+            } while (((user != usuario.usuario) || (pass != usuario.senha)));
+            
+            Console.WriteLine();
+
+            Console.WriteLine("The Username You entered is : " + user);  
+            Console.WriteLine("The Password You entered is : " + pass);
+                
+                
+
+                Console.Read();
+                Console.ReadKey();
+
+               
+            }
+
+        }
+
+    }

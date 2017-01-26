@@ -1,0 +1,1014 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Threading;
+
+namespace Prog_Cond_com_func
+{
+    class Program
+    {
+       
+        
+        public struct tipo_morador
+        {
+            public int cod;
+            public string nome;
+            public string tel;
+            public int num_dependentes;
+            public string cpf;
+            public string rua;
+            public int num;
+            public int complemento;
+            public DateTime inicio_moradia;
+            
+        }
+        public struct tipo_condominio
+        {
+            public string nome;
+            public int num_apartamentos, cod;
+        }
+        public struct tipo_despesa
+        {
+            public int cod;
+            public string data_pagamento ;
+            public string data_vencimento;
+            public string descricao;
+            public double valor;
+            public double valor_pago;
+            public bool pago;
+
+        }
+        /*public struct tipo_controle_pagamento
+        {
+            public int cod;
+            public int cod_morador;
+            public string data_referencia;
+            public string data_pagamento;
+            public bool pago;
+
+        }*/
+        public struct tipo_usario
+        {
+           public string usuario;
+           public string senha;
+        }
+
+        static string localDados = @"C:/ProjetoIntegrador/Prog_Cond/";
+        static string arquivoDadosCondominio = @"Condominio.txt";
+        static string arquivoDadosMorador = @"Morador.txt";
+        static string arquivoDadosDespesas = @"Despesas.txt";
+        static string arquivoDadosPagamentos = @"Pagamento.txt";
+        static string arquivoDadosUsuarios = @"Usuario.txt";
+
+
+        static void Main(string[] args)
+        {
+                        
+            DirectoryInfo dirInfo = new DirectoryInfo(localDados);
+            if (!dirInfo.Exists)
+            {
+                dirInfo.Create();
+            }
+
+            if (!File.Exists(localDados + arquivoDadosMorador))
+            {
+                File.Create(localDados + arquivoDadosMorador);
+            }
+
+            if (!File.Exists(localDados + arquivoDadosDespesas))
+            {
+                File.Create(localDados + arquivoDadosDespesas);
+            }
+
+            if (!File.Exists(localDados + arquivoDadosPagamentos))
+            {
+                File.Create(localDados + arquivoDadosPagamentos);
+            }
+
+            if (!File.Exists(localDados + arquivoDadosCondominio))
+            {
+                File.Create(localDados + arquivoDadosCondominio);
+            }
+            if (!File.Exists(localDados + arquivoDadosUsuarios))
+            {
+                File.Create(localDados + arquivoDadosUsuarios);
+            }
+
+            login();
+
+            ConfigurarJanela();
+
+            //Menu
+            while (true)
+            {
+                try
+                {
+                    Console.Clear();
+                  
+                    cabecalho("MENU PRINCIPAL - ESCOLHA UMA OPÇÃO");
+                    Console.WriteLine("   1 - CADASTRAR CONDOMINIO");
+                    Console.WriteLine("   2 - CONSULTAR CONDOMINIO");
+                    Console.WriteLine("   3 - CADASTRAR MORADOR");
+                    Console.WriteLine("   4 - CONSULTAR MORADOR");
+                    Console.WriteLine("   5 - CADASTRAR DESPESAS");
+                    Console.WriteLine("   6 - CONSULTAR DESPESAS");
+                    Console.WriteLine("   7 - CADASTRAR PAGAMENTOS");
+                    Console.WriteLine("   8 - CONSULTAR PAGAMENTOS");
+                    Console.WriteLine("   9 - RELATÓRIO DOS PAGAMENTOS");
+                    Console.WriteLine("  10 - RELATÓRIO DAS DESPESAS");
+                    Console.WriteLine("  11 - CALCULAR CONDOMINIO");
+                    Console.WriteLine("  99 - SAIR");
+                   
+                    cabecalho("");
+                    Console.Write("OPÇÃO:");
+                    int op = int.Parse(Console.ReadLine());
+
+                    if (op == 1)
+                    {
+                        Console.Clear();
+                        cabecalho("CADASTRO DE CONDOMINIO");
+                        cadastro_condominio();                        
+                    }
+                    else if (op == 2)
+                    {
+                        Console.Clear();
+                       cabecalho("CONSULTA DE CONDOMINIO");
+                        consulta_condominio();
+                    }
+                    else if (op == 3)
+                    {
+                        Console.Clear();
+                        cabecalho("CADASTRO DE MORADOR");
+                        cadastro_morador();
+                    }
+                   else if (op == 4)
+                    {
+                        Console.Clear();
+                        cabecalho("CONSULTA DE MORADOR");
+                        consulta_morador();
+                    }
+                    else if (op == 5)
+                    {
+                        Console.Clear();
+                        cabecalho("CADASTRO DE DESPESA");
+                        cadastro_despesa();
+                    }
+                    else if (op == 6)
+                    {
+                        Console.Clear();
+                        cabecalho("CONSULTA DE DESPESA");
+                        consulta_despesa();
+                    }
+                    else if (op == 7)
+                    {
+                        Console.Clear();
+                        cabecalho("CADASTRO DE PAGAMENTO");
+                        cadastro_pagamento();
+                    }
+                    else if (op == 8)
+                    {
+                        Console.Clear();
+                        cabecalho("CONSULTA DE PAGAMENTO");
+                        consulta_pagamento();
+                    }
+                    else if (op == 9)
+                    {
+                        Console.Clear();
+                        cabecalho("RELATORIO DESPESAS PAGAS");
+                        relatorio_pagamentos();
+                    }
+                    else if (op == 10)
+                    {
+                        Console.Clear();
+                        cabecalho("RELATORIO DAS DESPESAS À PAGAR");
+                        relatorio_despesas();
+                    }
+                    else if (op == 11)
+                    {
+                        Console.Clear();
+                        cabecalho("CALCULO DE CONDOMINIO");
+                        calcular_condominio();
+                    }
+                    else if (op == 99)                   
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("OPÇÃO INVÁLIDA!");
+                        Console.Beep();
+                    }
+                    cabecalho("PRECIONE ALGUMA TELCA PARA VOLTAR AO MENU");
+                 
+                    Console.ReadLine();
+                }
+                catch (Exception ex)
+                {
+                    linha();
+                    Console.WriteLine("");
+                    Console.Write("ERRO:");
+                    Console.WriteLine(ex.Message);
+                    Console.Beep();
+
+                    cabecalho("PRECIONE ALGUMA TELCA PARA VOLTAR AO MENU");
+                 
+                    Console.ReadLine();
+                }
+            }
+        }
+
+        public static void linha()
+        {
+            Console.Write("|");
+            for (int i = 1; i < 98; i++)
+                Console.Write("-");
+            Console.Write("|");
+            
+        }
+        public static void cabecalho(string op)
+        {
+            int tam, espaco, i;
+
+
+            linha();
+            tam = op.Length;
+            espaco = 50 - tam / 2;
+            for (i = 0; i < espaco; i++)
+            {
+                Console.Write(" ");
+                if (i == 0)
+                    Console.Write("|");
+            }
+            Console.Write(op);
+
+            for (i = (tam + espaco); i < 99; i++)
+            {
+                Console.Write(" ");
+                if (i == 97)
+                    Console.Write("|");
+            }
+
+            linha();
+            Console.WriteLine("");
+        }
+        public static void ConfigurarJanela()
+        {
+            Console.Title = "Programa de Condominio";
+            Console.BackgroundColor = ConsoleColor.DarkCyan;
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.BufferHeight = 40;
+            Console.BufferWidth = 100;
+            Console.SetWindowSize(100, 40);
+        }
+        public static void login()
+        {
+            StreamReader reader = new StreamReader(localDados + arquivoDadosCondominio);
+
+            
+            int contaRegistro = 0;
+         
+            while (reader.ReadLine() != null)
+            {
+                contaRegistro++;
+            }
+            
+            reader.Close();
+           
+            reader.Dispose();
+            int j=0;
+           string pass = "", user = "";
+            tipo_usario[] usuario = new tipo_usario [contaRegistro];
+            usuario[j].senha = "";
+            usuario[j].usuario = "";
+            
+           // do
+            //{
+
+
+                Console.Write("Enter your username: ");
+                user = Console.ReadLine();
+                Console.Write("Enter your password: ");
+                ConsoleKeyInfo key;
+
+                do
+                {
+                    key = Console.ReadKey(true);
+
+                    // Backspace Should Not Work
+                    if (key.Key != ConsoleKey.Backspace && key.Key != ConsoleKey.Enter)
+                    {
+                        pass += key.KeyChar;
+                        Console.Write("*");
+                    }
+                    else
+                    {
+                        if (key.Key == ConsoleKey.Backspace && pass.Length > 0)
+                        {
+                            pass = pass.Substring(0, (pass.Length - 1));
+                            Console.Write("\b \b");
+                        }
+
+                    }
+                }
+                // Stops Receving Keys Once Enter is Pressed
+                while (key.Key != ConsoleKey.Enter);
+
+
+
+         /*       if ((user == usuario[j].usuario) && (pass == usuario[j].senha))
+                {
+                    Console.WriteLine("Login Correct!");
+                }
+                else
+                {
+                    Console.WriteLine("Login Incorrect");
+                    Console.WriteLine("ACCESS DENIED");
+                }
+            } while (((user != usuario[j].usuario) && (pass != usuario[j].senha)));
+            */
+
+                Console.Clear();
+            Console.WriteLine();
+            Console.Write("(Loading) ");
+            for (int ld = 0; ld < 69; ld++)
+            {
+                Thread.Sleep(25);
+                Console.Write("║");
+            }
+            Thread.Sleep(300);
+            Console.WriteLine();
+            Console.Clear();
+
+        }
+
+        static void cadastro_condominio()
+        {
+            
+            tipo_condominio condominio;
+          
+            Console.WriteLine("DIGITE O NOME DO CONDOMINIO:");
+            condominio.nome = Console.ReadLine().ToUpper().Replace(';', ' ');
+            Console.WriteLine("NUMERO DE APARTAMENTOS DO CONDOMINO:");
+            condominio.num_apartamentos = int.Parse(Console.ReadLine());
+
+           
+            Console.Clear();
+
+            
+            StreamReader reader = new StreamReader(localDados + arquivoDadosCondominio);
+
+            
+            int contaRegistro = 0;
+         
+            while (reader.ReadLine() != null)
+            {
+                contaRegistro++;
+            }
+            
+            reader.Close();
+           
+            reader.Dispose();
+
+            
+            StreamWriter writer = File.AppendText(localDados + arquivoDadosCondominio);
+
+            
+            condominio.cod = contaRegistro + 1;
+
+
+            
+            writer.WriteLine(condominio.cod + ";" + condominio.nome + ";" + condominio.num_apartamentos );
+           
+            writer.Close();
+            
+            writer.Dispose();
+
+
+            cabecalho("CODIGO DO CONDOMINIO: " + condominio.cod + "");
+            cabecalho("SUCESSO");
+          
+        }
+        static void consulta_condominio()
+        {
+                
+                
+                Console.WriteLine("DIGITE O NOME DO CONDOMINIO:");
+                string termoBusca = Console.ReadLine().Replace(';', ' ').ToUpper();
+
+
+                cabecalho("RESULTADOS");
+              
+                
+                StreamReader reader = new StreamReader(localDados + arquivoDadosCondominio);
+                
+                string resultado;
+                while ((resultado = reader.ReadLine()) != null)
+                {
+                    
+                    if (resultado.Contains(termoBusca))
+                    {
+                        
+                        string[] condominio_resultado = resultado.Split(';');
+
+                        
+                        tipo_condominio condominio;
+                        condominio.cod = Convert.ToInt32(condominio_resultado[0]);
+                        condominio.nome = condominio_resultado[1];
+                        condominio.num_apartamentos= int.Parse(condominio_resultado[2]);
+                   
+
+                        
+                        Console.WriteLine("CODIGO DO CONDOMINIO:");
+                        Console.WriteLine(condominio.cod);
+                        Console.WriteLine("NOME DO CONDOMINIO:");
+                        Console.WriteLine(condominio.nome);
+                        Console.WriteLine("NUMERO DE APARTAMENTOS:");
+                        Console.WriteLine(condominio.num_apartamentos);
+                        linha();
+                        Console.WriteLine("");
+                    }
+                }
+
+                
+                reader.Close();
+                
+                reader.Dispose();
+        }
+        
+        static void cadastro_morador()
+        {
+                      
+            tipo_morador morador;
+            
+            Console.WriteLine("   DIGITE O NOME DO MORADOR:");
+            morador.nome = Console.ReadLine().Replace(';', ' ').ToUpper();
+            Console.WriteLine("   DIGITE O CPF DO MORADOR: (Somente números)");
+            morador.cpf = Console.ReadLine();
+            Console.WriteLine("   DIGITE O TELEFONE DO MORADOR");
+            morador.tel = Console.ReadLine().Replace(';', ' ');
+            Console.WriteLine("   DIGITE O NUMERO DE DEPENDETES DO MORADOR:");
+            morador.num_dependentes = Convert.ToInt16(Console.ReadLine().Replace(';', ' '));
+            Console.WriteLine("   DIGITE O ENDEREÇO");
+            Console.WriteLine("   RUA:");
+            morador.rua = Console.ReadLine().Replace(';', ' ').ToUpper();
+            Console.WriteLine("   NUMERO:");
+            morador.num = Convert.ToInt16(Console.ReadLine().Replace(';', ' '));
+            Console.WriteLine("   COMPLEMENTO:");
+            morador.complemento = Convert.ToInt16(Console.ReadLine().Replace(';', ' '));
+            Console.WriteLine("   DIGITE O INICIO DA MORADIA: (DD/MM/AAAA)");
+            morador.inicio_moradia = DateTime.Parse(Console.ReadLine());
+            
+
+            Console.Clear();
+
+            StreamReader reader = new StreamReader(localDados + arquivoDadosMorador);
+
+            
+            int contaRegistro = 0;
+            
+            while (reader.ReadLine() != null)
+            {
+                contaRegistro++;
+            }
+            
+            reader.Close();
+            
+            reader.Dispose();
+
+            
+            StreamWriter writer = File.AppendText(localDados + arquivoDadosMorador);
+
+            
+                morador.cod = contaRegistro + 1;
+
+
+            
+                writer.WriteLine(morador.cod + ";" + morador.nome + ";" + morador.cpf + ";" + morador.tel + ";" + morador.num_dependentes + ";" + morador.rua + ";" + morador.num + ";" + morador.complemento+ ";" + morador.inicio_moradia.ToShortDateString());
+            
+            writer.Close();
+            
+            writer.Dispose();
+
+            cabecalho("CODIGO DO MORADOR" + morador.cod + "");
+            cabecalho("SUCESSO");
+        }
+        static void consulta_morador()
+        {
+                
+                Console.WriteLine("   DIGITE O NOME DO MORADOR:");
+                string termoBusca = Console.ReadLine().Replace(';', ' ').ToUpper();
+
+
+                cabecalho("RESULTADOS");
+
+                
+                StreamReader reader = new StreamReader(localDados + arquivoDadosMorador);
+                
+                string resultado;
+                while ((resultado = reader.ReadLine()) != null)
+                {
+                    
+                    if (resultado.Contains(termoBusca))
+                    {
+                        
+                        string[] morador_resultado = resultado.Split(';');
+
+                        
+                        tipo_morador morador;
+                        morador.cod = Convert.ToInt32(morador_resultado[0]);
+                        morador.nome = morador_resultado[1];
+                        morador.cpf = morador_resultado[2];
+                        morador.tel = morador_resultado[3];
+                        morador.num_dependentes = Convert.ToInt16(morador_resultado[4]);
+                        morador.rua = morador_resultado[5];
+                        morador.num = Convert.ToInt16(morador_resultado[6]);
+                        morador.complemento = Convert.ToInt16(morador_resultado[7]);
+                        morador.inicio_moradia = DateTime.Parse(morador_resultado[8]);
+
+                        
+                        Console.WriteLine("CODIGO DO MORADOR:");
+                        Console.WriteLine(morador.cod);
+                        Console.WriteLine("NOME DO MORADOR:");
+                        Console.WriteLine(morador.nome);
+                        Console.WriteLine("CPF DO CLIENTE: (Somente números)");
+                        Console.WriteLine(morador.cpf);
+                        Console.WriteLine("TELEFONE DO CLIENTE:");
+                        Console.WriteLine(morador.tel);
+                        Console.WriteLine("NUMERO DE DEPENDENTES DO CLIENTE:");
+                        Console.WriteLine(morador.num_dependentes);
+                        Console.WriteLine("ENDEREÇO DO CLIENTE:");
+                        Console.WriteLine("RUA "+ morador.rua + " NUM " + morador.num + " AP " + morador.complemento);                       
+                        Console.WriteLine("INICIO DA MORADIA DO CLIENTE: (DD/MM/AAAA)");
+                        Console.WriteLine(morador.inicio_moradia);
+                        linha();
+                        Console.WriteLine("");
+                    }
+                }
+
+                
+                reader.Close();
+                
+                reader.Dispose();
+        }
+        
+        static void cadastro_despesa()
+        {
+                tipo_despesa despesa;
+
+                                
+                Console.WriteLine("   DIGITE A DESCRIÇÃO:");
+                despesa.descricao = Console.ReadLine().Replace(';', ' ').ToUpper();
+                Console.WriteLine("   DIGITE O VALOR:");
+                despesa.valor = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("   DIGITE A DATA DO VENCIMENTO DA DESPESA: (DD/MM/AAAA)" );
+                despesa.data_vencimento = (Console.ReadLine());
+
+                despesa.data_pagamento = "00/00/0000";
+                despesa.valor_pago = 00.00;
+                despesa.pago = false;
+              
+                Console.Clear();
+
+                
+                StreamReader reader = new StreamReader(localDados + arquivoDadosDespesas);
+
+                
+                int contaRegistro = 0;
+                
+                while (reader.ReadLine() != null)
+                {
+                    contaRegistro++;
+                }
+                
+                reader.Close();
+                
+                reader.Dispose();
+
+                
+                StreamWriter writer = File.AppendText(localDados + arquivoDadosDespesas);
+
+                
+                despesa.cod = contaRegistro + 1;
+
+
+
+                writer.WriteLine(despesa.cod + ";" + despesa.data_vencimento + ";" + despesa.data_pagamento + ";" + despesa.descricao + ";" + despesa.valor + ";" + despesa.valor_pago + ";" + despesa.pago);
+                
+                writer.Close();
+                
+                writer.Dispose();
+
+                cabecalho("CODIGO DA DESPESA" + despesa.cod + "");
+                cabecalho("SUCESSO");
+            }
+        static void consulta_despesa()
+            {
+                
+                Console.WriteLine("   DIGITE A DESCRIÇÃO DA DESPESA:");
+                string termoBusca = Console.ReadLine().Replace(';', ' ').ToUpper();
+
+
+                cabecalho("RESULTADO");
+
+                
+                StreamReader reader = new StreamReader(localDados + arquivoDadosDespesas);
+                
+                string resultado;
+                while ((resultado = reader.ReadLine()) != null)
+                {
+                    
+                    if (resultado.Contains(termoBusca))
+                    {
+                        
+                        string[] despesa_resultado = resultado.Split(';');
+
+                        
+                        tipo_despesa despesa;
+                        despesa.cod = Convert.ToInt32(despesa_resultado[0]);                        
+                        despesa.data_vencimento = (despesa_resultado[1]);
+                        despesa.data_pagamento = (despesa_resultado[2]);
+                        despesa.descricao = despesa_resultado[3];
+                        despesa.valor = Convert.ToDouble(despesa_resultado[4]);
+                        despesa.valor_pago = Convert.ToDouble(despesa_resultado[5]);
+                        despesa.pago = bool.Parse(despesa_resultado[6]);
+
+                        
+                        
+                        Console.WriteLine("CODIGO DA DESPESA:");
+                        Console.WriteLine(despesa.cod);                        
+                        Console.WriteLine("DATA DO VENCIMENTO:");
+                        Console.WriteLine(despesa.data_vencimento);
+                        Console.WriteLine("DESCRIÇÃO:");
+                        Console.WriteLine(despesa.descricao);
+                        Console.WriteLine("VALOR");
+                        Console.WriteLine(despesa.valor);
+                        linha();
+                        Console.WriteLine("");
+                       
+                        
+                    }
+                }
+
+                
+                reader.Close();
+                
+                reader.Dispose();
+            }
+
+        static void cadastro_pagamento()
+        {
+            
+            Console.WriteLine("   DIGITE A DESCRIÇÃO DA DESPESA:");
+            string termoBusca = Console.ReadLine().Replace(';', ' ').ToUpper();
+
+
+            cabecalho("RESULTADO");
+
+
+            StreamReader reader = new StreamReader(localDados + arquivoDadosDespesas);
+           
+            string resultado;
+            while ((resultado = reader.ReadLine()) != null)
+            {
+
+                if (resultado.Contains(termoBusca))
+                {
+                    int contaRegistro = 0;
+
+                    
+                    string[] despesa_resultado = resultado.Split(';');
+
+
+                    tipo_despesa despesa;
+                    despesa.cod = Convert.ToInt32(despesa_resultado[0]);
+                    despesa.data_vencimento = (despesa_resultado[1]);
+                    despesa.data_pagamento = (despesa_resultado[2]);
+                    despesa.descricao = despesa_resultado[3];
+                    despesa.valor = Convert.ToDouble(despesa_resultado[4]);
+                    despesa.valor_pago = Convert.ToDouble(despesa_resultado[5]);
+                    despesa.pago = bool.Parse(despesa_resultado[6]);
+
+                    if (despesa.pago == true)
+                    {
+                        cabecalho("DESPESA JÁ ESTA PAGA!");
+                    }
+                    else
+                    {
+                        Console.WriteLine("CODIGO DA DESPESA:");
+                        Console.WriteLine(despesa.cod);
+                        Console.WriteLine("DATA DO VENCIMENTO:");
+                        Console.WriteLine(despesa.data_vencimento);
+                        Console.WriteLine("DESCRIÇÃO:");
+                        Console.WriteLine(despesa.descricao);
+                        Console.WriteLine("VALOR:");
+                        Console.WriteLine(despesa.valor);
+                        Console.WriteLine("DATA DO PAGAMENTO");
+                        despesa.data_pagamento = Console.ReadLine();
+                        Console.WriteLine("VALOR PAGO:");
+                        despesa.valor_pago = Convert.ToDouble(Console.ReadLine());
+                        despesa.pago = true;
+
+                        linha();
+                        Console.WriteLine("");
+
+
+                        reader.Close();
+                        reader.Dispose();                 
+                       
+
+                        reader = new StreamReader(localDados + arquivoDadosDespesas);
+                        while (reader.ReadLine() != null)
+                        {
+                            contaRegistro++;
+                        }
+                        int j = 0;
+                        string[] dados = new string[contaRegistro];
+                        while (reader.ReadLine() !=null)
+                            {
+                                
+                                dados[j] = reader.ReadLine();
+                                j++;
+                            }
+                        reader.Close();
+                        reader.Dispose(); 
+                        StreamWriter writer =  new StreamWriter (localDados + arquivoDadosDespesas);
+
+                        writer.WriteLine(despesa.cod + ";" + despesa.data_vencimento + ";" + despesa.data_pagamento + ";" + despesa.descricao + ";" + despesa.valor + ";" + despesa.valor_pago + ";" + despesa.pago);
+                    
+                        for (int i = 0; i < contaRegistro; i++)
+                        {
+                            writer.WriteLine(dados[i]);
+                            
+                        }
+                        
+
+                        writer.Close();
+
+                        writer.Dispose();
+
+                        cabecalho("CODIGO DA DESPESA: " + despesa.cod + "");
+                        cabecalho("SUCESSO");
+
+
+                    }
+                }
+            }
+
+
+            reader.Close();
+
+            reader.Dispose();
+        }
+        static void consulta_pagamento()
+        {
+                
+               
+                Console.WriteLine("   DIGITE A DESCRIÇÃO DA DESPESA PAGA:");
+                string termoBusca = Console.ReadLine().Replace(';', ' ').ToUpper();
+
+
+                cabecalho("RESULTADO");
+
+                
+                StreamReader reader = new StreamReader(localDados + arquivoDadosDespesas);
+                
+                string resultado;
+                while ((resultado = reader.ReadLine()) != null)
+                {
+                    
+                    if (resultado.Contains(termoBusca))
+                    {
+                        
+                        string[] despesa_resultado = resultado.Split(';');
+
+
+                        tipo_despesa despesa;
+                        despesa.cod = Convert.ToInt32(despesa_resultado[0]);
+                        despesa.data_vencimento = (despesa_resultado[1]);
+                        despesa.data_pagamento = (despesa_resultado[2]);
+                        despesa.descricao = despesa_resultado[3];
+                        despesa.valor = Convert.ToDouble(despesa_resultado[4]);
+                        despesa.valor_pago = Convert.ToDouble(despesa_resultado[5]);
+                        despesa.pago = bool.Parse(despesa_resultado[6]);
+
+                        
+                        
+                        Console.WriteLine("CODIGO DA DESPESA:");
+                        Console.WriteLine(despesa.cod);                        
+                        Console.WriteLine("DATA DO VENCIMENTO:");
+                        Console.WriteLine(despesa.data_vencimento);
+                        Console.WriteLine("DATA DO PAGAMENTO:");
+                        Console.WriteLine(despesa.data_pagamento);
+                        Console.WriteLine("DESCRIÇÃO:");
+                        Console.WriteLine(despesa.descricao);
+                        Console.WriteLine("VALOR:");
+                        Console.WriteLine(despesa.valor);
+                        Console.WriteLine("VALOR PAGO:");
+                        Console.WriteLine(despesa.valor_pago);
+                        linha();
+                        Console.WriteLine("");
+                       
+                        
+                    }
+                }
+
+                
+                reader.Close();
+                
+                reader.Dispose();
+            
+        }
+
+        static void relatorio_pagamentos()
+        {
+
+            
+            Console.WriteLine("   DIGITE O MÊS E O ANO: (MM/AAAA)");
+            string termoBusca = Console.ReadLine().Replace(';', ' ').ToUpper();
+
+            cabecalho("RESULTADO");
+
+                
+                StreamReader reader = new StreamReader(localDados + arquivoDadosDespesas);
+                
+                string resultado;
+                while ((resultado = reader.ReadLine()) != null)
+                {
+
+                    if (resultado.Contains(termoBusca))
+                    {
+
+                        string[] despesa_resultado = resultado.Split(';');
+                        tipo_despesa despesa;
+                        despesa.cod = Convert.ToInt32(despesa_resultado[0]);
+                        despesa.data_vencimento = (despesa_resultado[1]);
+                        despesa.data_pagamento = (despesa_resultado[2]);
+                        despesa.descricao = despesa_resultado[3];
+                        despesa.valor = Convert.ToDouble(despesa_resultado[4]);
+                        despesa.valor_pago = Convert.ToDouble(despesa_resultado[5]);
+                        despesa.pago = bool.Parse(despesa_resultado[6]);
+
+
+                        if (despesa.pago == true)
+                        {
+                            Console.WriteLine("CODIGO DA DESPESA:");
+                            Console.WriteLine(despesa.cod);
+                            Console.WriteLine("DATA DO VENCIMENTO:");
+                            Console.WriteLine(despesa.data_vencimento);
+                            Console.WriteLine("DATA DO PAGAMENTO:");
+                            Console.WriteLine(despesa.data_pagamento);
+                            Console.WriteLine("DESCRIÇÃO:");
+                            Console.WriteLine(despesa.descricao);
+                            Console.WriteLine("VALOR:");
+                            Console.WriteLine(despesa.valor);
+                            Console.WriteLine("VALOR PAGO:");
+                            Console.WriteLine(despesa.valor_pago);
+                            linha();
+                            Console.WriteLine("");
+                        }
+                    }
+
+               }
+                reader.Close();
+
+                reader.Dispose();
+ 
+        }
+        static void relatorio_despesas()
+        {
+            Console.WriteLine("   DIGITE O MÊS E O ANO: (MM/AAAA)");
+            string termoBusca = Console.ReadLine().Replace(';', ' ').ToUpper();
+
+            cabecalho("RESULTADO");
+
+
+            StreamReader reader = new StreamReader(localDados + arquivoDadosDespesas);
+
+            string resultado;
+            while ((resultado = reader.ReadLine()) != null)
+            {
+
+                if (resultado.Contains(termoBusca))
+                {
+
+                    string[] despesa_resultado = resultado.Split(';');
+                    tipo_despesa despesa;
+                    despesa.cod = Convert.ToInt32(despesa_resultado[0]);
+                    despesa.data_vencimento = (despesa_resultado[1]);
+                    despesa.data_pagamento = (despesa_resultado[2]);
+                    despesa.descricao = despesa_resultado[3];
+                    despesa.valor = Convert.ToDouble(despesa_resultado[4]);
+                    despesa.valor_pago = Convert.ToDouble(despesa_resultado[5]);
+                    despesa.pago = bool.Parse(despesa_resultado[6]);
+
+
+                    if (despesa.pago == false)
+                    {
+                        Console.WriteLine("CODIGO DA DESPESA:");
+                        Console.WriteLine(despesa.cod);
+                        Console.WriteLine("DATA DO VENCIMENTO:");
+                        Console.WriteLine(despesa.data_vencimento);                       
+                        Console.WriteLine("DESCRIÇÃO:");
+                        Console.WriteLine(despesa.descricao);
+                        Console.WriteLine("VALOR:");
+                        Console.WriteLine(despesa.valor);
+                        linha();
+                        Console.WriteLine("");
+                    }
+                }
+
+               
+            }
+            reader.Close();
+
+            reader.Dispose();
+        }
+
+        static void calcular_condominio()
+        {
+            double valor_total_condominio = 0, valor_condominio = 0;
+            int num_ap = 0;
+
+           StreamReader reader = new StreamReader(localDados + arquivoDadosDespesas);
+
+            string resultado_despesas;
+            while ((resultado_despesas = reader.ReadLine()) != null)
+            {
+                
+               string[] despesa_resultado = resultado_despesas.Split(';');
+
+
+                    tipo_despesa despesa;
+                    despesa.cod = Convert.ToInt32(despesa_resultado[0]);
+                    despesa.data_vencimento = (despesa_resultado[1]);
+                    despesa.data_pagamento = (despesa_resultado[2]);
+                    despesa.descricao = despesa_resultado[3];
+                    despesa.valor = Convert.ToDouble(despesa_resultado[4]);
+                    despesa.valor_pago = Convert.ToDouble(despesa_resultado[5]);
+                    despesa.pago = bool.Parse(despesa_resultado[6]);
+
+                                    
+                    valor_total_condominio = valor_total_condominio + despesa.valor;                  
+            }
+            
+
+         //   reader.Close();
+
+           // reader.Dispose();
+
+           
+            Console.WriteLine("DIGITE O NOME DO CONDOMINIO:");
+            string termoBusca = Console.ReadLine().Replace(';', ' ').ToUpper();
+
+
+            cabecalho("RESULTADOS");
+
+
+            StreamReader reader_condominio = new StreamReader(localDados + arquivoDadosCondominio);
+
+            string resultado_condominio;
+            while ((resultado_condominio = reader_condominio.ReadLine()) != null)
+            {
+
+                if (resultado_condominio.Contains(termoBusca))
+                {
+
+                    string[] condominio_resultado = resultado_condominio.Split(';');
+
+
+                    tipo_condominio condominio;
+                    condominio.cod = Convert.ToInt32(condominio_resultado[0]);
+                    condominio.nome = condominio_resultado[1];
+                    condominio.num_apartamentos = int.Parse(condominio_resultado[2]);
+
+                    num_ap = condominio.num_apartamentos;
+
+                   
+                    valor_condominio = valor_total_condominio / num_ap;
+
+                    Console.WriteLine("NOME DO CONDOMINIO:");
+                    Console.WriteLine(condominio.nome);
+                    Console.WriteLine("VALOR TOTAL DAS DESPESAS DO CONDOMINIO:");
+                    Console.WriteLine(valor_total_condominio);
+                    Console.WriteLine("NUMERO DE APARTAMENTOS CONDOMINIO:");
+                    Console.WriteLine(num_ap);
+                    Console.WriteLine("VALOR A SER PAGO DE CONDOMINIO POR MORADOR:");
+                    Console.WriteLine(Math.Round(valor_condominio,2));
+
+                }
+            }
+
+
+            reader_condominio.Close();
+
+            reader_condominio.Dispose();
+
+          
+        }
+     }
+}
+
+

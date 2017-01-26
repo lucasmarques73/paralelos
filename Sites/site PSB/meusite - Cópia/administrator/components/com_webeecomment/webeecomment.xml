@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+
+<install version="1.5" type="component">
+	<name>Webee Comment</name>
+	<author>Onno Groen</author>
+	<creationDate>April 2010</creationDate>
+	<copyright>(C) 2010 Onno Groen. All rights reserved.</copyright>
+	<license>GPL</license>
+	<authorEmail>info@onnogroen.nl</authorEmail>
+	<authorUrl>www.onnogroen.nl</authorUrl>
+	<version>2.1</version>
+	<description>Adds a simple to-the-point AJAX-based comment interface for Joomla! articles.</description>
+	<languages folder="languages">
+    	<language tag="en-GB">en-GB.com_webeecomment.ini</language>
+  	</languages>
+	<administration>
+		<menu task="admin">Webee Comments</menu>
+		<files folder="administration">
+			<filename>index.html</filename>
+			<filename>admin.webeecomment.php</filename>
+			<filename>toolbar.webeecomment.html.php</filename>
+			<filename>toolbar.webeecomment.php</filename>
+			<filename>install.sql</filename>
+			<filename>uninstall.sql</filename>
+			<filename>controllers/default.php</filename>
+			<filename>models/webeecomment.php</filename>
+			<filename>install.webeecomment.php</filename>
+			<filename>views/default/view.php</filename>
+			<filename>config.xml</filename>
+			<filename>webeecomment.css</filename>
+			<folder>JavaScript</folder>
+			<folder>images</folder>
+			<folder>css</folder>
+		</files>
+	</administration>
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">install.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file driver="mysql">uninstall.sql</file>
+		</sql>
+	</uninstall>
+	<installfile>install.webeecomment.php</installfile>
+	<files>
+		<filename>index.html</filename>
+		<filename>webeecomment.php</filename>
+		<folder>controllers</folder>
+		<folder>models</folder>
+		<folder>views</folder>
+		<folder>SecureImage</folder>
+	</files>
+</install>

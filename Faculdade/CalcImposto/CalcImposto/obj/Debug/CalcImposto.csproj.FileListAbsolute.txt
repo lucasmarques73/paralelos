@@ -1,0 +1,6 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\CalcImposto\CalcImposto\bin\Debug\CalcImposto.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\CalcImposto\CalcImposto\bin\Debug\CalcImposto.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\CalcImposto\CalcImposto\bin\Debug\CalcImposto.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\CalcImposto\CalcImposto\obj\Debug\CalcImposto.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\CalcImposto\CalcImposto\obj\Debug\CalcImposto.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\CalcImposto\CalcImposto\obj\Debug\CalcImposto.pdb

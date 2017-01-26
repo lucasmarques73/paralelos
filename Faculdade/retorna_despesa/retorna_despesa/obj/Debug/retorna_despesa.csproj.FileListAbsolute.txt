@@ -1,0 +1,5 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\retorna_despesa\retorna_despesa\bin\Debug\retorna_despesa.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\retorna_despesa\retorna_despesa\bin\Debug\retorna_despesa.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\retorna_despesa\retorna_despesa\bin\Debug\retorna_despesa.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\retorna_despesa\retorna_despesa\obj\Debug\retorna_despesa.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\retorna_despesa\retorna_despesa\obj\Debug\retorna_despesa.pdb

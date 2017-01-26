@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="JGA_LAYOUT_DETAIL_DEFAULT">
+		<message>
+			<![CDATA[JGA_LAYOUT_DETAIL_DEFAULT_DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>JGA_LAYOUT_DETAIL_DEFAULT_STATE</name>
+		<description>JGA_LAYOUT_DETAIL_DEFAULT_DESC_STATE</description>
+		<url addpath="/administrator/components/com_joomgallery/elements">
+			<param name="id" type="image" label="JGA_COMMON_IMAGE" description="JGA_LAYOUT_DETAIL_CHOOSE_IMAGE_DESC" />
+		</url>
+	</state>
+</metadata>

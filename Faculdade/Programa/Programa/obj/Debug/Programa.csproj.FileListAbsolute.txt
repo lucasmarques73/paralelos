@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\Programa\Programa\bin\Debug\Programa.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\Programa\Programa\bin\Debug\Programa.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\Programa\Programa\bin\Debug\Programa.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\Programa\Programa\obj\Debug\Programa.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\Programa\Programa\obj\Debug\Programa.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\Programa\Programa\obj\Debug\Programa.pdb

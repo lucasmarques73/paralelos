@@ -1,0 +1,379 @@
+
+/* Admin Left Menu */
+span.tableHeaderFilter {
+	font-weight:normal;
+	font-size : 12px;
+	margin-left: 5px;
+}
+div#accordionTabs {
+	min-height: 400px;
+	margin-top: -3px;
+}
+.menuTabHeader, .contentTabHeader
+{
+	margin: 0;
+	padding: 0;
+	border-style:none;
+	cursor: pointer;
+	font-size: 1.2em;
+	font-family: Verdana, Helvetica, Arial;
+	color:rgb(0,66,174);
+}
+.menuTabHeader {
+	font-weight: bold;
+	background:	rgb(234,242,255);
+	height:	1.85em;
+}
+.menuWrapper
+{
+  padding: 5px;
+  min-height: 200px;
+}
+.menuWrapper li
+{
+  margin-left: -15px;
+}
+table#sobitoolbar img {
+	border-style:none;
+}
+table#sobitoolbar a {
+	text-decoration: none;
+}
+table#sobitoolbar p.tableCell{
+	width: 65px;
+	background-color: #EAF2FF;
+	border:	1px solid rgb(120,172,255);
+	padding:2px;
+	taxt-align: center;
+}
+div#toolbar-box {
+	display:none;
+}
+table.SobiAdminHeading {
+	background-color: #FFF;
+	font-family : Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	width: 100%;
+	border-collapse: collapse;
+	color: #C64934;
+	font-size : 18px;
+	font-weight: bold;
+	text-align: left;
+}
+table.SobiAdminHeading th {
+	background: url(../../../images/generic.png) no-repeat left;
+	text-align: left;
+	height: 50px;
+	width: 99%;
+	padding-left: 50px;
+	border-bottom: 5px solid #fff;
+}
+table.SobiAdminHeading th.cpanel {
+	background: url(../images/cpanel.png) no-repeat left ;
+}
+* html table.SobiAdminHeading th.cpanel {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='components/com_sobi2/images/cpanel.png', sizingMethod='crop');
+}
+table.SobiAdminHeading th.syscheck {
+	background: url(../images/monitor.png) no-repeat left ;
+}
+* html table.SobiAdminHeading th.syscheck {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='components/com_sobi2/images/monitor.png', sizingMethod='crop');
+}
+table.SobiAdminHeading th.plugins {
+	background: url(../images/config-plugin.png) no-repeat left;
+}
+* html table.SobiAdminHeading th.plugins {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='components/com_sobi2/images/config-plugin.png', sizingMethod='crop');
+}
+table.SobiAdminHeading th.modules {
+	background: url(../images/config-plugin.png) no-repeat left;
+}
+* html table.SobiAdminHeading th.modules {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='components/com_sobi2/images/config-plugin.png', sizingMethod='crop');
+}
+table.SobiAdminHeading th.view {
+	background: url(../images/config-view.png) no-repeat left;
+}
+* html table.SobiAdminHeading th.view {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='components/com_sobi2/images/config-view.png', sizingMethod='crop');
+}
+table.SobiAdminHeading th.mail {
+	background: url(../images/config-mail.png) no-repeat left;
+}
+* html table.SobiAdminHeading th.mail {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='components/com_sobi2/images/config-mail.png', sizingMethod='crop');
+}
+table.SobiAdminHeading th.lang {
+	background: url(../images/config-language.png) no-repeat left;
+}
+* html table.SobiAdminHeading th.lang {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='components/com_sobi2/images/config-language.png', sizingMethod='crop');
+}
+table.SobiAdminHeading th.template {
+	background: url(../images/looknfeel.png) no-repeat left;
+}
+* html table.SobiAdminHeading th.template {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='components/com_sobi2/images/looknfeel.png', sizingMethod='crop');
+}
+table.SobiAdminHeading th.templateman {
+	background: url(../images/desktop.png) no-repeat left;
+}
+* html table.SobiAdminHeading th.templateman {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='components/com_sobi2/images/desktop.png', sizingMethod='crop');
+}
+table.SobiAdminHeading th.registry {
+	background: url(../images/registry.png) no-repeat left;
+}
+* html table.SobiAdminHeading th.registry {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='components/com_sobi2/images/registry.png', sizingMethod='crop');
+}
+table.SobiAdminHeading th.edit {
+	background: url(../images/addedit.png) no-repeat left;
+}
+* html table.SobiAdminHeading th.edit {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='components/com_sobi2/images/addedit.png', sizingMethod='crop');
+}
+table.SobiAdminHeading th.css {
+	background: url(../images/looknfeel.png) no-repeat left;
+}
+* html table.SobiAdminHeading th.css {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='components/com_sobi2/images/looknfeel.png', sizingMethod='crop');
+}
+table.SobiAdminHeading th.payment {
+	background: url(../images/config-payment.png) no-repeat left;
+}
+* html table.SobiAdminHeading th.payment {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='components/com_sobi2/images/config-payment.png', sizingMethod='crop');
+}
+table.SobiAdminHeading th.categories {
+	background: url(../images/categories.png) no-repeat left;
+}
+* html table.SobiAdminHeading th.categories {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='components/com_sobi2/images/categories.png', sizingMethod='crop');
+}
+table.SobiAdminHeading td {
+	color : #000;
+}
+/* standard form style table */
+table.SobiAdminForm {
+	background-color: #f9f9f9;
+	border: solid 1px #d5d5d5;
+	width: 100%;
+	padding: 10px;
+	border-collapse: collapse;
+}
+table.SobiAdminForm tr.row0 {
+	background-color: #f9f9f9;
+}
+table.SobiAdminForm tr.row1 {
+	background-color: #eeeeee;
+}
+table.adminform th ,
+table.SobiAdminForm th {
+	padding-top: 3px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	text-align: left;
+	height: 25px;
+	background: url(../images/headerbg.png);
+	color: #E0E0FF;
+	background-repeat: repeat;
+	font-family: Verdana, Helvetica, Arial;
+	font-size:12px;
+}
+table.SobiAdminForm td {
+	padding: 3px;
+	text-align: left;
+}
+table.SobiAdminForm td.editor {
+	font-size: 9px;
+}
+
+/* standard list style table */
+table.SobiAdminList {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #ddd;
+	border-spacing: 0px;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table.SobiAdminList th {
+	margin: 0px;
+	padding: 6px 4px 2px 4px;
+	height: 25px;
+	background: url(../images/headerbg.png);
+	color: #E0E0FF;
+	font-family: Verdana, Helvetica, Arial;
+	background-repeat: repeat;
+	font-size: 11px;
+}
+table.SobiAdminList th.title {
+	text-align: left;
+}
+
+table.SobiAdminList th a:link, table.SobiAdminList th a:visited {
+	color: #c64934;
+	text-decoration: none;
+}
+
+table.SobiAdminList th a:hover {
+	text-decoration: underline;
+}
+
+table.SobiAdminList tr.row0 {
+	background-color: #eaf2e3;
+	text-align: left;
+}
+table.SobiAdminList tr.row1 {
+	background-color: #FFF;
+	text-align: left;
+}
+table.SobiAdminList td {
+	border-bottom: 1px solid #e5e5e5;
+	padding: 4px;
+}
+table.SobiAdminList tr.row0:hover {
+	background-color: #EAF2FF;
+}
+table.SobiAdminList tr.row1:hover {
+	background-color: #EAF2FF;
+}
+table.SobiAdminList td.options {
+	background-color: #ffffff;
+	font-size: 8px;
+}
+
+select#sobi2SlectedCatsID {
+	height: 100px;
+	width:  50px;
+	color: blue;
+	text-align: right;
+}
+input#selectedCatID {
+	color: blue;
+	text-align: center;
+}
+select#sobi2SlectedCats {
+	height: 100px;
+	width:  150px;
+	border-style: solid;
+}
+#sobi2AddCatBt, #sobi2RemoveCatBt {
+	width:50px;
+}
+.sigsiuTree {
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+	white-space: nowrap;
+	overflow: auto;
+}
+.sigsiuTree img {
+	border: 0px;
+	vertical-align: middle;
+}
+.sigsiuTree a {
+	color: #333;
+	text-decoration: none;
+	font-weight: normal;
+}
+.sigsiuTree a.node, .sigsiuTree a.nodeSel {
+	white-space: nowrap;
+	padding: 1px 2px 1px 2px;
+}
+.sigsiuTree a.node:hover, .sigsiuTree a.nodeSel:hover {
+	color: #333333;
+	text-decoration: underline;
+}
+.sigsiuTree a.nodeSel {
+	background-color: #c0d2ec;
+}
+.sigsiuTree .clip {
+	overflow: hidden;
+}
+div.sigsiuTree a, .sigsiuTree a, a.treeNode:hover, a.treeNode, a.treeNode:visited {
+	color: #333333 !important;
+	text-decoration: none !important;
+	font-weight: normal !important;
+}
+a.treeNode:active, a.treeNode:focus {
+	color: #333333;
+	text-decoration: none;
+	font-weight: normal;
+	background-color: #c0d2ec;
+}
+/*--------------------------------------------------|
+| dTree 2.05 | www.destroydrop.com/javascript/tree/ |
+|---------------------------------------------------|
+| Copyright (c) 2002-2003 Geir Landr???               |
+|--------------------------------------------------*/
+
+div.dtree { min-width: 180px; }
+.dtree {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+	white-space: nowrap;
+	padding-left: 8px;
+}
+.dtree img {
+	border: 0px;
+	vertical-align: middle;
+}
+.dtree a {
+	color: #333;
+	text-decoration: none;
+}
+.dtree a.node, .dtree a.nodeSel {
+	white-space: nowrap;
+	padding: 1px 2px 1px 2px;
+}
+.dtree a.node:hover, .dtree a.nodeSel:hover {
+	color: #333;
+	text-decoration: underline;
+}
+.dtree a.nodeSel {
+	background-color: #c0d2ec;
+}
+.dtree .clip {
+	overflow: hidden;
+}
+
+div .menuWrapper {
+	font-weight: bold;
+	font-size: 13px;
+}
+div .menuWrapper ul li {
+	font-size: 13px;
+	font-weight: normal;
+}
+
+table#sobitoolbar td p.tableCell {
+	font-size: 12px;
+}
+/* For Mia CMS */
+#topmodules {
+    margin-top: 5px;
+}
+

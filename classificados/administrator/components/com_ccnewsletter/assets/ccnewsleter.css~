@@ -1,0 +1,122 @@
+/* CSS Document */
+.icon-32-adduser
+{
+	background-image: url(icon-32-adduser.png);
+}
+div.main-wrapper1
+{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	background: #FBFBFB;
+	font-family: arial, "lucida console", sans-serif
+}
+div.main-wrapper
+{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	background: #FBFBFB;
+	/*font-family:Arial;*/
+}
+div.leftheader
+{
+	width:11px;
+	height:54px;
+	float:left;
+	background:url(j_header_left_rtl.png) no-repeat;
+}
+div.middleheader
+{
+	width:578px;
+	height:54px;
+	float:left;
+	background:url(j_header_middle.png) repeat-x;
+	color:#FFFFFF;
+	font-size:14px;
+	font-weight:bold;
+}
+div.headertitle
+{
+	padding-top:10px;
+	padding-left:30px;
+
+}
+div.rightheader
+{
+	width:11px;
+	height:54px;
+	float:left;
+	background:url(j_header_right.png) no-repeat;
+}
+div.clear
+{
+	clear:both;
+}
+div.content-wrapper
+{
+	width:598px;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+}
+div.content
+{
+	padding:10px;
+}
+div.status
+{
+	background: #EFE7B8;
+	border:1px solid #F0DC7E;
+	font-size:14px;
+	font-weight:bold;
+	color:#CC0000;
+	width:95%;
+	padding:10px;
+	margin-bottom:10px;
+}
+
+div.status_conf
+{
+	background: #EFE7B8;
+	border:1px solid #F0DC7E;
+	font-size:14px;
+	font-weight:bold;
+	color:#000000;
+	width:95%;
+	padding:10px;
+	margin-bottom:10px;
+	text-align:justify;
+}
+div.confirmation
+{
+ 	text-align:right;
+ 	margin-bottom:10px;
+}
+
+span.process
+{
+	color:#009933;
+}
+div.status table td
+{
+	color:#CC0000;
+}
+div.emaillist, table.emaillist
+{
+	width:500px;
+	border:1px solid #84A7DB;
+	background:#C3D2E5;
+	color:#0055BB;
+	height:25px;
+	/*padding-top:3px;*/
+	margin-top:3px;
+
+}
+
+
+.icon-48-ccnewsletter {
+	background: url(cc_icon_large.png) no-repeat left top;
+}

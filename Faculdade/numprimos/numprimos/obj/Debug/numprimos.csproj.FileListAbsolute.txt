@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\numprimos\numprimos\bin\Debug\numprimos.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\numprimos\numprimos\bin\Debug\numprimos.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\numprimos\numprimos\bin\Debug\numprimos.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\numprimos\numprimos\obj\Debug\numprimos.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\numprimos\numprimos\obj\Debug\numprimos.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\numprimos\numprimos\obj\Debug\numprimos.pdb

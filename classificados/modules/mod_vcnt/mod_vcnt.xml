@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<install type="module" version="1.5.0">
+<name>VCNT J1.5</name>
+	<author>Viktor Vogel</author>
+	<creationDate>19.10.2009</creationDate>
+	<copyright>This module its released under GPL/GNU License</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@kubik-rubik.de</authorEmail>
+	<authorUrl>www.kubik-rubik.de</authorUrl>
+	<version>1.5-1</version>
+	<description>VCNT - Visitorcounter J1.5 - Version 1.5-1 - http://www.kubik-rubik.de/joomla-hilfe/modul-vcnt-visitorcounter-joomla-1.5
+</description>
+	<files>
+		<filename module="mod_vcnt">mod_vcnt.php</filename>
+		<filename module="mod_vcnt">helper.php</filename>
+		<filename module="mod_vcnt">index.html</filename>		
+		<filename module="mod_vcnt">tmpl/default.php</filename>		
+		<filename module="mod_vcnt">tmpl/index.html</filename>	
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_vcnt.ini</language>
+		<language tag="de-DE">de-DE.mod_vcnt.ini</language>
+	</languages>
+	<params>
+		<param name="today" type="text" default="" label="TODAY" />	
+		<param name="yesterday" type="text" default="" label="YESTERDAY" />		
+		<param name="week" type="text" default="" label="WEEK" />		
+		<param name="month" type="text" default="" label="MONTH" />	
+		<param name="all" type="text" default="" label="ALL" />			
+		<param name="locktime" type="text" default="1440" label="LOCKTIME" description="LOCKTIME DESC"/>	
+		<param name="preset" type="text" default="0" label="PRESET COUNTER" />	
+		<param name="s_today" type="radio" default="1" label="SHOW TODAY" description="SHOW TODAY USERS">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param> 
+		<param name="s_yesterday" type="radio" default="1" label="SHOW YESTERDAY" description="SHOW YESTERDAY USERS">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param> 
+		<param name="s_week" type="radio" default="1" label="SHOW WEEK" description="SHOW WEEK USERS">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param> 
+		<param name="s_month" type="radio" default="1" label="SHOW MONTH" description="SHOW MONTH USERS">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param> 
+		<param name="s_all" type="radio" default="1" label="SHOW ALL" description="SHOW ALL USERS">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param> 
+		<param name="s_clean" type="radio" default="1" label="AUTOMATIC CLEANUP" description="AUTOMATIC CLEANUP DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="copy" type="radio" default="1" label="POWERED BY LABEL" description="POWERED BY">
+			<option value="1">YES</option>
+			<option value="0">NO</option>
+		</param>
+	</params>
+</install>

@@ -1,0 +1,9 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\Media2\Media2\bin\Debug\Media2.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\Media2\Media2\bin\Debug\Media2.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\Media2\Media2\bin\Debug\Media2.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\Media2\Media2\obj\Debug\Media2.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\Media2\Media2\obj\Debug\Media2.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\Media2\Media2\obj\Debug\Media2.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Media2\Media2\bin\Debug\Media2.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Media2\Media2\obj\Debug\Media2.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Media2\Media2\obj\Debug\Media2.pdb

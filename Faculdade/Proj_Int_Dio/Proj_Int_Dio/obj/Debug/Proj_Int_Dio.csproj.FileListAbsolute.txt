@@ -1,0 +1,6 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Proj_Int_Dio\Proj_Int_Dio\bin\Debug\Proj_Int_Dio.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Proj_Int_Dio\Proj_Int_Dio\bin\Debug\Proj_Int_Dio.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Proj_Int_Dio\Proj_Int_Dio\bin\Debug\Proj_Int_Dio.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Proj_Int_Dio\Proj_Int_Dio\obj\Debug\Proj_Int_Dio.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Proj_Int_Dio\Proj_Int_Dio\obj\Debug\Proj_Int_Dio.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Proj_Int_Dio\Proj_Int_Dio\obj\Debug\Proj_Int_Dio.pdb

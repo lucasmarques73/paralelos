@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\MariaeJoão\MariaeJoão\bin\Debug\MariaeJoão.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\MariaeJoão\MariaeJoão\bin\Debug\MariaeJoão.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\MariaeJoão\MariaeJoão\bin\Debug\MariaeJoão.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\MariaeJoão\MariaeJoão\obj\Debug\MariaeJoão.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\MariaeJoão\MariaeJoão\obj\Debug\MariaeJoão.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\MariaeJoão\MariaeJoão\obj\Debug\MariaeJoão.pdb

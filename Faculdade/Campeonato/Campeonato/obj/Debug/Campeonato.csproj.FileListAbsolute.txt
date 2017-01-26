@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\Campeonato\Campeonato\bin\Debug\Campeonato.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\Campeonato\Campeonato\bin\Debug\Campeonato.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\Campeonato\Campeonato\bin\Debug\Campeonato.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\Campeonato\Campeonato\obj\Debug\Campeonato.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\Campeonato\Campeonato\obj\Debug\Campeonato.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\Campeonato\Campeonato\obj\Debug\Campeonato.pdb

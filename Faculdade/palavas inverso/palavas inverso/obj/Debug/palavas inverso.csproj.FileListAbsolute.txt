@@ -1,0 +1,6 @@
+c:\users\lucas\documents\visual studio 2012\Projects\palavas inverso\palavas inverso\bin\Debug\palavas inverso.exe.config
+c:\users\lucas\documents\visual studio 2012\Projects\palavas inverso\palavas inverso\bin\Debug\palavas inverso.exe
+c:\users\lucas\documents\visual studio 2012\Projects\palavas inverso\palavas inverso\bin\Debug\palavas inverso.pdb
+c:\users\lucas\documents\visual studio 2012\Projects\palavas inverso\palavas inverso\obj\Debug\palavas inverso.csprojResolveAssemblyReference.cache
+c:\users\lucas\documents\visual studio 2012\Projects\palavas inverso\palavas inverso\obj\Debug\palavas inverso.exe
+c:\users\lucas\documents\visual studio 2012\Projects\palavas inverso\palavas inverso\obj\Debug\palavas inverso.pdb

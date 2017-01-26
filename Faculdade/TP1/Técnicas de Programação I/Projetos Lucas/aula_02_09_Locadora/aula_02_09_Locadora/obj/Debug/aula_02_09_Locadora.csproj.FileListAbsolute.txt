@@ -1,0 +1,2 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_02_09_Locadora\aula_02_09_Locadora\bin\Debug\aula_02_09_Locadora.exe.config
+E:\Lucas_Marques16\Técnicas de Programação I\Projetos Lucas\aula_02_09_Locadora\aula_02_09_Locadora\bin\Debug\aula_02_09_Locadora.exe.config

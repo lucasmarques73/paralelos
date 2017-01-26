@@ -1,0 +1,379 @@
+body
+{	
+	font-weight: normal;
+	font-size: 12px;
+	font-family: Arial;
+	margin: 0px;
+}
+
+p
+{
+	font-family:Arial;
+	font-size: 12px;
+}
+
+H1
+{	
+	font-family: Verdana,Arial;
+	font-size: 16px;
+	font-weight: bold;
+	color: #2f4f4f;
+	font-variant:small-caps;
+}
+
+.H1SemSC
+{	
+	font-family: Verdana,Arial;
+	font-size: 16px;
+	font-weight: bold;
+	color: #2f4f4f;
+}
+
+.H1ComSC
+{	
+	font-family: Verdana,Arial;
+	font-size: 16px;
+	font-weight: bold;
+	color: #2f4f4f;
+	font-variant:small-caps;
+}
+
+.textbox
+{
+	border-style:solid;
+	font-size:11px;
+	font-family:arial;
+	border-color: Black;
+}
+
+.checkbox
+{
+	font-family:arial;
+	font-size:11px;
+	font-weight:normal;
+	color:black;
+}
+
+.button
+{	
+	font-size:11px;
+	font-family: arial;
+	font-weight: bold;
+	height: 20px;
+	border: 1px solid black;
+	background-color: #D1D7DF;
+	cursor: pointer;
+}
+
+.tableHeader
+{
+	height:22px;
+	background-color:#2f4f4f;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	color:white;
+}
+.tableHeader label{color:#FFF;font-family:arial;font-size:12px;font-weight:bold;}
+
+.tableItem
+{
+	background-color: #EFF2F7;
+	font-family:arial;
+	font-size:11px;
+	color:black;
+}
+
+.tableAlternate
+{
+	background-color: #FFFFFF;
+	font-family:arial;
+	font-size:11px;
+	color:black;
+}
+
+.tableFooter
+{
+	background-color:white;
+	font-family:arial;
+	font-size:11px;
+	color:black;
+}
+	
+.table
+{	
+	border-style:none;
+	border-width:0px;
+	border-color: #F5F5F5;
+	padding: 1px;
+	font-family:arial;
+	font-size:11px;
+	font-weight:normal;
+}
+
+.error
+{
+	font-family: arial;
+	font-size: 11px;
+	color: Red;
+}
+
+.errorSummary
+{
+	background-color: #EFF2F7;
+	border: 2px solid #D1D7DF;
+	color: red;
+	font-family:  arial;
+	font-size: 12px;
+}
+
+.messageBox
+{
+	background-color: #EFF2F7;
+	border: 2px solid #D1D7DF;
+	font-family:  arial;
+	font-size: 12px;
+	font-weight:bold ;
+}
+.labelHeader
+{
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	color:white;
+}
+.labelItem
+{
+	font-family:arial;
+	font-size:11px;
+	font-weight:bold;
+	color:black;
+}
+.labelError
+{
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	color:red;
+}
+
+.labelMessage
+{
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	color:black;
+}
+.labelText
+{
+	font-family:arial;
+	font-size:12px;
+	font-weight:normal;
+	color:black;
+}
+
+.tableMenu 
+{
+	 font-family: Arial;
+	 font-size: 12px;
+	 background-color: #ACACAC;
+	 padding: 0px 0px 0px 0px;
+}
+
+ .menu
+{
+	 font-family: Arial;
+	 font-size: 12px;
+	 padding: 0px 0px 0px 0px;
+	 width: 100%;
+     background-color: #ACACAC;
+     text-align:left; 
+}
+
+ .menuSelected
+{
+	height: 20px;
+	padding: 1px 0px 1px 0px;
+	border-bottom: 1px solid #FFFFFF;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight:bold;
+    background-color: #666666;
+    width:100%;
+    text-align:left;
+ }
+ .menuItem
+{
+	height: 20px;
+	padding: 1px 0px 1px 0px;
+	border-bottom: 1px solid #FFFFFF;
+    font-family: Arial;
+    font-size: 12px;
+    width:100%;
+    text-align:left;    
+ }
+ .submenu
+{
+	 font-family: Arial;
+	 font-size: 12px;
+	 border: 1px solid #000000;
+	 padding: 0px 0px 0px 0px;
+ 	 background-color: #ACACAC;
+	 width:170px;
+     text-align:left;	 
+}
+ .submenuSelected
+{
+	height: 20px;
+	padding: 1px 0px 1px 0px;
+    font-family: Arial;
+    font-size: 12px;
+	background-color: #ACACAC;
+	width:170px;
+    text-align:left;	
+ }
+ .submenuItem
+{
+	height: 20px;
+	padding: 1px 0px 1px 0px;
+    font-family: Arial;
+    font-size: 12px;
+	background-color: #ACACAC;
+	width:170px;
+    text-align:left;	
+ }
+
+.menu a:link, .submenu a:link
+{
+	padding-left: 7px;
+	font-family: Arial;
+	font-size: 12px;
+	color:white;
+	text-decoration: none;
+}
+.menu a:visited, .submenu a:visited
+{
+	padding-left: 7px;
+	font-family: Arial;
+	font-size: 12px;
+	color: white;
+	text-decoration: none;
+}
+.menu a:active, .submenu a:active
+{
+	padding-left: 7px;
+	font-family: Arial;
+	font-size: 12px;
+	color: white;
+	text-decoration: none;
+}
+.menu a:hover, .submenu a:hover
+{
+	padding-left: 7px;
+	background: url(image/ico_li_menu_over.gif) 0px 3px no-repeat;
+	font-family: Arial;
+	font-size: 12px;
+	color: #FF6C00;
+	text-decoration: none;
+ }
+
+.tableContent
+{
+	background-color: #f8f8ff; 
+    border-left: solid 1px #ACACAC;
+	border-right: solid 1px #ACACAC;
+}
+.quadro
+{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-right: #d1d7df 2px solid; 
+	border-top: #d1d7df 2px solid; 
+	border-left: #d1d7df 2px solid; 
+	border-bottom: #d1d7df 2px solid; 
+	color: #003366; 
+	background-color: #f8f8f8;	
+	font-family:arial;
+	font-size: 12px;
+}	
+#nb-subcanal {
+	width: 780px;
+	font-size: 11px;
+	font-family: Arial;
+	margin: 0px 0px 0px 0px;
+	padding: 3px 0px 3px 0px;
+	background:  #ACACAC;
+	color: white;
+	border: none;
+	float: left;
+}
+
+/* TOPO DESCREVE */
+#subcanal {
+	width: 780px;
+	height: 20px;
+	background-color: #ACACAC;
+	margin: 0px 0px 0px 0px;
+	/*float: left;*/
+}
+#subcanal p {
+	font-size: 12px;
+	margin: 0;
+	font-weight: normal;
+	padding: 2px 0 0 10px;
+	color: white;
+}
+#subcanal a, #btop_sec acronym a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+#subcanal a:hover, #btop_sec acronym a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+#subcanal acronym {
+	font-size: 10px;
+	font-weight: normal;
+	margin: 0 0 0 5px;
+}
+
+#bgProgress{
+	background:transparent url(Image/bg_progressbar.gif) repeat-x;
+	width:300px;
+	height:22px;
+	border:1px solid #666;
+	text-align:left;
+	padding:0;
+	margin:0 auto;
+}
+#progressBar{
+	background:transparent url(Image/bg_progressbaractive.gif) repeat-x;
+	overflow:hidden;
+	height:22px;
+	position:absolute;
+	z-index:120;
+}
+#progPercent, #progPercent2{
+	padding-top:4px;
+	width:300px;
+	height:auto;
+	text-align:center;
+	font-family:Verdana;
+	font-size:11px;
+	font-weight:bold;
+}
+#progPercent{color:#000; z-index:110; position:absolute;}
+#progPercent2{color:#FFF;}
+
+#janelaEnvioLote, #janelaArquivoOffline{
+	background-color:#eee;
+	padding:10px;
+	border-bottom:2px solid #666;
+	border-right:2px solid #666;
+	width:320px;
+	height:auto;
+	margin:0 auto;
+}

@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\Exercicio9_Fundamentos\Exercicio9_Fundamentos\bin\Debug\Exercicio9_Fundamentos.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\Exercicio9_Fundamentos\Exercicio9_Fundamentos\bin\Debug\Exercicio9_Fundamentos.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\Exercicio9_Fundamentos\Exercicio9_Fundamentos\bin\Debug\Exercicio9_Fundamentos.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\Exercicio9_Fundamentos\Exercicio9_Fundamentos\obj\Debug\Exercicio9_Fundamentos.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\Exercicio9_Fundamentos\Exercicio9_Fundamentos\obj\Debug\Exercicio9_Fundamentos.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\Exercicio9_Fundamentos\Exercicio9_Fundamentos\obj\Debug\Exercicio9_Fundamentos.pdb

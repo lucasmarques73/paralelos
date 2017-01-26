@@ -1,0 +1,9 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_14_08_agenda\aula_14_08_agenda\bin\Debug\aula_14_08_agenda.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_14_08_agenda\aula_14_08_agenda\bin\Debug\aula_14_08_agenda.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_14_08_agenda\aula_14_08_agenda\bin\Debug\aula_14_08_agenda.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_14_08_agenda\aula_14_08_agenda\obj\Debug\aula_14_08_agenda.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_14_08_agenda\aula_14_08_agenda\obj\Debug\aula_14_08_agenda.Form1.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_14_08_agenda\aula_14_08_agenda\obj\Debug\aula_14_08_agenda.Properties.Resources.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_14_08_agenda\aula_14_08_agenda\obj\Debug\aula_14_08_agenda.csproj.GenerateResource.Cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_14_08_agenda\aula_14_08_agenda\obj\Debug\aula_14_08_agenda.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_14_08_agenda\aula_14_08_agenda\obj\Debug\aula_14_08_agenda.pdb

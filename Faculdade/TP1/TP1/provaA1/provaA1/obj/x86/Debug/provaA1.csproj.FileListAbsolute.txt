@@ -1,0 +1,24 @@
+Z:\SI\4P\TP1\provaA1\provaA1\obj\x86\Debug\ResolveAssemblyReference.cache
+Z:\SI\4P\TP1\provaA1\provaA1\obj\x86\Debug\provaA1.Agenda.resources
+Z:\SI\4P\TP1\provaA1\provaA1\obj\x86\Debug\provaA1.BuscaAgenda.resources
+Z:\SI\4P\TP1\provaA1\provaA1\obj\x86\Debug\provaA1.BuscaCPF.resources
+Z:\SI\4P\TP1\provaA1\provaA1\obj\x86\Debug\provaA1.Cad.resources
+Z:\SI\4P\TP1\provaA1\provaA1\obj\x86\Debug\provaA1.menuPrincipal.resources
+Z:\SI\4P\TP1\provaA1\provaA1\obj\x86\Debug\provaA1.Properties.Resources.resources
+Z:\SI\4P\TP1\provaA1\provaA1\obj\x86\Debug\GenerateResource.read.1.tlog
+Z:\SI\4P\TP1\provaA1\provaA1\obj\x86\Debug\GenerateResource.write.1.tlog
+Z:\SI\4P\TP1\provaA1\provaA1\bin\Debug\provaA1.exe
+Z:\SI\4P\TP1\provaA1\provaA1\bin\Debug\provaA1.pdb
+Z:\SI\4P\TP1\provaA1\provaA1\obj\x86\Debug\provaA1.exe
+Z:\SI\4P\TP1\provaA1\provaA1\obj\x86\Debug\provaA1.pdb
+D:\Faculdade\Sistemas de Informação 2014\TP1\provaA1\provaA1\obj\x86\Debug\provaA1.exe
+D:\Faculdade\Sistemas de Informação 2014\TP1\provaA1\provaA1\obj\x86\Debug\provaA1.pdb
+D:\Faculdade\Sistemas de Informação 2014\TP1\provaA1\provaA1\obj\x86\Debug\provaA1.csprojResolveAssemblyReference.cache
+D:\Faculdade\Sistemas de Informação 2014\TP1\provaA1\provaA1\obj\x86\Debug\provaA1.Agenda.resources
+D:\Faculdade\Sistemas de Informação 2014\TP1\provaA1\provaA1\obj\x86\Debug\provaA1.BuscaAgenda.resources
+D:\Faculdade\Sistemas de Informação 2014\TP1\provaA1\provaA1\obj\x86\Debug\provaA1.BuscaCPF.resources
+D:\Faculdade\Sistemas de Informação 2014\TP1\provaA1\provaA1\obj\x86\Debug\provaA1.Cad.resources
+D:\Faculdade\Sistemas de Informação 2014\TP1\provaA1\provaA1\obj\x86\Debug\provaA1.menuPrincipal.resources
+D:\Faculdade\Sistemas de Informação 2014\TP1\provaA1\provaA1\obj\x86\Debug\provaA1.Properties.Resources.resources
+D:\Faculdade\Sistemas de Informação 2014\TP1\provaA1\provaA1\obj\x86\Debug\provaA1.csproj.GenerateResource.Cache
+E:\Lucas_Marques16\TP1\provaA1\provaA1\obj\x86\Debug\provaA1.exe

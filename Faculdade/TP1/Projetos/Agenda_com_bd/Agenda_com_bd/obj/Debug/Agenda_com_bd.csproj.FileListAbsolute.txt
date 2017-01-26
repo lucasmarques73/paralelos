@@ -1,0 +1,9 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Agenda_com_bd\Agenda_com_bd\bin\Debug\Agenda_com_bd.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Agenda_com_bd\Agenda_com_bd\bin\Debug\Agenda_com_bd.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Agenda_com_bd\Agenda_com_bd\bin\Debug\Agenda_com_bd.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Agenda_com_bd\Agenda_com_bd\obj\Debug\Agenda_com_bd.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Agenda_com_bd\Agenda_com_bd\obj\Debug\Agenda_com_bd.Form1.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Agenda_com_bd\Agenda_com_bd\obj\Debug\Agenda_com_bd.Properties.Resources.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Agenda_com_bd\Agenda_com_bd\obj\Debug\Agenda_com_bd.csproj.GenerateResource.Cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Agenda_com_bd\Agenda_com_bd\obj\Debug\Agenda_com_bd.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Agenda_com_bd\Agenda_com_bd\obj\Debug\Agenda_com_bd.pdb

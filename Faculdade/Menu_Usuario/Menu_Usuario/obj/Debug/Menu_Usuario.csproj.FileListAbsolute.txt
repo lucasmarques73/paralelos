@@ -1,0 +1,6 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Menu_Usuario\Menu_Usuario\bin\Debug\Menu_Usuario.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Menu_Usuario\Menu_Usuario\bin\Debug\Menu_Usuario.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Menu_Usuario\Menu_Usuario\bin\Debug\Menu_Usuario.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Menu_Usuario\Menu_Usuario\obj\Debug\Menu_Usuario.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Menu_Usuario\Menu_Usuario\obj\Debug\Menu_Usuario.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Menu_Usuario\Menu_Usuario\obj\Debug\Menu_Usuario.pdb

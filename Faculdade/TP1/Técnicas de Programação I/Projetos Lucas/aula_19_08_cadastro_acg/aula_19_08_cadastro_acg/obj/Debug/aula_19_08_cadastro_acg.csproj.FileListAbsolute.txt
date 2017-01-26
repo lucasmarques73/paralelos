@@ -1,0 +1,12 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_19_08_cadastro_acg\aula_19_08_cadastro_acg\bin\Debug\aula_19_08_cadastro_acg.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_19_08_cadastro_acg\aula_19_08_cadastro_acg\bin\Debug\aula_19_08_cadastro_acg.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_19_08_cadastro_acg\aula_19_08_cadastro_acg\bin\Debug\aula_19_08_cadastro_acg.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_19_08_cadastro_acg\aula_19_08_cadastro_acg\obj\Debug\aula_19_08_cadastro_acg.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_19_08_cadastro_acg\aula_19_08_cadastro_acg\obj\Debug\aula_19_08_cadastro_acg.Form1.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_19_08_cadastro_acg\aula_19_08_cadastro_acg\obj\Debug\aula_19_08_cadastro_acg.Properties.Resources.resources
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_19_08_cadastro_acg\aula_19_08_cadastro_acg\obj\Debug\aula_19_08_cadastro_acg.csproj.GenerateResource.Cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_19_08_cadastro_acg\aula_19_08_cadastro_acg\obj\Debug\aula_19_08_cadastro_acg.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\aula_19_08_cadastro_acg\aula_19_08_cadastro_acg\obj\Debug\aula_19_08_cadastro_acg.pdb
+E:\Lucas_Marques16\Técnicas de Programação I\Projetos Lucas\aula_19_08_cadastro_acg\aula_19_08_cadastro_acg\bin\Debug\aula_19_08_cadastro_acg.exe.config
+E:\Lucas_Marques16\Técnicas de Programação I\Projetos Lucas\aula_19_08_cadastro_acg\aula_19_08_cadastro_acg\obj\Debug\aula_19_08_cadastro_acg.exe
+E:\Lucas_Marques16\Técnicas de Programação I\Projetos Lucas\aula_19_08_cadastro_acg\aula_19_08_cadastro_acg\obj\Debug\aula_19_08_cadastro_acg.pdb

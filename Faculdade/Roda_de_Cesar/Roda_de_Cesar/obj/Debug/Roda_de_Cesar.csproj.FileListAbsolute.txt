@@ -1,0 +1,6 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Roda_de_Cesar\Roda_de_Cesar\bin\Debug\Roda_de_Cesar.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Roda_de_Cesar\Roda_de_Cesar\bin\Debug\Roda_de_Cesar.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Roda_de_Cesar\Roda_de_Cesar\bin\Debug\Roda_de_Cesar.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Roda_de_Cesar\Roda_de_Cesar\obj\Debug\Roda_de_Cesar.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Roda_de_Cesar\Roda_de_Cesar\obj\Debug\Roda_de_Cesar.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\Roda_de_Cesar\Roda_de_Cesar\obj\Debug\Roda_de_Cesar.pdb

@@ -1,0 +1,5 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\menor entre 2\menor entre 2\bin\Debug\menor entre 2.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\menor entre 2\menor entre 2\bin\Debug\menor entre 2.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\menor entre 2\menor entre 2\bin\Debug\menor entre 2.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\menor entre 2\menor entre 2\obj\Debug\menor entre 2.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\menor entre 2\menor entre 2\obj\Debug\menor entre 2.pdb

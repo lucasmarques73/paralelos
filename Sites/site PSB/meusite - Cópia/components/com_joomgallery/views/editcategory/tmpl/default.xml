@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="JGA_LAYOUT_EDITCATEGORY_DEFAULT">
+		<message>
+			<![CDATA[JGA_LAYOUT_EDITCATEGORY_DEFAULT_DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>JGA_LAYOUT_EDITCATEGORY_DEFAULT_STATE</name>
+		<description>JGA_LAYOUT_EDITCATEGORY_DEFAULT_DESC_STATE</description>
+		<url>
+			<param name="@spacer" type="spacer" label="" description="" default="JGA_LAYOUT_COMMON_NO_ELEMENTS" />
+		</url>
+	</state>
+</metadata>

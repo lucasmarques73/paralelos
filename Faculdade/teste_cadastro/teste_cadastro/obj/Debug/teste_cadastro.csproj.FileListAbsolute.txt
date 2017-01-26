@@ -1,0 +1,6 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\teste_cadastro\teste_cadastro\bin\Debug\teste_cadastro.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\teste_cadastro\teste_cadastro\obj\Debug\teste_cadastro.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\teste_cadastro\teste_cadastro\bin\Debug\teste_cadastro.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\teste_cadastro\teste_cadastro\bin\Debug\teste_cadastro.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\teste_cadastro\teste_cadastro\obj\Debug\teste_cadastro.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\teste_cadastro\teste_cadastro\obj\Debug\teste_cadastro.pdb

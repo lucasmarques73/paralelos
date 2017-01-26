@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\valorcarro10\valorcarro10\bin\Debug\valorcarro10.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\valorcarro10\valorcarro10\bin\Debug\valorcarro10.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\valorcarro10\valorcarro10\bin\Debug\valorcarro10.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\valorcarro10\valorcarro10\obj\Debug\valorcarro10.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\valorcarro10\valorcarro10\obj\Debug\valorcarro10.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\valorcarro10\valorcarro10\obj\Debug\valorcarro10.pdb

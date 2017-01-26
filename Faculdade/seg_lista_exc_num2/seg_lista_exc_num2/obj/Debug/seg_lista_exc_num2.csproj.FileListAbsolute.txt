@@ -1,0 +1,6 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\seg_lista_exc_num2\seg_lista_exc_num2\bin\Debug\seg_lista_exc_num2.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\seg_lista_exc_num2\seg_lista_exc_num2\obj\Debug\seg_lista_exc_num2.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\seg_lista_exc_num2\seg_lista_exc_num2\bin\Debug\seg_lista_exc_num2.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\seg_lista_exc_num2\seg_lista_exc_num2\bin\Debug\seg_lista_exc_num2.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\seg_lista_exc_num2\seg_lista_exc_num2\obj\Debug\seg_lista_exc_num2.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\seg_lista_exc_num2\seg_lista_exc_num2\obj\Debug\seg_lista_exc_num2.pdb

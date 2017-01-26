@@ -1,0 +1,268 @@
+body {
+	background: #f2f2f2;
+	color: #445;
+}
+#allwrap {
+	background: #fff;
+  	border-bottom: 1px solid #ddd;
+}
+#topwrap {
+background: #2b7c9b;
+}
+#topmenuwrap {
+  background: #2b7c9b;
+  border-top: 0px solid #444;
+  border-bottom: 0px solid #000;
+}
+#topmenu {
+	background: none;
+	border-top: 0px solid #000;
+}
+#headerwrap {
+	background: #fff;
+}
+#header {
+	background: none;
+	border-bottom: 0px solid #99a;
+}
+#logo {
+	border-top: 0px solid #fff;
+}
+h1 {
+color: #223;
+}
+#logo h1 {
+	color:#000;
+}
+#logo a:link, #logo a:visited, #logo a:hover, #logo a:active {
+border: none;
+}
+#logo h1 a:link, #logo h1 a:visited, #logo h1 a:hover, #logo h1 a:active {
+color: #000;
+text-decoration: none;
+}
+#logo h2 {
+	color: #000;
+}
+#headerright{
+	background: none;
+}
+#banner {
+	background: none;
+}
+h2,.contentheading {
+color: #223;
+}
+td.contentheading a.contentpagetitle {
+color: #223;
+}
+h3 {
+color: #223;
+}
+h4 {
+color: #223;
+}
+h5 {
+color: #223;
+}
+h6 {
+color: #223;
+}
+#search{
+	background: none;
+}
+#search input.inputbox {
+     border: 1px solid #fff;
+}
+#wrap {
+	background: #fff;
+}
+#cbody {
+
+}
+#content60 {
+	background: none;
+}
+#pathway {
+	background: none;
+	border-top: 0px solid #e7e7e8;
+}
+#pathway a:link, #pathway a:visited {
+color: #2b7c9b;
+text-decoration: none;
+}
+#pathway a:hover, #pathway a:active {
+color: #2b7c9b;
+text-decoration: underline;
+}
+#content {
+	background: none;
+}
+#footerwrap {
+	background: none;
+}
+#footer {
+	background: none;
+	color: #778;
+	border-top: 0px solid #eee;
+}
+#footer .moduletable {
+background: none;
+}
+#sidebar {
+	background: none;
+}
+#sidebar-2 {
+	background: none;
+}
+fieldset{
+
+}
+.componentheading {
+	color: #445;
+}
+.mosimage_caption {
+color:#778;
+}
+a:link, a:visited {
+color: #2b7c9b;
+text-decoration: none;
+}
+a:hover, a:active {
+color: #2b7c9b;
+text-decoration: underline;
+}
+#footer a:link, #footer a:visited, #footer a:hover, #footer a:active {
+color: #778;
+text-decoration: underline;
+}
+#a4j a:link, #a4j a:visited, #a4j a:hover, #a4j a:active {
+color: #778;
+text-decoration: underline;
+}
+/* ==== MODULES =======================================  */
+.moduletable {
+	background: none;
+}
+.moduletable h3 {
+	color:#223;
+	border-bottom: 1px solid #99a;
+}
+/* ==== TEXT MODULES =======================================  */
+.moduletable_text {
+	background: none;
+}
+.moduletable_text h3 {
+	color:#223;
+	background: none;
+  border-bottom: 1px solid #99a;
+}
+
+/* ==== SIDEBAR MODULES =======================================  */
+#sidebar .moduletable {
+	background: none;
+}
+#sidebar .moduletable h3 {
+	color:#223;
+background: none;
+border-bottom: 1px solid #99a;
+}
+/* ==== SIDEBAR2 MODULES =======================================  */
+#sidebar-2 .moduletable {
+	background: none;
+}
+#sidebar-2 .moduletable h3 {
+	color:#223;
+background: none;
+border-bottom: 1px solid #99a;
+}
+/* ======= SEARCH =======================  */
+#search .moduletable {
+	background: none;
+}
+#search .moduletable h3{
+	background: none;
+}
+/* ========== TOPMENU =====================================*/
+#topmenu .moduletable {
+border-left: 2px solid #fff;
+}
+#topmenu .moduletable ul li a {
+background: none;
+	color: #fff;
+	border-right: 2px solid #fff;
+}
+#topmenu .moduletable ul li.active a {
+color: #fff;
+background: #3497BC;
+}
+#topmenu .moduletable ul li a:hover {
+color: #fff;
+background: #3497BC;
+}
+
+/* ======= SIDE MENUS ================================  */
+.moduletable_menu {
+background: none ;
+color: #445;
+border-bottom: 1px solid #fff;
+}
+.moduletable_menu h3 {
+	color:#223;
+background: none;
+border-bottom:1px #99a solid;
+}
+.moduletable_menu li {
+	border-bottom: 1px dotted #dde;
+}
+.moduletable_menu li ul li {
+	border-bottom:0px solid #ccc;
+	border-top:0px dashed #e4e4e4;
+	background: none;
+}
+.moduletable_menu li a {
+	color: #445;
+}
+.moduletable_menu li ul li a {
+background: none;
+}
+.moduletable_menu li#current a {
+	color:#2b7c9b;
+}
+.moduletable_menu li#current * a {
+	color:#445;
+}
+.moduletable_menu li ul li a:hover, .moduletable_menu li#current ul li a:hover {
+	color:#2b7c9b;
+}
+.moduletable_menu li a:link, .moduletable_menu li a:visited {
+color: #445;
+text-decoration: none;
+}
+.moduletable_menu li a:hover {
+color: #2b7c9b;
+text-decoration: none;
+}
+.moduletable_menu li a:active {
+color: #2b7c9b;
+text-decoration: none;
+}
+/* ========== content ======================*/
+.contenttoc{
+
+}
+.small{
+color:#889;
+}
+.createdate{
+color:#889;
+}
+.modifydate{
+color:#889;
+}
+td.sectiontableentry1 {
+}
+td.sectiontableentry2 {
+}
+tr.sectiontableentry1 {background: none; }
+tr.sectiontableentry2 {background: none; }

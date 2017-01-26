@@ -1,0 +1,6 @@
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\PI_3_2014\PI_3_2014\bin\Debug\PI_3_2014.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\PI_3_2014\PI_3_2014\bin\Debug\PI_3_2014.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\PI_3_2014\PI_3_2014\bin\Debug\PI_3_2014.pdb
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\PI_3_2014\PI_3_2014\obj\Debug\PI_3_2014.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\PI_3_2014\PI_3_2014\obj\Debug\PI_3_2014.exe
+C:\Users\Lucas\Documents\Visual Studio 2012\Projects\PI_3_2014\PI_3_2014\obj\Debug\PI_3_2014.pdb

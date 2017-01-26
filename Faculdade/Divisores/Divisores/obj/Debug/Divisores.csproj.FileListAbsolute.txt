@@ -1,0 +1,6 @@
+c:\users\lucas marques\documents\visual studio 2012\Projects\Divisores\Divisores\bin\Debug\Divisores.exe.config
+c:\users\lucas marques\documents\visual studio 2012\Projects\Divisores\Divisores\bin\Debug\Divisores.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\Divisores\Divisores\bin\Debug\Divisores.pdb
+c:\users\lucas marques\documents\visual studio 2012\Projects\Divisores\Divisores\obj\Debug\Divisores.csprojResolveAssemblyReference.cache
+c:\users\lucas marques\documents\visual studio 2012\Projects\Divisores\Divisores\obj\Debug\Divisores.exe
+c:\users\lucas marques\documents\visual studio 2012\Projects\Divisores\Divisores\obj\Debug\Divisores.pdb
