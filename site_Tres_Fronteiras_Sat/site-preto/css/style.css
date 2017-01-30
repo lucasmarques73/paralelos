@@ -1,0 +1,210 @@
+
+html,body{
+/*	height: 100%; */
+ min-height: 100%;
+}
+.parallax-container {
+
+	height: 100%;
+  padding:8% 0 8% ;
+
+}
+.monitor{
+  color: #e53935;
+}
+
+	/** formata texto **/
+div h1 {
+	font-size:5em;
+}
+@media only screen and (max-width: 500px){
+  div h1 {
+  	font-size:4em;
+  }
+}
+side-nav img {
+  max-width: 100%;
+}
+#nav nav .brand-logo,nav ul a{
+  color:#FFF;
+}
+#nav nav{
+  height: 80px;
+  line-height: 80px;
+}
+.texto{
+  	text-align: left;
+  	margin:0 auto;
+  	color: #fff;
+  	text-shadow:0 0 10px rgba(0,0,0,0.7);
+}
+.botao{
+  align: left;
+}
+#empresa h1{
+	text-align: center;
+	margin:0 auto;
+  padding:0 0 5% 0;
+	color: #e53935 ;
+	text-shadow:0 0 10px rgba(0,0,0,0.7);
+}
+#empresa img{
+  width: 100%;
+	margin-top:20%;
+}
+
+
+/*SEÇÃO CONTATO*/
+#contato{
+	padding:1% 0 0 0;
+}
+#contato h1,h2,h3{
+	color:#000;
+}
+#contato h1{
+	font-size: 2em;
+}
+#contato h2{
+	font-size: 1.8em;
+}
+#contato h3{
+	font-size: 1.5em;
+}
+#contato .IconeAmarelo{
+	color:#e53935 ;
+}
+
+#contato .container{
+	text-align: center;
+	margin:0 auto;
+	padding:5% 0 10% 0;
+}
+#dadosContato{
+  text-align: left;
+}
+
+#contato .btn, .btn-large{
+  color:#FFF;
+}
+
+/* label color */
+   .input-field label {
+     color: #e53935 ;
+     text-align: left;
+
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #e53935 ;
+
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #e53935 ;
+     box-shadow: 0 1px 0 0 #e53935 ;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #e53935 ;
+     box-shadow: 0 1px 0 0 #e53935 ;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #e53935 ;
+     box-shadow: 0 1px 0 0 #e53935 ;
+   }
+	 .input-field input[type=email]:focus + label {
+     color: #e53935 ;
+
+   }
+   /* label underline focus color */
+   .input-field input[type=email]:focus {
+     border-bottom: 1px solid #e53935 ;
+     box-shadow: 0 1px 0 0 #e53935 ;
+   }
+   /* valid color */
+   .input-field input[type=email].valid {
+     border-bottom: 1px solid #e53935 ;
+     box-shadow: 0 1px 0 0 #e53935 ;
+   }
+   /* invalid color */
+   .input-field input[type=email].invalid {
+     border-bottom: 1px solid #e53935 ;
+     box-shadow: 0 1px 0 0 #e53935 ;
+   }
+	 .input-field #mensagem:focus  + label{
+     color: #e53935 ;
+   }
+   /* label underline focus color */
+   .input-field #mensagem:focus {
+     border-bottom: 1px solid #e53935 ;
+     box-shadow: 0 1px 0 0 #e53935 ;
+   }
+   /* valid color */
+   .input-field #mensagem.valid {
+     border-bottom: 1px solid #e53935 ;
+     box-shadow: 0 1px 0 0 #e53935 ;
+   }
+   /* invalid color */
+   .input-field #mensagem.invalid {
+     border-bottom: 1px solid #e53935 ;
+     box-shadow: 0 1px 0 0 #e53935 ;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #e53935 ;
+   }
+
+
+
+   div#formSending{
+	float: left;
+	position: fixed;
+	z-index: 999999;
+	width: 100%;
+	height: 45px;
+	margin-top: -45px;
+	background: #334278;
+	visibility: hidden;
+	opacity: 0;
+    backface-visibility: hidden;
+	transition: 		all 225ms ease-out;
+	-o-transition: 		all 225ms ease-out;
+	-ms-transition: 	all 225ms ease-out;
+	-moz-transition: 	all 225ms ease-out;
+}
+div#formSending.show{
+	visibility: visible;
+	opacity: 1;
+	margin-top: 0px;
+}
+
+div#formSending.sucesso{background: #33783d;}
+div#formSending.envioMultiplo{background: #c7ac17;}
+div#formSending.erro{background: #cc2323;}
+
+div#formSending h5{
+	float: left;
+	margin-left: 5%;
+	width: 50%;
+	text-align: left;
+	font: Bold 1em/50px Arial;
+	color: #f9f9f9;
+}
+div#formSending.envioMultiplo  h5:before{content: "Uma Mensagem já foi enviada."}
+div#formSending.enviando h5:before{content: "A sua mensagem está sendo enviada..."}
+div#formSending.sucesso  h5:before{content: "A sua mensagem foi enviada com sucesso, enviamos uma cópia para você."}
+div#formSending.erro  h5:before{content: "Houve um erro ao enviar sua mensagem. =/"}
+div#formSending button{
+	float: right;
+	padding: 5px 5%;
+	margin: 7.5px 5%;
+	border-radius: 3px;
+	background: rgba(000,000,000,.25);
+	color: #f9f9f9;
+	cursor: pointer;
+}
+div#formSending.enviando button:before{content: "Aguarde..."}
+div#formSending.sucesso  button:before,
+div#formSending.erro  button:before,
+div#formSending.envioMultiplo  button:before{content: "Ok"}

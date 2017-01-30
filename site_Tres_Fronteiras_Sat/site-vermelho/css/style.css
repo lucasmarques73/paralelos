@@ -1,0 +1,153 @@
+
+html,body{
+/*	height: 100%; */
+ min-height: 100%;
+}
+.parallax-container {
+
+	height: 100%;
+  padding:8% 0 8% ;
+
+}
+.monitor{
+  color: #FFF;
+}
+
+	/** formata texto **/
+div h1 {
+	font-size:5em;
+}
+@media only screen and (max-width: 500px){
+  div h1 {
+  	font-size:4em;
+  }
+}
+side-nav img {
+  max-width: 100%;
+}
+#nav nav .brand-logo,nav ul a{
+  color:#000;
+}
+#nav nav{
+  height: 80px;
+  line-height: 80px;
+}
+.texto{
+  	text-align: left;
+  	margin:0 auto;
+  	color: #fff;
+  	text-shadow:0 0 10px rgba(0,0,0,0.7);
+}
+.botao{
+  align: left;
+}
+#empresa h1{
+	text-align: center;
+	margin:0 auto;
+  padding:0 0 5% 0;
+	color: #e53935 ;
+	text-shadow:0 0 10px rgba(0,0,0,0.7);
+}
+#empresa img{
+  width: 100%;
+	margin-top:20%;
+}
+
+
+/*SEÇÃO CONTATO*/
+#contato{
+	padding:5% 0 0 0;
+}
+#contato h1,h2,h3{
+	color:#000;
+}
+#contato h1{
+	font-size: 2em;
+}
+#contato h2{
+	font-size: 1.8em;
+}
+#contato h3{
+	font-size: 1.5em;
+}
+#contato .IconeAmarelo{
+	color:#e53935 ;
+}
+
+#contato .container{
+	text-align: center;
+	margin:0 auto;
+	padding:5% 0 10% 0;
+}
+
+#contato .btn, .btn-large{
+  color:#000;
+}
+
+/* label color */
+   .input-field label {
+     color: #e53935 ;
+
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #e53935 ;
+
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #e53935 ;
+     box-shadow: 0 1px 0 0 #e53935 ;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #e53935 ;
+     box-shadow: 0 1px 0 0 #e53935 ;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #e53935 ;
+     box-shadow: 0 1px 0 0 #e53935 ;
+   }
+	 .input-field input[type=email]:focus + label {
+     color: #e53935 ;
+
+   }
+   /* label underline focus color */
+   .input-field input[type=email]:focus {
+     border-bottom: 1px solid #e53935 ;
+     box-shadow: 0 1px 0 0 #e53935 ;
+   }
+   /* valid color */
+   .input-field input[type=email].valid {
+     border-bottom: 1px solid #e53935 ;
+     box-shadow: 0 1px 0 0 #e53935 ;
+   }
+   /* invalid color */
+   .input-field input[type=email].invalid {
+     border-bottom: 1px solid #e53935 ;
+     box-shadow: 0 1px 0 0 #e53935 ;
+   }
+	 .input-field #textarea1:focus  + label{
+     color: #e53935 ;
+
+   }
+   /* label underline focus color */
+   .input-field #textarea1:focus {
+     border-bottom: 1px solid #e53935 ;
+     box-shadow: 0 1px 0 0 #e53935 ;
+   }
+   /* valid color */
+   .input-field #textarea1.valid {
+     border-bottom: 1px solid #e53935 ;
+     box-shadow: 0 1px 0 0 #e53935 ;
+   }
+   /* invalid color */
+   .input-field #textarea1.invalid {
+     border-bottom: 1px solid #e53935 ;
+     box-shadow: 0 1px 0 0 #e53935 ;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #e53935 ;
+   }
